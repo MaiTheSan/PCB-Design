@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name EV65-rescue)(type Legacy)(uri ${KIPRJMOD}/EV65-rescue.lib)(options "")(descr ""))
+)

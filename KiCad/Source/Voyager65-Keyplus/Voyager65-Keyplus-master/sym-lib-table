@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Voyager65-rescue)(type Legacy)(uri ${KIPRJMOD}/Voyager65-rescue.lib)(options "")(descr ""))
+  (lib (name Tag-Connect)(type Legacy)(uri ${KIPRJMOD}/Tag-Connect.pretty/Schematic/Tag-Connect.lib)(options "")(descr ""))
+  (lib (name ai03-locallib)(type Legacy)(uri ${KIPRJMOD}/locallib.pretty/schema/ai03-locallib.lib)(options "")(descr ""))
+  (lib (name logic)(type Legacy)(uri ${KIPRJMOD}/locallib.pretty/schema/logic.lib)(options "")(descr ""))
+)

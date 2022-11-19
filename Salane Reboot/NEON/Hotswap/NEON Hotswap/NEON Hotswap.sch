@@ -1,0 +1,1951 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX1
+U 1 1 635C918F
+P 9550 1050
+F 0 "MX1" H 9583 1273 60  0000 C CNN
+F 1 "1U" H 9583 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 8925 1025 60  0001 C CNN
+F 3 "" H 8925 1025 60  0001 C CNN
+	1    9550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 635C9BD5
+P 9500 1350
+F 0 "D1" V 9538 1280 39  0000 R CNN
+F 1 "CD4148W" V 9463 1280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 9500 1350 50  0001 C CNN
+F 3 "~" V 9500 1350 50  0001 C CNN
+	1    9500 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX2
+U 1 1 635CB220
+P 10000 1050
+F 0 "MX2" H 10033 1273 60  0000 C CNN
+F 1 "1U" H 10033 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 9375 1025 60  0001 C CNN
+F 3 "" H 9375 1025 60  0001 C CNN
+	1    10000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 635CB226
+P 9950 1450
+F 0 "D2" V 9988 1380 39  0000 R CNN
+F 1 "CD4148W" V 9913 1380 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 9950 1450 50  0001 C CNN
+F 3 "~" V 9950 1450 50  0001 C CNN
+	1    9950 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX3
+U 1 1 635CCBB0
+P 10450 1050
+F 0 "MX3" H 10483 1273 60  0000 C CNN
+F 1 "1U" H 10483 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 9825 1025 60  0001 C CNN
+F 3 "" H 9825 1025 60  0001 C CNN
+	1    10450 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 635CCBB6
+P 10400 1350
+F 0 "D3" V 10438 1280 39  0000 R CNN
+F 1 "CD4148W" V 10363 1280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 10400 1350 50  0001 C CNN
+F 3 "~" V 10400 1350 50  0001 C CNN
+	1    10400 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX4
+U 1 1 635CCBBC
+P 10900 1050
+F 0 "MX4" H 10933 1273 60  0000 C CNN
+F 1 "1U" H 10933 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 10275 1025 60  0001 C CNN
+F 3 "" H 10275 1025 60  0001 C CNN
+	1    10900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 635CCBC2
+P 10850 1450
+F 0 "D4" V 10888 1380 39  0000 R CNN
+F 1 "CD4148W" V 10813 1380 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 10850 1450 50  0001 C CNN
+F 3 "~" V 10850 1450 50  0001 C CNN
+	1    10850 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX5
+U 1 1 635D36D0
+P 11350 1050
+F 0 "MX5" H 11383 1273 60  0000 C CNN
+F 1 "1U" H 11383 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 10725 1025 60  0001 C CNN
+F 3 "" H 10725 1025 60  0001 C CNN
+	1    11350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 635D36D6
+P 11300 1350
+F 0 "D5" V 11338 1280 39  0000 R CNN
+F 1 "CD4148W" V 11263 1280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 11300 1350 50  0001 C CNN
+F 3 "~" V 11300 1350 50  0001 C CNN
+	1    11300 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX6
+U 1 1 635D36DC
+P 11800 1050
+F 0 "MX6" H 11833 1273 60  0000 C CNN
+F 1 "1U" H 11833 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 11175 1025 60  0001 C CNN
+F 3 "" H 11175 1025 60  0001 C CNN
+	1    11800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 635D36E2
+P 11750 1450
+F 0 "D6" V 11788 1380 39  0000 R CNN
+F 1 "CD4148W" V 11713 1380 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 11750 1450 50  0001 C CNN
+F 3 "~" V 11750 1450 50  0001 C CNN
+	1    11750 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX7
+U 1 1 635D36E8
+P 12250 1050
+F 0 "MX7" H 12283 1273 60  0000 C CNN
+F 1 "1U" H 12283 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 11625 1025 60  0001 C CNN
+F 3 "" H 11625 1025 60  0001 C CNN
+	1    12250 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 635D36EE
+P 12200 1350
+F 0 "D7" V 12238 1280 39  0000 R CNN
+F 1 "CD4148W" V 12163 1280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 12200 1350 50  0001 C CNN
+F 3 "~" V 12200 1350 50  0001 C CNN
+	1    12200 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX8
+U 1 1 635D36F4
+P 12700 1050
+F 0 "MX8" H 12733 1273 60  0000 C CNN
+F 1 "1U" H 12733 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 12075 1025 60  0001 C CNN
+F 3 "" H 12075 1025 60  0001 C CNN
+	1    12700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 635D36FA
+P 12650 1450
+F 0 "D8" V 12688 1380 39  0000 R CNN
+F 1 "CD4148W" V 12613 1380 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 12650 1450 50  0001 C CNN
+F 3 "~" V 12650 1450 50  0001 C CNN
+	1    12650 1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10400 1200 10400 1250
+Wire Wire Line
+	9500 1200 9500 1250
+Wire Wire Line
+	12200 1200 12200 1250
+Wire Wire Line
+	11300 1200 11300 1250
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX9
+U 1 1 635E5940
+P 13150 1050
+F 0 "MX9" H 13183 1273 60  0000 C CNN
+F 1 "1U" H 13183 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 12525 1025 60  0001 C CNN
+F 3 "" H 12525 1025 60  0001 C CNN
+	1    13150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 635E5946
+P 13100 1350
+F 0 "D9" V 13138 1280 39  0000 R CNN
+F 1 "CD4148W" V 13063 1280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 13100 1350 50  0001 C CNN
+F 3 "~" V 13100 1350 50  0001 C CNN
+	1    13100 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX10
+U 1 1 635E594C
+P 13600 1050
+F 0 "MX10" H 13633 1273 60  0000 C CNN
+F 1 "1U" H 13633 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 12975 1025 60  0001 C CNN
+F 3 "" H 12975 1025 60  0001 C CNN
+	1    13600 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 635E5952
+P 13550 1450
+F 0 "D10" V 13588 1380 39  0000 R CNN
+F 1 "CD4148W" V 13513 1380 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 13550 1450 50  0001 C CNN
+F 3 "~" V 13550 1450 50  0001 C CNN
+	1    13550 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX11
+U 1 1 635E5958
+P 14050 1050
+F 0 "MX11" H 14083 1273 60  0000 C CNN
+F 1 "1U" H 14083 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 13425 1025 60  0001 C CNN
+F 3 "" H 13425 1025 60  0001 C CNN
+	1    14050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 635E595E
+P 14000 1350
+F 0 "D11" V 14038 1280 39  0000 R CNN
+F 1 "CD4148W" V 13963 1280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14000 1350 50  0001 C CNN
+F 3 "~" V 14000 1350 50  0001 C CNN
+	1    14000 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX12
+U 1 1 635E5964
+P 14500 1050
+F 0 "MX12" H 14533 1273 60  0000 C CNN
+F 1 "1U" H 14533 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 13875 1025 60  0001 C CNN
+F 3 "" H 13875 1025 60  0001 C CNN
+	1    14500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 635E596A
+P 14450 1450
+F 0 "D12" V 14488 1380 39  0000 R CNN
+F 1 "CD4148W" V 14413 1380 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14450 1450 50  0001 C CNN
+F 3 "~" V 14450 1450 50  0001 C CNN
+	1    14450 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX13
+U 1 1 635E5972
+P 14950 1050
+F 0 "MX13" H 14983 1273 60  0000 C CNN
+F 1 "1U" H 14983 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 14325 1025 60  0001 C CNN
+F 3 "" H 14325 1025 60  0001 C CNN
+	1    14950 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 635E5978
+P 14900 1350
+F 0 "D13" V 14938 1280 39  0000 R CNN
+F 1 "CD4148W" V 14863 1280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14900 1350 50  0001 C CNN
+F 3 "~" V 14900 1350 50  0001 C CNN
+	1    14900 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX14
+U 1 1 635E597E
+P 15400 1050
+F 0 "MX14" H 15433 1273 60  0000 C CNN
+F 1 "1U" H 15433 1199 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 14775 1025 60  0001 C CNN
+F 3 "" H 14775 1025 60  0001 C CNN
+	1    15400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 635E5984
+P 15350 1450
+F 0 "D14" V 15388 1380 39  0000 R CNN
+F 1 "CD4148W" V 15313 1380 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 15350 1450 50  0001 C CNN
+F 3 "~" V 15350 1450 50  0001 C CNN
+	1    15350 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX15
+U 1 1 635E598A
+P 15400 2850
+F 0 "MX15" H 15433 3073 60  0000 C CNN
+F 1 "1U" H 15433 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 14775 2825 60  0001 C CNN
+F 3 "" H 14775 2825 60  0001 C CNN
+	1    15400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 635E5990
+P 15350 3150
+F 0 "D15" V 15388 3080 39  0000 R CNN
+F 1 "CD4148W" V 15313 3080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 15350 3150 50  0001 C CNN
+F 3 "~" V 15350 3150 50  0001 C CNN
+	1    15350 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14000 1200 14000 1250
+Wire Wire Line
+	13100 1200 13100 1250
+Wire Wire Line
+	15350 3000 15350 3050
+Wire Wire Line
+	14900 1200 14900 1250
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-MU U1
+U 1 1 635EE3CA
+P 2750 3500
+F 0 "U1" H 2750 1611 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 2750 1520 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm_ThermalVias" H 2750 3500 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2750 3500 50  0001 C CNN
+	1    2750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 1200 9950 1350
+Wire Wire Line
+	10850 1200 10850 1350
+Wire Wire Line
+	11750 1200 11750 1350
+Wire Wire Line
+	12650 1200 12650 1350
+Wire Wire Line
+	13550 1200 13550 1350
+Wire Wire Line
+	14450 1200 14450 1350
+Wire Wire Line
+	15350 1200 15350 1350
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX16
+U 1 1 6360D5E0
+P 9550 1950
+F 0 "MX16" H 9583 2173 60  0000 C CNN
+F 1 "1.5U" H 9583 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.5U-Hotswap-Sawns" H 8925 1925 60  0001 C CNN
+F 3 "" H 8925 1925 60  0001 C CNN
+	1    9550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 6360D5E6
+P 9500 2250
+F 0 "D16" V 9538 2180 39  0000 R CNN
+F 1 "CD4148W" V 9463 2180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 9500 2250 50  0001 C CNN
+F 3 "~" V 9500 2250 50  0001 C CNN
+	1    9500 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX17
+U 1 1 6360D5EC
+P 10000 1950
+F 0 "MX17" H 10033 2173 60  0000 C CNN
+F 1 "1U" H 10033 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 9375 1925 60  0001 C CNN
+F 3 "" H 9375 1925 60  0001 C CNN
+	1    10000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 6360D5F2
+P 9950 2350
+F 0 "D17" V 9988 2280 39  0000 R CNN
+F 1 "CD4148W" V 9913 2280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 9950 2350 50  0001 C CNN
+F 3 "~" V 9950 2350 50  0001 C CNN
+	1    9950 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX18
+U 1 1 6360D5F8
+P 10450 1950
+F 0 "MX18" H 10483 2173 60  0000 C CNN
+F 1 "1U" H 10483 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 9825 1925 60  0001 C CNN
+F 3 "" H 9825 1925 60  0001 C CNN
+	1    10450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 6360D5FE
+P 10400 2250
+F 0 "D18" V 10438 2180 39  0000 R CNN
+F 1 "CD4148W" V 10363 2180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 10400 2250 50  0001 C CNN
+F 3 "~" V 10400 2250 50  0001 C CNN
+	1    10400 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX19
+U 1 1 6360D604
+P 10900 1950
+F 0 "MX19" H 10933 2173 60  0000 C CNN
+F 1 "1U" H 10933 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 10275 1925 60  0001 C CNN
+F 3 "" H 10275 1925 60  0001 C CNN
+	1    10900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 6360D60A
+P 10850 2350
+F 0 "D19" V 10888 2280 39  0000 R CNN
+F 1 "CD4148W" V 10813 2280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 10850 2350 50  0001 C CNN
+F 3 "~" V 10850 2350 50  0001 C CNN
+	1    10850 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX20
+U 1 1 6360D610
+P 11350 1950
+F 0 "MX20" H 11383 2173 60  0000 C CNN
+F 1 "1U" H 11383 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 10725 1925 60  0001 C CNN
+F 3 "" H 10725 1925 60  0001 C CNN
+	1    11350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 6360D616
+P 11300 2250
+F 0 "D20" V 11338 2180 39  0000 R CNN
+F 1 "CD4148W" V 11263 2180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 11300 2250 50  0001 C CNN
+F 3 "~" V 11300 2250 50  0001 C CNN
+	1    11300 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX21
+U 1 1 6360D61C
+P 11800 1950
+F 0 "MX21" H 11833 2173 60  0000 C CNN
+F 1 "1U" H 11833 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 11175 1925 60  0001 C CNN
+F 3 "" H 11175 1925 60  0001 C CNN
+	1    11800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 6360D622
+P 11750 2350
+F 0 "D21" V 11788 2280 39  0000 R CNN
+F 1 "CD4148W" V 11713 2280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 11750 2350 50  0001 C CNN
+F 3 "~" V 11750 2350 50  0001 C CNN
+	1    11750 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX22
+U 1 1 6360D628
+P 12250 1950
+F 0 "MX22" H 12283 2173 60  0000 C CNN
+F 1 "1U" H 12283 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 11625 1925 60  0001 C CNN
+F 3 "" H 11625 1925 60  0001 C CNN
+	1    12250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 6360D62E
+P 12200 2250
+F 0 "D22" V 12238 2180 39  0000 R CNN
+F 1 "CD4148W" V 12163 2180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 12200 2250 50  0001 C CNN
+F 3 "~" V 12200 2250 50  0001 C CNN
+	1    12200 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX23
+U 1 1 6360D634
+P 12700 1950
+F 0 "MX23" H 12733 2173 60  0000 C CNN
+F 1 "1U" H 12733 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 12075 1925 60  0001 C CNN
+F 3 "" H 12075 1925 60  0001 C CNN
+	1    12700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 6360D63A
+P 12650 2350
+F 0 "D23" V 12688 2280 39  0000 R CNN
+F 1 "CD4148W" V 12613 2280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 12650 2350 50  0001 C CNN
+F 3 "~" V 12650 2350 50  0001 C CNN
+	1    12650 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10400 2100 10400 2150
+Wire Wire Line
+	9500 2100 9500 2150
+Wire Wire Line
+	12200 2100 12200 2150
+Wire Wire Line
+	11300 2100 11300 2150
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX24
+U 1 1 6360D644
+P 13150 1950
+F 0 "MX24" H 13183 2173 60  0000 C CNN
+F 1 "1U" H 13183 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 12525 1925 60  0001 C CNN
+F 3 "" H 12525 1925 60  0001 C CNN
+	1    13150 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 6360D64A
+P 13100 2250
+F 0 "D24" V 13138 2180 39  0000 R CNN
+F 1 "CD4148W" V 13063 2180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 13100 2250 50  0001 C CNN
+F 3 "~" V 13100 2250 50  0001 C CNN
+	1    13100 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX25
+U 1 1 6360D650
+P 13600 1950
+F 0 "MX25" H 13633 2173 60  0000 C CNN
+F 1 "1U" H 13633 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 12975 1925 60  0001 C CNN
+F 3 "" H 12975 1925 60  0001 C CNN
+	1    13600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D25
+U 1 1 6360D656
+P 13550 2350
+F 0 "D25" V 13588 2280 39  0000 R CNN
+F 1 "CD4148W" V 13513 2280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 13550 2350 50  0001 C CNN
+F 3 "~" V 13550 2350 50  0001 C CNN
+	1    13550 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX26
+U 1 1 6360D65C
+P 14050 1950
+F 0 "MX26" H 14083 2173 60  0000 C CNN
+F 1 "1U" H 14083 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 13425 1925 60  0001 C CNN
+F 3 "" H 13425 1925 60  0001 C CNN
+	1    14050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 6360D662
+P 14000 2250
+F 0 "D26" V 14038 2180 39  0000 R CNN
+F 1 "CD4148W" V 13963 2180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14000 2250 50  0001 C CNN
+F 3 "~" V 14000 2250 50  0001 C CNN
+	1    14000 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX27
+U 1 1 6360D668
+P 14500 1950
+F 0 "MX27" H 14533 2173 60  0000 C CNN
+F 1 "1U" H 14533 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 13875 1925 60  0001 C CNN
+F 3 "" H 13875 1925 60  0001 C CNN
+	1    14500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 6360D66E
+P 14450 2350
+F 0 "D27" V 14488 2280 39  0000 R CNN
+F 1 "CD4148W" V 14413 2280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14450 2350 50  0001 C CNN
+F 3 "~" V 14450 2350 50  0001 C CNN
+	1    14450 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX28
+U 1 1 6360D674
+P 14950 1950
+F 0 "MX28" H 14983 2173 60  0000 C CNN
+F 1 "1U" H 14983 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 14325 1925 60  0001 C CNN
+F 3 "" H 14325 1925 60  0001 C CNN
+	1    14950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 6360D67A
+P 14900 2250
+F 0 "D28" V 14938 2180 39  0000 R CNN
+F 1 "CD4148W" V 14863 2180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14900 2250 50  0001 C CNN
+F 3 "~" V 14900 2250 50  0001 C CNN
+	1    14900 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX29
+U 1 1 6360D680
+P 15400 1950
+F 0 "MX29" H 15433 2173 60  0000 C CNN
+F 1 "1.5U" H 15433 2099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.5U-Hotswap-Sawns" H 14775 1925 60  0001 C CNN
+F 3 "" H 14775 1925 60  0001 C CNN
+	1    15400 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D29
+U 1 1 6360D686
+P 15350 2350
+F 0 "D29" V 15388 2280 39  0000 R CNN
+F 1 "CD4148W" V 15313 2280 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 15350 2350 50  0001 C CNN
+F 3 "~" V 15350 2350 50  0001 C CNN
+	1    15350 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14000 2100 14000 2150
+Wire Wire Line
+	13100 2100 13100 2150
+Wire Wire Line
+	14900 2100 14900 2150
+Wire Wire Line
+	9950 2100 9950 2250
+Wire Wire Line
+	10850 2100 10850 2250
+Wire Wire Line
+	11750 2100 11750 2250
+Wire Wire Line
+	12650 2100 12650 2250
+Wire Wire Line
+	13550 2100 13550 2250
+Wire Wire Line
+	14450 2100 14450 2250
+Wire Wire Line
+	15350 2100 15350 2250
+Wire Wire Line
+	9700 1000 9700 1900
+Wire Wire Line
+	10600 1000 10600 1900
+Wire Wire Line
+	11050 1000 11050 1900
+Wire Wire Line
+	11500 1000 11500 1900
+Wire Wire Line
+	11950 1000 11950 1900
+Wire Wire Line
+	12400 1900 12400 1000
+Wire Wire Line
+	12850 1000 12850 1900
+Wire Wire Line
+	13300 1000 13300 1900
+Wire Wire Line
+	13750 1000 13750 1900
+Wire Wire Line
+	14200 1900 14200 1000
+Wire Wire Line
+	14650 1000 14650 1900
+Wire Wire Line
+	15100 1000 15100 1900
+Wire Wire Line
+	15550 1000 15550 1900
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX31
+U 1 1 63641F79
+P 9550 2850
+F 0 "MX31" H 9583 3073 60  0000 C CNN
+F 1 "1.75U" H 9583 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.75U-Hotswap-Sawns" H 8925 2825 60  0001 C CNN
+F 3 "" H 8925 2825 60  0001 C CNN
+	1    9550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 63641F7F
+P 9500 3150
+F 0 "D31" V 9538 3080 39  0000 R CNN
+F 1 "CD4148W" V 9463 3080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 9500 3150 50  0001 C CNN
+F 3 "~" V 9500 3150 50  0001 C CNN
+	1    9500 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX32
+U 1 1 63641F85
+P 10000 2850
+F 0 "MX32" H 10033 3073 60  0000 C CNN
+F 1 "1U" H 10033 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 9375 2825 60  0001 C CNN
+F 3 "" H 9375 2825 60  0001 C CNN
+	1    10000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 63641F8B
+P 9950 3250
+F 0 "D32" V 9988 3180 39  0000 R CNN
+F 1 "CD4148W" V 9913 3180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 9950 3250 50  0001 C CNN
+F 3 "~" V 9950 3250 50  0001 C CNN
+	1    9950 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX33
+U 1 1 63641F91
+P 10450 2850
+F 0 "MX33" H 10483 3073 60  0000 C CNN
+F 1 "1U" H 10483 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 9825 2825 60  0001 C CNN
+F 3 "" H 9825 2825 60  0001 C CNN
+	1    10450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 63641F97
+P 10400 3150
+F 0 "D33" V 10438 3080 39  0000 R CNN
+F 1 "CD4148W" V 10363 3080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 10400 3150 50  0001 C CNN
+F 3 "~" V 10400 3150 50  0001 C CNN
+	1    10400 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX34
+U 1 1 63641F9D
+P 10900 2850
+F 0 "MX34" H 10933 3073 60  0000 C CNN
+F 1 "1U" H 10933 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 10275 2825 60  0001 C CNN
+F 3 "" H 10275 2825 60  0001 C CNN
+	1    10900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 63641FA3
+P 10850 3250
+F 0 "D34" V 10888 3180 39  0000 R CNN
+F 1 "CD4148W" V 10813 3180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 10850 3250 50  0001 C CNN
+F 3 "~" V 10850 3250 50  0001 C CNN
+	1    10850 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX35
+U 1 1 63641FA9
+P 11350 2850
+F 0 "MX35" H 11383 3073 60  0000 C CNN
+F 1 "1U" H 11383 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 10725 2825 60  0001 C CNN
+F 3 "" H 10725 2825 60  0001 C CNN
+	1    11350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 63641FAF
+P 11300 3150
+F 0 "D35" V 11338 3080 39  0000 R CNN
+F 1 "CD4148W" V 11263 3080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 11300 3150 50  0001 C CNN
+F 3 "~" V 11300 3150 50  0001 C CNN
+	1    11300 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX36
+U 1 1 63641FB5
+P 11800 2850
+F 0 "MX36" H 11833 3073 60  0000 C CNN
+F 1 "1U" H 11833 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 11175 2825 60  0001 C CNN
+F 3 "" H 11175 2825 60  0001 C CNN
+	1    11800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D36
+U 1 1 63641FBB
+P 11750 3250
+F 0 "D36" V 11788 3180 39  0000 R CNN
+F 1 "CD4148W" V 11713 3180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 11750 3250 50  0001 C CNN
+F 3 "~" V 11750 3250 50  0001 C CNN
+	1    11750 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX37
+U 1 1 63641FC1
+P 12250 2850
+F 0 "MX37" H 12283 3073 60  0000 C CNN
+F 1 "1U" H 12283 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 11625 2825 60  0001 C CNN
+F 3 "" H 11625 2825 60  0001 C CNN
+	1    12250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D37
+U 1 1 63641FC7
+P 12200 3150
+F 0 "D37" V 12238 3080 39  0000 R CNN
+F 1 "CD4148W" V 12163 3080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 12200 3150 50  0001 C CNN
+F 3 "~" V 12200 3150 50  0001 C CNN
+	1    12200 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX38
+U 1 1 63641FCD
+P 12700 2850
+F 0 "MX38" H 12733 3073 60  0000 C CNN
+F 1 "1U" H 12733 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 12075 2825 60  0001 C CNN
+F 3 "" H 12075 2825 60  0001 C CNN
+	1    12700 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D38
+U 1 1 63641FD3
+P 12650 3250
+F 0 "D38" V 12688 3180 39  0000 R CNN
+F 1 "CD4148W" V 12613 3180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 12650 3250 50  0001 C CNN
+F 3 "~" V 12650 3250 50  0001 C CNN
+	1    12650 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10400 3000 10400 3050
+Wire Wire Line
+	9500 3000 9500 3050
+Wire Wire Line
+	12200 3000 12200 3050
+Wire Wire Line
+	11300 3000 11300 3050
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX39
+U 1 1 63641FDD
+P 13150 2850
+F 0 "MX39" H 13183 3073 60  0000 C CNN
+F 1 "1U" H 13183 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 12525 2825 60  0001 C CNN
+F 3 "" H 12525 2825 60  0001 C CNN
+	1    13150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D39
+U 1 1 63641FE3
+P 13100 3150
+F 0 "D39" V 13138 3080 39  0000 R CNN
+F 1 "CD4148W" V 13063 3080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 13100 3150 50  0001 C CNN
+F 3 "~" V 13100 3150 50  0001 C CNN
+	1    13100 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX40
+U 1 1 63641FE9
+P 13600 2850
+F 0 "MX40" H 13633 3073 60  0000 C CNN
+F 1 "1U" H 13633 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 12975 2825 60  0001 C CNN
+F 3 "" H 12975 2825 60  0001 C CNN
+	1    13600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D40
+U 1 1 63641FEF
+P 13550 3250
+F 0 "D40" V 13588 3180 39  0000 R CNN
+F 1 "CD4148W" V 13513 3180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 13550 3250 50  0001 C CNN
+F 3 "~" V 13550 3250 50  0001 C CNN
+	1    13550 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX41
+U 1 1 63641FF5
+P 14050 2850
+F 0 "MX41" H 14083 3073 60  0000 C CNN
+F 1 "1U" H 14083 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 13425 2825 60  0001 C CNN
+F 3 "" H 13425 2825 60  0001 C CNN
+	1    14050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D41
+U 1 1 63641FFB
+P 14000 3150
+F 0 "D41" V 14038 3080 39  0000 R CNN
+F 1 "CD4148W" V 13963 3080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14000 3150 50  0001 C CNN
+F 3 "~" V 14000 3150 50  0001 C CNN
+	1    14000 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX42
+U 1 1 63642001
+P 14500 2850
+F 0 "MX42" H 14533 3073 60  0000 C CNN
+F 1 "1U" H 14533 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 13875 2825 60  0001 C CNN
+F 3 "" H 13875 2825 60  0001 C CNN
+	1    14500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D42
+U 1 1 63642007
+P 14450 3250
+F 0 "D42" V 14488 3180 39  0000 R CNN
+F 1 "CD4148W" V 14413 3180 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14450 3250 50  0001 C CNN
+F 3 "~" V 14450 3250 50  0001 C CNN
+	1    14450 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX43
+U 1 1 6364200D
+P 14950 2850
+F 0 "MX43" H 14983 3073 60  0000 C CNN
+F 1 "2.25U" H 14983 2999 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-2.25U-Hotswap-ReversedStabilizers-Sawns" H 14325 2825 60  0001 C CNN
+F 3 "" H 14325 2825 60  0001 C CNN
+	1    14950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D43
+U 1 1 63642013
+P 14900 3150
+F 0 "D43" V 14938 3080 39  0000 R CNN
+F 1 "CD4148W" V 14863 3080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14900 3150 50  0001 C CNN
+F 3 "~" V 14900 3150 50  0001 C CNN
+	1    14900 3150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14000 3000 14000 3050
+Wire Wire Line
+	13100 3000 13100 3050
+Wire Wire Line
+	14900 3000 14900 3050
+Wire Wire Line
+	9950 3000 9950 3150
+Wire Wire Line
+	10850 3000 10850 3150
+Wire Wire Line
+	11750 3000 11750 3150
+Wire Wire Line
+	12650 3000 12650 3150
+Wire Wire Line
+	13550 3000 13550 3150
+Wire Wire Line
+	14450 3000 14450 3150
+Wire Wire Line
+	9700 1900 9700 2800
+Wire Wire Line
+	10600 1900 10600 2800
+Wire Wire Line
+	11050 1900 11050 2800
+Wire Wire Line
+	11500 1900 11500 2800
+Wire Wire Line
+	11950 1900 11950 2800
+Wire Wire Line
+	12400 2800 12400 1900
+Wire Wire Line
+	12850 1900 12850 2800
+Wire Wire Line
+	13300 1900 13300 2800
+Wire Wire Line
+	13750 1900 13750 2800
+Wire Wire Line
+	14200 2800 14200 1900
+Wire Wire Line
+	14650 1900 14650 2800
+Connection ~ 9700 1900
+Connection ~ 10600 1900
+Connection ~ 11050 1900
+Connection ~ 11500 1900
+Connection ~ 11950 1900
+Connection ~ 12400 1900
+Connection ~ 12850 1900
+Connection ~ 13300 1900
+Connection ~ 13750 1900
+Connection ~ 14200 1900
+Connection ~ 14650 1900
+Connection ~ 15100 1900
+Connection ~ 15550 1900
+Wire Wire Line
+	10150 1000 10150 1900
+Connection ~ 10150 1900
+Wire Wire Line
+	10150 1900 10150 2800
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX46
+U 1 1 636BA0F9
+P 9550 3750
+F 0 "MX46" H 9583 3973 60  0000 C CNN
+F 1 "1.25U" H 9583 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.25U-Hotswap-Sawns" H 8925 3725 60  0001 C CNN
+F 3 "" H 8925 3725 60  0001 C CNN
+	1    9550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D46
+U 1 1 636BA0FF
+P 9500 4050
+F 0 "D46" V 9538 3980 39  0000 R CNN
+F 1 "CD4148W" V 9463 3980 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 9500 4050 50  0001 C CNN
+F 3 "~" V 9500 4050 50  0001 C CNN
+	1    9500 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX47
+U 1 1 636BA105
+P 10000 3750
+F 0 "MX47" H 10033 3973 60  0000 C CNN
+F 1 "1U" H 10033 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 9375 3725 60  0001 C CNN
+F 3 "" H 9375 3725 60  0001 C CNN
+	1    10000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D47
+U 1 1 636BA10B
+P 9950 4150
+F 0 "D47" V 9988 4080 39  0000 R CNN
+F 1 "CD4148W" V 9913 4080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 9950 4150 50  0001 C CNN
+F 3 "~" V 9950 4150 50  0001 C CNN
+	1    9950 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX48
+U 1 1 636BA111
+P 10450 3750
+F 0 "MX48" H 10483 3973 60  0000 C CNN
+F 1 "1U" H 10483 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 9825 3725 60  0001 C CNN
+F 3 "" H 9825 3725 60  0001 C CNN
+	1    10450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D48
+U 1 1 636BA117
+P 10400 4050
+F 0 "D48" V 10438 3980 39  0000 R CNN
+F 1 "CD4148W" V 10363 3980 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 10400 4050 50  0001 C CNN
+F 3 "~" V 10400 4050 50  0001 C CNN
+	1    10400 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX49
+U 1 1 636BA11D
+P 10900 3750
+F 0 "MX49" H 10933 3973 60  0000 C CNN
+F 1 "1U" H 10933 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 10275 3725 60  0001 C CNN
+F 3 "" H 10275 3725 60  0001 C CNN
+	1    10900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D49
+U 1 1 636BA123
+P 10850 4150
+F 0 "D49" V 10888 4080 39  0000 R CNN
+F 1 "CD4148W" V 10813 4080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 10850 4150 50  0001 C CNN
+F 3 "~" V 10850 4150 50  0001 C CNN
+	1    10850 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX50
+U 1 1 636BA129
+P 11350 3750
+F 0 "MX50" H 11383 3973 60  0000 C CNN
+F 1 "1U" H 11383 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 10725 3725 60  0001 C CNN
+F 3 "" H 10725 3725 60  0001 C CNN
+	1    11350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D50
+U 1 1 636BA12F
+P 11300 4050
+F 0 "D50" V 11338 3980 39  0000 R CNN
+F 1 "CD4148W" V 11263 3980 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 11300 4050 50  0001 C CNN
+F 3 "~" V 11300 4050 50  0001 C CNN
+	1    11300 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX51
+U 1 1 636BA135
+P 11800 3750
+F 0 "MX51" H 11833 3973 60  0000 C CNN
+F 1 "1U" H 11833 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 11175 3725 60  0001 C CNN
+F 3 "" H 11175 3725 60  0001 C CNN
+	1    11800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D51
+U 1 1 636BA13B
+P 11750 4150
+F 0 "D51" V 11788 4080 39  0000 R CNN
+F 1 "CD4148W" V 11713 4080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 11750 4150 50  0001 C CNN
+F 3 "~" V 11750 4150 50  0001 C CNN
+	1    11750 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX52
+U 1 1 636BA141
+P 12250 3750
+F 0 "MX52" H 12283 3973 60  0000 C CNN
+F 1 "1U" H 12283 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 11625 3725 60  0001 C CNN
+F 3 "" H 11625 3725 60  0001 C CNN
+	1    12250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D52
+U 1 1 636BA147
+P 12200 4050
+F 0 "D52" V 12238 3980 39  0000 R CNN
+F 1 "CD4148W" V 12163 3980 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 12200 4050 50  0001 C CNN
+F 3 "~" V 12200 4050 50  0001 C CNN
+	1    12200 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX53
+U 1 1 636BA14D
+P 12700 3750
+F 0 "MX53" H 12733 3973 60  0000 C CNN
+F 1 "1U" H 12733 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 12075 3725 60  0001 C CNN
+F 3 "" H 12075 3725 60  0001 C CNN
+	1    12700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D53
+U 1 1 636BA153
+P 12650 4150
+F 0 "D53" V 12688 4080 39  0000 R CNN
+F 1 "CD4148W" V 12613 4080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 12650 4150 50  0001 C CNN
+F 3 "~" V 12650 4150 50  0001 C CNN
+	1    12650 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10400 3900 10400 3950
+Wire Wire Line
+	9500 3900 9500 3950
+Wire Wire Line
+	12200 3900 12200 3950
+Wire Wire Line
+	11300 3900 11300 3950
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX54
+U 1 1 636BA15D
+P 13150 3750
+F 0 "MX54" H 13183 3973 60  0000 C CNN
+F 1 "1U" H 13183 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 12525 3725 60  0001 C CNN
+F 3 "" H 12525 3725 60  0001 C CNN
+	1    13150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D54
+U 1 1 636BA163
+P 13100 4050
+F 0 "D54" V 13138 3980 39  0000 R CNN
+F 1 "CD4148W" V 13063 3980 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 13100 4050 50  0001 C CNN
+F 3 "~" V 13100 4050 50  0001 C CNN
+	1    13100 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX55
+U 1 1 636BA169
+P 13600 3750
+F 0 "MX55" H 13633 3973 60  0000 C CNN
+F 1 "1U" H 13633 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 12975 3725 60  0001 C CNN
+F 3 "" H 12975 3725 60  0001 C CNN
+	1    13600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D55
+U 1 1 636BA16F
+P 13550 4150
+F 0 "D55" V 13588 4080 39  0000 R CNN
+F 1 "CD4148W" V 13513 4080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 13550 4150 50  0001 C CNN
+F 3 "~" V 13550 4150 50  0001 C CNN
+	1    13550 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX56
+U 1 1 636BA175
+P 14050 3750
+F 0 "MX56" H 14083 3973 60  0000 C CNN
+F 1 "1U" H 14083 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 13425 3725 60  0001 C CNN
+F 3 "" H 13425 3725 60  0001 C CNN
+	1    14050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D56
+U 1 1 636BA17B
+P 14000 4050
+F 0 "D56" V 14038 3980 39  0000 R CNN
+F 1 "CD4148W" V 13963 3980 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14000 4050 50  0001 C CNN
+F 3 "~" V 14000 4050 50  0001 C CNN
+	1    14000 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX57
+U 1 1 636BA181
+P 14500 3750
+F 0 "MX57" H 14533 3973 60  0000 C CNN
+F 1 "1U" H 14533 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 13875 3725 60  0001 C CNN
+F 3 "" H 13875 3725 60  0001 C CNN
+	1    14500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D57
+U 1 1 636BA187
+P 14450 4150
+F 0 "D57" V 14488 4080 39  0000 R CNN
+F 1 "CD4148W" V 14413 4080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14450 4150 50  0001 C CNN
+F 3 "~" V 14450 4150 50  0001 C CNN
+	1    14450 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX58
+U 1 1 636BA18D
+P 14950 3750
+F 0 "MX58" H 14983 3973 60  0000 C CNN
+F 1 "1.75U" H 14983 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.75U-Hotswap-Sawns" H 14325 3725 60  0001 C CNN
+F 3 "" H 14325 3725 60  0001 C CNN
+	1    14950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D58
+U 1 1 636BA193
+P 14900 4050
+F 0 "D58" V 14938 3980 39  0000 R CNN
+F 1 "CD4148W" V 14863 3980 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14900 4050 50  0001 C CNN
+F 3 "~" V 14900 4050 50  0001 C CNN
+	1    14900 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX59
+U 1 1 636BA199
+P 15400 3750
+F 0 "MX59" H 15433 3973 60  0000 C CNN
+F 1 "1U" H 15433 3899 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 14775 3725 60  0001 C CNN
+F 3 "" H 14775 3725 60  0001 C CNN
+	1    15400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D59
+U 1 1 636BA19F
+P 15350 4150
+F 0 "D59" V 15388 4080 39  0000 R CNN
+F 1 "CD4148W" V 15313 4080 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 15350 4150 50  0001 C CNN
+F 3 "~" V 15350 4150 50  0001 C CNN
+	1    15350 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14000 3900 14000 3950
+Wire Wire Line
+	13100 3900 13100 3950
+Wire Wire Line
+	14900 3900 14900 3950
+Wire Wire Line
+	9950 3900 9950 4050
+Wire Wire Line
+	10850 3900 10850 4050
+Wire Wire Line
+	11750 3900 11750 4050
+Wire Wire Line
+	12650 3900 12650 4050
+Wire Wire Line
+	13550 3900 13550 4050
+Wire Wire Line
+	14450 3900 14450 4050
+Wire Wire Line
+	15350 3900 15350 4050
+Wire Wire Line
+	9700 2800 9700 3700
+Wire Wire Line
+	10600 2800 10600 3700
+Wire Wire Line
+	11050 2800 11050 3700
+Wire Wire Line
+	11500 2800 11500 3700
+Wire Wire Line
+	11950 2800 11950 3700
+Wire Wire Line
+	12400 3700 12400 2800
+Wire Wire Line
+	12850 2800 12850 3700
+Wire Wire Line
+	13300 2800 13300 3700
+Wire Wire Line
+	13750 2800 13750 3700
+Wire Wire Line
+	14200 3700 14200 2800
+Wire Wire Line
+	14650 2800 14650 3700
+Connection ~ 9700 2800
+Connection ~ 10150 2800
+Connection ~ 10600 2800
+Connection ~ 11050 2800
+Connection ~ 11500 2800
+Connection ~ 11950 2800
+Connection ~ 12400 2800
+Connection ~ 12850 2800
+Connection ~ 13300 2800
+Connection ~ 13750 2800
+Connection ~ 14200 2800
+Connection ~ 14650 2800
+Wire Wire Line
+	10150 2800 10150 3700
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX61
+U 1 1 636FAEC3
+P 9550 4650
+F 0 "MX61" H 9583 4873 60  0000 C CNN
+F 1 "1.5U" H 9583 4799 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.5U-Hotswap-Sawns" H 8925 4625 60  0001 C CNN
+F 3 "" H 8925 4625 60  0001 C CNN
+	1    9550 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D61
+U 1 1 636FAEC9
+P 9500 4950
+F 0 "D61" V 9538 4880 39  0000 R CNN
+F 1 "CD4148W" V 9463 4880 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 9500 4950 50  0001 C CNN
+F 3 "~" V 9500 4950 50  0001 C CNN
+	1    9500 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX62
+U 1 1 636FAECF
+P 10000 4650
+F 0 "MX62" H 10033 4873 60  0000 C CNN
+F 1 "1U" H 10033 4799 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 9375 4625 60  0001 C CNN
+F 3 "" H 9375 4625 60  0001 C CNN
+	1    10000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D62
+U 1 1 636FAED5
+P 9950 5050
+F 0 "D62" V 9988 4980 39  0000 R CNN
+F 1 "CD4148W" V 9913 4980 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 9950 5050 50  0001 C CNN
+F 3 "~" V 9950 5050 50  0001 C CNN
+	1    9950 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D63
+U 1 1 636FAEE1
+P 10400 4950
+F 0 "D63" V 10438 4880 39  0000 R CNN
+F 1 "CD4148W" V 10363 4880 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 10400 4950 50  0001 C CNN
+F 3 "~" V 10400 4950 50  0001 C CNN
+	1    10400 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX67
+U 1 1 636FAF0B
+P 12250 4650
+F 0 "MX67" H 12283 4873 60  0000 C CNN
+F 1 "7U" H 12283 4799 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-7U-Hotswap-Sawns" H 11625 4625 60  0001 C CNN
+F 3 "" H 11625 4625 60  0001 C CNN
+	1    12250 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D67
+U 1 1 636FAF11
+P 12200 4950
+F 0 "D67" V 12238 4880 39  0000 R CNN
+F 1 "CD4148W" V 12163 4880 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 12200 4950 50  0001 C CNN
+F 3 "~" V 12200 4950 50  0001 C CNN
+	1    12200 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10400 4800 10400 4850
+Wire Wire Line
+	9500 4800 9500 4850
+Wire Wire Line
+	12200 4800 12200 4850
+$Comp
+L Device:D_Small D72
+U 1 1 636FAF51
+P 14450 5050
+F 0 "D72" V 14488 4980 39  0000 R CNN
+F 1 "CD4148W" V 14413 4980 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14450 5050 50  0001 C CNN
+F 3 "~" V 14450 5050 50  0001 C CNN
+	1    14450 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D73
+U 1 1 636FAF5D
+P 14900 4950
+F 0 "D73" V 14938 4880 39  0000 R CNN
+F 1 "CD4148W" V 14863 4880 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 14900 4950 50  0001 C CNN
+F 3 "~" V 14900 4950 50  0001 C CNN
+	1    14900 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D74
+U 1 1 636FAF69
+P 15350 5050
+F 0 "D74" V 15388 4980 39  0000 R CNN
+F 1 "CD4148W" V 15313 4980 39  0000 R CNN
+F 2 "sanproject-keyboard-part:DIODE_1206_SawnsProjects" V 15350 5050 50  0001 C CNN
+F 3 "~" V 15350 5050 50  0001 C CNN
+	1    15350 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14900 4800 14900 4850
+Wire Wire Line
+	9950 4800 9950 4950
+Wire Wire Line
+	14450 4800 14450 4950
+Wire Wire Line
+	15350 4800 15350 4950
+Wire Wire Line
+	9700 3700 9700 4600
+Wire Wire Line
+	10150 4550 10150 3700
+Wire Wire Line
+	10600 3700 10600 4600
+Wire Wire Line
+	11050 3700 11050 4600
+Wire Wire Line
+	11500 3700 11500 4600
+Wire Wire Line
+	11950 3700 11950 4600
+Wire Wire Line
+	12400 4600 12400 3700
+Wire Wire Line
+	12850 3700 12850 4600
+Wire Wire Line
+	13300 3700 13300 4600
+Wire Wire Line
+	13750 3700 13750 4600
+Wire Wire Line
+	14200 4600 14200 3700
+Wire Wire Line
+	14650 3700 14650 4600
+Connection ~ 9700 3700
+Connection ~ 10150 3700
+Connection ~ 10600 3700
+Connection ~ 11050 3700
+Connection ~ 11500 3700
+Connection ~ 11950 3700
+Connection ~ 12400 3700
+Connection ~ 12850 3700
+Connection ~ 13300 3700
+Connection ~ 13750 3700
+Connection ~ 14200 3700
+Connection ~ 14650 3700
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX63
+U 1 1 63728C4B
+P 10450 4650
+F 0 "MX63" H 10483 4873 60  0000 C CNN
+F 1 "1.5U" H 10483 4799 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.5U-Hotswap-Sawns" H 9825 4625 60  0001 C CNN
+F 3 "" H 9825 4625 60  0001 C CNN
+	1    10450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX64
+U 1 1 63739AC5
+P 14500 4650
+F 0 "MX64" H 14533 4873 60  0000 C CNN
+F 1 "1.5U" H 14533 4799 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.5U-Hotswap-Sawns" H 13875 4625 60  0001 C CNN
+F 3 "" H 13875 4625 60  0001 C CNN
+	1    14500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX66
+U 1 1 6373A948
+P 15400 4650
+F 0 "MX66" H 15433 4873 60  0000 C CNN
+F 1 "1.5U" H 15433 4799 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.5U-Hotswap-Sawns" H 14775 4625 60  0001 C CNN
+F 3 "" H 14775 4625 60  0001 C CNN
+	1    15400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX65
+U 1 1 6373B624
+P 14950 4650
+F 0 "MX65" H 14983 4873 60  0000 C CNN
+F 1 "1U" H 14983 4799 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 14325 4625 60  0001 C CNN
+F 3 "" H 14325 4625 60  0001 C CNN
+	1    14950 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX76
+U 1 1 63817640
+P 15500 2950
+F 0 "MX76" H 15533 3173 60  0000 C CNN
+F 1 "2U" H 15533 3099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-2U-Hotswap-Sawns" H 14875 2925 60  0001 C CNN
+F 3 "" H 14875 2925 60  0001 C CNN
+	1    15500 2950
+	-1   0    0    1   
+$EndComp
+Connection ~ 15350 3000
+Wire Wire Line
+	15100 1900 15100 2800
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX30
+U 1 1 638EBC45
+P 9650 2950
+F 0 "MX30" H 9683 3173 60  0000 C CNN
+F 1 "1.25U" H 9683 3099 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.25U-Hotswap-Sawns" H 9025 2925 60  0001 C CNN
+F 3 "" H 9025 2925 60  0001 C CNN
+	1    9650 2950
+	-1   0    0    1   
+$EndComp
+Connection ~ 9500 3000
+Connection ~ 15100 3700
+Wire Wire Line
+	15100 3700 15100 4600
+Connection ~ 15550 3700
+Wire Wire Line
+	15550 3700 15550 4600
+Connection ~ 15100 2800
+Wire Wire Line
+	15100 2800 15100 3700
+Wire Wire Line
+	15550 1900 15550 2800
+Connection ~ 15550 2800
+Wire Wire Line
+	15550 2800 15550 3700
+Wire Wire Line
+	2650 1700 2750 1700
+Wire Wire Line
+	2850 1700 2850 1550
+Connection ~ 2850 1700
+Connection ~ 2750 1700
+Wire Wire Line
+	2750 1700 2850 1700
+Wire Wire Line
+	2150 2800 1750 2800
+$Comp
+L power:+5V #PWR0101
+U 1 1 6367561E
+P 1750 2800
+F 0 "#PWR0101" H 1750 2650 50  0001 C CNN
+F 1 "+5V" V 1765 2928 50  0000 L CNN
+F 2 "" H 1750 2800 50  0001 C CNN
+F 3 "" H 1750 2800 50  0001 C CNN
+	1    1750 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 6367606C
+P 2850 1550
+F 0 "#PWR0102" H 2850 1400 50  0001 C CNN
+F 1 "+5V" H 2865 1723 50  0000 C CNN
+F 2 "" H 2850 1550 50  0001 C CNN
+F 3 "" H 2850 1550 50  0001 C CNN
+	1    2850 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 2150 3000 0    50   Input ~ 0
+D+
+Text GLabel 2150 3100 0    50   Input ~ 0
+D-
+Wire Wire Line
+	2750 5300 2650 5300
+Wire Wire Line
+	2650 5300 2350 5300
+Wire Wire Line
+	2350 5300 2350 5400
+Connection ~ 2650 5300
+$Comp
+L power:GND #PWR0103
+U 1 1 63692335
+P 2350 5400
+F 0 "#PWR0103" H 2350 5150 50  0001 C CNN
+F 1 "GND" H 2355 5227 50  0000 C CNN
+F 2 "" H 2350 5400 50  0001 C CNN
+F 3 "" H 2350 5400 50  0001 C CNN
+	1    2350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 63636477
+P 4150 2300
+F 0 "C2" H 4242 2346 50  0000 L CNN
+F 1 "10uF" H 4242 2255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0402" H 4150 2300 50  0001 C CNN
+F 3 "~" H 4150 2300 50  0001 C CNN
+	1    4150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 63672AAF
+P 4550 2300
+F 0 "C3" H 4642 2346 50  0000 L CNN
+F 1 "0.1uF" H 4642 2255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0402" H 4550 2300 50  0001 C CNN
+F 3 "~" H 4550 2300 50  0001 C CNN
+	1    4550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 636732FF
+P 4950 2300
+F 0 "C4" H 5042 2346 50  0000 L CNN
+F 1 "0.1uF" H 5042 2255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0402" H 4950 2300 50  0001 C CNN
+F 3 "~" H 4950 2300 50  0001 C CNN
+	1    4950 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 63673CB6
+P 5350 2300
+F 0 "C5" H 5442 2346 50  0000 L CNN
+F 1 "0.1uF" H 5442 2255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0402" H 5350 2300 50  0001 C CNN
+F 3 "~" H 5350 2300 50  0001 C CNN
+	1    5350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 63678447
+P 2000 1700
+F 0 "R1" V 1804 1700 50  0000 C CNN
+F 1 "10k" V 1895 1700 50  0000 C CNN
+F 2 "" H 2000 1700 50  0001 C CNN
+F 3 "~" H 2000 1700 50  0001 C CNN
+	1    2000 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 6367930F
+P 3650 4100
+F 0 "R2" V 3550 4100 50  0000 C CNN
+F 1 "10k" V 3650 4100 50  0000 C CNN
+F 2 "" H 3650 4100 50  0001 C CNN
+F 3 "~" H 3650 4100 50  0001 C CNN
+	1    3650 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 636983A5
+P 1950 3300
+F 0 "C1" V 2050 3300 50  0000 C CNN
+F 1 "1uF" V 1850 3300 50  0000 C CNN
+F 2 "sanproject-keyboard-part:C_0402" H 1950 3300 50  0001 C CNN
+F 3 "~" H 1950 3300 50  0001 C CNN
+	1    1950 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Resonator_Small Y1
+U 1 1 6369BD27
+P 1900 2300
+F 0 "Y1" V 1595 2250 50  0000 C CNN
+F 1 "16MHz" V 1686 2250 50  0000 C CNN
+F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm" H 1875 2300 50  0001 C CNN
+F 3 "~" H 1875 2300 50  0001 C CNN
+	1    1900 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2150 2200 2000 2200
+Wire Wire Line
+	2150 2400 2000 2400
+NoConn ~ 2150 2600
+Wire Wire Line
+	5350 2200 4950 2200
+Wire Wire Line
+	4150 2200 4150 2000
+Connection ~ 4150 2200
+Connection ~ 4550 2200
+Wire Wire Line
+	4550 2200 4150 2200
+Connection ~ 4950 2200
+Wire Wire Line
+	4950 2200 4550 2200
+Wire Wire Line
+	5350 2400 4950 2400
+Wire Wire Line
+	4150 2400 4150 2600
+Connection ~ 4150 2400
+Connection ~ 4550 2400
+Wire Wire Line
+	4550 2400 4150 2400
+Connection ~ 4950 2400
+Wire Wire Line
+	4950 2400 4550 2400
+$Comp
+L power:GND #PWR0104
+U 1 1 636DA30D
+P 4150 2600
+F 0 "#PWR0104" H 4150 2350 50  0001 C CNN
+F 1 "GND" H 4155 2427 50  0000 C CNN
+F 2 "" H 4150 2600 50  0001 C CNN
+F 3 "" H 4150 2600 50  0001 C CNN
+	1    4150 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0105
+U 1 1 636DABE3
+P 4150 2000
+F 0 "#PWR0105" H 4150 1850 50  0001 C CNN
+F 1 "+5V" H 4165 2173 50  0000 C CNN
+F 2 "" H 4150 2000 50  0001 C CNN
+F 3 "" H 4150 2000 50  0001 C CNN
+	1    4150 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3300 2150 3300
+Wire Wire Line
+	1850 3300 1750 3300
+$Comp
+L power:GND #PWR0106
+U 1 1 636F101A
+P 1750 3300
+F 0 "#PWR0106" H 1750 3050 50  0001 C CNN
+F 1 "GND" V 1755 3172 50  0000 R CNN
+F 2 "" H 1750 3300 50  0001 C CNN
+F 3 "" H 1750 3300 50  0001 C CNN
+	1    1750 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 2300 1600 2300
+$Comp
+L power:GND #PWR0107
+U 1 1 636F2D3A
+P 1600 2300
+F 0 "#PWR0107" H 1600 2050 50  0001 C CNN
+F 1 "GND" V 1605 2172 50  0000 R CNN
+F 2 "" H 1600 2300 50  0001 C CNN
+F 3 "" H 1600 2300 50  0001 C CNN
+	1    1600 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 4100 3550 4100
+$Comp
+L power:GND #PWR0108
+U 1 1 63733B93
+P 3900 4100
+F 0 "#PWR0108" H 3900 3850 50  0001 C CNN
+F 1 "GND" V 3905 3972 50  0000 R CNN
+F 2 "" H 3900 4100 50  0001 C CNN
+F 3 "" H 3900 4100 50  0001 C CNN
+	1    3900 4100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 4100 3900 4100
+$EndSCHEMATC

@@ -1,0 +1,10 @@
+mikoto-backups/
+render/
+ibom/
+flashbed/mikoto-flashbed-backups
+*.gbr
+*.gbrjob
+*.drl
+fp-info-cache
+flashbed/fp-info-cache
+*.xml

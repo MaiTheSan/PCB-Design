@@ -1,0 +1,12 @@
+### Module positions - created on 03/11/22 18:13:28 ###
+### Printed by Pcbnew version kicad (5.1.10)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                    Package                PosX       PosY       Rot  Side
+C1        C                      D_SOD-123          117.8724   -94.0598    0.0000  top
+C2        C                      D_SOD-123          117.8724   -97.4098    0.0000  top
+C3        C_Small                D_SOD-123          123.7224   -94.0598    0.0000  top
+D1        D                      D_SOD-123          123.7224   -97.4098    0.0000  top
+MX1       MX-1U-MX_Alps_Hybrids  MXOnly-1U          145.2569  -107.1567    0.0000  top
+R1        R                      D_SOD-123          129.5724   -94.0598    0.0000  top
+## End

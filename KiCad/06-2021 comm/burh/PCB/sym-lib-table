@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name SAMPad)(type Legacy)(uri ${KIPRJMOD}/lib/SAMPad.lib)(options "")(descr ""))
+)

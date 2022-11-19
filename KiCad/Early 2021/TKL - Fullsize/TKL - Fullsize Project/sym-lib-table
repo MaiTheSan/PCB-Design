@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TKL_-_Fullsize_Project-eagle-import)(type Legacy)(uri ${KIPRJMOD}/TKL_-_Fullsize_Project-eagle-import.lib)(options "")(descr ""))
+)

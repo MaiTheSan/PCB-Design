@@ -1,0 +1,137 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:DTC123J Q?
+U 1 1 611044ED
+P 1550 10150
+F 0 "Q?" V 1875 10150 50  0000 C CNN
+F 1 "DTC123J" V 1784 10150 50  0000 C CNN
+F 2 "" H 1550 10150 50  0001 L CNN
+F 3 "" H 1550 10150 50  0001 L CNN
+	1    1550 10150
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61105116
+P 1150 10050
+F 0 "#PWR?" H 1150 9800 50  0001 C CNN
+F 1 "GND" V 1155 9922 50  0000 R CNN
+F 2 "" H 1150 10050 50  0001 C CNN
+F 3 "" H 1150 10050 50  0001 C CNN
+	1    1150 10050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 10050 1350 10050
+Text GLabel 2300 10050 2    50   Input ~ 0
+NRST
+$Comp
+L Device:C_Small C?
+U 1 1 61107560
+P 2050 9950
+F 0 "C?" H 2142 9996 50  0000 L CNN
+F 1 "4.7nF" H 2142 9905 50  0000 L CNN
+F 2 "" H 2050 9950 50  0001 C CNN
+F 3 "~" H 2050 9950 50  0001 C CNN
+	1    2050 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 10050 2050 10050
+Connection ~ 2050 10050
+Wire Wire Line
+	2050 10050 2300 10050
+$Comp
+L power:GND #PWR?
+U 1 1 61107CB1
+P 2050 9850
+F 0 "#PWR?" H 2050 9600 50  0001 C CNN
+F 1 "GND" H 2055 9677 50  0000 C CNN
+F 2 "" H 2050 9850 50  0001 C CNN
+F 3 "" H 2050 9850 50  0001 C CNN
+	1    2050 9850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_MEC_5G SW?
+U 1 1 61108804
+P 1350 10700
+F 0 "SW?" H 1350 10985 50  0000 C CNN
+F 1 "SW_MEC_5G" H 1350 10894 50  0000 C CNN
+F 2 "" H 1350 10900 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 1350 10900 50  0001 C CNN
+	1    1350 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 611095BC
+P 1150 10700
+F 0 "#PWR?" H 1150 10550 50  0001 C CNN
+F 1 "+3V3" V 1165 10828 50  0000 L CNN
+F 2 "" H 1150 10700 50  0001 C CNN
+F 3 "" H 1150 10700 50  0001 C CNN
+	1    1150 10700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1550 10400 1550 10700
+$Comp
+L Device:D D?
+U 1 1 6110B296
+P 1700 10700
+F 0 "D?" H 1700 10483 50  0000 C CNN
+F 1 "D" H 1700 10574 50  0000 C CNN
+F 2 "" H 1700 10700 50  0001 C CNN
+F 3 "~" H 1700 10700 50  0001 C CNN
+	1    1700 10700
+	-1   0    0    1   
+$EndComp
+Connection ~ 1550 10700
+$Comp
+L Device:C_Small C?
+U 1 1 6110BF3E
+P 2200 10800
+F 0 "C?" H 2292 10846 50  0000 L CNN
+F 1 "10uF" H 2292 10755 50  0000 L CNN
+F 2 "" H 2200 10800 50  0001 C CNN
+F 3 "~" H 2200 10800 50  0001 C CNN
+	1    2200 10800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6110C981
+P 1950 10800
+F 0 "R?" H 2009 10846 50  0000 L CNN
+F 1 "100k" H 2009 10755 50  0000 L CNN
+F 2 "" H 1950 10800 50  0001 C CNN
+F 3 "~" H 1950 10800 50  0001 C CNN
+	1    1950 10800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 10700 1950 10700
+Text GLabel 2300 10700 2    50   Input ~ 0
+Boot0
+Connection ~ 2200 10700
+Wire Wire Line
+	2200 10700 2300 10700
+Connection ~ 1950 10700
+Wire Wire Line
+	1950 10700 2200 10700
+$EndSCHEMATC

@@ -1,0 +1,741 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Osu!Key-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue MX1
+U 1 1 5F294573
+P 8215 1375
+F 0 "MX1" H 8301 1592 60  0000 C CNN
+F 1 "MX-1U-MX_Alps_Hybrids" H 8301 1518 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 8190 1350 60  0001 C CNN
+F 3 "" H 8190 1350 60  0001 C CNN
+	1    8215 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Osu!Key-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue MX2
+U 1 1 5F295D80
+P 8720 1375
+F 0 "MX2" H 8806 1592 60  0000 C CNN
+F 1 "MX-1U-MX_Alps_Hybrids" H 8806 1518 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 8695 1350 60  0001 C CNN
+F 3 "" H 8695 1350 60  0001 C CNN
+	1    8720 1375
+	1    0    0    -1  
+$EndComp
+Text GLabel 8390 1195 1    50   Input ~ 0
+Col0
+Wire Wire Line
+	8390 1350 8390 1195
+Text GLabel 8895 1195 1    50   Input ~ 0
+Col1
+Wire Wire Line
+	8895 1350 8895 1195
+$Comp
+L Device:D D1
+U 1 1 5F2964D3
+P 8090 1700
+F 0 "D1" V 8136 1621 50  0000 R CNN
+F 1 "D" V 8045 1621 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" H 8090 1700 50  0001 C CNN
+F 3 "~" H 8090 1700 50  0001 C CNN
+	1    8090 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8090 1550 8190 1550
+$Comp
+L Device:D D2
+U 1 1 5F297D21
+P 8595 1700
+F 0 "D2" V 8641 1621 50  0000 R CNN
+F 1 "D" V 8550 1621 50  0000 R CNN
+F 2 "random-keyboard-parts:D_SOD-123-Pretty" H 8595 1700 50  0001 C CNN
+F 3 "~" H 8595 1700 50  0001 C CNN
+	1    8595 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8595 1550 8695 1550
+Wire Wire Line
+	8090 1850 8595 1850
+Text GLabel 9040 1850 2    50   Input ~ 0
+Row0
+Wire Wire Line
+	8595 1850 9040 1850
+Connection ~ 8595 1850
+$Comp
+L Kira:RGBLED LED1
+U 1 1 5F298568
+P 9450 3575
+F 0 "LED1" H 9450 4020 50  0000 C CNN
+F 1 "RGBLED" H 9450 3929 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9450 3575 60  0001 C CNN
+F 3 "" H 9450 3575 60  0000 C CNN
+	1    9450 3575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Kira:RGBLED LED2
+U 1 1 5F29B7D4
+P 10090 3570
+F 0 "LED2" H 10090 4015 50  0000 C CNN
+F 1 "RGBLED" H 10090 3924 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10090 3570 60  0001 C CNN
+F 3 "" H 10090 3570 60  0000 C CNN
+	1    10090 3570
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 3465 9250 3465
+Wire Wire Line
+	9890 3465 9890 3570
+Wire Wire Line
+	9050 3265 9250 3265
+Wire Wire Line
+	9890 3265 9890 3370
+Wire Wire Line
+	9050 3665 9250 3665
+Wire Wire Line
+	9890 3665 9890 3770
+Wire Wire Line
+	9650 3375 9650 3575
+Connection ~ 9650 3575
+Wire Wire Line
+	9650 3575 9650 3775
+Connection ~ 9650 3775
+Wire Wire Line
+	9650 3775 9650 3920
+Wire Wire Line
+	10290 3370 10290 3570
+Connection ~ 10290 3570
+Wire Wire Line
+	10290 3570 10290 3770
+Connection ~ 10290 3770
+Wire Wire Line
+	10290 3770 10290 3920
+$Comp
+L LED:WS2812B D5
+U 1 1 5F2A1574
+P 9100 5310
+F 0 "D5" H 8756 5264 50  0000 R CNN
+F 1 "WS2812B" H 8756 5355 50  0000 R CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9150 5010 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9200 4935 50  0001 L TNN
+	1    9100 5310
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D4
+U 1 1 5F2A3C52
+P 8500 5310
+F 0 "D4" H 8156 5264 50  0000 R CNN
+F 1 "WS2812B" H 8156 5355 50  0000 R CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8550 5010 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8600 4935 50  0001 L TNN
+	1    8500 5310
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D3
+U 1 1 5F2A4618
+P 7900 5310
+F 0 "D3" H 7556 5264 50  0000 R CNN
+F 1 "WS2812B" H 7556 5355 50  0000 R CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7950 5010 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8000 4935 50  0001 L TNN
+	1    7900 5310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 5010 8500 5010
+Connection ~ 8500 5010
+Wire Wire Line
+	8500 5010 9100 5010
+Connection ~ 9100 5010
+Wire Wire Line
+	7900 5610 8500 5610
+Connection ~ 8500 5610
+Wire Wire Line
+	8500 5610 9100 5610
+Connection ~ 9100 5610
+Wire Wire Line
+	9250 3375 9250 3265
+Connection ~ 9250 3265
+Wire Wire Line
+	9250 3265 9890 3265
+Wire Wire Line
+	9250 3775 9250 3665
+Connection ~ 9250 3665
+Wire Wire Line
+	9250 3665 9890 3665
+Wire Wire Line
+	9250 3575 9250 3465
+Connection ~ 9250 3465
+Wire Wire Line
+	9250 3465 9890 3465
+Text GLabel 8595 3265 0    50   Input ~ 0
+RowLed0
+Text GLabel 8595 3465 0    50   Input ~ 0
+RowLed1
+Text GLabel 8595 3665 0    50   Input ~ 0
+RowLed2
+$Comp
+L Device:R R2
+U 1 1 5F2B20B4
+P 8900 3265
+F 0 "R2" H 8970 3311 50  0000 L CNN
+F 1 "220" H 8970 3220 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8830 3265 50  0001 C CNN
+F 3 "~" H 8900 3265 50  0001 C CNN
+	1    8900 3265
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5F2B27F0
+P 8900 3465
+F 0 "R3" H 8970 3511 50  0000 L CNN
+F 1 "220" H 8970 3420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8830 3465 50  0001 C CNN
+F 3 "~" H 8900 3465 50  0001 C CNN
+	1    8900 3465
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5F2B2DA9
+P 8900 3665
+F 0 "R4" H 8970 3711 50  0000 L CNN
+F 1 "220" H 8970 3620 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8830 3665 50  0001 C CNN
+F 3 "~" H 8900 3665 50  0001 C CNN
+	1    8900 3665
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9650 3920 3    50   Input ~ 0
+ColLed0
+Text GLabel 10290 3920 3    50   Input ~ 0
+ColLed1
+Wire Wire Line
+	8750 3665 8595 3665
+Wire Wire Line
+	8750 3465 8595 3465
+Wire Wire Line
+	8750 3265 8595 3265
+$Comp
+L Device:R R1
+U 1 1 5F2BBE6C
+P 7330 5310
+F 0 "R1" V 7537 5310 50  0000 C CNN
+F 1 "500" V 7446 5310 50  0000 C CNN
+F 2 "random-keyboard-parts:R_0805" V 7260 5310 50  0001 C CNN
+F 3 "~" H 7330 5310 50  0001 C CNN
+	1    7330 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7480 5310 7600 5310
+Text GLabel 7180 5310 0    50   Input ~ 0
+GroundRGB
+Text GLabel 14095 975  2    50   Input ~ 0
+Row0
+Text GLabel 12695 675  0    50   Input ~ 0
+Col0
+Text GLabel 14095 575  2    50   Input ~ 0
+Col1
+Text GLabel 14095 775  2    50   Input ~ 0
+RowLed0
+Text GLabel 12695 475  0    50   Input ~ 0
+RowLed1
+Text GLabel 12695 375  0    50   Input ~ 0
+RowLed2
+Text GLabel 14095 875  2    50   Input ~ 0
+ColLed0
+Text GLabel 14095 675  2    50   Input ~ 0
+GroundRGB
+Text GLabel 12695 575  0    50   Input ~ 0
+ColLed1
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-MU U3
+U 1 1 5F6985EC
+P 3945 3255
+F 0 "U3" H 3945 1366 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 3945 1275 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 3945 3255 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3945 3255 50  0001 C CNN
+	1    3945 3255
+	1    0    0    -1  
+$EndComp
+$Comp
+L IC60:+5V #PWR0107
+U 1 1 5F69A5BE
+P 3945 1275
+F 0 "#PWR0107" H 3945 1365 20  0001 C CNN
+F 1 "+5V" H 3941 1403 30  0000 C CNN
+F 2 "" H 3945 1275 60  0000 C CNN
+F 3 "" H 3945 1275 60  0000 C CNN
+	1    3945 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5F69B406
+P 4190 5055
+F 0 "#PWR0108" H 4190 4805 50  0001 C CNN
+F 1 "GND" H 4195 4882 50  0000 C CNN
+F 2 "" H 4190 5055 50  0001 C CNN
+F 3 "" H 4190 5055 50  0001 C CNN
+	1    4190 5055
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3845 5055 3945 5055
+Connection ~ 3945 5055
+Wire Wire Line
+	3945 5055 4190 5055
+Wire Wire Line
+	3845 1455 3945 1455
+Connection ~ 3945 1455
+Wire Wire Line
+	3945 1455 4045 1455
+Wire Wire Line
+	3945 1455 3945 1275
+$Comp
+L Device:R R6
+U 1 1 5F6A246C
+P 4845 3855
+F 0 "R6" V 4638 3855 50  0000 C CNN
+F 1 "1k 0805" V 4729 3855 50  0000 C CNN
+F 2 "random-keyboard-parts:R_0805" V 4775 3855 50  0001 C CNN
+F 3 "~" H 4845 3855 50  0001 C CNN
+	1    4845 3855
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5F6A75C2
+P 5035 3855
+F 0 "#PWR0109" H 5035 3605 50  0001 C CNN
+F 1 "GND" H 5040 3682 50  0000 C CNN
+F 2 "" H 5035 3855 50  0001 C CNN
+F 3 "" H 5035 3855 50  0001 C CNN
+	1    5035 3855
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4995 3855 5035 3855
+Wire Wire Line
+	4545 3855 4695 3855
+$Comp
+L Device:C C7
+U 1 1 5F6A9D64
+P 3125 3055
+F 0 "C7" V 2873 3055 50  0000 C CNN
+F 1 "1uF 0603" V 2964 3055 50  0000 C CNN
+F 2 "random-keyboard-parts:C_0603" H 3163 2905 50  0001 C CNN
+F 3 "~" H 3125 3055 50  0001 C CNN
+	1    3125 3055
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5F6AB4F6
+P 2930 3055
+F 0 "#PWR0110" H 2930 2805 50  0001 C CNN
+F 1 "GND" H 2935 2882 50  0000 C CNN
+F 2 "" H 2930 3055 50  0001 C CNN
+F 3 "" H 2930 3055 50  0001 C CNN
+	1    2930 3055
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2930 3055 2975 3055
+Wire Wire Line
+	3275 3055 3345 3055
+$Comp
+L Device:C C5
+U 1 1 5F6B3A21
+P 2335 4520
+F 0 "C5" H 2450 4566 50  0000 L CNN
+F 1 "0.1uF 0603" H 2450 4475 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 2373 4370 50  0001 C CNN
+F 3 "~" H 2335 4520 50  0001 C CNN
+	1    2335 4520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5F6B3A27
+P 2665 4520
+F 0 "C6" H 2780 4566 50  0000 L CNN
+F 1 "0.1uF 0603" H 2780 4475 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 2703 4370 50  0001 C CNN
+F 3 "~" H 2665 4520 50  0001 C CNN
+	1    2665 4520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F6B5CD6
+P 1675 4520
+F 0 "C1" H 1790 4566 50  0000 L CNN
+F 1 "10uF 0603" H 1790 4475 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 1713 4370 50  0001 C CNN
+F 3 "~" H 1675 4520 50  0001 C CNN
+	1    1675 4520
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5F6B5CDC
+P 2005 4520
+F 0 "C2" H 2120 4566 50  0000 L CNN
+F 1 "0.1uF 0603" H 2120 4475 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 2043 4370 50  0001 C CNN
+F 3 "~" H 2005 4520 50  0001 C CNN
+	1    2005 4520
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 4370 2005 4370
+Connection ~ 2005 4370
+Wire Wire Line
+	2005 4370 2190 4370
+Connection ~ 2335 4370
+Wire Wire Line
+	2335 4370 2665 4370
+Wire Wire Line
+	2665 4670 2335 4670
+Connection ~ 2005 4670
+Wire Wire Line
+	2005 4670 1675 4670
+Connection ~ 2335 4670
+Wire Wire Line
+	2335 4670 2190 4670
+$Comp
+L power:GND #PWR0111
+U 1 1 5F6B957F
+P 2190 4770
+F 0 "#PWR0111" H 2190 4520 50  0001 C CNN
+F 1 "GND" H 2195 4597 50  0000 C CNN
+F 2 "" H 2190 4770 50  0001 C CNN
+F 3 "" H 2190 4770 50  0001 C CNN
+	1    2190 4770
+	1    0    0    -1  
+$EndComp
+$Comp
+L IC60:+5V #PWR0112
+U 1 1 5F6BCD17
+P 2190 4220
+F 0 "#PWR0112" H 2190 4310 20  0001 C CNN
+F 1 "+5V" H 2186 4348 30  0000 C CNN
+F 2 "" H 2190 4220 60  0000 C CNN
+F 3 "" H 2190 4220 60  0000 C CNN
+	1    2190 4220
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2190 4220 2190 4370
+Connection ~ 2190 4370
+Wire Wire Line
+	2190 4370 2335 4370
+Wire Wire Line
+	2190 4770 2190 4670
+Connection ~ 2190 4670
+Wire Wire Line
+	2190 4670 2005 4670
+$Comp
+L IC60:+5V #PWR0113
+U 1 1 5F6C1E53
+P 3165 2555
+F 0 "#PWR0113" H 3165 2645 20  0001 C CNN
+F 1 "+5V" H 3161 2683 30  0000 C CNN
+F 2 "" H 3165 2555 60  0000 C CNN
+F 3 "" H 3165 2555 60  0000 C CNN
+	1    3165 2555
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3345 2555 3165 2555
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5F6C4369
+P 2465 2040
+F 0 "Y1" H 2659 2086 50  0000 L CNN
+F 1 "Crystal_GND24" H 2659 1995 50  0000 L CNN
+F 2 "random-keyboard-parts:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2465 2040 50  0001 C CNN
+F 3 "~" H 2465 2040 50  0001 C CNN
+	1    2465 2040
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F6C6EC2
+P 2010 2190
+F 0 "C4" V 1758 2190 50  0000 C CNN
+F 1 "22pF" V 1849 2190 50  0000 C CNN
+F 2 "random-keyboard-parts:C_0603" H 2048 2040 50  0001 C CNN
+F 3 "~" H 2010 2190 50  0001 C CNN
+	1    2010 2190
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5F6C87C9
+P 2010 1890
+F 0 "C3" V 1758 1890 50  0000 C CNN
+F 1 "22pF" V 1849 1890 50  0000 C CNN
+F 2 "random-keyboard-parts:C_0603" H 2048 1740 50  0001 C CNN
+F 3 "~" H 2010 1890 50  0001 C CNN
+	1    2010 1890
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2160 1890 2465 1890
+Wire Wire Line
+	3255 1890 3255 1955
+Wire Wire Line
+	3255 1955 3345 1955
+Connection ~ 2465 1890
+Wire Wire Line
+	2465 1890 3255 1890
+Wire Wire Line
+	3345 2155 3255 2155
+Wire Wire Line
+	3255 2155 3255 2190
+Wire Wire Line
+	3255 2190 2465 2190
+Connection ~ 2465 2190
+Wire Wire Line
+	2465 2190 2160 2190
+Wire Wire Line
+	1860 1890 1860 2190
+Wire Wire Line
+	1860 2445 2265 2445
+Wire Wire Line
+	2665 2445 2665 2040
+Connection ~ 1860 2190
+Wire Wire Line
+	1860 2190 1860 2445
+Wire Wire Line
+	2265 2040 2265 2445
+Connection ~ 2265 2445
+Wire Wire Line
+	2265 2445 2665 2445
+$Comp
+L power:GND #PWR0114
+U 1 1 5F6DA932
+P 2265 2490
+F 0 "#PWR0114" H 2265 2240 50  0001 C CNN
+F 1 "GND" H 2270 2317 50  0000 C CNN
+F 2 "" H 2265 2490 50  0001 C CNN
+F 3 "" H 2265 2490 50  0001 C CNN
+	1    2265 2490
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2265 2490 2265 2445
+$Comp
+L random-keyboard-parts:STF202-22T1G U2
+U 1 1 5F6DC8B2
+P 3940 905
+F 0 "U2" H 3940 1252 60  0000 C CNN
+F 1 "STF202-22T1G" H 3940 1146 60  0000 C CNN
+F 2 "random-keyboard-parts:Reset_Pretty" H 3865 905 60  0001 C CNN
+F 3 "" H 3865 905 60  0001 C CNN
+	1    3940 905 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5F6E0928
+P 3195 1445
+F 0 "R5" V 2988 1445 50  0000 C CNN
+F 1 "10k 0805" V 3079 1445 50  0000 C CNN
+F 2 "random-keyboard-parts:R_0805" V 3125 1445 50  0001 C CNN
+F 3 "~" H 3195 1445 50  0001 C CNN
+	1    3195 1445
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5F6E6669
+P 2700 1755
+F 0 "SW1" H 2700 2040 50  0000 C CNN
+F 1 "SW_Push" H 2700 1949 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQGADE010" H 2700 1955 50  0001 C CNN
+F 3 "~" H 2700 1955 50  0001 C CNN
+	1    2700 1755
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3345 1755 3195 1755
+Wire Wire Line
+	3195 1595 3195 1755
+Connection ~ 3195 1755
+Wire Wire Line
+	3195 1755 2900 1755
+$Comp
+L IC60:+5V #PWR0115
+U 1 1 5F6EE61C
+P 3195 1115
+F 0 "#PWR0115" H 3195 1205 20  0001 C CNN
+F 1 "+5V" H 3191 1243 30  0000 C CNN
+F 2 "" H 3195 1115 60  0000 C CNN
+F 3 "" H 3195 1115 60  0000 C CNN
+	1    3195 1115
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3195 1295 3195 1115
+$Comp
+L power:GND #PWR0116
+U 1 1 5F6F138E
+P 2455 1755
+F 0 "#PWR0116" H 2455 1505 50  0001 C CNN
+F 1 "GND" H 2460 1582 50  0000 C CNN
+F 2 "" H 2455 1755 50  0001 C CNN
+F 3 "" H 2455 1755 50  0001 C CNN
+	1    2455 1755
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2455 1755 2500 1755
+Wire Bus Line
+	4995 625  3355 625 
+Entry Wire Line
+	4895 1755 4995 1855
+Wire Wire Line
+	4545 1755 4895 1755
+Entry Wire Line
+	4895 1855 4995 1955
+Wire Wire Line
+	4545 1855 4895 1855
+Entry Wire Line
+	4895 1955 4995 2055
+Wire Wire Line
+	4545 1955 4895 1955
+Entry Wire Line
+	5095 1955 4995 2055
+Wire Wire Line
+	5445 1955 5095 1955
+Entry Wire Line
+	5095 1855 4995 1955
+Wire Wire Line
+	5445 1855 5095 1855
+Entry Wire Line
+	5095 1755 4995 1855
+Wire Wire Line
+	5445 1755 5095 1755
+Text Label 4715 1755 0    50   ~ 0
+SCK
+Text Label 4690 1855 0    50   ~ 0
+MOSI
+Text Label 4690 1955 0    50   ~ 0
+MISO
+Entry Wire Line
+	3355 705  3455 805 
+Wire Wire Line
+	3455 805  3540 805 
+Entry Wire Line
+	3355 905  3455 1005
+Wire Wire Line
+	3455 1005 3540 1005
+Text Label 3455 805  0    50   ~ 0
+MISO
+Text Label 3455 1005 0    50   ~ 0
+SCK
+$Comp
+L IC60:+5V #PWR0103
+U 1 1 5F748E56
+P 3540 905
+F 0 "#PWR0103" H 3540 995 20  0001 C CNN
+F 1 "+5V" H 3536 1033 30  0000 C CNN
+F 2 "" H 3540 905 60  0000 C CNN
+F 3 "" H 3540 905 60  0000 C CNN
+	1    3540 905 
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3195 1675 0    50   Input ~ 0
+RST
+Text GLabel 4340 905  2    50   Input ~ 0
+RST
+$Comp
+L power:GND #PWR0104
+U 1 1 5F74E680
+P 4340 805
+F 0 "#PWR0104" H 4340 555 50  0001 C CNN
+F 1 "GND" H 4345 632 50  0000 C CNN
+F 2 "" H 4340 805 50  0001 C CNN
+F 3 "" H 4340 805 50  0001 C CNN
+	1    4340 805 
+	0    -1   -1   0   
+$EndComp
+Entry Wire Line
+	4895 1005 4995 1105
+Wire Wire Line
+	4340 1005 4895 1005
+Text Label 4530 1005 0    50   ~ 0
+MOSI
+$Comp
+L LED:WS2812B D?
+U 1 1 5F761AC6
+P 9700 5310
+F 0 "D?" H 9356 5264 50  0000 R CNN
+F 1 "WS2812B" H 9356 5355 50  0000 R CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9750 5010 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9800 4935 50  0001 L TNN
+	1    9700 5310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 5010 9700 5010
+Connection ~ 9700 5010
+Wire Wire Line
+	9700 5010 10290 5010
+Wire Wire Line
+	9100 5610 9700 5610
+Connection ~ 9700 5610
+Wire Wire Line
+	9700 5610 10290 5610
+$Comp
+L power:GND #PWR?
+U 1 1 5F76E71E
+P 10290 5010
+F 0 "#PWR?" H 10290 4760 50  0001 C CNN
+F 1 "GND" H 10295 4837 50  0000 C CNN
+F 2 "" H 10290 5010 50  0001 C CNN
+F 3 "" H 10290 5010 50  0001 C CNN
+	1    10290 5010
+	0    -1   -1   0   
+$EndComp
+$Comp
+L IC60:+5V #PWR?
+U 1 1 5F771816
+P 10290 5610
+F 0 "#PWR?" H 10290 5700 20  0001 C CNN
+F 1 "+5V" H 10286 5738 30  0000 C CNN
+F 2 "" H 10290 5610 60  0000 C CNN
+F 3 "" H 10290 5610 60  0000 C CNN
+	1    10290 5610
+	0    1    1    0   
+$EndComp
+NoConn ~ 10000 5310
+Wire Bus Line
+	3355 625  3355 1135
+Wire Bus Line
+	4995 625  4995 2110
+$EndSCHEMATC

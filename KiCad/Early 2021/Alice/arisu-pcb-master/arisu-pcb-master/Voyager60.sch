@@ -1,0 +1,252 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5B3392E8
+P 3710 8625
+F 0 "F1" V 3635 8625 50  0000 C CNN
+F 1 "500mA" V 3785 8625 50  0000 C CNN
+F 2 "Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow" H 3760 8425 50  0001 L CNN
+F 3 "" H 3710 8625 50  0001 C CNN
+	1    3710 8625
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR013
+U 1 1 5B33A96C
+P 4010 8625
+F 0 "#PWR013" H 4010 8475 50  0001 C CNN
+F 1 "+5V" H 4010 8765 50  0000 C CNN
+F 2 "" H 4010 8625 50  0001 C CNN
+F 3 "" H 4010 8625 50  0001 C CNN
+	1    4010 8625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR014
+U 1 1 5B33AEFF
+P 3460 8625
+F 0 "#PWR014" H 3460 8475 50  0001 C CNN
+F 1 "VCC" H 3460 8775 50  0000 C CNN
+F 2 "" H 3460 8625 50  0001 C CNN
+F 3 "" H 3460 8625 50  0001 C CNN
+	1    3460 8625
+	1    0    0    -1  
+$EndComp
+Text GLabel 5210 9050 2    60   Input ~ 0
+D-
+$Comp
+L Device:R_Small R67
+U 1 1 5B33C34D
+P 5010 9050
+F 0 "R67" H 5040 9070 50  0000 L CNN
+F 1 "22" H 5040 9010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" H 5010 9050 50  0001 C CNN
+F 3 "" H 5010 9050 50  0001 C CNN
+	1    5010 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R68
+U 1 1 5B33C7A5
+P 4810 9150
+F 0 "R68" H 4840 9170 50  0000 L CNN
+F 1 "22" H 4840 9110 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" H 4810 9150 50  0001 C CNN
+F 3 "" H 4810 9150 50  0001 C CNN
+	1    4810 9150
+	0    1    1    0   
+$EndComp
+Text GLabel 5210 9150 2    60   Input ~ 0
+D+
+$Comp
+L Voyager60-rescue:HRO-TYPE-C-31-M-12-Type-C USB1
+U 1 1 5B361237
+P 2485 9075
+F 0 "USB1" H 2285 9725 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" V 2085 9025 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12-Assembly" H 2485 9075 60  0001 C CNN
+F 3 "" H 2485 9075 60  0001 C CNN
+	1    2485 9075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5B3665A1
+P 3035 9725
+F 0 "#PWR015" H 3035 9475 50  0001 C CNN
+F 1 "GND" H 3035 9575 50  0000 C CNN
+F 2 "" H 3035 9725 50  0001 C CNN
+F 3 "" H 3035 9725 50  0001 C CNN
+	1    3035 9725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R73
+U 1 1 5B369C99
+P 3635 9800
+F 0 "R73" H 3665 9820 50  0000 L CNN
+F 1 "5.1k" H 3665 9760 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" H 3635 9800 50  0001 C CNN
+F 3 "" H 3635 9800 50  0001 C CNN
+	1    3635 9800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R74
+U 1 1 5B36AD9E
+P 3635 10050
+F 0 "R74" H 3665 10070 50  0000 L CNN
+F 1 "5.1k" H 3665 10010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" H 3635 10050 50  0001 C CNN
+F 3 "" H 3635 10050 50  0001 C CNN
+	1    3635 10050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5B36AF7A
+P 3885 10050
+F 0 "#PWR016" H 3885 9800 50  0001 C CNN
+F 1 "GND" H 3885 9900 50  0000 C CNN
+F 2 "" H 3885 10050 50  0001 C CNN
+F 3 "" H 3885 10050 50  0001 C CNN
+	1    3885 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2585 8625 3085 8625
+Wire Wire Line
+	4010 8625 3810 8625
+Wire Wire Line
+	5110 9050 5210 9050
+Wire Wire Line
+	2585 9025 2810 9025
+Wire Wire Line
+	2810 9025 2810 9150
+Wire Wire Line
+	2810 9225 2585 9225
+Wire Wire Line
+	2585 9125 2935 9125
+Wire Wire Line
+	2935 9125 2935 9050
+Wire Wire Line
+	2935 8925 2585 8925
+Connection ~ 2935 9050
+Connection ~ 2810 9150
+Wire Wire Line
+	3085 8625 3085 9525
+Wire Wire Line
+	3085 9525 2585 9525
+Wire Wire Line
+	2585 9625 3035 9625
+Wire Wire Line
+	3035 8525 3035 9625
+Wire Wire Line
+	3035 8525 2585 8525
+Wire Wire Line
+	3035 9725 2585 9725
+Connection ~ 3035 9625
+Connection ~ 3085 8625
+Connection ~ 3460 8625
+Wire Wire Line
+	2585 8825 3385 8825
+Wire Wire Line
+	3385 8825 3385 9800
+Wire Wire Line
+	3385 9800 3535 9800
+Wire Wire Line
+	2585 9425 3335 9425
+Wire Wire Line
+	3335 9425 3335 10050
+Wire Wire Line
+	3335 10050 3535 10050
+Wire Wire Line
+	3885 10050 3735 10050
+Wire Wire Line
+	3735 9800 3885 9800
+Wire Wire Line
+	3885 9800 3885 10050
+Wire Wire Line
+	2935 9050 2935 8925
+Wire Wire Line
+	2810 9150 2810 9225
+Wire Wire Line
+	3035 9625 3035 9725
+Wire Wire Line
+	3085 8625 3460 8625
+Wire Wire Line
+	3460 8625 3610 8625
+Wire Wire Line
+	4910 9150 5210 9150
+Wire Wire Line
+	2810 9150 3735 9150
+$Comp
+L power:VCC #PWR0101
+U 1 1 5CA79555
+P 4585 9475
+F 0 "#PWR0101" H 4585 9325 50  0001 C CNN
+F 1 "VCC" H 4602 9648 50  0000 C CNN
+F 2 "" H 4585 9475 50  0001 C CNN
+F 3 "" H 4585 9475 50  0001 C CNN
+	1    4585 9475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4585 9475 4485 9475
+Wire Wire Line
+	3885 9800 3885 9700
+Wire Wire Line
+	3885 9700 3560 9700
+Wire Wire Line
+	3560 9700 3560 9475
+Wire Wire Line
+	3560 9475 3885 9475
+Connection ~ 3885 9800
+Wire Wire Line
+	3885 9575 3735 9575
+Wire Wire Line
+	4485 9575 4685 9575
+Wire Wire Line
+	2935 9050 4685 9050
+Wire Wire Line
+	4685 9575 4685 9050
+Connection ~ 4685 9050
+Wire Wire Line
+	4685 9050 4910 9050
+Wire Wire Line
+	3735 9575 3735 9150
+Connection ~ 3735 9150
+Wire Wire Line
+	3735 9150 4710 9150
+Wire Wire Line
+	895  4140 895  3990
+NoConn ~ 2585 9325
+NoConn ~ 2585 8725
+$Comp
+L random-keyboard-parts:PRTR5V0U2X U?
+U 1 1 5F39F4AD
+P 4185 9525
+F 0 "U?" H 4185 9822 60  0000 C CNN
+F 1 "PRTR5V0U2X" H 4185 9716 60  0000 C CNN
+F 2 "" H 4185 9525 60  0001 C CNN
+F 3 "" H 4185 9525 60  0001 C CNN
+	1    4185 9525
+	1    0    0    -1  
+$EndComp
+Connection ~ 3035 9725
+Connection ~ 3885 10050
+$EndSCHEMATC

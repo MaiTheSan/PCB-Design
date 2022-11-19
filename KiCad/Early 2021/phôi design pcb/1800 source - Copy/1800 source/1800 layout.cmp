@@ -1,0 +1,3003 @@
+Cmp-Mod V01 Created by PcbNew   date = 8/28/2020 5:00:40 AM
+
+BeginCmp
+TimeStamp = 5F3E5F67
+Path = /5F679FE9
+Reference = MX_|\2;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F3E5080
+Path = /5F890598
+Reference = MX_ENTER2;
+ValeurCmp = 2x2.25U ISO enter;
+IdModule  = MX_Only:MXOnly-ISO;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F3A0951
+Path = /5F4A68B6
+Reference = U3;
+ValeurCmp = AT90USB1286-MU;
+IdModule  = Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F3A02F3
+Path = /5F8CAC36
+Reference = R108;
+ValeurCmp = 10k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F3A077D
+Path = /5F4A5654
+Reference = Q1;
+ValeurCmp = 2N7002;
+IdModule  = Package_TO_SOT_SMD:SOT-23;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD10C
+Path = /659F3690
+Reference = R109;
+ValeurCmp = 100-1.5k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45902D
+Path = /5F70FEF6
+Reference = D92;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FE01A
+Path = /5F707BE4
+Reference = MX_F4;
+ValeurCmp = 1U FLIPPED;
+IdModule  = MX_Only:MXOnly-1U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459766
+Path = /5F2E6701
+Reference = MX_ALT3;
+ValeurCmp = 1,25U FLIPPED;
+IdModule  = MX_Only:MXOnly-1.25U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45974F
+Path = /5F2D729B
+Reference = MX_ALT2;
+ValeurCmp = 1,25U FLIPPED;
+IdModule  = MX_Only:MXOnly-1.25U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459738
+Path = /5F38AAE5
+Reference = MX_ALT1;
+ValeurCmp = 1,5U;
+IdModule  = MX_Only:MXOnly-1.5U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F31D56E
+Path = /5F2F3CDE
+Reference = MX_RControl3;
+ValeurCmp = 1,5U FLIPPED;
+IdModule  = MX_Only:MXOnly-1.5U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F31D5C7
+Path = /5F2F0AF0
+Reference = MX_RControl2;
+ValeurCmp = 1U FLIPPED;
+IdModule  = MX_Only:MXOnly-1U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCF2C
+Path = /5F775328
+Reference = MX_numEnter1;
+ValeurCmp = 2U;
+IdModule  = MX_Only:MXOnly-2U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCECC
+Path = /5F744D15
+Reference = MX_num+1;
+ValeurCmp = 2U;
+IdModule  = MX_Only:MXOnly-2U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F309BF1
+Path = /5F6123BE
+Reference = D128;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F309BDA
+Path = /5F707F7A
+Reference = D127;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD05B
+Path = /5F78025F
+Reference = MX_up1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCD86
+Path = /5F780259
+Reference = MX_LShift1;
+ValeurCmp = 2,25U;
+IdModule  = MX_Only:MXOnly-2.25U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F32135E
+Path = /5F912D6E
+Reference = MX_CapLk2;
+ValeurCmp = 1,25U FLIPPED;
+IdModule  = MX_Only:MXOnly-1.25U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCA87
+Path = /5F7660A5
+Reference = MX_CapLk1;
+ValeurCmp = 1,75U ;
+IdModule  = MX_Only:MXOnly-1.75U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC8B7
+Path = /5F725AA2
+Reference = MX_4;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459D33
+Path = /5F2D728F
+Reference = MX_LControl2;
+ValeurCmp = 1,25U FLIPPED;
+IdModule  = MX_Only:MXOnly-1.25U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459D1C
+Path = /5F38AAE3
+Reference = MX_LControl1;
+ValeurCmp = 1,5U;
+IdModule  = MX_Only:MXOnly-1.5U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCF88
+Path = /5F70044E
+Reference = MX_PrtSc1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCB15
+Path = /5F7014B7
+Reference = MX_ESC1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCB5A
+Path = /5F706796
+Reference = MX_F3;
+ValeurCmp = 1U FLIPPED;
+IdModule  = MX_Only:MXOnly-1U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCB43
+Path = /5F705157
+Reference = MX_F2;
+ValeurCmp = 1U FLIPPED;
+IdModule  = MX_Only:MXOnly-1U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCB2C
+Path = /5F703E21
+Reference = MX_F1;
+ValeurCmp = 1U FLIPPED;
+IdModule  = MX_Only:MXOnly-1U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCA9E
+Path = /5F7660BD
+Reference = MX_D1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45ADE8
+Path = /5B361237
+Reference = USB1;
+ValeurCmp = HRO-TYPE-C-31-M-12;
+IdModule  = random-keyboard-parts:HRO-TYPE-C-31-M-12-Assembly;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F46190B
+Path = /5F3898FF
+Reference = U1;
+ValeurCmp = PRTR5V0U2X;
+IdModule  = random-keyboard-parts:SOT143B;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AC6A
+Path = /5F2DE0F3
+Reference = R107;
+ValeurCmp = 500;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AC59
+Path = /5FA9299B
+Reference = R106;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AC48
+Path = /5FAAAB3D
+Reference = R105;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AC37
+Path = /5FC46AB5
+Reference = R104;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AC26
+Path = /5FE825D0
+Reference = R103;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AC15
+Path = /5FF915FB
+Reference = R102;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AC04
+Path = /602239A6
+Reference = R101;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45ABF3
+Path = /5FD1609B
+Reference = R100;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45ABE2
+Path = /5FE5EC84
+Reference = R99;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45ABD1
+Path = /5FF68986
+Reference = R98;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45ABC0
+Path = /6022399F
+Reference = R97;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45ABAF
+Path = /5FAC2E9B
+Reference = R96;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AB9E
+Path = /5FD16094
+Reference = R95;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF78C
+Path = /5FE5EC7D
+Reference = R94;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF72C
+Path = /5FF6897F
+Reference = R93;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF75C
+Path = /60223991
+Reference = R92;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF84C
+Path = /5FA7A8C5
+Reference = R91;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF81C
+Path = /5FADB426
+Reference = R90;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF7EC
+Path = /5FD1608D
+Reference = R89;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF7BC
+Path = /5FE5EC76
+Reference = R88;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF87C
+Path = /5FF68978
+Reference = R87;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AB05
+Path = /5FA62D50
+Reference = R86;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF8AC
+Path = /5FAF3B9E
+Reference = R85;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AAE3
+Path = /5FD16086
+Reference = R84;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AAD2
+Path = /5FE5EC6F
+Reference = R83;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AAC1
+Path = /5FF68971
+Reference = R82;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AAB0
+Path = /5FA4B49E
+Reference = R81;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AA9F
+Path = /5FB0C70D
+Reference = R80;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AA8E
+Path = /5FD351EB
+Reference = R79;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AA7D
+Path = /5FE3B2CC
+Reference = R78;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AA6C
+Path = /5FF40480
+Reference = R77;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AA5B
+Path = /5FA33DF7
+Reference = R76;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AA4A
+Path = /5FB254CB
+Reference = R75;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AA39
+Path = /5B36AD9E
+Reference = R74;
+ValeurCmp = 5.1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AA28
+Path = /5B369C99
+Reference = R73;
+ValeurCmp = 5.1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AA17
+Path = /5FD351E4
+Reference = R72;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45AA06
+Path = /5FE3B2C5
+Reference = R71;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A9F5
+Path = /5FF40479
+Reference = R70;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A9E4
+Path = /5FA1CB50
+Reference = R69;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F461975
+Path = /5B33C7A5
+Reference = R68;
+ValeurCmp = 22;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F461945
+Path = /5B33C34D
+Reference = R67;
+ValeurCmp = 22;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A9B1
+Path = /5FB3E5A3
+Reference = R66;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A9A0
+Path = /5FD351DD
+Reference = R65;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A98F
+Path = /5FE3B2BE
+Reference = R64;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A97E
+Path = /5FF40472
+Reference = R63;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A96D
+Path = /5FF91610
+Reference = R62;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A95C
+Path = /5FA05B47
+Reference = R61;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A94B
+Path = /5FB57A77
+Reference = R60;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A93A
+Path = /5FD351D6
+Reference = R59;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A929
+Path = /5FE3B2B7
+Reference = R58;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A918
+Path = /5FF4046B
+Reference = R57;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A907
+Path = /5F9EED6F
+Reference = R56;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A8F6
+Path = /5FB71126
+Reference = R55;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A8E5
+Path = /5FD554AF
+Reference = R54;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A8D4
+Path = /5FE184EA
+Reference = R53;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A8C3
+Path = /5FF18F70
+Reference = R52;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A8B2
+Path = /5F8FFA57
+Reference = R51;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A8A1
+Path = /5F9D835A
+Reference = R50;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A890
+Path = /5FB8AB6E
+Reference = R49;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A87F
+Path = /5FD554A8
+Reference = R48;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A86E
+Path = /5FE184E3
+Reference = R47;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A85D
+Path = /5FF18F69
+Reference = R46;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF90C
+Path = /600B4CB9
+Reference = R45;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF96C
+Path = /5F9C1AF7
+Reference = R44;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF93C
+Path = /5FBA498C
+Reference = R43;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF8DC
+Path = /5FD554A1
+Reference = R42;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF99C
+Path = /5FE184DC
+Reference = R41;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A7F7
+Path = /5FF18F62
+Reference = R40;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A7E6
+Path = /600B4CC0
+Reference = R39;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A7D5
+Path = /5F9AB62A
+Reference = R38;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A7C4
+Path = /5FBBEB4A
+Reference = R37;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A7B3
+Path = /5FD5549A
+Reference = R36;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A7A2
+Path = /5FE184D5
+Reference = R35;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A791
+Path = /5FF18F5B
+Reference = R34;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A780
+Path = /600B4CC7
+Reference = R33;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A76F
+Path = /5F9955DF
+Reference = R32;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A75E
+Path = /5FBD9026
+Reference = R31;
+ValeurCmp = 300;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A74D
+Path = /5FC46AC3
+Reference = R30;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A73C
+Path = /5FE825D7
+Reference = R29;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A72B
+Path = /5FF91602
+Reference = R28;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A71A
+Path = /600B4CCE
+Reference = R27;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A709
+Path = /5F97F77C
+Reference = R26;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A6F8
+Path = /5FC46ABC
+Reference = R25;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A6E7
+Path = /5FC46AAE
+Reference = R24;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A6D6
+Path = /5FE825DE
+Reference = R23;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A6C5
+Path = /5F8FE97C
+Reference = R22;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A6B4
+Path = /5F969A3B
+Reference = R21;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A6A3
+Path = /5FBF3830
+Reference = R20;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A692
+Path = /5FCF788A
+Reference = R19;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A681
+Path = /5FDF6E5D
+Reference = R18;
+ValeurCmp = 300;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A670
+Path = /5FEF1A67
+Reference = R17;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A65F
+Path = /5FF91609
+Reference = R16;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A64E
+Path = /5F9542BB
+Reference = R15;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A63D
+Path = /5FC0E42B
+Reference = R14;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A62C
+Path = /5FCF7883
+Reference = R13;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A61B
+Path = /5FDF6E56
+Reference = R12;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A60A
+Path = /5FEF1A60
+Reference = R11;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF63C
+Path = /5FE825E5
+Reference = R10;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF6CC
+Path = /5F93EF88
+Reference = R9;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF6FC
+Path = /5FC294DF
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF66C
+Path = /5FCF787C
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF69C
+Path = /5FDF6E4F
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A5A4
+Path = /5FEF1A59
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF60C
+Path = /5F929E3A
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FF5DC
+Path = /5FCF7875
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A571
+Path = /5FDF6E48
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A560
+Path = /5FEF1A52
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F370DCE
+Path = /5F744D7B
+Reference = MX_|\1;
+ValeurCmp = 1.5U FLIPPED;
+IdModule  = MX_Only:MXOnly-1.5U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F32D2E8
+Path = /5F2ED035
+Reference = MX_SpaceBar4;
+ValeurCmp = 7U;
+IdModule  = MX_Only:MXOnly-7U-ReversedStabilizers;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A37E
+Path = /5F2ED02F
+Reference = MX_SpaceBar3;
+ValeurCmp = 7U;
+IdModule  = MX_Only:MXOnly-7U-ReversedStabilizers;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A363
+Path = /5F2E8C71
+Reference = MX_SpaceBar2;
+ValeurCmp = 6,25U FLIPPED;
+IdModule  = MX_Only:MXOnly-6.25U-FLIPPED-ReversedStabilizers;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A348
+Path = /5F38AAE8
+Reference = MX_SpaceBar1;
+ValeurCmp = 6,25U FLIPPED;
+IdModule  = MX_Only:MXOnly-6.25U-FLIPPED-ReversedStabilizers;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A301
+Path = /5F2F7994
+Reference = MX_RWin4;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A2EA
+Path = /5F2F798D
+Reference = MX_RWin3;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A2D3
+Path = /5F2F5A28
+Reference = MX_RWin2;
+ValeurCmp = 1,5U;
+IdModule  = MX_Only:MXOnly-1.5U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A2BC
+Path = /5F38AAE6
+Reference = MX_RWin1;
+ValeurCmp = NoLed;
+IdModule  = MX_Only:MXOnly-1.25U-NoLED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCFE8
+Path = /5F7802A1
+Reference = MX_RShift2;
+ValeurCmp = 2,75U FLIPPED;
+IdModule  = MX_Only:MXOnly-2.75U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A28D
+Path = /5F38AAE1
+Reference = MX_right1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A248
+Path = /5F38AAE9
+Reference = MX_RControl1;
+ValeurCmp = 1,25U NoLed;
+IdModule  = MX_Only:MXOnly-1.25U-NoLED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A233
+Path = /5F3030B4
+Reference = MX_RAlt4;
+ValeurCmp = 1,5U;
+IdModule  = MX_Only:MXOnly-1.5U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A21C
+Path = /5F3014E7
+Reference = MX_RAlt3;
+ValeurCmp = 1,25U;
+IdModule  = MX_Only:MXOnly-1.25U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A205
+Path = /5F2FF727
+Reference = MX_RAlt2;
+ValeurCmp = 1,5U FLIPPED;
+IdModule  = MX_Only:MXOnly-1.5U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45A1EE
+Path = /5F38AAE7
+Reference = MX_RAlt1;
+ValeurCmp = 1,25U;
+IdModule  = MX_Only:MXOnly-1.25U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459DA7
+Path = /5F2E14EC
+Reference = MX_LWin3;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459D90
+Path = /5F2E14E5
+Reference = MX_LWin2;
+ValeurCmp = 1,25U NoLed;
+IdModule  = MX_Only:MXOnly-1.25U-NoLED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459D7B
+Path = /5F794F5A
+Reference = MX_LWin1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459D4A
+Path = /5F38AAE0
+Reference = MX_Left1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCC57
+Path = /5F710CBB
+Reference = MX_F14;
+ValeurCmp = 1U FLIPPED;
+IdModule  = MX_Only:MXOnly-1U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F370D84
+Path = /5F7660F9
+Reference = MX_ENTER1;
+ValeurCmp = 2,25U FLIPPED;
+IdModule  = MX_Only:MXOnly-2.25U-FLIPPED-ReversedStabilizers;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45985D
+Path = /5F38AAE2
+Reference = MX_Down1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCA59
+Path = /5F73FDB9
+Reference = MX_BkSp1;
+ValeurCmp = 2U FLIPPED;
+IdModule  = MX_Only:MXOnly-2U-FLIPPED;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45934F
+Path = /5F7AF4FC
+Reference = D126;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459336
+Path = /5F9C380F
+Reference = D125;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45931F
+Path = /5F9C3815
+Reference = D124;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459308
+Path = /5F9C3803
+Reference = D123;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4592F1
+Path = /5F9C37FD
+Reference = D122;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4592DA
+Path = /5F9E18AD
+Reference = D121;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4592C3
+Path = /5F9E18B3
+Reference = D120;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4592AC
+Path = /5F9E18A1
+Reference = D119;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459295
+Path = /5F9E189B
+Reference = D118;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45927E
+Path = /5F9FF44F
+Reference = D117;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459267
+Path = /5F9FF455
+Reference = D116;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459250
+Path = /5FA1FE57
+Reference = D115;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459239
+Path = /5FA1FE51
+Reference = D114;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459222
+Path = /5FA1FE39
+Reference = D113;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45920B
+Path = /5FA1FE3F
+Reference = D112;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4591F4
+Path = /5FA1FE4B
+Reference = D111;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4591DD
+Path = /5FA1FE45
+Reference = D110;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4591C6
+Path = /5FA1FE21
+Reference = D109;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4591AF
+Path = /5FA1FE27
+Reference = D108;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459198
+Path = /5FA1FE33
+Reference = D107;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459181
+Path = /5FA1FE2D
+Reference = D106;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45916A
+Path = /5FA1FE09
+Reference = D105;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459153
+Path = /5FA1FE0F
+Reference = D104;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45913C
+Path = /5FA1FE1B
+Reference = D103;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459125
+Path = /5FA1FE15
+Reference = D102;
+ValeurCmp = WS2812B;
+IdModule  = LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45910E
+Path = /5F70FF0B
+Reference = D101;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4590F5
+Path = /5F70FF04
+Reference = D100;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4590DC
+Path = /5F60F9ED
+Reference = D99;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4590C3
+Path = /5F517928
+Reference = D98;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4590AA
+Path = /5F8741AC
+Reference = D97;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459091
+Path = /5F62BBB1
+Reference = D96;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459078
+Path = /5F6039EA
+Reference = D95;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45905F
+Path = /5F50DA25
+Reference = D94;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459046
+Path = /5F8741A6
+Reference = D93;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F459014
+Path = /5F62BBAA
+Reference = D91;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458FFB
+Path = /5F5EA47F
+Reference = D90;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458FE2
+Path = /5F503D58
+Reference = D89;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458FC9
+Path = /5F80A3EE
+Reference = D88;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458FB0
+Path = /5F7AF4EE
+Reference = D87;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458F97
+Path = /5F6FCB46
+Reference = D86;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458F7E
+Path = /5F62BBA3
+Reference = D85;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458F65
+Path = /5F5DE8A4
+Reference = D84;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458F4C
+Path = /5F4FA106
+Reference = D83;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458F33
+Path = /5F7AF4E7
+Reference = D82;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458F1A
+Path = /5F6FCB3F
+Reference = D81;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458F01
+Path = /5F62BB9C
+Reference = D80;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458EE8
+Path = /5F5D2EAC
+Reference = D79;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458ECF
+Path = /5F4F0560
+Reference = D78;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458EB6
+Path = /5F799DA3
+Reference = D77;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458E9D
+Path = /5F6FCB38
+Reference = D76;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458E84
+Path = /5F62BB95
+Reference = D75;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458E6B
+Path = /5F5C76D3
+Reference = D74;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458E52
+Path = /5F4E6AAD
+Reference = D73;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458E39
+Path = /5F799D9C
+Reference = D72;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458E20
+Path = /5F6FCB31
+Reference = D71;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458E07
+Path = /5F62BB8E
+Reference = D70;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458DEE
+Path = /5F5BC09B
+Reference = D69;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458DD5
+Path = /5F4D21ED
+Reference = D68;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458DBC
+Path = /5F799D95
+Reference = D67;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458DA3
+Path = /5F6D8376
+Reference = D66;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458D8A
+Path = /5F62BB87
+Reference = D65;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458D71
+Path = /5F5B0AC4
+Reference = D64;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458D58
+Path = /5F4C8BC3
+Reference = D63;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458D3F
+Path = /5F80A3F4
+Reference = D62;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458D26
+Path = /5F799D8E
+Reference = D61;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458D0D
+Path = /5F6D836F
+Reference = D60;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458CF4
+Path = /5F62BB80
+Reference = D59;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458CDB
+Path = /5F598879
+Reference = D58;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458CC2
+Path = /5F4BF6B9
+Reference = D57;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458CA9
+Path = /5F78505F
+Reference = D56;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458C90
+Path = /5F6D8368
+Reference = D55;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458C77
+Path = /5F62BB79
+Reference = D54;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458C5E
+Path = /5F58D48D
+Reference = D53;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458C45
+Path = /5F4B6204
+Reference = D52;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458C2C
+Path = /5F7F3F6E
+Reference = D51;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458C13
+Path = /5F785058
+Reference = D50;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458BFA
+Path = /5F6D8361
+Reference = D49;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458BE1
+Path = /5F62BB72
+Reference = D48;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458BC8
+Path = /5F582319
+Reference = D47;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458BAF
+Path = /5F4ACF7B
+Reference = D46;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458B96
+Path = /5F7F3F68
+Reference = D45;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458B7D
+Path = /5F785051
+Reference = D44;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458B64
+Path = /5F70FEFD
+Reference = D43;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458B4B
+Path = /5F62BB6B
+Reference = D42;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458B32
+Path = /5F577506
+Reference = D41;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458B19
+Path = /5F4A3DFE
+Reference = D40;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458B00
+Path = /5F7F3F62
+Reference = D39;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458AE7
+Path = /5F78504A
+Reference = D38;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458ACE
+Path = /5F6B276C
+Reference = D37;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458AB5
+Path = /5F62BB64
+Reference = D36;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458A9C
+Path = /5F56C7BB
+Reference = D35;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458A83
+Path = /5F49AD4B
+Reference = D34;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458A6A
+Path = /5F7F3F74
+Reference = D33;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458A51
+Path = /5F7AF4F5
+Reference = D32;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458A38
+Path = /5F6B2765
+Reference = D31;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458A1F
+Path = /5F6B275E
+Reference = D30;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458A06
+Path = /5F561C7C
+Reference = D29;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4589ED
+Path = /5F491E21
+Reference = D28;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4589D4
+Path = /5F80A3FA
+Reference = D27;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4589BB
+Path = /5F43D662
+Reference = D26;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4589A2
+Path = /5F68EBE7
+Reference = D25;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458989
+Path = /5F5571EB
+Reference = D24;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458970
+Path = /5F489107
+Reference = D23;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458957
+Path = /5F80A400
+Reference = D22;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45893E
+Path = /5F75B654
+Reference = D21;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458925
+Path = /5F68EBFC
+Reference = D20;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45890C
+Path = /5F67DE28
+Reference = D19;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4588F3
+Path = /5F54C913
+Reference = D18;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4588DA
+Path = /5F48059D
+Reference = D17;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4588C1
+Path = /5F42B5A4
+Reference = D16;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4588A8
+Path = /5F75B64D
+Reference = D15;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45888F
+Path = /5F68EBF5
+Reference = D14;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458876
+Path = /5F67DE21
+Reference = D13;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45885D
+Path = /5F536283
+Reference = D12;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458844
+Path = /5F477C3C
+Reference = D11;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45882B
+Path = /5F45E557
+Reference = D10;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458812
+Path = /5F75B646
+Reference = D9;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4587F9
+Path = /5F68EBEE
+Reference = D8;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4587E0
+Path = /5F67DE1A
+Reference = D7;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4587C7
+Path = /5F52BE54
+Reference = D6;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F4587AE
+Path = /5F46F326
+Reference = D5;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458795
+Path = /5F75B63F
+Reference = D4;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45877C
+Path = /5F67DE13
+Reference = D3;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F458763
+Path = /5F521A1A
+Reference = D2;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F461054
+Path = /5F466B4F
+Reference = D1;
+ValeurCmp = SOD123;
+IdModule  = random-keyboard-parts:D_SOD-123-Pretty;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F30AD97
+Path = /5B32FABC
+Reference = Y1;
+ValeurCmp = 16MHz;
+IdModule  = Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F45C4A2
+Path = /5F3DE402
+Reference = U2;
+ValeurCmp = AT90USB1286-AU;
+IdModule  = Package_QFP:TQFP-64_14x14mm_P0.8mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD14C
+Path = /5C4DB62B
+Reference = SW1;
+ValeurCmp = SW_Push;
+IdModule  = random-keyboard-parts:SKQG-1155865;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD12E
+Path = /5B33099C
+Reference = R113;
+ValeurCmp = 1k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD11D
+Path = /5B32ED01
+Reference = R112;
+ValeurCmp = 10k;
+IdModule  = random-keyboard-parts:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD0CE
+Path = /5F780265
+Reference = MX_z1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD0B7
+Path = /5F744D63
+Reference = MX_Y1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD0A0
+Path = /5F78026B
+Reference = MX_x1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD089
+Path = /5F744D3F
+Reference = MX_W1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD072
+Path = /5F78029B
+Reference = MX_v1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD044
+Path = /5F744D5D
+Reference = MX_U1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD02D
+Path = /5F744D2D
+Reference = MX_tab1;
+ValeurCmp = 1,5U;
+IdModule  = MX_Only:MXOnly-1.5U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FD016
+Path = /5F744D69
+Reference = MX_T1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCFFF
+Path = /5F7660B7
+Reference = MX_S1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCFB6
+Path = /5F744D6F
+Reference = MX_R1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCF9F
+Path = /5F744D39
+Reference = MX_Q1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCF71
+Path = /5F744D4B
+Reference = MX_P1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCF5A
+Path = /5F744D51
+Reference = MX_O1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCF43
+Path = /5F725A6C
+Reference = MX_num*1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCF11
+Path = /5F794F3C
+Reference = MX_numDel1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCEFA
+Path = /5F725A72
+Reference = MX_num/1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCEE3
+Path = /5F725A66
+Reference = MX_num-1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCEB1
+Path = /5F725A78
+Reference = MX_numLk1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCE9A
+Path = /5F744D27
+Reference = MX_num9;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCE83
+Path = /5F744D21
+Reference = MX_num8;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCE6C
+Path = /5F744D1B
+Reference = MX_num7;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCE55
+Path = /5F76609F
+Reference = MX_num6;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCE3E
+Path = /5F766099
+Reference = MX_num5;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCE27
+Path = /5F766093
+Reference = MX_num4;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCE10
+Path = /5F780253
+Reference = MX_num3;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCDF9
+Path = /5F78024D
+Reference = MX_num2;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCDE2
+Path = /5F780247
+Reference = MX_num1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCDCB
+Path = /5F794F36
+Reference = MX_num0;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCDB4
+Path = /5F78028F
+Reference = MX_n2;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCD9D
+Path = /5F780289
+Reference = MX_m2;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCD54
+Path = /5F7660C9
+Reference = MX_L1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCD3D
+Path = /5F7660CF
+Reference = MX_K1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCD26
+Path = /5F7660D5
+Reference = MX_J1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCD0F
+Path = /5F725A84
+Reference = MX_insert1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCCF8
+Path = /5F744D57
+Reference = MX_I1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCCE1
+Path = /5F7660DB
+Reference = MX_H1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCCCA
+Path = /5F7660E1
+Reference = MX_G1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCCB3
+Path = /5F6FD917
+Reference = MX_FN4;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCC9C
+Path = /5F6FD911
+Reference = MX_FN3;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCC85
+Path = /5F6FC4D3
+Reference = MX_FN2;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCC6E
+Path = /5F6F6E58
+Reference = MX_FN1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCC40
+Path = /5F70C7DC
+Reference = MX_F13;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCC29
+Path = /5F70C7D6
+Reference = MX_F12;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCC12
+Path = /5F70C7D0
+Reference = MX_F11;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCBFB
+Path = /5F70C7CA
+Reference = MX_F10;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCBE4
+Path = /5F70A1E5
+Reference = MX_F9;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCBCD
+Path = /5F70A1DF
+Reference = MX_F8;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCBB6
+Path = /5F70A1D9
+Reference = MX_F7;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCB9F
+Path = /5F70A1D3
+Reference = MX_F6;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCB88
+Path = /5F7660E7
+Reference = MX_F5;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCAE3
+Path = /5F744D45
+Reference = MX_E1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCAB5
+Path = /5F744D33
+Reference = MX_Delete1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCA70
+Path = /5F780271
+Reference = MX_c1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCA3E
+Path = /5F780295
+Reference = MX_b1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCA27
+Path = /5F7660B1
+Reference = MX_A1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FCA10
+Path = /5F725A7E
+Reference = MX_`~1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC9F9
+Path = /5F744D81
+Reference = MX_]1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC9E2
+Path = /5F744D75
+Reference = MX_[1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC9CB
+Path = /5F78027D
+Reference = MX_>2;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC9B4
+Path = /5F780283
+Reference = MX_<2;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC99D
+Path = /5F7660C3
+Reference = MX_;1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC986
+Path = /5F780277
+Reference = MX_/?/2;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC96F
+Path = /5F73E0F7
+Reference = MX_-1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC958
+Path = /5F73FDBF
+Reference = MX_+1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC941
+Path = /5F7660ED
+Reference = MX_'1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC92A
+Path = /5F725AC6
+Reference = MX_9;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC913
+Path = /5F725AC0
+Reference = MX_8;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC8FC
+Path = /5F725AB4
+Reference = MX_7;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC8E5
+Path = /5F725AAE
+Reference = MX_6;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC8CE
+Path = /5F725AA8
+Reference = MX_5;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC8A0
+Path = /5F725A96
+Reference = MX_3;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC889
+Path = /5F725A90
+Reference = MX_2;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC872
+Path = /5F725A8A
+Reference = MX_1;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC85B
+Path = /5F725ACC
+Reference = MX_0;
+ValeurCmp = 1U;
+IdModule  = MX_Only:MXOnly-1U;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC831
+Path = /5B68D1BE
+Reference = J1;
+ValeurCmp = AVR-ISP-6;
+IdModule  = random-keyboard-parts:Reset_Pretty-Mask;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC81D
+Path = /5B330FEA
+Reference = C8;
+ValeurCmp = 0.1uF;
+IdModule  = random-keyboard-parts:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC80C
+Path = /5B330F95
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = random-keyboard-parts:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC7FB
+Path = /5B330F05
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = random-keyboard-parts:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FDCF4
+Path = /5B3311EA
+Reference = C5;
+ValeurCmp = 1uF;
+IdModule  = random-keyboard-parts:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC7D9
+Path = /5B32FF3E
+Reference = C4;
+ValeurCmp = 22pF;
+IdModule  = random-keyboard-parts:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC7C8
+Path = /5B32FECF
+Reference = C3;
+ValeurCmp = 22pF;
+IdModule  = random-keyboard-parts:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5F2FC7B7
+Path = /5B32EF62
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = random-keyboard-parts:C_0603;
+EndCmp
+
+EndListe

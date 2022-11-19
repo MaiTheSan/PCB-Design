@@ -1,0 +1,172 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED:SK6812MINI RGB1
+U 1 1 62EFBD65
+P 1600 1200
+F 0 "RGB1" H 1944 1246 50  0000 L CNN
+F 1 "SK6812MINI" H 1944 1155 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1650 900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1700 825 50  0001 L TNN
+	1    1600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB2
+U 1 1 62EFD6B7
+P 2700 1200
+F 0 "RGB2" H 3044 1246 50  0000 L CNN
+F 1 "SK6812MINI" H 3044 1155 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2750 900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2800 825 50  0001 L TNN
+	1    2700 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1200 2400 1200
+Wire Wire Line
+	3000 1200 3500 1200
+$Comp
+L LED:SK6812MINI RGB3
+U 1 1 62F01457
+P 3800 1200
+F 0 "RGB3" H 4144 1246 50  0000 L CNN
+F 1 "SK6812MINI" H 4144 1155 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3850 900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3900 825 50  0001 L TNN
+	1    3800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB4
+U 1 1 62F0145D
+P 4900 1200
+F 0 "RGB4" H 5244 1246 50  0000 L CNN
+F 1 "SK6812MINI" H 5244 1155 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4950 900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5000 825 50  0001 L TNN
+	1    4900 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1200 4600 1200
+Wire Wire Line
+	5200 1200 5700 1200
+$Comp
+L LED:SK6812MINI RGB5
+U 1 1 62F01832
+P 13700 1200
+F 0 "RGB5" H 14044 1246 50  0000 L CNN
+F 1 "SK6812MINI" H 14044 1155 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 13750 900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 13800 825 50  0001 L TNN
+	1    13700 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB6
+U 1 1 62F05F0E
+P 6000 1200
+F 0 "RGB6" H 6344 1246 50  0000 L CNN
+F 1 "SK6812MINI" H 6344 1155 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6050 900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 6100 825 50  0001 L TNN
+	1    6000 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB7
+U 1 1 62F05F14
+P 7100 1200
+F 0 "RGB7" H 7444 1246 50  0000 L CNN
+F 1 "SK6812MINI" H 7444 1155 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7150 900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7200 825 50  0001 L TNN
+	1    7100 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 1200 6800 1200
+Wire Wire Line
+	7400 1200 7900 1200
+$Comp
+L LED:SK6812MINI RGB8
+U 1 1 62F05F1C
+P 8200 1200
+F 0 "RGB8" H 8544 1246 50  0000 L CNN
+F 1 "SK6812MINI" H 8544 1155 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8250 900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8300 825 50  0001 L TNN
+	1    8200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB9
+U 1 1 62F05F22
+P 9300 1200
+F 0 "RGB9" H 9644 1246 50  0000 L CNN
+F 1 "SK6812MINI" H 9644 1155 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9350 900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 9400 825 50  0001 L TNN
+	1    9300 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 1200 9000 1200
+Wire Wire Line
+	9600 1200 10100 1200
+$Comp
+L LED:SK6812MINI RGB10
+U 1 1 62F0C120
+P 10400 1200
+F 0 "RGB10" H 10744 1246 50  0000 L CNN
+F 1 "SK6812MINI" H 10744 1155 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 10450 900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 10500 825 50  0001 L TNN
+	1    10400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:SK6812MINI RGB11
+U 1 1 62F0C126
+P 11500 1200
+F 0 "RGB11" H 11844 1246 50  0000 L CNN
+F 1 "SK6812MINI" H 11844 1155 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 11550 900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 11600 825 50  0001 L TNN
+	1    11500 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 1200 11200 1200
+Wire Wire Line
+	11800 1200 12300 1200
+$Comp
+L LED:SK6812MINI RGB12
+U 1 1 62F0C12E
+P 12600 1200
+F 0 "RGB12" H 12944 1246 50  0000 L CNN
+F 1 "SK6812MINI" H 12944 1155 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 12650 900 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 12700 825 50  0001 L TNN
+	1    12600 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 1200 13400 1200
+Wire Wire Line
+	14000 1200 14500 1200
+$EndSCHEMATC

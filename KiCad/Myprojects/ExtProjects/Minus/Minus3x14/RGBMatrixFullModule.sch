@@ -1,0 +1,1959 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED_GRAB L_D1
+U 1 1 61589F3D
+P 6850 1300
+F 0 "L_D1" H 6850 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 6850 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 6850 1250 50  0001 C CNN
+F 3 "~" H 6850 1250 50  0001 C CNN
+	1    6850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D5
+U 1 1 6158B28C
+P 7350 1300
+F 0 "L_D5" H 7350 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 7350 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 7350 1250 50  0001 C CNN
+F 3 "~" H 7350 1250 50  0001 C CNN
+	1    7350 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1300 7050 650 
+$Comp
+L Device:LED_GRAB L_D9
+U 1 1 6158C64E
+P 7850 1300
+F 0 "L_D9" H 7850 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 7850 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 7850 1250 50  0001 C CNN
+F 3 "~" H 7850 1250 50  0001 C CNN
+	1    7850 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1300 7550 650 
+Text GLabel 7050 650  1    50   Input ~ 0
+CS1
+Text GLabel 7550 650  1    50   Input ~ 0
+CS2
+Wire Wire Line
+	8050 1300 8050 650 
+Text GLabel 8050 650  1    50   Input ~ 0
+CS3
+$Comp
+L Device:LED_GRAB L_D13
+U 1 1 615989DA
+P 8350 1300
+F 0 "L_D13" H 8350 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 8350 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 8350 1250 50  0001 C CNN
+F 3 "~" H 8350 1250 50  0001 C CNN
+	1    8350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D17
+U 1 1 615989E0
+P 8850 1300
+F 0 "L_D17" H 8850 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 8850 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 8850 1250 50  0001 C CNN
+F 3 "~" H 8850 1250 50  0001 C CNN
+	1    8850 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 1300 8550 650 
+$Comp
+L Device:LED_GRAB L_D21
+U 1 1 615989E7
+P 9350 1300
+F 0 "L_D21" H 9350 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 9350 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 9350 1250 50  0001 C CNN
+F 3 "~" H 9350 1250 50  0001 C CNN
+	1    9350 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1300 9050 650 
+Text GLabel 8550 650  1    50   Input ~ 0
+CS4
+Text GLabel 9050 650  1    50   Input ~ 0
+CS5
+Wire Wire Line
+	9550 1300 9550 650 
+Text GLabel 9550 650  1    50   Input ~ 0
+CS6
+$Comp
+L Device:LED_GRAB L_D25
+U 1 1 615A9C77
+P 9850 1300
+F 0 "L_D25" H 9850 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 9850 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 9850 1250 50  0001 C CNN
+F 3 "~" H 9850 1250 50  0001 C CNN
+	1    9850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D29
+U 1 1 615A9C7D
+P 10350 1300
+F 0 "L_D29" H 10350 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 10350 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 10350 1250 50  0001 C CNN
+F 3 "~" H 10350 1250 50  0001 C CNN
+	1    10350 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1300 10050 650 
+$Comp
+L Device:LED_GRAB L_D33
+U 1 1 615A9C84
+P 10850 1300
+F 0 "L_D33" H 10850 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 10850 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 10850 1250 50  0001 C CNN
+F 3 "~" H 10850 1250 50  0001 C CNN
+	1    10850 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 1300 10550 650 
+Wire Wire Line
+	11050 1300 11050 650 
+$Comp
+L Device:LED_GRAB L_D37
+U 1 1 615A9C8C
+P 11350 1300
+F 0 "L_D37" H 11350 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 11350 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 11350 1250 50  0001 C CNN
+F 3 "~" H 11350 1250 50  0001 C CNN
+	1    11350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D41
+U 1 1 615A9C92
+P 11850 1300
+F 0 "L_D41" H 11850 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 11850 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 11850 1250 50  0001 C CNN
+F 3 "~" H 11850 1250 50  0001 C CNN
+	1    11850 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11550 1300 11550 650 
+$Comp
+L Device:LED_GRAB L_D45
+U 1 1 615A9C99
+P 12350 1300
+F 0 "L_D45" H 12350 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 12350 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 12350 1250 50  0001 C CNN
+F 3 "~" H 12350 1250 50  0001 C CNN
+	1    12350 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 1300 12050 650 
+Wire Wire Line
+	12550 1300 12550 650 
+Text GLabel 10050 650  1    50   Input ~ 0
+CS7
+Text GLabel 10550 650  1    50   Input ~ 0
+CS8
+Text GLabel 11050 650  1    50   Input ~ 0
+CS9
+Text GLabel 11550 650  1    50   Input ~ 0
+CS10
+Text GLabel 12050 650  1    50   Input ~ 0
+CS11
+Text GLabel 12550 650  1    50   Input ~ 0
+CS12
+$Comp
+L Device:LED_GRAB L_D49
+U 1 1 615C5F7F
+P 12850 1300
+F 0 "L_D49" H 12850 1797 50  0000 C CNN
+F 1 "LED_GRAB" H 12850 1706 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 12850 1250 50  0001 C CNN
+F 3 "~" H 12850 1250 50  0001 C CNN
+	1    12850 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 1300 13050 650 
+Text GLabel 13050 650  1    50   Input ~ 0
+CS13
+Wire Wire Line
+	7050 1300 7050 2175
+Connection ~ 7050 1300
+Wire Wire Line
+	6650 1100 6650 1050
+Wire Wire Line
+	6650 1050 7150 1050
+Wire Wire Line
+	12650 1050 12650 1100
+Wire Wire Line
+	12150 1050 12150 1100
+Connection ~ 12150 1050
+Wire Wire Line
+	12150 1050 12650 1050
+Wire Wire Line
+	11650 1050 11650 1100
+Connection ~ 11650 1050
+Wire Wire Line
+	11650 1050 12150 1050
+Wire Wire Line
+	11150 1050 11150 1100
+Connection ~ 11150 1050
+Wire Wire Line
+	11150 1050 11650 1050
+Wire Wire Line
+	10650 1050 10650 1100
+Connection ~ 10650 1050
+Wire Wire Line
+	10650 1050 11150 1050
+Wire Wire Line
+	10150 1050 10150 1100
+Connection ~ 10150 1050
+Wire Wire Line
+	10150 1050 10650 1050
+Wire Wire Line
+	9650 1050 9650 1100
+Connection ~ 9650 1050
+Wire Wire Line
+	9650 1050 10150 1050
+Wire Wire Line
+	9150 1050 9150 1100
+Connection ~ 9150 1050
+Wire Wire Line
+	9150 1050 9650 1050
+Wire Wire Line
+	8650 1050 8650 1100
+Connection ~ 8650 1050
+Wire Wire Line
+	8650 1050 9150 1050
+Wire Wire Line
+	8150 1050 8150 1100
+Connection ~ 8150 1050
+Wire Wire Line
+	8150 1050 8650 1050
+Wire Wire Line
+	7650 1050 7650 1100
+Connection ~ 7650 1050
+Wire Wire Line
+	7650 1050 8150 1050
+Wire Wire Line
+	7150 1050 7150 1100
+Connection ~ 7150 1050
+Wire Wire Line
+	7150 1050 7650 1050
+Wire Wire Line
+	6650 1500 6650 1450
+Wire Wire Line
+	6650 1450 7150 1450
+Wire Wire Line
+	12650 1450 12650 1500
+Wire Wire Line
+	12150 1450 12150 1500
+Connection ~ 12150 1450
+Wire Wire Line
+	12150 1450 12650 1450
+Wire Wire Line
+	11650 1450 11650 1500
+Connection ~ 11650 1450
+Wire Wire Line
+	11650 1450 12150 1450
+Wire Wire Line
+	11150 1450 11150 1500
+Connection ~ 11150 1450
+Wire Wire Line
+	11150 1450 11650 1450
+Wire Wire Line
+	10650 1450 10650 1500
+Connection ~ 10650 1450
+Wire Wire Line
+	10650 1450 11150 1450
+Wire Wire Line
+	10150 1450 10150 1500
+Connection ~ 10150 1450
+Wire Wire Line
+	10150 1450 10650 1450
+Wire Wire Line
+	9650 1450 9650 1500
+Connection ~ 9650 1450
+Wire Wire Line
+	9650 1450 10150 1450
+Wire Wire Line
+	9150 1450 9150 1500
+Connection ~ 9150 1450
+Wire Wire Line
+	9150 1450 9650 1450
+Wire Wire Line
+	8650 1450 8650 1500
+Connection ~ 8650 1450
+Wire Wire Line
+	8650 1450 9150 1450
+Wire Wire Line
+	8150 1450 8150 1500
+Connection ~ 8150 1450
+Wire Wire Line
+	8150 1450 8650 1450
+Wire Wire Line
+	7650 1450 7650 1500
+Connection ~ 7650 1450
+Wire Wire Line
+	7650 1450 8150 1450
+Wire Wire Line
+	7150 1450 7150 1500
+Connection ~ 7150 1450
+Wire Wire Line
+	7150 1450 7650 1450
+Wire Wire Line
+	6650 1300 6650 1250
+Wire Wire Line
+	6650 1250 7150 1250
+Wire Wire Line
+	12650 1250 12650 1300
+Wire Wire Line
+	12150 1250 12150 1300
+Connection ~ 12150 1250
+Wire Wire Line
+	12150 1250 12650 1250
+Wire Wire Line
+	11650 1250 11650 1300
+Connection ~ 11650 1250
+Wire Wire Line
+	11650 1250 12150 1250
+Wire Wire Line
+	11150 1250 11150 1300
+Connection ~ 11150 1250
+Wire Wire Line
+	11150 1250 11650 1250
+Wire Wire Line
+	10650 1250 10650 1300
+Connection ~ 10650 1250
+Wire Wire Line
+	10650 1250 11150 1250
+Wire Wire Line
+	10150 1250 10150 1300
+Connection ~ 10150 1250
+Wire Wire Line
+	10150 1250 10650 1250
+Wire Wire Line
+	9650 1250 9650 1300
+Connection ~ 9650 1250
+Wire Wire Line
+	9650 1250 10150 1250
+Wire Wire Line
+	9150 1250 9150 1300
+Connection ~ 9150 1250
+Wire Wire Line
+	9150 1250 9650 1250
+Wire Wire Line
+	8650 1250 8650 1300
+Connection ~ 8650 1250
+Wire Wire Line
+	8650 1250 9150 1250
+Wire Wire Line
+	8150 1250 8150 1300
+Connection ~ 8150 1250
+Wire Wire Line
+	8150 1250 8650 1250
+Wire Wire Line
+	7650 1250 7650 1300
+Connection ~ 7650 1250
+Wire Wire Line
+	7650 1250 8150 1250
+Wire Wire Line
+	7150 1250 7150 1300
+Connection ~ 7150 1250
+Wire Wire Line
+	7150 1250 7650 1250
+Text GLabel 6650 1050 0    50   Input ~ 0
+SW1
+Text GLabel 6650 1250 0    50   Input ~ 0
+SW2
+Text GLabel 6650 1450 0    50   Input ~ 0
+SW3
+$Comp
+L Device:LED_GRAB L_D2
+U 1 1 61773137
+P 6850 2175
+F 0 "L_D2" H 6850 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 6850 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 6850 2125 50  0001 C CNN
+F 3 "~" H 6850 2125 50  0001 C CNN
+	1    6850 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D6
+U 1 1 6177313D
+P 7350 2175
+F 0 "L_D6" H 7350 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 7350 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 7350 2125 50  0001 C CNN
+F 3 "~" H 7350 2125 50  0001 C CNN
+	1    7350 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D10
+U 1 1 61773144
+P 7850 2175
+F 0 "L_D10" H 7850 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 7850 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 7850 2125 50  0001 C CNN
+F 3 "~" H 7850 2125 50  0001 C CNN
+	1    7850 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D14
+U 1 1 6177314F
+P 8350 2175
+F 0 "L_D14" H 8350 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 8350 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 8350 2125 50  0001 C CNN
+F 3 "~" H 8350 2125 50  0001 C CNN
+	1    8350 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D18
+U 1 1 61773155
+P 8850 2175
+F 0 "L_D18" H 8850 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 8850 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 8850 2125 50  0001 C CNN
+F 3 "~" H 8850 2125 50  0001 C CNN
+	1    8850 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D22
+U 1 1 6177315C
+P 9350 2175
+F 0 "L_D22" H 9350 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 9350 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 9350 2125 50  0001 C CNN
+F 3 "~" H 9350 2125 50  0001 C CNN
+	1    9350 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D26
+U 1 1 61773167
+P 9850 2175
+F 0 "L_D26" H 9850 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 9850 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 9850 2125 50  0001 C CNN
+F 3 "~" H 9850 2125 50  0001 C CNN
+	1    9850 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D30
+U 1 1 6177316D
+P 10350 2175
+F 0 "L_D30" H 10350 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 10350 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 10350 2125 50  0001 C CNN
+F 3 "~" H 10350 2125 50  0001 C CNN
+	1    10350 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D34
+U 1 1 61773174
+P 10850 2175
+F 0 "L_D34" H 10850 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 10850 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 10850 2125 50  0001 C CNN
+F 3 "~" H 10850 2125 50  0001 C CNN
+	1    10850 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D38
+U 1 1 6177317C
+P 11350 2175
+F 0 "L_D38" H 11350 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 11350 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 11350 2125 50  0001 C CNN
+F 3 "~" H 11350 2125 50  0001 C CNN
+	1    11350 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D42
+U 1 1 61773182
+P 11850 2175
+F 0 "L_D42" H 11850 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 11850 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 11850 2125 50  0001 C CNN
+F 3 "~" H 11850 2125 50  0001 C CNN
+	1    11850 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D46
+U 1 1 61773189
+P 12350 2175
+F 0 "L_D46" H 12350 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 12350 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 12350 2125 50  0001 C CNN
+F 3 "~" H 12350 2125 50  0001 C CNN
+	1    12350 2175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D50
+U 1 1 61773197
+P 12850 2175
+F 0 "L_D50" H 12850 2672 50  0000 C CNN
+F 1 "LED_GRAB" H 12850 2581 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 12850 2125 50  0001 C CNN
+F 3 "~" H 12850 2125 50  0001 C CNN
+	1    12850 2175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2175 7050 3050
+Wire Wire Line
+	6650 1975 6650 1925
+Wire Wire Line
+	6650 1925 7150 1925
+Wire Wire Line
+	12650 1925 12650 1975
+Wire Wire Line
+	12150 1925 12150 1975
+Connection ~ 12150 1925
+Wire Wire Line
+	12150 1925 12650 1925
+Wire Wire Line
+	11650 1925 11650 1975
+Connection ~ 11650 1925
+Wire Wire Line
+	11650 1925 12150 1925
+Wire Wire Line
+	11150 1925 11150 1975
+Connection ~ 11150 1925
+Wire Wire Line
+	11150 1925 11650 1925
+Wire Wire Line
+	10650 1925 10650 1975
+Connection ~ 10650 1925
+Wire Wire Line
+	10650 1925 11150 1925
+Wire Wire Line
+	10150 1925 10150 1975
+Connection ~ 10150 1925
+Wire Wire Line
+	10150 1925 10650 1925
+Wire Wire Line
+	9650 1925 9650 1975
+Connection ~ 9650 1925
+Wire Wire Line
+	9650 1925 10150 1925
+Wire Wire Line
+	9150 1925 9150 1975
+Connection ~ 9150 1925
+Wire Wire Line
+	9150 1925 9650 1925
+Wire Wire Line
+	8650 1925 8650 1975
+Connection ~ 8650 1925
+Wire Wire Line
+	8650 1925 9150 1925
+Wire Wire Line
+	8150 1925 8150 1975
+Connection ~ 8150 1925
+Wire Wire Line
+	8150 1925 8650 1925
+Wire Wire Line
+	7650 1925 7650 1975
+Connection ~ 7650 1925
+Wire Wire Line
+	7650 1925 8150 1925
+Wire Wire Line
+	7150 1925 7150 1975
+Connection ~ 7150 1925
+Wire Wire Line
+	7150 1925 7650 1925
+Wire Wire Line
+	6650 2375 6650 2325
+Wire Wire Line
+	6650 2325 7150 2325
+Wire Wire Line
+	12650 2325 12650 2375
+Wire Wire Line
+	12150 2325 12150 2375
+Connection ~ 12150 2325
+Wire Wire Line
+	12150 2325 12650 2325
+Wire Wire Line
+	11650 2325 11650 2375
+Connection ~ 11650 2325
+Wire Wire Line
+	11650 2325 12150 2325
+Wire Wire Line
+	11150 2325 11150 2375
+Connection ~ 11150 2325
+Wire Wire Line
+	11150 2325 11650 2325
+Wire Wire Line
+	10650 2325 10650 2375
+Connection ~ 10650 2325
+Wire Wire Line
+	10650 2325 11150 2325
+Wire Wire Line
+	10150 2325 10150 2375
+Connection ~ 10150 2325
+Wire Wire Line
+	10150 2325 10650 2325
+Wire Wire Line
+	9650 2325 9650 2375
+Connection ~ 9650 2325
+Wire Wire Line
+	9650 2325 10150 2325
+Wire Wire Line
+	9150 2325 9150 2375
+Connection ~ 9150 2325
+Wire Wire Line
+	9150 2325 9650 2325
+Wire Wire Line
+	8650 2325 8650 2375
+Connection ~ 8650 2325
+Wire Wire Line
+	8650 2325 9150 2325
+Wire Wire Line
+	8150 2325 8150 2375
+Connection ~ 8150 2325
+Wire Wire Line
+	8150 2325 8650 2325
+Wire Wire Line
+	7650 2325 7650 2375
+Connection ~ 7650 2325
+Wire Wire Line
+	7650 2325 8150 2325
+Wire Wire Line
+	7150 2325 7150 2375
+Connection ~ 7150 2325
+Wire Wire Line
+	7150 2325 7650 2325
+Wire Wire Line
+	6650 2175 6650 2125
+Wire Wire Line
+	6650 2125 7150 2125
+Wire Wire Line
+	12650 2125 12650 2175
+Wire Wire Line
+	12150 2125 12150 2175
+Connection ~ 12150 2125
+Wire Wire Line
+	12150 2125 12650 2125
+Wire Wire Line
+	11650 2125 11650 2175
+Connection ~ 11650 2125
+Wire Wire Line
+	11650 2125 12150 2125
+Wire Wire Line
+	11150 2125 11150 2175
+Connection ~ 11150 2125
+Wire Wire Line
+	11150 2125 11650 2125
+Wire Wire Line
+	10650 2125 10650 2175
+Connection ~ 10650 2125
+Wire Wire Line
+	10650 2125 11150 2125
+Wire Wire Line
+	10150 2125 10150 2175
+Connection ~ 10150 2125
+Wire Wire Line
+	10150 2125 10650 2125
+Wire Wire Line
+	9650 2125 9650 2175
+Connection ~ 9650 2125
+Wire Wire Line
+	9650 2125 10150 2125
+Wire Wire Line
+	9150 2125 9150 2175
+Connection ~ 9150 2125
+Wire Wire Line
+	9150 2125 9650 2125
+Wire Wire Line
+	8650 2125 8650 2175
+Connection ~ 8650 2125
+Wire Wire Line
+	8650 2125 9150 2125
+Wire Wire Line
+	8150 2125 8150 2175
+Connection ~ 8150 2125
+Wire Wire Line
+	8150 2125 8650 2125
+Wire Wire Line
+	7650 2125 7650 2175
+Connection ~ 7650 2125
+Wire Wire Line
+	7650 2125 8150 2125
+Wire Wire Line
+	7150 2125 7150 2175
+Connection ~ 7150 2125
+Wire Wire Line
+	7150 2125 7650 2125
+Text GLabel 6650 1925 0    50   Input ~ 0
+SW4
+Text GLabel 6650 2125 0    50   Input ~ 0
+SW5
+Text GLabel 6650 2325 0    50   Input ~ 0
+SW6
+Text GLabel 6650 3200 0    50   Input ~ 0
+SW9
+Text GLabel 6650 3000 0    50   Input ~ 0
+SW8
+Text GLabel 6650 2800 0    50   Input ~ 0
+SW7
+Wire Wire Line
+	7150 3000 7650 3000
+Connection ~ 7150 3000
+Wire Wire Line
+	7150 3000 7150 3050
+Wire Wire Line
+	7650 3000 8150 3000
+Connection ~ 7650 3000
+Wire Wire Line
+	7650 3000 7650 3050
+Wire Wire Line
+	8150 3000 8650 3000
+Connection ~ 8150 3000
+Wire Wire Line
+	8150 3000 8150 3050
+Wire Wire Line
+	8650 3000 9150 3000
+Connection ~ 8650 3000
+Wire Wire Line
+	8650 3000 8650 3050
+Wire Wire Line
+	9150 3000 9650 3000
+Connection ~ 9150 3000
+Wire Wire Line
+	9150 3000 9150 3050
+Wire Wire Line
+	9650 3000 10150 3000
+Connection ~ 9650 3000
+Wire Wire Line
+	9650 3000 9650 3050
+Wire Wire Line
+	10150 3000 10650 3000
+Connection ~ 10150 3000
+Wire Wire Line
+	10150 3000 10150 3050
+Wire Wire Line
+	10650 3000 11150 3000
+Connection ~ 10650 3000
+Wire Wire Line
+	10650 3000 10650 3050
+Wire Wire Line
+	11150 3000 11650 3000
+Connection ~ 11150 3000
+Wire Wire Line
+	11150 3000 11150 3050
+Wire Wire Line
+	11650 3000 12150 3000
+Connection ~ 11650 3000
+Wire Wire Line
+	11650 3000 11650 3050
+Wire Wire Line
+	12150 3000 12650 3000
+Connection ~ 12150 3000
+Wire Wire Line
+	12150 3000 12150 3050
+Wire Wire Line
+	12650 3000 12650 3050
+Wire Wire Line
+	6650 3000 7150 3000
+Wire Wire Line
+	6650 3050 6650 3000
+Wire Wire Line
+	7150 3200 7650 3200
+Connection ~ 7150 3200
+Wire Wire Line
+	7150 3200 7150 3250
+Wire Wire Line
+	7650 3200 8150 3200
+Connection ~ 7650 3200
+Wire Wire Line
+	7650 3200 7650 3250
+Wire Wire Line
+	8150 3200 8650 3200
+Connection ~ 8150 3200
+Wire Wire Line
+	8150 3200 8150 3250
+Wire Wire Line
+	8650 3200 9150 3200
+Connection ~ 8650 3200
+Wire Wire Line
+	8650 3200 8650 3250
+Wire Wire Line
+	9150 3200 9650 3200
+Connection ~ 9150 3200
+Wire Wire Line
+	9150 3200 9150 3250
+Wire Wire Line
+	9650 3200 10150 3200
+Connection ~ 9650 3200
+Wire Wire Line
+	9650 3200 9650 3250
+Wire Wire Line
+	10150 3200 10650 3200
+Connection ~ 10150 3200
+Wire Wire Line
+	10150 3200 10150 3250
+Wire Wire Line
+	10650 3200 11150 3200
+Connection ~ 10650 3200
+Wire Wire Line
+	10650 3200 10650 3250
+Wire Wire Line
+	11150 3200 11650 3200
+Connection ~ 11150 3200
+Wire Wire Line
+	11150 3200 11150 3250
+Wire Wire Line
+	11650 3200 12150 3200
+Connection ~ 11650 3200
+Wire Wire Line
+	11650 3200 11650 3250
+Wire Wire Line
+	12150 3200 12650 3200
+Connection ~ 12150 3200
+Wire Wire Line
+	12150 3200 12150 3250
+Wire Wire Line
+	12650 3200 12650 3250
+Wire Wire Line
+	6650 3200 7150 3200
+Wire Wire Line
+	6650 3250 6650 3200
+Wire Wire Line
+	7150 2800 7650 2800
+Connection ~ 7150 2800
+Wire Wire Line
+	7150 2800 7150 2850
+Wire Wire Line
+	7650 2800 8150 2800
+Connection ~ 7650 2800
+Wire Wire Line
+	7650 2800 7650 2850
+Wire Wire Line
+	8150 2800 8650 2800
+Connection ~ 8150 2800
+Wire Wire Line
+	8150 2800 8150 2850
+Wire Wire Line
+	8650 2800 9150 2800
+Connection ~ 8650 2800
+Wire Wire Line
+	8650 2800 8650 2850
+Wire Wire Line
+	9150 2800 9650 2800
+Connection ~ 9150 2800
+Wire Wire Line
+	9150 2800 9150 2850
+Wire Wire Line
+	9650 2800 10150 2800
+Connection ~ 9650 2800
+Wire Wire Line
+	9650 2800 9650 2850
+Wire Wire Line
+	10150 2800 10650 2800
+Connection ~ 10150 2800
+Wire Wire Line
+	10150 2800 10150 2850
+Wire Wire Line
+	10650 2800 11150 2800
+Connection ~ 10650 2800
+Wire Wire Line
+	10650 2800 10650 2850
+Wire Wire Line
+	11150 2800 11650 2800
+Connection ~ 11150 2800
+Wire Wire Line
+	11150 2800 11150 2850
+Wire Wire Line
+	11650 2800 12150 2800
+Connection ~ 11650 2800
+Wire Wire Line
+	11650 2800 11650 2850
+Wire Wire Line
+	12150 2800 12650 2800
+Connection ~ 12150 2800
+Wire Wire Line
+	12150 2800 12150 2850
+Wire Wire Line
+	12650 2800 12650 2850
+Wire Wire Line
+	6650 2800 7150 2800
+Wire Wire Line
+	6650 2850 6650 2800
+Wire Wire Line
+	7050 3050 7050 3925
+$Comp
+L Device:LED_GRAB L_D51
+U 1 1 617BCB8A
+P 12850 3050
+F 0 "L_D51" H 12850 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 12850 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 12850 3000 50  0001 C CNN
+F 3 "~" H 12850 3000 50  0001 C CNN
+	1    12850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D47
+U 1 1 617BCB84
+P 12350 3050
+F 0 "L_D47" H 12350 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 12350 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 12350 3000 50  0001 C CNN
+F 3 "~" H 12350 3000 50  0001 C CNN
+	1    12350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D43
+U 1 1 617BCB7E
+P 11850 3050
+F 0 "L_D43" H 11850 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 11850 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 11850 3000 50  0001 C CNN
+F 3 "~" H 11850 3000 50  0001 C CNN
+	1    11850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D39
+U 1 1 617BCB78
+P 11350 3050
+F 0 "L_D39" H 11350 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 11350 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 11350 3000 50  0001 C CNN
+F 3 "~" H 11350 3000 50  0001 C CNN
+	1    11350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D35
+U 1 1 617BCB72
+P 10850 3050
+F 0 "L_D35" H 10850 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 10850 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 10850 3000 50  0001 C CNN
+F 3 "~" H 10850 3000 50  0001 C CNN
+	1    10850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D31
+U 1 1 617BCB6C
+P 10350 3050
+F 0 "L_D31" H 10350 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 10350 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 10350 3000 50  0001 C CNN
+F 3 "~" H 10350 3000 50  0001 C CNN
+	1    10350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D27
+U 1 1 617BCB66
+P 9850 3050
+F 0 "L_D27" H 9850 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 9850 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 9850 3000 50  0001 C CNN
+F 3 "~" H 9850 3000 50  0001 C CNN
+	1    9850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D23
+U 1 1 617BCB60
+P 9350 3050
+F 0 "L_D23" H 9350 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 9350 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 9350 3000 50  0001 C CNN
+F 3 "~" H 9350 3000 50  0001 C CNN
+	1    9350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D19
+U 1 1 617BCB5A
+P 8850 3050
+F 0 "L_D19" H 8850 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 8850 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 8850 3000 50  0001 C CNN
+F 3 "~" H 8850 3000 50  0001 C CNN
+	1    8850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D15
+U 1 1 617BCB54
+P 8350 3050
+F 0 "L_D15" H 8350 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 8350 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 8350 3000 50  0001 C CNN
+F 3 "~" H 8350 3000 50  0001 C CNN
+	1    8350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D11
+U 1 1 617BCB4E
+P 7850 3050
+F 0 "L_D11" H 7850 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 7850 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 7850 3000 50  0001 C CNN
+F 3 "~" H 7850 3000 50  0001 C CNN
+	1    7850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D7
+U 1 1 617BCB48
+P 7350 3050
+F 0 "L_D7" H 7350 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 7350 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 7350 3000 50  0001 C CNN
+F 3 "~" H 7350 3000 50  0001 C CNN
+	1    7350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D3
+U 1 1 617BCB42
+P 6850 3050
+F 0 "L_D3" H 6850 3547 50  0000 C CNN
+F 1 "LED_GRAB" H 6850 3456 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 6850 3000 50  0001 C CNN
+F 3 "~" H 6850 3000 50  0001 C CNN
+	1    6850 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 7050 2175
+Connection ~ 7050 3050
+$Comp
+L Device:LED_GRAB L_D4
+U 1 1 618D70BD
+P 6850 3925
+F 0 "L_D4" H 6850 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 6850 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 6850 3875 50  0001 C CNN
+F 3 "~" H 6850 3875 50  0001 C CNN
+	1    6850 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D8
+U 1 1 618D70C3
+P 7350 3925
+F 0 "L_D8" H 7350 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 7350 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 7350 3875 50  0001 C CNN
+F 3 "~" H 7350 3875 50  0001 C CNN
+	1    7350 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D12
+U 1 1 618D70C9
+P 7850 3925
+F 0 "L_D12" H 7850 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 7850 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 7850 3875 50  0001 C CNN
+F 3 "~" H 7850 3875 50  0001 C CNN
+	1    7850 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D16
+U 1 1 618D70CF
+P 8350 3925
+F 0 "L_D16" H 8350 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 8350 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 8350 3875 50  0001 C CNN
+F 3 "~" H 8350 3875 50  0001 C CNN
+	1    8350 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D20
+U 1 1 618D70D5
+P 8850 3925
+F 0 "L_D20" H 8850 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 8850 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 8850 3875 50  0001 C CNN
+F 3 "~" H 8850 3875 50  0001 C CNN
+	1    8850 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D24
+U 1 1 618D70DB
+P 9350 3925
+F 0 "L_D24" H 9350 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 9350 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 9350 3875 50  0001 C CNN
+F 3 "~" H 9350 3875 50  0001 C CNN
+	1    9350 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D28
+U 1 1 618D70E1
+P 9850 3925
+F 0 "L_D28" H 9850 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 9850 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 9850 3875 50  0001 C CNN
+F 3 "~" H 9850 3875 50  0001 C CNN
+	1    9850 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D32
+U 1 1 618D70E7
+P 10350 3925
+F 0 "L_D32" H 10350 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 10350 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 10350 3875 50  0001 C CNN
+F 3 "~" H 10350 3875 50  0001 C CNN
+	1    10350 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D36
+U 1 1 618D70ED
+P 10850 3925
+F 0 "L_D36" H 10850 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 10850 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 10850 3875 50  0001 C CNN
+F 3 "~" H 10850 3875 50  0001 C CNN
+	1    10850 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D40
+U 1 1 618D70F3
+P 11350 3925
+F 0 "L_D40" H 11350 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 11350 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 11350 3875 50  0001 C CNN
+F 3 "~" H 11350 3875 50  0001 C CNN
+	1    11350 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D44
+U 1 1 618D70F9
+P 11850 3925
+F 0 "L_D44" H 11850 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 11850 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 11850 3875 50  0001 C CNN
+F 3 "~" H 11850 3875 50  0001 C CNN
+	1    11850 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D48
+U 1 1 618D70FF
+P 12350 3925
+F 0 "L_D48" H 12350 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 12350 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 12350 3875 50  0001 C CNN
+F 3 "~" H 12350 3875 50  0001 C CNN
+	1    12350 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_GRAB L_D52
+U 1 1 618D7105
+P 12850 3925
+F 0 "L_D52" H 12850 4422 50  0000 C CNN
+F 1 "LED_GRAB" H 12850 4331 50  0000 C CNN
+F 2 "sanproject-keyboard-part:RGB-D-6028" H 12850 3875 50  0001 C CNN
+F 3 "~" H 12850 3875 50  0001 C CNN
+	1    12850 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3725 6650 3675
+Wire Wire Line
+	6650 3675 7150 3675
+Wire Wire Line
+	12650 3675 12650 3725
+Wire Wire Line
+	12150 3675 12150 3725
+Connection ~ 12150 3675
+Wire Wire Line
+	12150 3675 12650 3675
+Wire Wire Line
+	11650 3675 11650 3725
+Connection ~ 11650 3675
+Wire Wire Line
+	11650 3675 12150 3675
+Wire Wire Line
+	11150 3675 11150 3725
+Connection ~ 11150 3675
+Wire Wire Line
+	11150 3675 11650 3675
+Wire Wire Line
+	10650 3675 10650 3725
+Connection ~ 10650 3675
+Wire Wire Line
+	10650 3675 11150 3675
+Wire Wire Line
+	10150 3675 10150 3725
+Connection ~ 10150 3675
+Wire Wire Line
+	10150 3675 10650 3675
+Wire Wire Line
+	9650 3675 9650 3725
+Connection ~ 9650 3675
+Wire Wire Line
+	9650 3675 10150 3675
+Wire Wire Line
+	9150 3675 9150 3725
+Connection ~ 9150 3675
+Wire Wire Line
+	9150 3675 9650 3675
+Wire Wire Line
+	8650 3675 8650 3725
+Connection ~ 8650 3675
+Wire Wire Line
+	8650 3675 9150 3675
+Wire Wire Line
+	8150 3675 8150 3725
+Connection ~ 8150 3675
+Wire Wire Line
+	8150 3675 8650 3675
+Wire Wire Line
+	7650 3675 7650 3725
+Connection ~ 7650 3675
+Wire Wire Line
+	7650 3675 8150 3675
+Wire Wire Line
+	7150 3675 7150 3725
+Connection ~ 7150 3675
+Wire Wire Line
+	7150 3675 7650 3675
+Wire Wire Line
+	6650 4125 6650 4075
+Wire Wire Line
+	6650 4075 7150 4075
+Wire Wire Line
+	12650 4075 12650 4125
+Wire Wire Line
+	12150 4075 12150 4125
+Connection ~ 12150 4075
+Wire Wire Line
+	12150 4075 12650 4075
+Wire Wire Line
+	11650 4075 11650 4125
+Connection ~ 11650 4075
+Wire Wire Line
+	11650 4075 12150 4075
+Wire Wire Line
+	11150 4075 11150 4125
+Connection ~ 11150 4075
+Wire Wire Line
+	11150 4075 11650 4075
+Wire Wire Line
+	10650 4075 10650 4125
+Connection ~ 10650 4075
+Wire Wire Line
+	10650 4075 11150 4075
+Wire Wire Line
+	10150 4075 10150 4125
+Connection ~ 10150 4075
+Wire Wire Line
+	10150 4075 10650 4075
+Wire Wire Line
+	9650 4075 9650 4125
+Connection ~ 9650 4075
+Wire Wire Line
+	9650 4075 10150 4075
+Wire Wire Line
+	9150 4075 9150 4125
+Connection ~ 9150 4075
+Wire Wire Line
+	9150 4075 9650 4075
+Wire Wire Line
+	8650 4075 8650 4125
+Connection ~ 8650 4075
+Wire Wire Line
+	8650 4075 9150 4075
+Wire Wire Line
+	8150 4075 8150 4125
+Connection ~ 8150 4075
+Wire Wire Line
+	8150 4075 8650 4075
+Wire Wire Line
+	7650 4075 7650 4125
+Connection ~ 7650 4075
+Wire Wire Line
+	7650 4075 8150 4075
+Wire Wire Line
+	7150 4075 7150 4125
+Connection ~ 7150 4075
+Wire Wire Line
+	7150 4075 7650 4075
+Wire Wire Line
+	6650 3925 6650 3875
+Wire Wire Line
+	6650 3875 7150 3875
+Wire Wire Line
+	12650 3875 12650 3925
+Wire Wire Line
+	12150 3875 12150 3925
+Connection ~ 12150 3875
+Wire Wire Line
+	12150 3875 12650 3875
+Wire Wire Line
+	11650 3875 11650 3925
+Connection ~ 11650 3875
+Wire Wire Line
+	11650 3875 12150 3875
+Wire Wire Line
+	11150 3875 11150 3925
+Connection ~ 11150 3875
+Wire Wire Line
+	11150 3875 11650 3875
+Wire Wire Line
+	10650 3875 10650 3925
+Connection ~ 10650 3875
+Wire Wire Line
+	10650 3875 11150 3875
+Wire Wire Line
+	10150 3875 10150 3925
+Connection ~ 10150 3875
+Wire Wire Line
+	10150 3875 10650 3875
+Wire Wire Line
+	9650 3875 9650 3925
+Connection ~ 9650 3875
+Wire Wire Line
+	9650 3875 10150 3875
+Wire Wire Line
+	9150 3875 9150 3925
+Connection ~ 9150 3875
+Wire Wire Line
+	9150 3875 9650 3875
+Wire Wire Line
+	8650 3875 8650 3925
+Connection ~ 8650 3875
+Wire Wire Line
+	8650 3875 9150 3875
+Wire Wire Line
+	8150 3875 8150 3925
+Connection ~ 8150 3875
+Wire Wire Line
+	8150 3875 8650 3875
+Wire Wire Line
+	7650 3875 7650 3925
+Connection ~ 7650 3875
+Wire Wire Line
+	7650 3875 8150 3875
+Wire Wire Line
+	7150 3875 7150 3925
+Connection ~ 7150 3875
+Wire Wire Line
+	7150 3875 7650 3875
+Text GLabel 6650 3675 0    50   Input ~ 0
+SW10
+Text GLabel 6650 3875 0    50   Input ~ 0
+SW11
+Text GLabel 6650 4075 0    50   Input ~ 0
+SW12
+Wire Wire Line
+	7550 1300 7550 2175
+Connection ~ 7550 1300
+Connection ~ 7550 2175
+Wire Wire Line
+	7550 2175 7550 3050
+Connection ~ 7550 3050
+Wire Wire Line
+	7550 3050 7550 3925
+Wire Wire Line
+	8050 1300 8050 2175
+Connection ~ 8050 1300
+Connection ~ 8050 2175
+Wire Wire Line
+	8050 2175 8050 3050
+Connection ~ 8050 3050
+Wire Wire Line
+	8050 3050 8050 3925
+Connection ~ 8550 1300
+Connection ~ 8550 2175
+Wire Wire Line
+	8550 2175 8550 1300
+Connection ~ 8550 3050
+Wire Wire Line
+	8550 3050 8550 2175
+Wire Wire Line
+	8550 3925 8550 3050
+Connection ~ 9050 1300
+Connection ~ 9050 2175
+Wire Wire Line
+	9050 2175 9050 1300
+Connection ~ 9050 3050
+Wire Wire Line
+	9050 3050 9050 2175
+Wire Wire Line
+	9050 3925 9050 3050
+Wire Wire Line
+	9550 1300 9550 2175
+Connection ~ 9550 1300
+Connection ~ 9550 2175
+Wire Wire Line
+	9550 2175 9550 3050
+Connection ~ 9550 3050
+Wire Wire Line
+	9550 3050 9550 3925
+Connection ~ 10050 1300
+Connection ~ 10050 2175
+Wire Wire Line
+	10050 2175 10050 1300
+Connection ~ 10050 3050
+Wire Wire Line
+	10050 3050 10050 2175
+Wire Wire Line
+	10050 3925 10050 3050
+Wire Wire Line
+	10550 1300 10550 2175
+Connection ~ 10550 1300
+Connection ~ 10550 2175
+Wire Wire Line
+	10550 2175 10550 3050
+Connection ~ 10550 3050
+Wire Wire Line
+	10550 3050 10550 3925
+Connection ~ 11050 1300
+Connection ~ 11050 2175
+Wire Wire Line
+	11050 2175 11050 1300
+Connection ~ 11050 3050
+Wire Wire Line
+	11050 3050 11050 2175
+Wire Wire Line
+	11050 3925 11050 3050
+Wire Wire Line
+	11550 1300 11550 2175
+Connection ~ 11550 1300
+Connection ~ 11550 2175
+Wire Wire Line
+	11550 2175 11550 3050
+Connection ~ 11550 3050
+Wire Wire Line
+	11550 3050 11550 3925
+Connection ~ 12050 1300
+Connection ~ 12050 2175
+Wire Wire Line
+	12050 2175 12050 1300
+Connection ~ 12050 3050
+Wire Wire Line
+	12050 3050 12050 2175
+Wire Wire Line
+	12050 3925 12050 3050
+Wire Wire Line
+	12550 1300 12550 2175
+Connection ~ 12550 1300
+Connection ~ 12550 2175
+Wire Wire Line
+	12550 2175 12550 3050
+Connection ~ 12550 3050
+Wire Wire Line
+	12550 3050 12550 3925
+Connection ~ 13050 1300
+Connection ~ 13050 2175
+Wire Wire Line
+	13050 2175 13050 1300
+Connection ~ 13050 3050
+Wire Wire Line
+	13050 3050 13050 2175
+Wire Wire Line
+	13050 3925 13050 3050
+$Comp
+L Driver_LED:IS31FL3733-QF U1
+U 1 1 611DA274
+P 2525 2800
+F 0 "U1" H 1925 1225 50  0000 C CNN
+F 1 "IS31FL3733-QF" H 3125 1225 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm" H 2525 2800 50  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/IS31FL3733.pdf" H 2525 2800 50  0001 C CNN
+	1    2525 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 611ED883
+P 1675 1300
+F 0 "C8" H 1583 1254 50  0000 R CNN
+F 1 "0.47uF" H 1583 1345 50  0000 R CNN
+F 2 "sanproject-keyboard-part:C_0603" H 1675 1300 50  0001 C CNN
+F 3 "~" H 1675 1300 50  0001 C CNN
+	1    1675 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 1400 1675 1400
+Connection ~ 1675 1400
+Wire Wire Line
+	1475 1400 1675 1400
+NoConn ~ 1825 1800
+$Comp
+L Device:R_Small R1
+U 1 1 611F557E
+P 1475 1850
+F 0 "R1" H 1534 1896 50  0000 L CNN
+F 1 "1k" H 1534 1805 50  0000 L CNN
+F 2 "" H 1475 1850 50  0001 C CNN
+F 3 "~" H 1475 1850 50  0001 C CNN
+	1    1475 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 611F634F
+P 1575 1850
+F 0 "R4" H 1634 1896 50  0000 L CNN
+F 1 "1k" H 1634 1805 50  0000 L CNN
+F 2 "" H 1575 1850 50  0001 C CNN
+F 3 "~" H 1575 1850 50  0001 C CNN
+	1    1575 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1575 1700 1575 1750
+Wire Wire Line
+	1825 1900 1725 1900
+Wire Wire Line
+	1725 1900 1725 1950
+Wire Wire Line
+	1725 1950 1575 1950
+$Comp
+L power:+3V3 #PWR0101
+U 1 1 611FD742
+P 1325 1950
+F 0 "#PWR0101" H 1325 1800 50  0001 C CNN
+F 1 "+3V3" V 1340 2078 50  0000 L CNN
+F 2 "" H 1325 1950 50  0001 C CNN
+F 3 "" H 1325 1950 50  0001 C CNN
+	1    1325 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 611FE795
+P 1475 1400
+F 0 "#PWR0102" H 1475 1250 50  0001 C CNN
+F 1 "+3V3" V 1490 1528 50  0000 L CNN
+F 2 "" H 1475 1400 50  0001 C CNN
+F 3 "" H 1475 1400 50  0001 C CNN
+	1    1475 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1475 1600 1825 1600
+Wire Wire Line
+	1575 1700 1825 1700
+Connection ~ 1575 1950
+Wire Wire Line
+	1575 1950 1475 1950
+Wire Wire Line
+	1325 1950 1475 1950
+Connection ~ 1475 1950
+Wire Wire Line
+	1475 1600 1475 1750
+Wire Wire Line
+	1475 1600 1325 1600
+Connection ~ 1475 1600
+Wire Wire Line
+	1325 1700 1575 1700
+Connection ~ 1575 1700
+Wire Wire Line
+	1825 2000 1725 2000
+Wire Wire Line
+	1725 2000 1725 2050
+Wire Wire Line
+	1725 2050 1575 2050
+$Comp
+L Device:R_Small R2
+U 1 1 61206EF7
+P 1475 2050
+F 0 "R2" V 1625 1950 50  0000 L CNN
+F 1 "100k" V 1550 1900 50  0000 L CNN
+F 2 "" H 1475 2050 50  0001 C CNN
+F 3 "~" H 1475 2050 50  0001 C CNN
+	1    1475 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 6120AE02
+P 1475 2300
+F 0 "R3" V 1625 2175 50  0000 L CNN
+F 1 "20k" V 1550 2150 50  0000 L CNN
+F 2 "" H 1475 2300 50  0001 C CNN
+F 3 "~" H 1475 2300 50  0001 C CNN
+	1    1475 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6121316B
+P 1675 1200
+F 0 "#PWR0103" H 1675 950 50  0001 C CNN
+F 1 "GND" H 1680 1027 50  0000 C CNN
+F 2 "" H 1675 1200 50  0001 C CNN
+F 3 "" H 1675 1200 50  0001 C CNN
+	1    1675 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 61213FE8
+P 1325 2050
+F 0 "#PWR0104" H 1325 1800 50  0001 C CNN
+F 1 "GND" V 1330 1922 50  0000 R CNN
+F 2 "" H 1325 2050 50  0001 C CNN
+F 3 "" H 1325 2050 50  0001 C CNN
+	1    1325 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1325 2050 1375 2050
+$Comp
+L power:GND #PWR0105
+U 1 1 612156BD
+P 1575 2600
+F 0 "#PWR0105" H 1575 2350 50  0001 C CNN
+F 1 "GND" H 1580 2427 50  0000 C CNN
+F 2 "" H 1575 2600 50  0001 C CNN
+F 3 "" H 1575 2600 50  0001 C CNN
+	1    1575 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1825 2200 0    50   Input ~ 0
+Sync
+$Comp
+L power:GND #PWR0106
+U 1 1 6121DCD2
+P 1325 2300
+F 0 "#PWR0106" H 1325 2050 50  0001 C CNN
+F 1 "GND" V 1330 2172 50  0000 R CNN
+F 2 "" H 1325 2300 50  0001 C CNN
+F 3 "" H 1325 2300 50  0001 C CNN
+	1    1325 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2425 1200 2425 1100
+Wire Wire Line
+	2725 1100 2725 1025
+$Comp
+L power:+5V #PWR0107
+U 1 1 61228A31
+P 2725 1025
+F 0 "#PWR0107" H 2725 875 50  0001 C CNN
+F 1 "+5V" H 2740 1198 50  0000 C CNN
+F 2 "" H 2725 1025 50  0001 C CNN
+F 3 "" H 2725 1025 50  0001 C CNN
+	1    2725 1025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2725 1100 2725 1200
+Connection ~ 2725 1100
+Wire Wire Line
+	2625 1100 2625 1200
+Connection ~ 2625 1100
+Wire Wire Line
+	2625 1100 2725 1100
+$Comp
+L Device:CP_Small C1
+U 1 1 611E08D7
+P 1125 3100
+F 0 "C1" H 1213 3146 50  0000 L CNN
+F 1 "22uF" H 1213 3055 50  0000 L CNN
+F 2 "sanproject-keyboard-part:CP_EIA-3216" H 1125 3100 50  0001 C CNN
+F 3 "~" H 1125 3100 50  0001 C CNN
+F 4 "C3216 CASEA" H 1125 3100 50  0001 C CNN "Package"
+F 5 "10V or more SMD CASE-A tantallum capacitor" H 1125 3100 50  0001 C CNN "Description"
+	1    1125 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 611E00B5
+P 1525 4150
+F 0 "C7" H 1617 4196 50  0000 L CNN
+F 1 "0.47uF" H 1617 4105 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 1525 4150 50  0001 C CNN
+F 3 "~" H 1525 4150 50  0001 C CNN
+	1    1525 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 611E00AF
+P 1525 3800
+F 0 "C6" H 1617 3846 50  0000 L CNN
+F 1 "0.47uF" H 1617 3755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 1525 3800 50  0001 C CNN
+F 3 "~" H 1525 3800 50  0001 C CNN
+	1    1525 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 611E00A9
+P 1525 3450
+F 0 "C5" H 1617 3496 50  0000 L CNN
+F 1 "0.47uF" H 1617 3405 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 1525 3450 50  0001 C CNN
+F 3 "~" H 1525 3450 50  0001 C CNN
+	1    1525 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 611DDB83
+P 1125 4150
+F 0 "C4" H 1217 4196 50  0000 L CNN
+F 1 "0.1uF" H 1217 4105 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 1125 4150 50  0001 C CNN
+F 3 "~" H 1125 4150 50  0001 C CNN
+	1    1125 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 611DD33D
+P 1125 3800
+F 0 "C3" H 1217 3846 50  0000 L CNN
+F 1 "0.1uF" H 1217 3755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 1125 3800 50  0001 C CNN
+F 3 "~" H 1125 3800 50  0001 C CNN
+	1    1125 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 611D8847
+P 1125 3450
+F 0 "C2" H 1217 3496 50  0000 L CNN
+F 1 "0.1uF" H 1217 3405 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 1125 3450 50  0001 C CNN
+F 3 "~" H 1125 3450 50  0001 C CNN
+	1    1125 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 6122021F
+P 1725 2600
+F 0 "#PWR0108" H 1725 2350 50  0001 C CNN
+F 1 "GND" H 1730 2427 50  0000 C CNN
+F 2 "" H 1725 2600 50  0001 C CNN
+F 3 "" H 1725 2600 50  0001 C CNN
+	1    1725 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 1100 2525 1100
+Wire Wire Line
+	1325 2300 1375 2300
+Wire Wire Line
+	1575 2300 1825 2300
+Wire Wire Line
+	1575 2600 1575 2400
+Wire Wire Line
+	1575 2400 1825 2400
+Wire Wire Line
+	1825 2500 1725 2500
+Wire Wire Line
+	1725 2500 1725 2600
+Wire Wire Line
+	1125 3350 1525 3350
+Wire Wire Line
+	1125 3700 1525 3700
+Wire Wire Line
+	1125 4050 1525 4050
+Wire Wire Line
+	1125 3000 1625 3000
+Wire Wire Line
+	1625 3000 1625 3700
+Wire Wire Line
+	1625 3700 1525 3700
+Connection ~ 1525 3700
+Wire Wire Line
+	1625 3700 1625 4050
+Wire Wire Line
+	1625 4050 1525 4050
+Connection ~ 1625 3700
+Connection ~ 1525 4050
+Wire Wire Line
+	1525 3550 1125 3550
+Wire Wire Line
+	1025 3550 1025 3900
+Wire Wire Line
+	1025 4250 1125 4250
+Connection ~ 1125 3550
+Wire Wire Line
+	1125 3550 1025 3550
+Connection ~ 1125 4250
+Wire Wire Line
+	1125 4250 1525 4250
+Wire Wire Line
+	1525 3900 1125 3900
+Connection ~ 1025 3900
+Wire Wire Line
+	1025 3900 1025 4250
+Connection ~ 1125 3900
+Wire Wire Line
+	1125 3900 1025 3900
+Wire Wire Line
+	1125 3200 1025 3200
+Wire Wire Line
+	1025 3200 1025 3550
+Connection ~ 1025 3550
+$Comp
+L power:+5V #PWR0109
+U 1 1 6124DA8F
+P 1625 3000
+F 0 "#PWR0109" H 1625 2850 50  0001 C CNN
+F 1 "+5V" H 1640 3173 50  0000 C CNN
+F 2 "" H 1625 3000 50  0001 C CNN
+F 3 "" H 1625 3000 50  0001 C CNN
+	1    1625 3000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1625 3000
+$Comp
+L power:GND #PWR0110
+U 1 1 6124E49E
+P 1025 4250
+F 0 "#PWR0110" H 1025 4000 50  0001 C CNN
+F 1 "GND" H 1030 4077 50  0000 C CNN
+F 2 "" H 1025 4250 50  0001 C CNN
+F 3 "" H 1025 4250 50  0001 C CNN
+	1    1025 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1025 4250
+Wire Wire Line
+	2625 4400 2525 4400
+Connection ~ 2525 4400
+Wire Wire Line
+	2525 4400 2425 4400
+Wire Wire Line
+	2525 4400 2525 4475
+$Comp
+L power:GND #PWR0112
+U 1 1 61274C9F
+P 2525 4475
+F 0 "#PWR0112" H 2525 4225 50  0001 C CNN
+F 1 "GND" H 2650 4400 50  0000 C CNN
+F 2 "" H 2525 4475 50  0001 C CNN
+F 3 "" H 2525 4475 50  0001 C CNN
+	1    2525 4475
+	1    0    0    -1  
+$EndComp
+Text GLabel 3225 1400 2    50   Input ~ 0
+CS1
+Text GLabel 3225 1500 2    50   Input ~ 0
+CS2
+Text GLabel 3225 1600 2    50   Input ~ 0
+CS3
+Text GLabel 3225 1700 2    50   Input ~ 0
+CS4
+Text GLabel 3225 1800 2    50   Input ~ 0
+CS5
+Text GLabel 3225 1900 2    50   Input ~ 0
+CS6
+Text GLabel 3225 2000 2    50   Input ~ 0
+CS7
+Text GLabel 3225 2100 2    50   Input ~ 0
+CS8
+Text GLabel 3225 2200 2    50   Input ~ 0
+CS9
+Text GLabel 3225 2300 2    50   Input ~ 0
+CS10
+Text GLabel 3225 2400 2    50   Input ~ 0
+CS11
+Text GLabel 3225 2500 2    50   Input ~ 0
+CS12
+Text GLabel 3225 2600 2    50   Input ~ 0
+CS13
+Text GLabel 3225 3100 2    50   Input ~ 0
+SW1
+Text GLabel 3225 3200 2    50   Input ~ 0
+SW2
+Text GLabel 3225 3300 2    50   Input ~ 0
+SW3
+Text GLabel 3225 3400 2    50   Input ~ 0
+SW4
+Text GLabel 3225 3500 2    50   Input ~ 0
+SW5
+Text GLabel 3225 3600 2    50   Input ~ 0
+SW6
+Text GLabel 3225 3900 2    50   Input ~ 0
+SW9
+Text GLabel 3225 3800 2    50   Input ~ 0
+SW8
+Text GLabel 3225 3700 2    50   Input ~ 0
+SW7
+Text GLabel 3225 4000 2    50   Input ~ 0
+SW10
+Text GLabel 3225 4100 2    50   Input ~ 0
+SW11
+Text GLabel 3225 4200 2    50   Input ~ 0
+SW12
+Text HLabel 1325 1600 0    50   Input ~ 0
+SDA
+Text HLabel 1325 1700 0    50   Input ~ 0
+SCL
+Wire Wire Line
+	2525 1200 2525 1100
+Connection ~ 2525 1100
+Wire Wire Line
+	2525 1100 2625 1100
+$EndSCHEMATC

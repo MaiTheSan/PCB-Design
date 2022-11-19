@@ -1,0 +1,36 @@
+### Module positions - created on 02/10/22 22:57:20 ###
+### Printed by Pcbnew version pcbnew (5.1.10)-1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref         Val            Package                                               PosX       PosY       Rot  Side
+C1            10uF           C_0603                                            276.3520  -101.6000    0.0000  bottom
+C2            22pF           C_0603                                            287.0200   -90.0430   90.0000  bottom
+C3            22pF           C_0603                                            284.0990   -87.3760    0.0000  bottom
+C4            0.1uF          C_0603                                            290.2270   -96.2660  180.0000  bottom
+C5            0.1uF          C_0603                                            290.2270  -102.9970  180.0000  bottom
+C6            1uF            C_0603                                            274.9550   -95.2500  180.0000  bottom
+C7            0.1uF          C_0603                                            278.6380   -88.7730  270.0000  bottom
+D1            D              D_SOD-123                                         241.6979  -103.5848   90.0000  bottom
+D13           D              D_SOD-123                                         257.3020  -106.9340  270.0000  bottom
+D14           D              D_SOD-123                                         255.1684  -123.4948  180.0000  bottom
+D18           D              D_SOD-123                                         276.3520  -106.9340  270.0000  bottom
+D19           D              D_SOD-123                                         274.2184  -123.4948  180.0000  bottom
+D22           D              D_SOD-123                                         293.4903  -114.8958   90.0000  bottom
+D23           D              D_SOD-123                                         289.9184  -123.4948    0.0000  bottom
+R1            5.1k           R_0805                                            271.4625  -102.3937  180.0000  bottom
+R2            5.1k           R_0805                                            271.4625   -95.2500  180.0000  bottom
+R3            22             R_0805                                            271.4625   -97.6312  180.0000  bottom
+R4            22             R_0805                                            271.4625  -100.0125  180.0000  bottom
+R5            10k            R_0805                                            278.6380   -92.0750  270.0000  bottom
+R6            1k             R_0805                                            290.1000  -100.8380  180.0000  bottom
+R7            R              R_0805                                            240.7285  -120.1420  180.0000  bottom
+SK6812MiniE1  WS2812B        RGB-6028_FLIPPED                                  247.6500  -114.3000  180.0000  bottom
+SK6812MiniE2  WS2812B        RGB-6028_FLIPPED                                  266.7000  -114.3000  180.0000  bottom
+SK6812MiniE3  WS2812B        RGB-6028_FLIPPED                                  285.7500  -114.3000  180.0000  bottom
+SK6812MiniE4  WS2812B        RGB-6028                                          285.7500  -133.3500  180.0000  bottom
+SK6812MiniE5  WS2812B        RGB-6028                                          266.7000  -133.3500  180.0000  bottom
+SK6812MiniE6  WS2812B        RGB-6028                                          247.6500  -133.3500  180.0000  bottom
+U1            PRTR5V0U2X     SOT143B                                           266.7000   -95.2500  180.0000  bottom
+U2            ATmega32U4-MU  QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm_ThermalVias   283.4640   -98.2980    0.0000  bottom
+Y1            16Mhz          Crystal_SMD_3225-4Pin_3.2x2.5mm                   284.0990   -90.0430  180.0000  bottom
+## End

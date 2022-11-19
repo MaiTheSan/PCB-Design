@@ -1,0 +1,162 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C_Small C8
+U 1 1 5A64EFE3
+P 1385 3660
+F 0 "C8" H 1395 3730 50  0000 L CNN
+F 1 "0.1u" H 1395 3580 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1385 3660 50  0001 C CNN
+F 3 "" H 1385 3660 50  0001 C CNN
+	1    1385 3660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C7
+U 1 1 5A64F032
+P 1910 3660
+F 0 "C7" H 1920 3730 50  0000 L CNN
+F 1 "22u" H 1920 3580 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1910 3660 50  0001 C CNN
+F 3 "" H 1910 3660 50  0001 C CNN
+F 4 "10V" H 1910 3660 60  0001 C CNN "Voltage"
+	1    1910 3660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 5A9E02CD
+P 1585 3660
+F 0 "C11" H 1595 3730 50  0000 L CNN
+F 1 "0.47u" H 1595 3580 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1585 3660 50  0001 C CNN
+F 3 "" H 1585 3660 50  0001 C CNN
+	1    1585 3660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5A9E05F3
+P 1385 3960
+F 0 "C9" H 1395 4030 50  0000 L CNN
+F 1 "0.1u" H 1395 3880 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1385 3960 50  0001 C CNN
+F 3 "" H 1385 3960 50  0001 C CNN
+	1    1385 3960
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 5A9E05F9
+P 1585 3960
+F 0 "C12" H 1595 4030 50  0000 L CNN
+F 1 "0.47u" H 1595 3880 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1585 3960 50  0001 C CNN
+F 3 "" H 1585 3960 50  0001 C CNN
+	1    1585 3960
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 5A9E07C9
+P 1385 4260
+F 0 "C10" H 1395 4330 50  0000 L CNN
+F 1 "0.1u" H 1395 4180 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1385 4260 50  0001 C CNN
+F 3 "" H 1385 4260 50  0001 C CNN
+	1    1385 4260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 5A9E07CF
+P 1585 4260
+F 0 "C13" H 1595 4330 50  0000 L CNN
+F 1 "0.47u" H 1595 4180 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 1585 4260 50  0001 C CNN
+F 3 "" H 1585 4260 50  0001 C CNN
+	1    1585 4260
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR016
+U 1 1 5A9E0ED0
+P 1110 3560
+F 0 "#PWR016" H 1110 3410 50  0001 C CNN
+F 1 "+5V" H 1110 3700 50  0000 C CNN
+F 2 "" H 1110 3560 50  0001 C CNN
+F 3 "" H 1110 3560 50  0001 C CNN
+	1    1110 3560
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5A9E143E
+P 1910 4360
+F 0 "#PWR017" H 1910 4110 50  0001 C CNN
+F 1 "GND" H 1910 4210 50  0000 C CNN
+F 2 "" H 1910 4360 50  0001 C CNN
+F 3 "" H 1910 4360 50  0001 C CNN
+	1    1910 4360
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1110 4160 1385 4160
+Wire Wire Line
+	1110 3560 1110 3860
+Wire Wire Line
+	1110 3860 1385 3860
+Connection ~ 1385 4160
+Connection ~ 1385 3860
+Wire Wire Line
+	1110 3560 1385 3560
+Connection ~ 1110 3860
+Connection ~ 1385 3560
+Wire Wire Line
+	1385 3760 1585 3760
+Wire Wire Line
+	1910 3760 1910 4060
+Wire Wire Line
+	1910 4060 1585 4060
+Connection ~ 1585 3760
+Connection ~ 1585 4060
+Wire Wire Line
+	1910 4360 1585 4360
+Connection ~ 1910 4060
+Connection ~ 1585 4360
+Connection ~ 1585 3560
+Wire Wire Line
+	1385 4160 1585 4160
+Wire Wire Line
+	1385 3860 1585 3860
+Wire Wire Line
+	1110 3860 1110 4160
+Wire Wire Line
+	1385 3560 1585 3560
+Wire Wire Line
+	1585 3760 1910 3760
+Wire Wire Line
+	1585 4060 1385 4060
+Wire Wire Line
+	1910 4060 1910 4360
+Wire Wire Line
+	1585 4360 1385 4360
+Wire Wire Line
+	1585 3560 1910 3560
+Connection ~ 1110 3560
+Connection ~ 1910 3760
+Connection ~ 1910 4360
+$EndSCHEMATC

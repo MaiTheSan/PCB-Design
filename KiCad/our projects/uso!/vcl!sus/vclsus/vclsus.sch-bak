@@ -1,0 +1,148 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX1
+U 1 1 62531FA3
+P 1425 1700
+F 0 "MX1" H 1458 1923 60  0000 C CNN
+F 1 "2U" H 1458 1849 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-2U-Hotswap-Sawns" H 800 1675 60  0001 C CNN
+F 3 "" H 800 1675 60  0001 C CNN
+	1    1425 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX2
+U 1 1 62533D4B
+P 1850 1150
+F 0 "MX2" H 1883 1373 60  0000 C CNN
+F 1 "1U" H 1883 1299 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 1225 1125 60  0001 C CNN
+F 3 "" H 1225 1125 60  0001 C CNN
+	1    1850 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX3
+U 1 1 62536C9F
+P 1850 1700
+F 0 "MX3" H 1883 1923 60  0000 C CNN
+F 1 "1U" H 1883 1849 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 1225 1675 60  0001 C CNN
+F 3 "" H 1225 1675 60  0001 C CNN
+	1    1850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX5
+U 1 1 62537945
+P 1850 2800
+F 0 "MX5" H 1883 3023 60  0000 C CNN
+F 1 "1.25U" H 1883 2949 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.25U-Hotswap-Sawns" H 1225 2775 60  0001 C CNN
+F 3 "" H 1225 2775 60  0001 C CNN
+	1    1850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX4
+U 1 1 6253794B
+P 1850 2275
+F 0 "MX4" H 1883 2498 60  0000 C CNN
+F 1 "1U" H 1883 2424 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 1225 2250 60  0001 C CNN
+F 3 "" H 1225 2250 60  0001 C CNN
+	1    1850 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX6
+U 1 1 625397A3
+P 2175 1150
+F 0 "MX6" H 2208 1373 60  0000 C CNN
+F 1 "1.25U" H 2208 1299 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.25U-Hotswap-Sawns" H 1550 1125 60  0001 C CNN
+F 3 "" H 1550 1125 60  0001 C CNN
+	1    2175 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX7
+U 1 1 625397A9
+P 2175 1700
+F 0 "MX7" H 2208 1923 60  0000 C CNN
+F 1 "1U" H 2208 1849 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 1550 1675 60  0001 C CNN
+F 3 "" H 1550 1675 60  0001 C CNN
+	1    2175 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX8
+U 1 1 625397AF
+P 2175 2275
+F 0 "MX8" H 2208 2498 60  0000 C CNN
+F 1 "1U" H 2208 2424 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 1550 2250 60  0001 C CNN
+F 3 "" H 1550 2250 60  0001 C CNN
+	1    2175 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX9
+U 1 1 6253C581
+P 2500 1150
+F 0 "MX9" H 2533 1373 60  0000 C CNN
+F 1 "1U" H 2533 1299 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 1875 1125 60  0001 C CNN
+F 3 "" H 1875 1125 60  0001 C CNN
+	1    2500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX10
+U 1 1 6253C587
+P 2500 1700
+F 0 "MX10" H 2533 1923 60  0000 C CNN
+F 1 "1.25U" H 2533 1849 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.25U-Hotswap-Sawns" H 1875 1675 60  0001 C CNN
+F 3 "" H 1875 1675 60  0001 C CNN
+	1    2500 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX12
+U 1 1 6253FF66
+P 2500 2800
+F 0 "MX12" H 2533 3023 60  0000 C CNN
+F 1 "1.25U" H 2533 2949 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1.25U-Hotswap-Sawns" H 1875 2775 60  0001 C CNN
+F 3 "" H 1875 2775 60  0001 C CNN
+	1    2500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX11
+U 1 1 6253FF6C
+P 2500 2275
+F 0 "MX11" H 2533 2498 60  0000 C CNN
+F 1 "1U" H 2533 2424 20  0000 C CNN
+F 2 "MX_Only_v4:MXOnly-1U-Hotswap-Sawns" H 1875 2250 60  0001 C CNN
+F 3 "" H 1875 2250 60  0001 C CNN
+	1    2500 2275
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

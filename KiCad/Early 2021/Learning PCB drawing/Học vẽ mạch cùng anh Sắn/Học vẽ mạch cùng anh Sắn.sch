@@ -1,0 +1,191 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-MU U1
+U 1 1 5F6E0F12
+P 3475 4715
+F 0 "U1" H 3475 2826 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 3475 2735 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 3475 4715 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3475 4715 50  0001 C CNN
+	1    3475 4715
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5F6E1C34
+P 2295 3495
+F 0 "Y1" H 2489 3541 50  0000 L CNN
+F 1 "Crystal_GND24" H 2489 3450 50  0000 L CNN
+F 2 "random-keyboard-parts:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2295 3495 50  0001 C CNN
+F 3 "~" H 2295 3495 50  0001 C CNN
+	1    2295 3495
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2295 3345 2875 3345
+Wire Wire Line
+	2875 3345 2875 3415
+Wire Wire Line
+	2295 3645 2875 3645
+Wire Wire Line
+	2875 3645 2875 3615
+Wire Wire Line
+	2295 3345 2035 3345
+Connection ~ 2295 3345
+Wire Wire Line
+	2295 3645 2050 3645
+Connection ~ 2295 3645
+$Comp
+L Device:LED D1
+U 1 1 5F6E99D2
+P 8465 2535
+F 0 "D1" V 8504 2418 50  0000 R CNN
+F 1 "LED" V 8413 2418 50  0000 R CNN
+F 2 "" H 8465 2535 50  0001 C CNN
+F 3 "~" H 8465 2535 50  0001 C CNN
+	1    8465 2535
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F6EA1E8
+P 8465 2235
+F 0 "R1" H 8535 2281 50  0000 L CNN
+F 1 "280" H 8535 2190 50  0000 L CNN
+F 2 "" V 8395 2235 50  0001 C CNN
+F 3 "~" H 8465 2235 50  0001 C CNN
+	1    8465 2235
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8465 2685 8465 2755
+Wire Wire Line
+	8465 2755 9005 2755
+Wire Wire Line
+	9005 2755 9005 2685
+$Comp
+L Device:LED D2
+U 1 1 5F6ECC34
+P 9005 2235
+F 0 "D2" V 8952 2313 50  0000 L CNN
+F 1 "LED" V 9043 2313 50  0000 L CNN
+F 2 "" H 9005 2235 50  0001 C CNN
+F 3 "~" H 9005 2235 50  0001 C CNN
+	1    9005 2235
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F6ECC3A
+P 9005 2535
+F 0 "R2" H 8935 2489 50  0000 R CNN
+F 1 "280" H 8935 2580 50  0000 R CNN
+F 2 "" V 8935 2535 50  0001 C CNN
+F 3 "~" H 9005 2535 50  0001 C CNN
+	1    9005 2535
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9005 2085 9005 1960
+Wire Wire Line
+	9005 1960 8465 1960
+$Comp
+L Device:R R4
+U 1 1 5F6EDCC6
+P 9005 3275
+F 0 "R4" H 8935 3229 50  0000 R CNN
+F 1 "280" H 8935 3320 50  0000 R CNN
+F 2 "" V 8935 3275 50  0001 C CNN
+F 3 "~" H 9005 3275 50  0001 C CNN
+	1    9005 3275
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5F6EDCC0
+P 9005 2975
+F 0 "D4" V 8952 3053 50  0000 L CNN
+F 1 "LED" V 9043 3053 50  0000 L CNN
+F 2 "" H 9005 2975 50  0001 C CNN
+F 3 "~" H 9005 2975 50  0001 C CNN
+	1    9005 2975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9005 3495 9005 3425
+Wire Wire Line
+	8465 3495 9005 3495
+Wire Wire Line
+	8465 3425 8465 3495
+$Comp
+L Device:R R3
+U 1 1 5F6EDCB7
+P 8465 2975
+F 0 "R3" H 8535 3021 50  0000 L CNN
+F 1 "280" H 8535 2930 50  0000 L CNN
+F 2 "" V 8395 2975 50  0001 C CNN
+F 3 "~" H 8465 2975 50  0001 C CNN
+	1    8465 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5F6EDCB1
+P 8465 3275
+F 0 "D3" V 8504 3158 50  0000 R CNN
+F 1 "LED" V 8413 3158 50  0000 R CNN
+F 2 "" H 8465 3275 50  0001 C CNN
+F 3 "~" H 8465 3275 50  0001 C CNN
+	1    8465 3275
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9005 2825 9005 2755
+Wire Wire Line
+	8465 2755 8465 2825
+Connection ~ 8465 2755
+Connection ~ 9005 2755
+Wire Wire Line
+	8465 3495 8275 3495
+Wire Wire Line
+	8465 1960 8275 1960
+Connection ~ 8465 3495
+$Comp
+L MCU_Module:Arduino_UNO_R3 A?
+U 1 1 5F6F2FE2
+P 7595 2655
+F 0 "A?" H 7595 3836 50  0000 C CNN
+F 1 "Arduino_UNO_R3" H 7595 3745 50  0000 C CNN
+F 2 "Module:Arduino_UNO_R3" H 7595 2655 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 7595 2655 50  0001 C CNN
+	1    7595 2655
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8095 2755 8465 2755
+Wire Wire Line
+	8095 2655 8275 2655
+Wire Wire Line
+	8275 1960 8275 2655
+Wire Wire Line
+	8275 3495 8275 2855
+Wire Wire Line
+	8275 2855 8095 2855
+Wire Wire Line
+	8465 2085 8465 1960
+Connection ~ 8465 1960
+$EndSCHEMATC

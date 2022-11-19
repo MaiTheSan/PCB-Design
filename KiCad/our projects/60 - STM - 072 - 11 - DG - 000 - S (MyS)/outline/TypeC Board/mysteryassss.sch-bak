@@ -1,0 +1,339 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:4P4C J2
+U 1 1 61428FBB
+P 9210 2045
+F 0 "J2" H 9215 2020 50  0001 C CNN
+F 1 "4P4C" H 9205 2145 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" V 9210 2095 50  0001 C CNN
+F 3 "~" V 9210 2095 50  0001 C CNN
+	1    9210 2045
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad CASE2
+U 1 1 61E1F1C4
+P 5300 4110
+F 0 "CASE2" H 5400 4159 50  0001 L CNN
+F 1 "ESD inrush" H 6000 3790 79  0001 L CNB
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5300 4110 50  0001 C CNN
+F 3 "~" H 5300 4110 50  0001 C CNN
+	1    5300 4110
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad CASE4
+U 1 1 62104684
+P 5620 4110
+F 0 "CASE4" H 5720 4159 50  0001 L CNN
+F 1 "ESD inrush" H 6320 3790 79  0001 L CNB
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5620 4110 50  0001 C CNN
+F 3 "~" H 5620 4110 50  0001 C CNN
+	1    5620 4110
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad CASE5
+U 1 1 6214E627
+P 5780 4110
+F 0 "CASE5" H 5880 4159 50  0001 L CNN
+F 1 "ESD inrush" H 6480 3790 79  0001 L CNB
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5780 4110 50  0001 C CNN
+F 3 "~" H 5780 4110 50  0001 C CNN
+	1    5780 4110
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR032
+U 1 1 5B33A96C
+P 6840 1325
+F 0 "#PWR032" H 6840 1175 50  0001 C CNN
+F 1 "+5V" H 6840 1465 50  0000 C CNN
+F 2 "" H 6840 1325 50  0001 C CNN
+F 3 "" H 6840 1325 50  0001 C CNN
+	1    6840 1325
+	1    0    0    -1  
+$EndComp
+Text GLabel 8040 1750 2    60   Input ~ 0
+D-
+Text GLabel 8040 1850 2    60   Input ~ 0
+D+
+$Comp
+L random-keyboard-parts:HRO-TYPE-C-31-M-12-Type-C USB1
+U 1 1 5B361237
+P 5315 1775
+F 0 "USB1" H 5115 2425 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" V 4915 1725 60  0000 C CNN
+F 2 "sanproject-keyboard-part:HRO-TYPE-C-31-M-12-Assembly" H 5315 1775 60  0001 C CNN
+F 3 "" H 5315 1775 60  0001 C CNN
+	1    5315 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R107
+U 1 1 5B369C99
+P 6465 2500
+F 0 "R107" H 6495 2520 50  0000 L CNN
+F 1 "5.1k" H 6495 2460 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" H 6465 2500 50  0001 C CNN
+F 3 "" H 6465 2500 50  0001 C CNN
+	1    6465 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R108
+U 1 1 5B36AD9E
+P 6465 2750
+F 0 "R108" H 6495 2770 50  0000 L CNN
+F 1 "5.1k" H 6495 2710 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" H 6465 2750 50  0001 C CNN
+F 3 "" H 6465 2750 50  0001 C CNN
+	1    6465 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5415 1325 5915 1325
+Wire Wire Line
+	5415 1725 5640 1725
+Wire Wire Line
+	5640 1725 5640 1850
+Wire Wire Line
+	5640 1925 5415 1925
+Wire Wire Line
+	5415 1825 5765 1825
+Wire Wire Line
+	5765 1825 5765 1750
+Wire Wire Line
+	5765 1625 5415 1625
+Connection ~ 5765 1750
+Connection ~ 5640 1850
+Wire Wire Line
+	5915 1325 5915 2225
+Wire Wire Line
+	5915 2225 5415 2225
+Wire Wire Line
+	5415 2325 5865 2325
+Wire Wire Line
+	5865 1225 5865 2325
+Wire Wire Line
+	5865 1225 5415 1225
+Wire Wire Line
+	5865 2425 5415 2425
+Connection ~ 5865 2325
+Connection ~ 5915 1325
+Wire Wire Line
+	5415 1525 6215 1525
+Wire Wire Line
+	6215 1525 6215 2500
+Wire Wire Line
+	6215 2500 6365 2500
+Wire Wire Line
+	5415 2125 6165 2125
+Wire Wire Line
+	6165 2125 6165 2750
+Wire Wire Line
+	6165 2750 6365 2750
+Wire Wire Line
+	6715 2750 6565 2750
+Wire Wire Line
+	6565 2500 6715 2500
+Wire Wire Line
+	6715 2500 6715 2750
+Wire Wire Line
+	5765 1750 5765 1625
+Wire Wire Line
+	5640 1850 5640 1925
+Wire Wire Line
+	5865 2325 5865 2425
+Wire Wire Line
+	5640 1850 6565 1850
+Wire Wire Line
+	7415 2175 7315 2175
+Wire Wire Line
+	6715 2500 6715 2400
+Wire Wire Line
+	6715 2400 6390 2400
+Wire Wire Line
+	6390 2400 6390 2175
+Wire Wire Line
+	6390 2175 6715 2175
+Connection ~ 6715 2500
+Wire Wire Line
+	6715 2275 6565 2275
+Wire Wire Line
+	7315 2275 7515 2275
+Wire Wire Line
+	5765 1750 7515 1750
+Wire Wire Line
+	7515 2275 7515 1750
+Connection ~ 7515 1750
+Wire Wire Line
+	6565 2275 6565 1850
+Connection ~ 6565 1850
+NoConn ~ 5415 2025
+NoConn ~ 5415 1425
+Wire Wire Line
+	5915 1325 6375 1325
+$Comp
+L power:+5V #PWR034
+U 1 1 5F7E17C0
+P 7415 2175
+F 0 "#PWR034" H 7415 2025 50  0001 C CNN
+F 1 "+5V" H 7415 2315 50  0000 C CNN
+F 2 "" H 7415 2175 50  0001 C CNN
+F 3 "" H 7415 2175 50  0001 C CNN
+	1    7415 2175
+	1    0    0    -1  
+$EndComp
+Text Label 6345 1750 0    50   ~ 0
+R+
+Text Label 6340 1850 0    50   ~ 0
+R-
+$Comp
+L random-keyboard-parts:PRTR5V0U2X U5
+U 1 1 5F3898FF
+P 7015 2225
+F 0 "U5" H 7015 2522 60  0000 C CNN
+F 1 "PRTR5V0U2X" H 7015 2416 60  0000 C CNN
+F 2 "sanproject-keyboard-part:SOT143B" H 7015 2225 60  0001 C CNN
+F 3 "" H 7015 2225 60  0001 C CNN
+	1    7015 2225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse_Small F1
+U 1 1 60FCA2D6
+P 6475 1325
+F 0 "F1" H 6475 1510 50  0000 C CNN
+F 1 "1206 @ 500mA" H 6475 1419 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" H 6475 1325 50  0001 C CNN
+F 3 "~" H 6475 1325 50  0001 C CNN
+	1    6475 1325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6575 1325 6840 1325
+$Comp
+L Device:L_Core_Ferrite L1
+U 1 1 61640991
+P 5500 3000
+F 0 "L1" H 5588 3046 50  0000 L CNN
+F 1 "L_Core_Ferrite" H 5588 2955 50  0000 L CNN
+F 2 "Inductor_SMD:L_1206_3216Metric" H 5500 3000 50  0001 C CNN
+F 3 "~" H 5500 3000 50  0001 C CNN
+	1    5500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 616439D4
+P 5500 2850
+F 0 "#PWR0101" H 5500 2600 50  0001 C CNN
+F 1 "GND" H 5500 2700 50  0000 C CNN
+F 2 "" H 5500 2850 50  0001 C CNN
+F 3 "" H 5500 2850 50  0001 C CNN
+	1    5500 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDPWR #PWR0102
+U 1 1 6164748D
+P 5500 3150
+F 0 "#PWR0102" H 5500 2950 50  0001 C CNN
+F 1 "GNDPWR" H 5504 2996 50  0000 C CNN
+F 2 "" H 5500 3100 50  0001 C CNN
+F 3 "" H 5500 3100 50  0001 C CNN
+	1    5500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad CASE3
+U 1 1 620BA0F2
+P 5460 4110
+F 0 "CASE3" H 5560 4159 50  0001 L CNN
+F 1 "ESD inrush" H 5585 3850 79  0001 L CNB
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 5460 4110 50  0001 C CNN
+F 3 "~" H 5460 4110 50  0001 C CNN
+	1    5460 4110
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR0103
+U 1 1 61648DBA
+P 5300 4210
+F 0 "#PWR0103" H 5300 4010 50  0001 C CNN
+F 1 "GNDPWR" H 5304 4056 50  0000 C CNN
+F 2 "" H 5300 4160 50  0001 C CNN
+F 3 "" H 5300 4160 50  0001 C CNN
+	1    5300 4210
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6164D3CD
+P 9610 1845
+F 0 "#PWR0104" H 9610 1595 50  0001 C CNN
+F 1 "GND" H 9610 1695 50  0000 C CNN
+F 2 "" H 9610 1845 50  0001 C CNN
+F 3 "" H 9610 1845 50  0001 C CNN
+	1    9610 1845
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GNDPWR #PWR0105
+U 1 1 6164F403
+P 5865 2425
+F 0 "#PWR0105" H 5865 2225 50  0001 C CNN
+F 1 "GNDPWR" H 5869 2271 50  0000 C CNN
+F 2 "" H 5865 2375 50  0001 C CNN
+F 3 "" H 5865 2375 50  0001 C CNN
+	1    5865 2425
+	1    0    0    -1  
+$EndComp
+Connection ~ 5865 2425
+$Comp
+L power:GNDPWR #PWR0106
+U 1 1 61650E41
+P 6715 2750
+F 0 "#PWR0106" H 6715 2550 50  0001 C CNN
+F 1 "GNDPWR" H 6719 2596 50  0000 C CNN
+F 2 "" H 6715 2700 50  0001 C CNN
+F 3 "" H 6715 2700 50  0001 C CNN
+	1    6715 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 6715 2750
+$Comp
+L power:+5V #PWR0107
+U 1 1 61653949
+P 9610 2145
+F 0 "#PWR0107" H 9610 1995 50  0001 C CNN
+F 1 "+5V" H 9610 2285 50  0000 C CNN
+F 2 "" H 9610 2145 50  0001 C CNN
+F 3 "" H 9610 2145 50  0001 C CNN
+	1    9610 2145
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6565 1850 8040 1850
+Wire Wire Line
+	7515 1750 8040 1750
+Text GLabel 9610 1945 2    60   Input ~ 0
+D-
+Text GLabel 9610 2045 2    60   Input ~ 0
+D-
+$EndSCHEMATC

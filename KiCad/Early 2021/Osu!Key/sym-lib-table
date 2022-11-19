@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Osu!Key-rescue)(type Legacy)(uri ${KIPRJMOD}/Osu!Key-rescue.lib)(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name E73)(type Legacy)(uri D:/Keyboard/NRF52-Board-master/Library/schematics/E73.lib)(options "")(descr ""))
+  (lib (name ch34x)(type Legacy)(uri D:/Keyboard/NRF52-Board-master/Library/schematics/ch34x.lib)(options "")(descr ""))
+  (lib (name mdbt42q)(type Legacy)(uri D:/Keyboard/NRF52-Board-master/Library/schematics/mdbt42q.lib)(options "")(descr ""))
+  (lib (name ProMicro)(type Legacy)(uri D:/Keyboard/NRF52-Board-master/Library/schematics/ProMicro.lib)(options "")(descr ""))
+  (lib (name USBLC64SC6Y)(type Legacy)(uri D:/Keyboard/NRF52-Board-master/Library/schematics/USBLC64SC6Y.lib)(options "")(descr ""))
+  (lib (name yj-14015)(type Legacy)(uri D:/Keyboard/NRF52-Board-master/Library/schematics/yj-14015.lib)(options "")(descr ""))
+  (lib (name TKL840RGB41Iso-rescue)(type Legacy)(uri ${KIPRJMOD}/TKL840RGB41Iso-rescue.lib)(options "")(descr ""))
+)

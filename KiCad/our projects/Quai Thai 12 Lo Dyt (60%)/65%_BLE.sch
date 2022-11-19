@@ -1,0 +1,5091 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 60CC3965
+P 2130 3090
+F 0 "U1" H 2380 1540 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 1980 1840 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 2130 3090 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 2130 3090 50  0001 C CNN
+	1    2130 3090
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2030 1290 2130 1290
+Connection ~ 2130 1290
+Wire Wire Line
+	2130 1290 2230 1290
+Wire Wire Line
+	2030 4890 2130 4890
+Wire Wire Line
+	980  1790 980  1990
+$Comp
+L Device:C_Small Xtal_1
+U 1 1 60CD16B9
+P 1330 2090
+F 0 "Xtal_1" H 1422 2136 50  0001 L CNN
+F 1 "22pf" H 1130 1990 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1330 2090 50  0001 C CNN
+F 3 "~" H 1330 2090 50  0001 C CNN
+	1    1330 2090
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small Xtal_2
+U 1 1 60CD334F
+P 980 2090
+F 0 "Xtal_2" H 1072 2136 50  0001 L CNN
+F 1 "22pf" H 780 1990 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 980 2090 50  0001 C CNN
+F 3 "~" H 980 2090 50  0001 C CNN
+	1    980  2090
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	980  2190 980  2290
+Wire Wire Line
+	980  2290 1090 2290
+Wire Wire Line
+	1330 2290 1330 2190
+$Comp
+L power:+5V #PWR0101
+U 1 1 60CD42E9
+P 1530 2390
+F 0 "#PWR0101" H 1530 2240 50  0001 C CNN
+F 1 "+5V" V 1545 2518 50  0000 L CNN
+F 2 "" H 1530 2390 50  0001 C CNN
+F 3 "" H 1530 2390 50  0001 C CNN
+	1    1530 2390
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60CD52BD
+P 980 2290
+F 0 "#PWR0102" H 980 2040 50  0001 C CNN
+F 1 "GND" H 985 2117 50  0000 C CNN
+F 2 "" H 980 2290 50  0001 C CNN
+F 3 "" H 980 2290 50  0001 C CNN
+	1    980  2290
+	1    0    0    -1  
+$EndComp
+Connection ~ 980  2290
+$Comp
+L Device:R_Small R_D+1
+U 1 1 60CD5ADA
+P 1330 2690
+F 0 "R_D+1" V 1176 2690 50  0001 C CNN
+F 1 "22" V 1330 2690 24  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1330 2690 50  0001 C CNN
+F 3 "~" H 1330 2690 50  0001 C CNN
+	1    1330 2690
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R_D-1
+U 1 1 60CDAAD1
+P 1330 2590
+F 0 "R_D-1" V 1176 2590 50  0001 C CNN
+F 1 "22" V 1330 2590 24  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1330 2590 50  0001 C CNN
+F 3 "~" H 1330 2590 50  0001 C CNN
+	1    1330 2590
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1430 2590 1530 2590
+Wire Wire Line
+	1530 2690 1430 2690
+Wire Wire Line
+	1230 2690 1080 2690
+Wire Wire Line
+	1230 2590 1080 2590
+Text GLabel 1080 2590 0    50   Input ~ 0
+D+
+Text GLabel 1080 2690 0    50   Input ~ 0
+D-
+$Comp
+L Device:C_Small C_UCAP1
+U 1 1 60CDBD57
+P 1280 2890
+F 0 "C_UCAP1" V 1051 2890 50  0001 C CNN
+F 1 "1uF" V 1380 2790 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1280 2890 50  0001 C CNN
+F 3 "~" H 1280 2890 50  0001 C CNN
+	1    1280 2890
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1380 2890 1530 2890
+Wire Wire Line
+	980  2290 830  2290
+Wire Wire Line
+	830  2290 830  2890
+Wire Wire Line
+	830  2890 1180 2890
+$Comp
+L power:GND #PWR0103
+U 1 1 60CDF9AF
+P 2030 4890
+F 0 "#PWR0103" H 2030 4640 50  0001 C CNN
+F 1 "GND" H 2035 4717 50  0000 C CNN
+F 2 "" H 2030 4890 50  0001 C CNN
+F 3 "" H 2030 4890 50  0001 C CNN
+	1    2030 4890
+	1    0    0    -1  
+$EndComp
+Connection ~ 2030 4890
+Wire Wire Line
+	2130 1290 2130 1240
+$Comp
+L power:+5V #PWR0104
+U 1 1 60CE0D5B
+P 2130 1240
+F 0 "#PWR0104" H 2130 1090 50  0001 C CNN
+F 1 "+5V" H 2145 1413 50  0000 C CNN
+F 2 "" H 2130 1240 50  0001 C CNN
+F 3 "" H 2130 1240 50  0001 C CNN
+	1    2130 1240
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1530 1590 1380 1590
+Text GLabel 1230 1590 0    50   Input ~ 0
+RST
+$Comp
+L Device:R_Small R_RST1
+U 1 1 60CE2394
+P 1380 1390
+F 0 "R_RST1" H 1439 1436 50  0001 L CNN
+F 1 "10k" V 1380 1340 24  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1380 1390 50  0001 C CNN
+F 3 "~" H 1380 1390 50  0001 C CNN
+	1    1380 1390
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1380 1290 2030 1290
+Connection ~ 2030 1290
+Wire Wire Line
+	1380 1490 1380 1590
+Connection ~ 1380 1590
+Wire Wire Line
+	1380 1590 1230 1590
+$Comp
+L Device:R_Small R_HWB1
+U 1 1 60CE50FC
+P 2830 3690
+F 0 "R_HWB1" V 2676 3690 50  0001 C CNN
+F 1 "10k" V 2830 3690 24  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2830 3690 50  0001 C CNN
+F 3 "~" H 2830 3690 50  0001 C CNN
+	1    2830 3690
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 60CE8AE5
+P 2990 3690
+F 0 "#PWR0105" H 2990 3440 50  0001 C CNN
+F 1 "GND" V 2995 3562 50  0000 R CNN
+F 2 "" H 2990 3690 50  0001 C CNN
+F 3 "" H 2990 3690 50  0001 C CNN
+	1    2990 3690
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10980 5610 11080 5610
+$Comp
+L Device:Polyfuse_Small Fuse1
+U 1 1 60CF372A
+P 11280 5610
+F 0 "Fuse1" V 11075 5610 50  0001 C CNN
+F 1 "Polyfuse_Small" V 11167 5610 50  0001 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric_Castellated" H 11330 5410 50  0001 L CNN
+F 3 "~" H 11280 5610 50  0001 C CNN
+	1    11280 5610
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11380 5610 11730 5610
+$Comp
+L power:+5V #PWR0106
+U 1 1 60CF4B1F
+P 11730 5610
+F 0 "#PWR0106" H 11730 5460 50  0001 C CNN
+F 1 "+5V" H 11745 5783 50  0000 C CNN
+F 2 "" H 11730 5610 50  0001 C CNN
+F 3 "" H 11730 5610 50  0001 C CNN
+	1    11730 5610
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R_CC1
+U 1 1 60CF56D2
+P 11280 5810
+F 0 "R_CC1" V 11180 5810 50  0001 C CNN
+F 1 "5.6k" V 11280 5810 28  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 11280 5810 50  0001 C CNN
+F 3 "~" H 11280 5810 50  0001 C CNN
+	1    11280 5810
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R_CC2
+U 1 1 60CF80BA
+P 11280 5910
+F 0 "R_CC2" V 11180 5910 50  0001 C CNN
+F 1 "5.6k" V 11280 5910 28  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 11280 5910 50  0001 C CNN
+F 3 "~" H 11280 5910 50  0001 C CNN
+	1    11280 5910
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11180 5810 10980 5810
+Wire Wire Line
+	10980 5910 11180 5910
+Wire Wire Line
+	11380 5810 11530 5810
+Wire Wire Line
+	11530 5810 11530 5860
+Wire Wire Line
+	11530 5910 11380 5910
+$Comp
+L power:GND #PWR0107
+U 1 1 60CF9D33
+P 11530 5860
+F 0 "#PWR0107" H 11530 5610 50  0001 C CNN
+F 1 "GND" V 11535 5732 50  0000 R CNN
+F 2 "" H 11530 5860 50  0001 C CNN
+F 3 "" H 11530 5860 50  0001 C CNN
+	1    11530 5860
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11530 5860
+Wire Wire Line
+	11530 5860 11530 5910
+Wire Wire Line
+	10980 6110 10980 6160
+Connection ~ 10980 6160
+Wire Wire Line
+	10980 6160 10980 6210
+Wire Wire Line
+	10980 6310 10980 6360
+Connection ~ 10980 6360
+Wire Wire Line
+	10980 6360 10980 6410
+Text GLabel 11180 6160 2    50   Input ~ 0
+D-
+Text GLabel 11180 6360 2    50   Input ~ 0
+D+
+NoConn ~ 10980 6710
+NoConn ~ 10980 6810
+Wire Wire Line
+	10080 7110 10380 7110
+$Comp
+L power:GND #PWR0108
+U 1 1 60CFE824
+P 10475 7110
+F 0 "#PWR0108" H 10475 6860 50  0001 C CNN
+F 1 "GND" V 10480 6982 50  0000 R CNN
+F 2 "" H 10475 7110 50  0001 C CNN
+F 3 "" H 10475 7110 50  0001 C CNN
+	1    10475 7110
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C_1
+U 1 1 60CFF8B7
+P 1180 4890
+F 0 "C_1" H 1272 4936 50  0001 L CNN
+F 1 "10uF" H 1272 4890 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1180 4890 50  0001 C CNN
+F 3 "~" H 1180 4890 50  0001 C CNN
+	1    1180 4890
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C_2
+U 1 1 60D00CBB
+P 1180 4540
+F 0 "C_2" H 1272 4586 50  0001 L CNN
+F 1 "0.1uF" H 1272 4540 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1180 4540 50  0001 C CNN
+F 3 "~" H 1180 4540 50  0001 C CNN
+	1    1180 4540
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C_3
+U 1 1 60D02E41
+P 1180 4140
+F 0 "C_3" H 1272 4186 50  0001 L CNN
+F 1 "0.1uF" H 1272 4140 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1180 4140 50  0001 C CNN
+F 3 "~" H 1180 4140 50  0001 C CNN
+	1    1180 4140
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C_4
+U 1 1 60D03944
+P 1180 3740
+F 0 "C_4" H 1272 3786 50  0001 L CNN
+F 1 "0.1uF" H 1272 3740 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1180 3740 50  0001 C CNN
+F 3 "~" H 1180 3740 50  0001 C CNN
+	1    1180 3740
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1080 4890 1080 4540
+Connection ~ 1080 4140
+Wire Wire Line
+	1080 4140 1080 3740
+Connection ~ 1080 4540
+Wire Wire Line
+	1080 4540 1080 4140
+Wire Wire Line
+	1280 3740 1280 4140
+Connection ~ 1280 4140
+Wire Wire Line
+	1280 4140 1280 4540
+Connection ~ 1280 4540
+Wire Wire Line
+	1280 4540 1280 4890
+Wire Wire Line
+	1280 4890 2030 4890
+Connection ~ 1280 4890
+$Comp
+L power:+5V #PWR0109
+U 1 1 60D1260E
+P 1080 3740
+F 0 "#PWR0109" H 1080 3590 50  0001 C CNN
+F 1 "+5V" V 1095 3868 50  0000 L CNN
+F 2 "" H 1080 3740 50  0001 C CNN
+F 3 "" H 1080 3740 50  0001 C CNN
+	1    1080 3740
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1080 3740
+$Comp
+L power:VCC #PWR0110
+U 1 1 60D5729C
+P 11080 5490
+F 0 "#PWR0110" H 11080 5340 50  0001 C CNN
+F 1 "VCC" H 11095 5663 50  0000 C CNN
+F 2 "" H 11080 5490 50  0001 C CNN
+F 3 "" H 11080 5490 50  0001 C CNN
+	1    11080 5490
+	0    1    1    0   
+$EndComp
+Connection ~ 11080 5610
+Wire Wire Line
+	11080 5610 11180 5610
+Wire Wire Line
+	2730 2790 2830 2790
+Wire Wire Line
+	2730 2890 2830 2890
+$Comp
+L Diode:1N4148 D1
+U 1 1 60D9E0A3
+P 5160 1950
+F 0 "D1" H 5210 2050 50  0000 R CNN
+F 1 "1N4148" V 5115 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 5160 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5160 1950 50  0001 C CNN
+	1    5160 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 60DA9553
+P 5840 1950
+F 0 "D6" H 5890 2050 50  0000 R CNN
+F 1 "1N4148" V 5795 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 5840 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5840 1950 50  0001 C CNN
+	1    5840 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5840 1800 5990 1800
+$Comp
+L Diode:1N4148 D11
+U 1 1 60DAEE88
+P 6540 1950
+F 0 "D11" H 6590 2050 50  0000 R CNN
+F 1 "1N4148" V 6495 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 6540 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6540 1950 50  0001 C CNN
+	1    6540 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6540 1800 6690 1800
+$Comp
+L Diode:1N4148 D17
+U 1 1 60DAEE95
+P 7220 1950
+F 0 "D17" H 7270 2050 50  0000 R CNN
+F 1 "1N4148" V 7175 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 7220 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7220 1950 50  0001 C CNN
+	1    7220 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7220 1800 7370 1800
+$Comp
+L Diode:1N4148 D21
+U 1 1 60DB2B8D
+P 7930 1950
+F 0 "D21" H 7980 2050 50  0000 R CNN
+F 1 "1N4148" V 7885 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 7930 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7930 1950 50  0001 C CNN
+	1    7930 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7930 1800 8080 1800
+$Comp
+L Diode:1N4148 D25
+U 1 1 60DB2B9A
+P 8610 1950
+F 0 "D25" H 8660 2050 50  0000 R CNN
+F 1 "1N4148" V 8565 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 8610 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8610 1950 50  0001 C CNN
+	1    8610 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8610 1800 8760 1800
+$Comp
+L Diode:1N4148 D29
+U 1 1 60DCA6FE
+P 9320 1950
+F 0 "D29" H 9370 2050 50  0000 R CNN
+F 1 "1N4148" V 9275 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 9320 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9320 1950 50  0001 C CNN
+	1    9320 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9320 1800 9470 1800
+$Comp
+L Diode:1N4148 D34
+U 1 1 60DCA70B
+P 10000 1950
+F 0 "D34" H 10050 2050 50  0000 R CNN
+F 1 "1N4148" V 9955 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 10000 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10000 1950 50  0001 C CNN
+	1    10000 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10000 1800 10150 1800
+$Comp
+L Diode:1N4148 D38
+U 1 1 60DCA718
+P 10700 1950
+F 0 "D38" H 10750 2050 50  0000 R CNN
+F 1 "1N4148" V 10655 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 10700 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 1950 50  0001 C CNN
+	1    10700 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 1800 10850 1800
+$Comp
+L Diode:1N4148 D43
+U 1 1 60DCA725
+P 11380 1950
+F 0 "D43" H 11430 2050 50  0000 R CNN
+F 1 "1N4148" V 11335 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 11380 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11380 1950 50  0001 C CNN
+	1    11380 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11380 1800 11530 1800
+$Comp
+L Diode:1N4148 D48
+U 1 1 60DCA732
+P 12090 1950
+F 0 "D48" H 12140 2050 50  0000 R CNN
+F 1 "1N4148" V 12045 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 12090 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12090 1950 50  0001 C CNN
+	1    12090 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12090 1800 12240 1800
+$Comp
+L Diode:1N4148 D53
+U 1 1 60DCA73F
+P 12770 1950
+F 0 "D53" H 12820 2050 50  0000 R CNN
+F 1 "1N4148" V 12725 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 12770 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12770 1950 50  0001 C CNN
+	1    12770 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12770 1800 12920 1800
+$Comp
+L Diode:1N4148 D58
+U 1 1 60DE3683
+P 13500 1950
+F 0 "D58" H 13550 2050 50  0000 R CNN
+F 1 "1N4148" V 13455 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 13500 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13500 1950 50  0001 C CNN
+	1    13500 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13500 1800 13650 1800
+$Comp
+L Diode:1N4148 D63
+U 1 1 60DE3690
+P 14180 1950
+F 0 "D63" H 14230 2050 50  0000 R CNN
+F 1 "1N4148" V 14135 1870 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 14180 1775 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14180 1950 50  0001 C CNN
+	1    14180 1950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14180 1800 14330 1800
+Wire Wire Line
+	5160 2100 5840 2100
+Connection ~ 5840 2100
+Wire Wire Line
+	5840 2100 6540 2100
+Connection ~ 6540 2100
+Wire Wire Line
+	6540 2100 7220 2100
+Connection ~ 7220 2100
+Wire Wire Line
+	7220 2100 7930 2100
+Connection ~ 7930 2100
+Wire Wire Line
+	7930 2100 8610 2100
+Connection ~ 8610 2100
+Wire Wire Line
+	8610 2100 9320 2100
+Connection ~ 9320 2100
+Wire Wire Line
+	9320 2100 10000 2100
+Connection ~ 10000 2100
+Wire Wire Line
+	10000 2100 10700 2100
+Connection ~ 10700 2100
+Wire Wire Line
+	10700 2100 11380 2100
+Connection ~ 11380 2100
+Wire Wire Line
+	11380 2100 12090 2100
+Connection ~ 12090 2100
+Wire Wire Line
+	12090 2100 12770 2100
+Connection ~ 12770 2100
+Wire Wire Line
+	12770 2100 13500 2100
+Connection ~ 13500 2100
+Wire Wire Line
+	5660 1930 5520 1930
+Wire Wire Line
+	5770 1870 5660 1870
+Wire Wire Line
+	5360 1870 5320 1870
+Wire Wire Line
+	5320 1870 5320 2060
+Wire Wire Line
+	5260 1930 5360 1930
+Wire Wire Line
+	6340 1930 6200 1930
+Wire Wire Line
+	6340 1870 6470 1870
+Wire Wire Line
+	6000 1870 6040 1870
+Wire Wire Line
+	5950 1930 6040 1930
+Wire Wire Line
+	7040 1930 6890 1930
+Wire Wire Line
+	7160 1870 7040 1870
+Wire Wire Line
+	6740 1870 6670 1870
+Wire Wire Line
+	6670 1870 6670 2060
+Wire Wire Line
+	6620 1930 6740 1930
+Wire Wire Line
+	7720 1930 7570 1930
+Wire Wire Line
+	7870 1870 7720 1870
+Wire Wire Line
+	7340 1870 7420 1870
+Wire Wire Line
+	7420 1930 7300 1930
+Wire Wire Line
+	8430 1930 8280 1930
+Wire Wire Line
+	8540 1870 8430 1870
+Wire Wire Line
+	8540 1870 8540 2030
+Wire Wire Line
+	8050 1870 8050 2060
+Wire Wire Line
+	8050 1870 8130 1870
+Wire Wire Line
+	8010 1930 8130 1930
+Wire Wire Line
+	9110 1930 8960 1930
+Wire Wire Line
+	9250 1870 9110 1870
+Wire Wire Line
+	8700 1930 8810 1930
+Wire Wire Line
+	9820 1930 9670 1930
+Wire Wire Line
+	9940 1870 9820 1870
+Wire Wire Line
+	9520 1870 9490 1870
+Wire Wire Line
+	9440 1930 9520 1930
+Wire Wire Line
+	9490 1870 9490 2060
+Wire Wire Line
+	10350 1930 10500 1930
+Wire Wire Line
+	10500 1870 10640 1870
+Wire Wire Line
+	10640 1870 10640 2030
+Wire Wire Line
+	10160 1870 10200 1870
+Wire Wire Line
+	11200 1930 11050 1930
+Wire Wire Line
+	11320 1870 11200 1870
+Wire Wire Line
+	10860 1870 10860 2060
+Wire Wire Line
+	10860 1870 10900 1870
+Wire Wire Line
+	10810 1930 10900 1930
+Wire Wire Line
+	12590 1870 12700 1870
+Wire Wire Line
+	12700 1870 12700 2030
+Wire Wire Line
+	12290 1870 12260 1870
+Wire Wire Line
+	12210 1930 12290 1930
+Wire Wire Line
+	12260 1870 12260 2060
+Wire Wire Line
+	13270 1930 13120 1930
+Wire Wire Line
+	13430 1870 13270 1870
+Wire Wire Line
+	12940 1930 12970 1930
+Wire Wire Line
+	12970 1870 12880 1870
+Wire Wire Line
+	13850 1930 14000 1930
+Wire Wire Line
+	14000 1870 14020 1870
+Wire Wire Line
+	14020 1870 14020 2030
+Wire Wire Line
+	13700 1870 13670 1870
+Wire Wire Line
+	13620 1930 13700 1930
+Wire Wire Line
+	14530 1930 14680 1930
+Wire Wire Line
+	14680 1870 14700 1870
+Wire Wire Line
+	14700 1870 14700 2030
+Wire Wire Line
+	14380 1870 14350 1870
+Wire Wire Line
+	14350 1870 14350 2060
+Wire Wire Line
+	14280 1930 14380 1930
+Wire Wire Line
+	5770 2030 6470 2030
+Wire Wire Line
+	6470 1870 6470 2030
+Wire Wire Line
+	5770 2030 5770 1870
+Connection ~ 6470 2030
+Wire Wire Line
+	6470 2030 7160 2030
+Connection ~ 7160 2030
+Wire Wire Line
+	7160 2030 7160 1870
+Wire Wire Line
+	7160 2030 7870 2030
+Connection ~ 7870 2030
+Wire Wire Line
+	7870 2030 7870 1870
+Wire Wire Line
+	7870 2030 8540 2030
+Connection ~ 8540 2030
+Wire Wire Line
+	8540 2030 9250 2030
+Connection ~ 9250 2030
+Wire Wire Line
+	9250 2030 9250 1870
+Wire Wire Line
+	9250 2030 9940 2030
+Wire Wire Line
+	9940 1870 9940 2030
+Connection ~ 9940 2030
+Wire Wire Line
+	9940 2030 10640 2030
+Connection ~ 10640 2030
+Wire Wire Line
+	10640 2030 11320 2030
+Connection ~ 11320 2030
+Wire Wire Line
+	11320 2030 11320 1870
+Wire Wire Line
+	11320 2030 12030 2030
+Connection ~ 12700 2030
+Wire Wire Line
+	12700 2030 13430 2030
+Connection ~ 13430 2030
+Wire Wire Line
+	13430 2030 13430 1870
+Wire Wire Line
+	13430 2030 14020 2030
+Connection ~ 14020 2030
+Wire Wire Line
+	14020 2030 14700 2030
+Wire Wire Line
+	11880 1870 12030 1870
+Wire Wire Line
+	12030 1870 12030 2030
+Connection ~ 12030 2030
+Wire Wire Line
+	12030 2030 12700 2030
+Wire Wire Line
+	5320 2060 6000 2060
+Wire Wire Line
+	6000 1870 6000 2060
+Connection ~ 6000 2060
+Wire Wire Line
+	6000 2060 6670 2060
+Connection ~ 6670 2060
+Wire Wire Line
+	6670 2060 7340 2060
+Wire Wire Line
+	7340 1870 7340 2060
+Connection ~ 7340 2060
+Wire Wire Line
+	7340 2060 8050 2060
+Connection ~ 8050 2060
+Wire Wire Line
+	8050 2060 8740 2060
+Wire Wire Line
+	8740 2060 8740 1870
+Wire Wire Line
+	8740 1870 8810 1870
+Wire Wire Line
+	8740 2060 9490 2060
+Connection ~ 8740 2060
+Connection ~ 9490 2060
+Wire Wire Line
+	9490 2060 10160 2060
+Wire Wire Line
+	10160 1870 10160 2060
+Connection ~ 10160 2060
+Wire Wire Line
+	10160 2060 10860 2060
+Connection ~ 10860 2060
+Wire Wire Line
+	10860 2060 11520 2060
+Wire Wire Line
+	11520 2060 11520 1870
+Wire Wire Line
+	11520 1870 11580 1870
+Wire Wire Line
+	11520 2060 12260 2060
+Connection ~ 11520 2060
+Connection ~ 12260 2060
+Wire Wire Line
+	13670 1870 13670 2060
+Connection ~ 13670 2060
+Wire Wire Line
+	13670 2060 14350 2060
+Wire Wire Line
+	5260 1930 5260 2140
+Wire Wire Line
+	14280 1930 14280 2140
+Wire Wire Line
+	13620 1930 13620 2140
+Connection ~ 13620 2140
+Wire Wire Line
+	13620 2140 14280 2140
+Wire Wire Line
+	12210 1930 12210 2140
+Connection ~ 12210 2140
+Wire Wire Line
+	11580 1930 11460 1930
+Wire Wire Line
+	11460 1930 11460 2140
+Connection ~ 11460 2140
+Wire Wire Line
+	11460 2140 12210 2140
+Wire Wire Line
+	10810 1930 10810 2140
+Connection ~ 10810 2140
+Wire Wire Line
+	10810 2140 11460 2140
+Wire Wire Line
+	10100 1930 10100 2140
+Wire Wire Line
+	10100 1930 10200 1930
+Connection ~ 10100 2140
+Wire Wire Line
+	10100 2140 10810 2140
+Wire Wire Line
+	9440 1930 9440 2140
+Connection ~ 9440 2140
+Wire Wire Line
+	9440 2140 10100 2140
+Wire Wire Line
+	8700 1930 8700 2140
+Connection ~ 8700 2140
+Wire Wire Line
+	8700 2140 9440 2140
+Wire Wire Line
+	8010 1930 8010 2140
+Connection ~ 8010 2140
+Wire Wire Line
+	8010 2140 8700 2140
+Wire Wire Line
+	7300 1930 7300 2140
+Connection ~ 7300 2140
+Wire Wire Line
+	7300 2140 8010 2140
+Wire Wire Line
+	6620 1930 6620 2140
+Wire Wire Line
+	5260 2140 5950 2140
+Connection ~ 6620 2140
+Wire Wire Line
+	6620 2140 7300 2140
+Wire Wire Line
+	5950 1930 5950 2140
+Connection ~ 5950 2140
+Wire Wire Line
+	5950 2140 6620 2140
+$Comp
+L Diode:1N4148 D2
+U 1 1 64D6A9F3
+P 5160 2360
+F 0 "D2" H 5210 2460 50  0000 R CNN
+F 1 "1N4148" V 5115 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 5160 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5160 2360 50  0001 C CNN
+	1    5160 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5160 2210 5310 2210
+$Comp
+L Diode:1N4148 D7
+U 1 1 64D6AA00
+P 5840 2360
+F 0 "D7" H 5890 2460 50  0000 R CNN
+F 1 "1N4148" V 5795 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 5840 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5840 2360 50  0001 C CNN
+	1    5840 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5840 2210 5990 2210
+$Comp
+L Diode:1N4148 D12
+U 1 1 64D6AA0D
+P 6540 2360
+F 0 "D12" H 6590 2460 50  0000 R CNN
+F 1 "1N4148" V 6495 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 6540 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6540 2360 50  0001 C CNN
+	1    6540 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6540 2210 6690 2210
+$Comp
+L Diode:1N4148 D18
+U 1 1 64D6AA1A
+P 7220 2360
+F 0 "D18" H 7270 2460 50  0000 R CNN
+F 1 "1N4148" V 7175 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 7220 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7220 2360 50  0001 C CNN
+	1    7220 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7220 2210 7370 2210
+$Comp
+L Diode:1N4148 D22
+U 1 1 64D6AA27
+P 7930 2360
+F 0 "D22" H 7980 2460 50  0000 R CNN
+F 1 "1N4148" V 7885 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 7930 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7930 2360 50  0001 C CNN
+	1    7930 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7930 2210 8080 2210
+$Comp
+L Diode:1N4148 D26
+U 1 1 64D6AA34
+P 8610 2360
+F 0 "D26" H 8660 2460 50  0000 R CNN
+F 1 "1N4148" V 8565 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 8610 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8610 2360 50  0001 C CNN
+	1    8610 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8610 2210 8760 2210
+$Comp
+L Diode:1N4148 D30
+U 1 1 64D6AA41
+P 9320 2360
+F 0 "D30" H 9370 2460 50  0000 R CNN
+F 1 "1N4148" V 9275 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 9320 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9320 2360 50  0001 C CNN
+	1    9320 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9320 2210 9470 2210
+$Comp
+L Diode:1N4148 D35
+U 1 1 64D6AA4E
+P 10000 2360
+F 0 "D35" H 10050 2460 50  0000 R CNN
+F 1 "1N4148" V 9955 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 10000 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10000 2360 50  0001 C CNN
+	1    10000 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10000 2210 10150 2210
+$Comp
+L Diode:1N4148 D39
+U 1 1 64D6AA5B
+P 10700 2360
+F 0 "D39" H 10750 2460 50  0000 R CNN
+F 1 "1N4148" V 10655 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 10700 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 2360 50  0001 C CNN
+	1    10700 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 2210 10850 2210
+$Comp
+L Diode:1N4148 D44
+U 1 1 64D6AA68
+P 11380 2360
+F 0 "D44" H 11430 2460 50  0000 R CNN
+F 1 "1N4148" V 11335 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 11380 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11380 2360 50  0001 C CNN
+	1    11380 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11380 2210 11530 2210
+$Comp
+L Diode:1N4148 D49
+U 1 1 64D6AA75
+P 12090 2360
+F 0 "D49" H 12140 2460 50  0000 R CNN
+F 1 "1N4148" V 12045 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 12090 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12090 2360 50  0001 C CNN
+	1    12090 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12090 2210 12240 2210
+$Comp
+L Diode:1N4148 D54
+U 1 1 64D6AA82
+P 12770 2360
+F 0 "D54" H 12820 2460 50  0000 R CNN
+F 1 "1N4148" V 12725 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 12770 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12770 2360 50  0001 C CNN
+	1    12770 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12770 2210 12920 2210
+$Comp
+L Diode:1N4148 D59
+U 1 1 64D6AA8F
+P 13500 2360
+F 0 "D59" H 13550 2460 50  0000 R CNN
+F 1 "1N4148" V 13455 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 13500 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 13500 2360 50  0001 C CNN
+	1    13500 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13500 2210 13650 2210
+$Comp
+L Diode:1N4148 D64
+U 1 1 64D6AA9C
+P 14180 2360
+F 0 "D64" H 14230 2460 50  0000 R CNN
+F 1 "1N4148" V 14135 2280 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 14180 2185 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14180 2360 50  0001 C CNN
+	1    14180 2360
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14180 2210 14330 2210
+Wire Wire Line
+	5160 2510 5840 2510
+Connection ~ 5840 2510
+Wire Wire Line
+	5840 2510 6540 2510
+Connection ~ 6540 2510
+Wire Wire Line
+	6540 2510 7220 2510
+Connection ~ 7220 2510
+Wire Wire Line
+	7220 2510 7930 2510
+Connection ~ 7930 2510
+Wire Wire Line
+	7930 2510 8610 2510
+Connection ~ 8610 2510
+Wire Wire Line
+	8610 2510 9320 2510
+Connection ~ 9320 2510
+Wire Wire Line
+	9320 2510 10000 2510
+Connection ~ 10000 2510
+Wire Wire Line
+	10000 2510 10700 2510
+Connection ~ 10700 2510
+Wire Wire Line
+	10700 2510 11380 2510
+Connection ~ 11380 2510
+Wire Wire Line
+	11380 2510 12090 2510
+Connection ~ 12090 2510
+Wire Wire Line
+	12090 2510 12770 2510
+Connection ~ 12770 2510
+Wire Wire Line
+	12770 2510 13500 2510
+Connection ~ 13500 2510
+Wire Wire Line
+	5660 2340 5520 2340
+Wire Wire Line
+	5770 2280 5660 2280
+Wire Wire Line
+	5360 2280 5320 2280
+Wire Wire Line
+	5320 2280 5320 2470
+Wire Wire Line
+	5260 2340 5360 2340
+Wire Wire Line
+	6340 2340 6200 2340
+Wire Wire Line
+	6340 2280 6470 2280
+Wire Wire Line
+	6000 2280 6040 2280
+Wire Wire Line
+	5950 2340 6040 2340
+Wire Wire Line
+	7040 2340 6890 2340
+Wire Wire Line
+	7160 2280 7040 2280
+Wire Wire Line
+	6740 2280 6670 2280
+Wire Wire Line
+	6670 2280 6670 2470
+Wire Wire Line
+	6620 2340 6740 2340
+Wire Wire Line
+	7720 2340 7570 2340
+Wire Wire Line
+	7870 2280 7720 2280
+Wire Wire Line
+	7340 2280 7420 2280
+Wire Wire Line
+	7420 2340 7300 2340
+Wire Wire Line
+	8430 2340 8280 2340
+Wire Wire Line
+	8540 2280 8430 2280
+Wire Wire Line
+	8540 2280 8540 2440
+Wire Wire Line
+	8050 2280 8050 2470
+Wire Wire Line
+	8050 2280 8130 2280
+Wire Wire Line
+	8010 2340 8130 2340
+Wire Wire Line
+	9110 2340 8960 2340
+Wire Wire Line
+	9250 2280 9110 2280
+Wire Wire Line
+	8700 2340 8810 2340
+Wire Wire Line
+	9820 2340 9670 2340
+Wire Wire Line
+	9940 2280 9820 2280
+Wire Wire Line
+	9520 2280 9490 2280
+Wire Wire Line
+	9440 2340 9520 2340
+Wire Wire Line
+	9490 2280 9490 2470
+Wire Wire Line
+	10350 2340 10500 2340
+Wire Wire Line
+	10500 2280 10640 2280
+Wire Wire Line
+	10640 2280 10640 2440
+Wire Wire Line
+	10160 2280 10200 2280
+Wire Wire Line
+	11200 2340 11050 2340
+Wire Wire Line
+	11320 2280 11200 2280
+Wire Wire Line
+	10860 2280 10860 2470
+Wire Wire Line
+	10860 2280 10900 2280
+Wire Wire Line
+	10810 2340 10900 2340
+Wire Wire Line
+	12440 2340 12590 2340
+Wire Wire Line
+	12590 2280 12700 2280
+Wire Wire Line
+	12700 2280 12700 2440
+Wire Wire Line
+	12290 2280 12260 2280
+Wire Wire Line
+	12210 2340 12290 2340
+Wire Wire Line
+	12260 2280 12260 2470
+Wire Wire Line
+	13270 2340 13120 2340
+Wire Wire Line
+	13430 2280 13270 2280
+Wire Wire Line
+	12940 2340 12970 2340
+Wire Wire Line
+	12970 2280 12880 2280
+Wire Wire Line
+	13850 2340 14000 2340
+Wire Wire Line
+	14000 2280 14020 2280
+Wire Wire Line
+	14020 2280 14020 2440
+Wire Wire Line
+	13700 2280 13670 2280
+Wire Wire Line
+	13620 2340 13700 2340
+Wire Wire Line
+	14530 2340 14680 2340
+Wire Wire Line
+	14680 2280 14700 2280
+Wire Wire Line
+	14700 2280 14700 2440
+Wire Wire Line
+	14380 2280 14350 2280
+Wire Wire Line
+	14350 2280 14350 2470
+Wire Wire Line
+	14280 2340 14380 2340
+Wire Wire Line
+	5770 2440 6470 2440
+Wire Wire Line
+	6470 2280 6470 2440
+Wire Wire Line
+	5770 2440 5770 2280
+Connection ~ 6470 2440
+Wire Wire Line
+	6470 2440 7160 2440
+Connection ~ 7160 2440
+Wire Wire Line
+	7160 2440 7160 2280
+Wire Wire Line
+	7160 2440 7870 2440
+Connection ~ 7870 2440
+Wire Wire Line
+	7870 2440 7870 2280
+Wire Wire Line
+	7870 2440 8540 2440
+Connection ~ 8540 2440
+Wire Wire Line
+	8540 2440 9250 2440
+Connection ~ 9250 2440
+Wire Wire Line
+	9250 2440 9250 2280
+Wire Wire Line
+	9250 2440 9940 2440
+Wire Wire Line
+	9940 2280 9940 2440
+Connection ~ 9940 2440
+Wire Wire Line
+	9940 2440 10640 2440
+Connection ~ 10640 2440
+Wire Wire Line
+	10640 2440 11320 2440
+Connection ~ 11320 2440
+Wire Wire Line
+	11320 2440 11320 2280
+Wire Wire Line
+	11320 2440 12030 2440
+Connection ~ 12700 2440
+Wire Wire Line
+	12700 2440 13430 2440
+Connection ~ 13430 2440
+Wire Wire Line
+	13430 2440 13430 2280
+Wire Wire Line
+	13430 2440 14020 2440
+Connection ~ 14020 2440
+Wire Wire Line
+	14020 2440 14700 2440
+Wire Wire Line
+	11880 2280 12030 2280
+Wire Wire Line
+	12030 2280 12030 2440
+Connection ~ 12030 2440
+Wire Wire Line
+	12030 2440 12700 2440
+Wire Wire Line
+	5320 2470 6000 2470
+Wire Wire Line
+	6000 2280 6000 2470
+Connection ~ 6000 2470
+Wire Wire Line
+	6000 2470 6670 2470
+Connection ~ 6670 2470
+Wire Wire Line
+	6670 2470 7340 2470
+Wire Wire Line
+	7340 2280 7340 2470
+Connection ~ 7340 2470
+Wire Wire Line
+	7340 2470 8050 2470
+Connection ~ 8050 2470
+Wire Wire Line
+	8050 2470 8740 2470
+Wire Wire Line
+	8740 2470 8740 2280
+Wire Wire Line
+	8740 2280 8810 2280
+Wire Wire Line
+	8740 2470 9490 2470
+Connection ~ 8740 2470
+Connection ~ 9490 2470
+Wire Wire Line
+	9490 2470 10160 2470
+Wire Wire Line
+	10160 2280 10160 2470
+Connection ~ 10160 2470
+Wire Wire Line
+	10160 2470 10860 2470
+Connection ~ 10860 2470
+Wire Wire Line
+	10860 2470 11520 2470
+Wire Wire Line
+	11520 2470 11520 2280
+Wire Wire Line
+	11520 2280 11580 2280
+Wire Wire Line
+	11520 2470 12260 2470
+Connection ~ 11520 2470
+Connection ~ 12260 2470
+Wire Wire Line
+	13670 2280 13670 2470
+Connection ~ 13670 2470
+Wire Wire Line
+	13670 2470 14350 2470
+Wire Wire Line
+	5260 2340 5260 2550
+Wire Wire Line
+	14280 2340 14280 2550
+Wire Wire Line
+	13620 2340 13620 2550
+Connection ~ 13620 2550
+Wire Wire Line
+	13620 2550 14280 2550
+Wire Wire Line
+	12210 2340 12210 2550
+Connection ~ 12210 2550
+Wire Wire Line
+	11580 2340 11460 2340
+Wire Wire Line
+	11460 2340 11460 2550
+Connection ~ 11460 2550
+Wire Wire Line
+	11460 2550 12210 2550
+Wire Wire Line
+	10810 2340 10810 2550
+Connection ~ 10810 2550
+Wire Wire Line
+	10810 2550 11460 2550
+Wire Wire Line
+	10100 2340 10100 2550
+Wire Wire Line
+	10100 2340 10200 2340
+Connection ~ 10100 2550
+Wire Wire Line
+	10100 2550 10810 2550
+Wire Wire Line
+	9440 2340 9440 2550
+Connection ~ 9440 2550
+Wire Wire Line
+	9440 2550 10100 2550
+Wire Wire Line
+	8700 2340 8700 2550
+Connection ~ 8700 2550
+Wire Wire Line
+	8700 2550 9440 2550
+Wire Wire Line
+	8010 2340 8010 2550
+Connection ~ 8010 2550
+Wire Wire Line
+	8010 2550 8700 2550
+Wire Wire Line
+	7300 2340 7300 2550
+Connection ~ 7300 2550
+Wire Wire Line
+	7300 2550 8010 2550
+Wire Wire Line
+	6620 2340 6620 2550
+Wire Wire Line
+	5260 2550 5950 2550
+Connection ~ 6620 2550
+Wire Wire Line
+	6620 2550 7300 2550
+Wire Wire Line
+	5950 2340 5950 2550
+Connection ~ 5950 2550
+Wire Wire Line
+	5950 2550 6620 2550
+$Comp
+L Diode:1N4148 D3
+U 1 1 64DB277F
+P 5160 2770
+F 0 "D3" H 5210 2870 50  0000 R CNN
+F 1 "1N4148" V 5115 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 5160 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5160 2770 50  0001 C CNN
+	1    5160 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5160 2620 5310 2620
+$Comp
+L Diode:1N4148 D8
+U 1 1 64DB278C
+P 5840 2770
+F 0 "D8" H 5890 2870 50  0000 R CNN
+F 1 "1N4148" V 5795 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 5840 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5840 2770 50  0001 C CNN
+	1    5840 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5840 2620 5990 2620
+$Comp
+L Diode:1N4148 D13
+U 1 1 64DB2799
+P 6540 2770
+F 0 "D13" H 6590 2870 50  0000 R CNN
+F 1 "1N4148" V 6495 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 6540 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6540 2770 50  0001 C CNN
+	1    6540 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6540 2620 6690 2620
+$Comp
+L Diode:1N4148 D19
+U 1 1 64DB27A6
+P 7220 2770
+F 0 "D19" H 7270 2870 50  0000 R CNN
+F 1 "1N4148" V 7175 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 7220 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7220 2770 50  0001 C CNN
+	1    7220 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7220 2620 7370 2620
+$Comp
+L Diode:1N4148 D23
+U 1 1 64DB27B3
+P 7930 2770
+F 0 "D23" H 7980 2870 50  0000 R CNN
+F 1 "1N4148" V 7885 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 7930 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7930 2770 50  0001 C CNN
+	1    7930 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7930 2620 8080 2620
+$Comp
+L Diode:1N4148 D27
+U 1 1 64DB27C0
+P 8610 2770
+F 0 "D27" H 8660 2870 50  0000 R CNN
+F 1 "1N4148" V 8565 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 8610 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8610 2770 50  0001 C CNN
+	1    8610 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8610 2620 8760 2620
+$Comp
+L Diode:1N4148 D31
+U 1 1 64DB27CD
+P 9320 2770
+F 0 "D31" H 9370 2870 50  0000 R CNN
+F 1 "1N4148" V 9275 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 9320 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9320 2770 50  0001 C CNN
+	1    9320 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9320 2620 9470 2620
+$Comp
+L Diode:1N4148 D36
+U 1 1 64DB27DA
+P 10000 2770
+F 0 "D36" H 10050 2870 50  0000 R CNN
+F 1 "1N4148" V 9955 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 10000 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10000 2770 50  0001 C CNN
+	1    10000 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10000 2620 10150 2620
+$Comp
+L Diode:1N4148 D40
+U 1 1 64DB27E7
+P 10700 2770
+F 0 "D40" H 10750 2870 50  0000 R CNN
+F 1 "1N4148" V 10655 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 10700 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 2770 50  0001 C CNN
+	1    10700 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 2620 10850 2620
+$Comp
+L Diode:1N4148 D45
+U 1 1 64DB27F4
+P 11380 2770
+F 0 "D45" H 11430 2870 50  0000 R CNN
+F 1 "1N4148" V 11335 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 11380 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11380 2770 50  0001 C CNN
+	1    11380 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11380 2620 11530 2620
+$Comp
+L Diode:1N4148 D50
+U 1 1 64DB2801
+P 12090 2770
+F 0 "D50" H 12140 2870 50  0000 R CNN
+F 1 "1N4148" V 12045 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 12090 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12090 2770 50  0001 C CNN
+	1    12090 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12090 2620 12240 2620
+$Comp
+L Diode:1N4148 D55
+U 1 1 64DB280E
+P 12770 2770
+F 0 "D55" H 12820 2870 50  0000 R CNN
+F 1 "1N4148" V 12725 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 12770 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12770 2770 50  0001 C CNN
+	1    12770 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12770 2620 12920 2620
+$Comp
+L Diode:1N4148 D60
+U 1 1 64DB281B
+P 14050 2770
+F 0 "D60" H 14100 2870 50  0000 R CNN
+F 1 "1N4148" V 14005 2690 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 14050 2595 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 14050 2770 50  0001 C CNN
+	1    14050 2770
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13500 2620 13650 2620
+Wire Wire Line
+	5160 2920 5840 2920
+Connection ~ 5840 2920
+Wire Wire Line
+	5840 2920 6540 2920
+Connection ~ 6540 2920
+Wire Wire Line
+	6540 2920 7220 2920
+Connection ~ 7220 2920
+Wire Wire Line
+	7220 2920 7930 2920
+Connection ~ 7930 2920
+Wire Wire Line
+	7930 2920 8610 2920
+Connection ~ 8610 2920
+Wire Wire Line
+	8610 2920 9320 2920
+Connection ~ 9320 2920
+Wire Wire Line
+	9320 2920 10000 2920
+Connection ~ 10000 2920
+Wire Wire Line
+	10000 2920 10700 2920
+Connection ~ 10700 2920
+Wire Wire Line
+	10700 2920 11380 2920
+Connection ~ 11380 2920
+Wire Wire Line
+	11380 2920 12090 2920
+Connection ~ 12090 2920
+Wire Wire Line
+	12090 2920 12770 2920
+Connection ~ 12770 2920
+Wire Wire Line
+	5660 2750 5520 2750
+Wire Wire Line
+	5770 2690 5660 2690
+Wire Wire Line
+	5360 2690 5320 2690
+Wire Wire Line
+	5320 2690 5320 2880
+Wire Wire Line
+	5260 2750 5360 2750
+Wire Wire Line
+	6340 2750 6200 2750
+Wire Wire Line
+	6340 2690 6470 2690
+Wire Wire Line
+	6000 2690 6040 2690
+Wire Wire Line
+	5950 2750 6040 2750
+Wire Wire Line
+	7040 2750 6890 2750
+Wire Wire Line
+	7160 2690 7040 2690
+Wire Wire Line
+	6740 2690 6670 2690
+Wire Wire Line
+	6670 2690 6670 2880
+Wire Wire Line
+	6620 2750 6740 2750
+Wire Wire Line
+	7720 2750 7570 2750
+Wire Wire Line
+	7870 2690 7720 2690
+Wire Wire Line
+	7340 2690 7420 2690
+Wire Wire Line
+	7420 2750 7300 2750
+Wire Wire Line
+	8430 2750 8280 2750
+Wire Wire Line
+	8540 2690 8430 2690
+Wire Wire Line
+	8540 2690 8540 2850
+Wire Wire Line
+	8050 2690 8050 2880
+Wire Wire Line
+	8050 2690 8130 2690
+Wire Wire Line
+	8010 2750 8130 2750
+Wire Wire Line
+	9110 2750 8960 2750
+Wire Wire Line
+	9250 2690 9110 2690
+Wire Wire Line
+	8700 2750 8810 2750
+Wire Wire Line
+	9820 2750 9670 2750
+Wire Wire Line
+	9940 2690 9820 2690
+Wire Wire Line
+	9520 2690 9490 2690
+Wire Wire Line
+	9440 2750 9520 2750
+Wire Wire Line
+	9490 2690 9490 2880
+Wire Wire Line
+	10350 2750 10500 2750
+Wire Wire Line
+	10500 2690 10640 2690
+Wire Wire Line
+	10640 2690 10640 2850
+Wire Wire Line
+	10160 2690 10200 2690
+Wire Wire Line
+	11200 2750 11050 2750
+Wire Wire Line
+	11320 2690 11200 2690
+Wire Wire Line
+	10860 2690 10860 2880
+Wire Wire Line
+	10860 2690 10900 2690
+Wire Wire Line
+	10810 2750 10900 2750
+Wire Wire Line
+	12440 2750 12590 2750
+Wire Wire Line
+	12590 2690 12700 2690
+Wire Wire Line
+	12700 2690 12700 2850
+Wire Wire Line
+	12290 2690 12260 2690
+Wire Wire Line
+	12210 2750 12290 2750
+Wire Wire Line
+	12260 2690 12260 2880
+Wire Wire Line
+	13270 2750 13120 2750
+Wire Wire Line
+	13430 2690 13270 2690
+Wire Wire Line
+	12940 2750 12970 2750
+Wire Wire Line
+	12970 2690 12880 2690
+Wire Wire Line
+	13850 2750 14000 2750
+Wire Wire Line
+	14000 2690 14020 2690
+Wire Wire Line
+	14020 2690 14020 2850
+Wire Wire Line
+	13700 2690 13670 2690
+Wire Wire Line
+	13620 2750 13700 2750
+Wire Wire Line
+	5770 2850 6470 2850
+Wire Wire Line
+	6470 2690 6470 2850
+Wire Wire Line
+	5770 2850 5770 2690
+Connection ~ 6470 2850
+Wire Wire Line
+	6470 2850 7160 2850
+Connection ~ 7160 2850
+Wire Wire Line
+	7160 2850 7160 2690
+Wire Wire Line
+	7160 2850 7870 2850
+Connection ~ 7870 2850
+Wire Wire Line
+	7870 2850 7870 2690
+Wire Wire Line
+	7870 2850 8540 2850
+Connection ~ 8540 2850
+Wire Wire Line
+	8540 2850 9250 2850
+Connection ~ 9250 2850
+Wire Wire Line
+	9250 2850 9250 2690
+Wire Wire Line
+	9250 2850 9940 2850
+Wire Wire Line
+	9940 2690 9940 2850
+Connection ~ 9940 2850
+Wire Wire Line
+	9940 2850 10640 2850
+Connection ~ 10640 2850
+Wire Wire Line
+	10640 2850 11320 2850
+Connection ~ 11320 2850
+Wire Wire Line
+	11320 2850 11320 2690
+Wire Wire Line
+	11320 2850 12030 2850
+Connection ~ 12700 2850
+Wire Wire Line
+	12700 2850 13430 2850
+Connection ~ 13430 2850
+Wire Wire Line
+	13430 2850 13430 2690
+Wire Wire Line
+	13430 2850 14020 2850
+Wire Wire Line
+	11880 2690 12030 2690
+Wire Wire Line
+	12030 2690 12030 2850
+Connection ~ 12030 2850
+Wire Wire Line
+	12030 2850 12700 2850
+Wire Wire Line
+	5320 2880 6000 2880
+Wire Wire Line
+	6000 2690 6000 2880
+Connection ~ 6000 2880
+Wire Wire Line
+	6000 2880 6670 2880
+Connection ~ 6670 2880
+Wire Wire Line
+	6670 2880 7340 2880
+Wire Wire Line
+	7340 2690 7340 2880
+Connection ~ 7340 2880
+Wire Wire Line
+	7340 2880 8050 2880
+Connection ~ 8050 2880
+Wire Wire Line
+	8050 2880 8740 2880
+Wire Wire Line
+	8740 2880 8740 2690
+Wire Wire Line
+	8740 2690 8810 2690
+Wire Wire Line
+	8740 2880 9490 2880
+Connection ~ 8740 2880
+Connection ~ 9490 2880
+Wire Wire Line
+	9490 2880 10160 2880
+Wire Wire Line
+	10160 2690 10160 2880
+Connection ~ 10160 2880
+Wire Wire Line
+	10160 2880 10860 2880
+Connection ~ 10860 2880
+Wire Wire Line
+	10860 2880 11520 2880
+Wire Wire Line
+	11520 2880 11520 2690
+Wire Wire Line
+	11520 2690 11580 2690
+Wire Wire Line
+	11520 2880 12260 2880
+Connection ~ 11520 2880
+Connection ~ 12260 2880
+Wire Wire Line
+	13670 2690 13670 2880
+Wire Wire Line
+	5260 2750 5260 2960
+Wire Wire Line
+	13620 2750 13620 2960
+Wire Wire Line
+	12210 2750 12210 2960
+Connection ~ 12210 2960
+Wire Wire Line
+	11580 2750 11460 2750
+Wire Wire Line
+	11460 2750 11460 2960
+Connection ~ 11460 2960
+Wire Wire Line
+	11460 2960 12210 2960
+Wire Wire Line
+	10810 2750 10810 2960
+Connection ~ 10810 2960
+Wire Wire Line
+	10810 2960 11460 2960
+Wire Wire Line
+	10100 2750 10100 2960
+Wire Wire Line
+	10100 2750 10200 2750
+Connection ~ 10100 2960
+Wire Wire Line
+	10100 2960 10810 2960
+Wire Wire Line
+	9440 2750 9440 2960
+Connection ~ 9440 2960
+Wire Wire Line
+	9440 2960 10100 2960
+Wire Wire Line
+	8700 2750 8700 2960
+Connection ~ 8700 2960
+Wire Wire Line
+	8700 2960 9440 2960
+Wire Wire Line
+	8010 2750 8010 2960
+Connection ~ 8010 2960
+Wire Wire Line
+	8010 2960 8700 2960
+Wire Wire Line
+	7300 2750 7300 2960
+Connection ~ 7300 2960
+Wire Wire Line
+	7300 2960 8010 2960
+Wire Wire Line
+	6620 2750 6620 2960
+Wire Wire Line
+	5260 2960 5950 2960
+Connection ~ 6620 2960
+Wire Wire Line
+	6620 2960 7300 2960
+Wire Wire Line
+	5950 2750 5950 2960
+Connection ~ 5950 2960
+Wire Wire Line
+	5950 2960 6620 2960
+$Comp
+L Diode:1N4148 D4
+U 1 1 64E5244E
+P 5160 3180
+F 0 "D4" H 5210 3280 50  0000 R CNN
+F 1 "1N4148" V 5115 3100 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 5160 3005 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5160 3180 50  0001 C CNN
+	1    5160 3180
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5160 3030 5310 3030
+$Comp
+L Diode:1N4148 D9
+U 1 1 64E5245B
+P 5840 3180
+F 0 "D9" H 5890 3280 50  0000 R CNN
+F 1 "1N4148" V 5795 3100 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 5840 3005 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5840 3180 50  0001 C CNN
+	1    5840 3180
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5840 3030 5990 3030
+$Comp
+L Diode:1N4148 D14
+U 1 1 64E52468
+P 6540 3180
+F 0 "D14" H 6590 3280 50  0000 R CNN
+F 1 "1N4148" V 6495 3100 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 6540 3005 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6540 3180 50  0001 C CNN
+	1    6540 3180
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6540 3030 6690 3030
+$Comp
+L Diode:1N4148 D20
+U 1 1 64E52475
+P 7220 3180
+F 0 "D20" H 7270 3280 50  0000 R CNN
+F 1 "1N4148" V 7175 3100 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 7220 3005 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7220 3180 50  0001 C CNN
+	1    7220 3180
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7220 3030 7370 3030
+$Comp
+L Diode:1N4148 D24
+U 1 1 64E52482
+P 7930 3180
+F 0 "D24" H 7980 3280 50  0000 R CNN
+F 1 "1N4148" V 7885 3100 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 7930 3005 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 7930 3180 50  0001 C CNN
+	1    7930 3180
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7930 3030 8080 3030
+$Comp
+L Diode:1N4148 D28
+U 1 1 64E5248F
+P 8610 3180
+F 0 "D28" H 8660 3280 50  0000 R CNN
+F 1 "1N4148" V 8565 3100 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 8610 3005 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 8610 3180 50  0001 C CNN
+	1    8610 3180
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8610 3030 8760 3030
+$Comp
+L Diode:1N4148 D32
+U 1 1 64E5249C
+P 9320 3180
+F 0 "D32" H 9370 3280 50  0000 R CNN
+F 1 "1N4148" V 9275 3100 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 9320 3005 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9320 3180 50  0001 C CNN
+	1    9320 3180
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9320 3030 9470 3030
+$Comp
+L Diode:1N4148 D37
+U 1 1 64E524A9
+P 10000 3180
+F 0 "D37" H 10050 3280 50  0000 R CNN
+F 1 "1N4148" V 9955 3100 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 10000 3005 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10000 3180 50  0001 C CNN
+	1    10000 3180
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10000 3030 10150 3030
+$Comp
+L Diode:1N4148 D41
+U 1 1 64E524B6
+P 10700 3180
+F 0 "D41" H 10750 3280 50  0000 R CNN
+F 1 "1N4148" V 10655 3100 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 10700 3005 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 3180 50  0001 C CNN
+	1    10700 3180
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 3030 10850 3030
+$Comp
+L Diode:1N4148 D46
+U 1 1 64E524C3
+P 11380 3180
+F 0 "D46" H 11430 3280 50  0000 R CNN
+F 1 "1N4148" V 11335 3100 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 11380 3005 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11380 3180 50  0001 C CNN
+	1    11380 3180
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11380 3030 11530 3030
+$Comp
+L Diode:1N4148 D51
+U 1 1 64E524D0
+P 12090 3180
+F 0 "D51" H 12140 3280 50  0000 R CNN
+F 1 "1N4148" V 12045 3100 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 12090 3005 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12090 3180 50  0001 C CNN
+	1    12090 3180
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12090 3030 12240 3030
+$Comp
+L Diode:1N4148 D56
+U 1 1 64E524DD
+P 12770 3180
+F 0 "D56" H 12820 3280 50  0000 R CNN
+F 1 "1N4148" V 12725 3100 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 12770 3005 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12770 3180 50  0001 C CNN
+	1    12770 3180
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12770 3030 12920 3030
+Wire Wire Line
+	5160 3330 5840 3330
+Connection ~ 5840 3330
+Wire Wire Line
+	5840 3330 6540 3330
+Connection ~ 6540 3330
+Wire Wire Line
+	6540 3330 7220 3330
+Connection ~ 7220 3330
+Wire Wire Line
+	7220 3330 7930 3330
+Connection ~ 7930 3330
+Wire Wire Line
+	7930 3330 8610 3330
+Connection ~ 8610 3330
+Wire Wire Line
+	8610 3330 9320 3330
+Connection ~ 9320 3330
+Wire Wire Line
+	9320 3330 10000 3330
+Connection ~ 10000 3330
+Wire Wire Line
+	10000 3330 10700 3330
+Connection ~ 10700 3330
+Wire Wire Line
+	10700 3330 11380 3330
+Connection ~ 11380 3330
+Wire Wire Line
+	11380 3330 12090 3330
+Connection ~ 12090 3330
+Wire Wire Line
+	12090 3330 12770 3330
+Connection ~ 12770 3330
+Wire Wire Line
+	5660 3160 5520 3160
+Wire Wire Line
+	5770 3100 5660 3100
+Wire Wire Line
+	5360 3100 5320 3100
+Wire Wire Line
+	5320 3100 5320 3290
+Wire Wire Line
+	5260 3160 5360 3160
+Wire Wire Line
+	6340 3160 6200 3160
+Wire Wire Line
+	6340 3100 6470 3100
+Wire Wire Line
+	6000 3100 6040 3100
+Wire Wire Line
+	5950 3160 6040 3160
+Wire Wire Line
+	7040 3160 6890 3160
+Wire Wire Line
+	7160 3100 7040 3100
+Wire Wire Line
+	6740 3100 6670 3100
+Wire Wire Line
+	6670 3100 6670 3290
+Wire Wire Line
+	6620 3160 6740 3160
+Wire Wire Line
+	7720 3160 7570 3160
+Wire Wire Line
+	7870 3100 7720 3100
+Wire Wire Line
+	7340 3100 7420 3100
+Wire Wire Line
+	7420 3160 7300 3160
+Wire Wire Line
+	8430 3160 8280 3160
+Wire Wire Line
+	8540 3100 8430 3100
+Wire Wire Line
+	8540 3100 8540 3260
+Wire Wire Line
+	8050 3100 8050 3290
+Wire Wire Line
+	8050 3100 8130 3100
+Wire Wire Line
+	8010 3160 8130 3160
+Wire Wire Line
+	9110 3160 8960 3160
+Wire Wire Line
+	9250 3100 9110 3100
+Wire Wire Line
+	8700 3160 8810 3160
+Wire Wire Line
+	9820 3160 9670 3160
+Wire Wire Line
+	9940 3100 9820 3100
+Wire Wire Line
+	9520 3100 9490 3100
+Wire Wire Line
+	9440 3160 9520 3160
+Wire Wire Line
+	9490 3100 9490 3290
+Wire Wire Line
+	10350 3160 10500 3160
+Wire Wire Line
+	10500 3100 10640 3100
+Wire Wire Line
+	10640 3100 10640 3260
+Wire Wire Line
+	10160 3100 10200 3100
+Wire Wire Line
+	11320 3100 11200 3100
+Wire Wire Line
+	10860 3100 10860 3290
+Wire Wire Line
+	10860 3100 10900 3100
+Wire Wire Line
+	10810 3160 10900 3160
+Wire Wire Line
+	12590 3100 12700 3100
+Wire Wire Line
+	12700 3100 12700 3260
+Wire Wire Line
+	12290 3100 12260 3100
+Wire Wire Line
+	12210 3160 12290 3160
+Wire Wire Line
+	12260 3100 12260 3290
+Wire Wire Line
+	13430 3100 13270 3100
+Wire Wire Line
+	12940 3160 12970 3160
+Wire Wire Line
+	12970 3100 12880 3100
+Wire Wire Line
+	5770 3260 6470 3260
+Wire Wire Line
+	6470 3100 6470 3260
+Wire Wire Line
+	5770 3260 5770 3100
+Connection ~ 6470 3260
+Connection ~ 7160 3260
+Wire Wire Line
+	7160 3260 7160 3100
+Wire Wire Line
+	7160 3260 7870 3260
+Connection ~ 7870 3260
+Wire Wire Line
+	7870 3260 7870 3100
+Wire Wire Line
+	7870 3260 8540 3260
+Connection ~ 8540 3260
+Wire Wire Line
+	8540 3260 9250 3260
+Connection ~ 9250 3260
+Wire Wire Line
+	9250 3260 9250 3100
+Wire Wire Line
+	9250 3260 9940 3260
+Wire Wire Line
+	9940 3100 9940 3260
+Connection ~ 9940 3260
+Wire Wire Line
+	9940 3260 10640 3260
+Connection ~ 10640 3260
+Wire Wire Line
+	10640 3260 11320 3260
+Connection ~ 11320 3260
+Wire Wire Line
+	11320 3260 11320 3100
+Connection ~ 12700 3260
+Wire Wire Line
+	12700 3260 13430 3260
+Wire Wire Line
+	13430 3260 13430 3100
+Wire Wire Line
+	11880 3100 12030 3100
+Wire Wire Line
+	12030 3100 12030 3260
+Connection ~ 12030 3260
+Wire Wire Line
+	12030 3260 12700 3260
+Wire Wire Line
+	5320 3290 6000 3290
+Wire Wire Line
+	6000 3100 6000 3290
+Connection ~ 6000 3290
+Wire Wire Line
+	6000 3290 6670 3290
+Connection ~ 6670 3290
+Wire Wire Line
+	6670 3290 7340 3290
+Wire Wire Line
+	7340 3100 7340 3290
+Connection ~ 7340 3290
+Wire Wire Line
+	7340 3290 8050 3290
+Connection ~ 8050 3290
+Wire Wire Line
+	8050 3290 8740 3290
+Wire Wire Line
+	8740 3290 8740 3100
+Wire Wire Line
+	8740 3100 8810 3100
+Wire Wire Line
+	8740 3290 9490 3290
+Connection ~ 8740 3290
+Connection ~ 9490 3290
+Wire Wire Line
+	9490 3290 10160 3290
+Wire Wire Line
+	10160 3100 10160 3290
+Connection ~ 10160 3290
+Wire Wire Line
+	10160 3290 10860 3290
+Connection ~ 10860 3290
+Wire Wire Line
+	10860 3290 11520 3290
+Wire Wire Line
+	11520 3290 11520 3100
+Wire Wire Line
+	11520 3100 11580 3100
+Wire Wire Line
+	11520 3290 12260 3290
+Connection ~ 11520 3290
+Connection ~ 12260 3290
+Wire Wire Line
+	5260 3160 5260 3370
+Wire Wire Line
+	12210 3160 12210 3370
+Connection ~ 12210 3370
+Wire Wire Line
+	11580 3160 11460 3160
+Wire Wire Line
+	11460 3160 11460 3370
+Connection ~ 11460 3370
+Wire Wire Line
+	11460 3370 12210 3370
+Wire Wire Line
+	10810 3160 10810 3370
+Connection ~ 10810 3370
+Wire Wire Line
+	10810 3370 11460 3370
+Wire Wire Line
+	10100 3160 10100 3370
+Wire Wire Line
+	10100 3160 10200 3160
+Connection ~ 10100 3370
+Wire Wire Line
+	10100 3370 10810 3370
+Wire Wire Line
+	9440 3160 9440 3370
+Connection ~ 9440 3370
+Wire Wire Line
+	9440 3370 10100 3370
+Wire Wire Line
+	8700 3160 8700 3370
+Connection ~ 8700 3370
+Wire Wire Line
+	8700 3370 9440 3370
+Wire Wire Line
+	8010 3160 8010 3370
+Connection ~ 8010 3370
+Wire Wire Line
+	8010 3370 8700 3370
+Wire Wire Line
+	7300 3160 7300 3370
+Connection ~ 7300 3370
+Wire Wire Line
+	7300 3370 8010 3370
+Wire Wire Line
+	6620 3160 6620 3370
+Wire Wire Line
+	5260 3370 5950 3370
+Connection ~ 6620 3370
+Wire Wire Line
+	6620 3370 7300 3370
+Wire Wire Line
+	5950 3160 5950 3370
+Connection ~ 5950 3370
+Wire Wire Line
+	5950 3370 6620 3370
+$Comp
+L Diode:1N4148 D5
+U 1 1 650750CD
+P 5160 3560
+F 0 "D5" H 5210 3660 50  0000 R CNN
+F 1 "1N4148" V 5115 3480 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 5160 3385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5160 3560 50  0001 C CNN
+	1    5160 3560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5160 3410 5310 3410
+$Comp
+L Diode:1N4148 D10
+U 1 1 650750DA
+P 5840 3560
+F 0 "D10" H 5890 3660 50  0000 R CNN
+F 1 "1N4148" V 5795 3480 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 5840 3385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5840 3560 50  0001 C CNN
+	1    5840 3560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5840 3410 5990 3410
+$Comp
+L Diode:1N4148 D15
+U 1 1 650750E7
+P 6540 3560
+F 0 "D15" H 6590 3660 50  0000 R CNN
+F 1 "1N4148" V 6495 3480 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 6540 3385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6540 3560 50  0001 C CNN
+	1    6540 3560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6540 3410 6690 3410
+$Comp
+L Diode:1N4148 D33
+U 1 1 6507511B
+P 9320 3560
+F 0 "D33" H 9370 3660 50  0000 R CNN
+F 1 "1N4148" V 9275 3480 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 9320 3385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 9320 3560 50  0001 C CNN
+	1    9320 3560
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N4148 D42
+U 1 1 65075135
+P 10700 3560
+F 0 "D42" H 10750 3660 50  0000 R CNN
+F 1 "1N4148" V 10655 3480 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 10700 3385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10700 3560 50  0001 C CNN
+	1    10700 3560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 3410 10850 3410
+$Comp
+L Diode:1N4148 D52
+U 1 1 6507514F
+P 12090 3560
+F 0 "D52" H 12140 3660 50  0000 R CNN
+F 1 "1N4148" V 12045 3480 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 12090 3385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12090 3560 50  0001 C CNN
+	1    12090 3560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12090 3410 12240 3410
+$Comp
+L Diode:1N4148 D57
+U 1 1 6507515C
+P 12770 3560
+F 0 "D57" H 12820 3660 50  0000 R CNN
+F 1 "1N4148" V 12725 3480 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 12770 3385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 12770 3560 50  0001 C CNN
+	1    12770 3560
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12770 3410 12920 3410
+Wire Wire Line
+	5160 3710 5840 3710
+Connection ~ 5840 3710
+Wire Wire Line
+	5840 3710 6540 3710
+Connection ~ 12090 3710
+Wire Wire Line
+	12090 3710 12770 3710
+Connection ~ 12770 3710
+Wire Wire Line
+	5660 3540 5520 3540
+Wire Wire Line
+	5770 3480 5660 3480
+Wire Wire Line
+	6340 3540 6200 3540
+Wire Wire Line
+	6000 3480 6040 3480
+Wire Wire Line
+	7040 3540 6890 3540
+Wire Wire Line
+	7160 3480 7040 3480
+Wire Wire Line
+	6620 3540 6740 3540
+Wire Wire Line
+	9820 3540 9670 3540
+Wire Wire Line
+	11200 3540 11050 3540
+Wire Wire Line
+	12440 3540 12590 3540
+Wire Wire Line
+	13430 3480 13270 3480
+Wire Wire Line
+	9320 3710 10700 3710
+Connection ~ 10700 3710
+Wire Wire Line
+	9320 3710 6540 3710
+Connection ~ 9320 3710
+Connection ~ 6540 3710
+Wire Wire Line
+	5320 1870 4980 1870
+Connection ~ 5320 1870
+Wire Wire Line
+	5260 2140 4940 2140
+Connection ~ 5260 2140
+Wire Wire Line
+	5770 2030 4900 2030
+Connection ~ 5770 2030
+Wire Wire Line
+	5520 1930 5520 2340
+Connection ~ 5520 2340
+Wire Wire Line
+	5520 2340 5520 2750
+Connection ~ 5520 2750
+Wire Wire Line
+	5520 2750 5520 3060
+Wire Wire Line
+	6200 3160 6200 3060
+Connection ~ 6200 2340
+Wire Wire Line
+	6200 2340 6200 1930
+Connection ~ 6200 2750
+Wire Wire Line
+	6200 2750 6200 2340
+Wire Wire Line
+	6890 1930 6890 2340
+Connection ~ 6890 2340
+Wire Wire Line
+	6890 2340 6890 2750
+Connection ~ 6890 2750
+Wire Wire Line
+	11880 1930 11730 1930
+Wire Wire Line
+	11730 1930 11730 2340
+Wire Wire Line
+	11880 2750 11730 2750
+Connection ~ 11730 2750
+Wire Wire Line
+	11730 2750 11730 3160
+Wire Wire Line
+	11880 2340 11730 2340
+Connection ~ 11730 2340
+Wire Wire Line
+	11730 2340 11730 2750
+Wire Wire Line
+	12440 3160 12440 2750
+Wire Wire Line
+	12440 1930 12590 1930
+Connection ~ 12440 2340
+Wire Wire Line
+	12440 2340 12440 1930
+Connection ~ 12440 2750
+Wire Wire Line
+	12440 2750 12440 2340
+Connection ~ 13120 2340
+Wire Wire Line
+	13120 2340 13120 1930
+Connection ~ 13120 2750
+Wire Wire Line
+	13120 2750 13120 2340
+Wire Wire Line
+	13120 3160 13120 2750
+Connection ~ 13850 2340
+Wire Wire Line
+	13850 2340 13850 1930
+Connection ~ 13850 2750
+Wire Wire Line
+	13850 2750 13850 2340
+Wire Wire Line
+	14530 1930 14530 2340
+Connection ~ 14530 2340
+Wire Wire Line
+	7570 3160 7570 2750
+Connection ~ 7570 2340
+Wire Wire Line
+	7570 2340 7570 1930
+Connection ~ 7570 2750
+Wire Wire Line
+	7570 2750 7570 2340
+Wire Wire Line
+	8280 1930 8280 2340
+Connection ~ 8280 2340
+Wire Wire Line
+	8280 2340 8280 2750
+Connection ~ 8280 2750
+Wire Wire Line
+	8280 2750 8280 3160
+Wire Wire Line
+	8960 3160 8960 2750
+Connection ~ 8960 2340
+Wire Wire Line
+	8960 2340 8960 1930
+Connection ~ 8960 2750
+Wire Wire Line
+	8960 2750 8960 2340
+Wire Wire Line
+	9670 1930 9670 2340
+Connection ~ 9670 2340
+Wire Wire Line
+	9670 2340 9670 2750
+Connection ~ 9670 2750
+Wire Wire Line
+	9670 2750 9670 3060
+Wire Wire Line
+	10350 3160 10350 2750
+Connection ~ 10350 2340
+Wire Wire Line
+	10350 2340 10350 1930
+Connection ~ 10350 2750
+Wire Wire Line
+	10350 2750 10350 2340
+Wire Wire Line
+	11050 1930 11050 2340
+Connection ~ 11050 2340
+Wire Wire Line
+	11050 2340 11050 2750
+Connection ~ 11050 2750
+Wire Wire Line
+	11050 2750 11050 3160
+Wire Wire Line
+	5320 2280 4860 2280
+Connection ~ 5320 2280
+Wire Wire Line
+	4980 1440 4860 1440
+Wire Wire Line
+	4980 1440 4980 1870
+Wire Wire Line
+	4940 1520 4790 1520
+Wire Wire Line
+	4940 1520 4940 2140
+Wire Wire Line
+	4900 1600 4710 1600
+Wire Wire Line
+	4900 1600 4900 2030
+Wire Wire Line
+	4860 1680 4650 1680
+Wire Wire Line
+	4860 1680 4860 2280
+Wire Wire Line
+	5260 2340 4790 2340
+Wire Wire Line
+	4790 1770 4560 1770
+Wire Wire Line
+	4790 1770 4790 2340
+Connection ~ 5260 2340
+Wire Wire Line
+	5770 2440 4720 2440
+Wire Wire Line
+	4720 2440 4720 1860
+Wire Wire Line
+	4720 1860 4480 1860
+Connection ~ 5770 2440
+Wire Wire Line
+	5320 2690 4650 2690
+Wire Wire Line
+	4650 2690 4650 1960
+Wire Wire Line
+	4650 1960 4400 1960
+Connection ~ 5320 2690
+Wire Wire Line
+	5260 2750 4600 2750
+Wire Wire Line
+	4600 2750 4600 2070
+Wire Wire Line
+	4600 2070 4330 2070
+Connection ~ 5260 2750
+Wire Wire Line
+	5770 2850 4550 2850
+Wire Wire Line
+	4550 2850 4550 2170
+Wire Wire Line
+	4550 2170 4230 2170
+Connection ~ 5770 2850
+Wire Wire Line
+	5320 3100 4520 3100
+Wire Wire Line
+	4520 3100 4520 2290
+Wire Wire Line
+	4520 2290 4150 2290
+Connection ~ 5320 3100
+Wire Wire Line
+	5260 3160 4460 3160
+Wire Wire Line
+	4460 3160 4460 2410
+Wire Wire Line
+	4460 2410 4010 2410
+Connection ~ 5260 3160
+Wire Wire Line
+	5770 3260 4420 3260
+Wire Wire Line
+	4420 3260 4420 2550
+Wire Wire Line
+	4420 2550 3940 2550
+Connection ~ 5770 3260
+Wire Wire Line
+	6890 3600 6890 3540
+Wire Wire Line
+	13270 3600 13270 3540
+Wire Wire Line
+	5520 3540 5520 3600
+Wire Wire Line
+	5520 3060 5640 3060
+Wire Wire Line
+	5640 3060 5640 3970
+Connection ~ 5520 3060
+Wire Wire Line
+	5520 3060 5520 3160
+Wire Wire Line
+	6200 3060 6320 3060
+Wire Wire Line
+	6320 3060 6320 3970
+Connection ~ 6200 3060
+Wire Wire Line
+	6200 3060 6200 2750
+Wire Wire Line
+	6470 3260 7160 3260
+Wire Wire Line
+	6890 2750 6890 3060
+Wire Wire Line
+	6890 3060 7010 3060
+Wire Wire Line
+	7010 3060 7010 3970
+Connection ~ 6890 3060
+Wire Wire Line
+	6890 3060 6890 3160
+Wire Wire Line
+	7720 3160 7720 3970
+Wire Wire Line
+	8430 3160 8430 3970
+Wire Wire Line
+	9110 3160 9110 3970
+Wire Wire Line
+	9670 3060 9800 3060
+Wire Wire Line
+	9800 3060 9800 3970
+Connection ~ 9670 3060
+Wire Wire Line
+	9670 3060 9670 3160
+Wire Wire Line
+	10500 3160 10500 3970
+Wire Wire Line
+	11220 3160 11220 3970
+Wire Wire Line
+	11900 3160 11900 3970
+Wire Wire Line
+	12610 3160 12610 3970
+Wire Wire Line
+	12610 3970 12600 3970
+Wire Wire Line
+	13300 3160 13300 3970
+Wire Wire Line
+	13850 3060 13960 3060
+Wire Wire Line
+	13960 3060 13960 3970
+Wire Wire Line
+	13850 3060 13850 2750
+Wire Wire Line
+	14760 3160 14760 3970
+Wire Wire Line
+	2180 9370 2180 9440
+Wire Wire Line
+	2380 9440 2380 9370
+Wire Wire Line
+	2480 9440 2380 9440
+Wire Wire Line
+	2480 9370 2480 9440
+NoConn ~ 3080 8770
+Connection ~ 3080 8170
+Wire Wire Line
+	3080 8070 3080 8170
+$Comp
+L Driver_LED:IS31FL3733-QF FL3733
+U 1 1 7136D3C0
+P 2380 7770
+F 0 "FL3733" H 2360 7620 50  0000 C CNN
+F 1 "IS31FL3733-QF" H 2370 7760 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm" H 2380 7770 50  0001 C CNN
+F 3 "http://www.issi.com/WW/pdf/IS31FL3733.pdf" H 2380 7770 50  0001 C CNN
+	1    2380 7770
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 7136C561
+P 3320 9270
+F 0 "#PWR0113" H 3320 9120 50  0001 C CNN
+F 1 "+5V" H 3335 9443 50  0000 C CNN
+F 2 "" H 3320 9270 50  0001 C CNN
+F 3 "" H 3320 9270 50  0001 C CNN
+	1    3320 9270
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 7136A36A
+P 3730 9170
+F 0 "#PWR0114" H 3730 8920 50  0001 C CNN
+F 1 "GND" V 3735 9042 50  0000 R CNN
+F 2 "" H 3730 9170 50  0001 C CNN
+F 3 "" H 3730 9170 50  0001 C CNN
+	1    3730 9170
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C_VIO2
+U 1 1 70F7C72C
+P 3630 9170
+F 0 "C_VIO2" V 3401 9170 50  0001 C CNN
+F 1 "0.47uF" V 3493 9170 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3630 9170 50  0001 C CNN
+F 3 "~" H 3630 9170 50  0001 C CNN
+	1    3630 9170
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3420 8570
+Connection ~ 3340 8170
+Wire Wire Line
+	3420 8170 3420 8570
+Wire Wire Line
+	3340 8170 3420 8170
+Wire Wire Line
+	3340 8170 3340 8270
+Wire Wire Line
+	3080 8170 3340 8170
+Wire Wire Line
+	3140 8270 3080 8270
+$Comp
+L Device:R_Small R_RSET1
+U 1 1 70661C87
+P 3240 8270
+F 0 "R_RSET1" V 3044 8270 50  0001 C CNN
+F 1 "20K" V 3240 8270 28  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3240 8270 50  0001 C CNN
+F 3 "~" H 3240 8270 50  0001 C CNN
+	1    3240 8270
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 70134E5F
+P 2380 6060
+F 0 "#PWR0115" H 2380 5810 50  0001 C CNN
+F 1 "GND" V 2385 5932 50  0000 R CNN
+F 2 "" H 2380 6060 50  0001 C CNN
+F 3 "" H 2380 6060 50  0001 C CNN
+	1    2380 6060
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2380 6170 2380 6060
+Wire Wire Line
+	2480 6170 2380 6170
+Wire Wire Line
+	2380 6170 2280 6170
+Connection ~ 2380 6170
+Wire Wire Line
+	3150 8570 3080 8570
+Wire Wire Line
+	3350 8570 3420 8570
+$Comp
+L Device:R_Small R_IICRST1
+U 1 1 6F311D96
+P 3250 8570
+F 0 "R_IICRST1" V 3054 8570 50  0001 C CNN
+F 1 "100K" V 3250 8570 20  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3250 8570 50  0001 C CNN
+F 3 "~" H 3250 8570 50  0001 C CNN
+	1    3250 8570
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 6F1C9687
+P 3420 8570
+F 0 "#PWR0116" H 3420 8320 50  0001 C CNN
+F 1 "GND" V 3425 8442 50  0000 R CNN
+F 2 "" H 3420 8570 50  0001 C CNN
+F 3 "" H 3420 8570 50  0001 C CNN
+	1    3420 8570
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3650 8670
+Wire Wire Line
+	3650 8670 3790 8670
+Wire Wire Line
+	3500 8670 3080 8670
+Connection ~ 3500 8670
+Wire Wire Line
+	3500 8770 3500 8670
+Wire Wire Line
+	3650 8670 3500 8670
+Wire Wire Line
+	3650 8870 3080 8870
+Wire Wire Line
+	3500 8970 3080 8970
+Connection ~ 3500 8970
+Connection ~ 3650 8870
+Wire Wire Line
+	3790 8870 3650 8870
+Wire Wire Line
+	3790 8970 3500 8970
+Text GLabel 3790 8870 2    50   Input ~ 0
+SCL
+Text GLabel 3790 8970 2    50   Input ~ 0
+SDA
+$Comp
+L power:+5V #PWR0117
+U 1 1 6E651204
+P 5385 8615
+F 0 "#PWR0117" H 5385 8465 50  0001 C CNN
+F 1 "+5V" H 5400 8788 50  0000 C CNN
+F 2 "" H 5385 8615 50  0001 C CNN
+F 3 "" H 5385 8615 50  0001 C CNN
+	1    5385 8615
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R_SDA1
+U 1 1 6DFFB64A
+P 3500 8870
+F 0 "R_SDA1" H 3559 8916 50  0001 L CNN
+F 1 "1K" V 3500 8850 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3500 8870 50  0001 C CNN
+F 3 "~" H 3500 8870 50  0001 C CNN
+	1    3500 8870
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R_SCL2
+U 1 1 6DFF679D
+P 3650 8770
+F 0 "R_SCL2" H 3709 8816 50  0001 L CNN
+F 1 "1K" V 3650 8750 20  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3650 8770 50  0001 C CNN
+F 3 "~" H 3650 8770 50  0001 C CNN
+	1    3650 8770
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C_3233
+U 1 1 7260F306
+P 1720 9700
+F 0 "C_3233" H 1812 9746 50  0001 L CNN
+F 1 "0.1uF" H 1812 9700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1720 9700 50  0001 C CNN
+F 3 "~" H 1720 9700 50  0001 C CNN
+	1    1720 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_3233_2
+U 1 1 72612D0A
+P 1720 10000
+F 0 "C_3233_2" H 1812 10046 50  0001 L CNN
+F 1 "0.47uF" H 1812 10000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1720 10000 50  0001 C CNN
+F 3 "~" H 1720 10000 50  0001 C CNN
+	1    1720 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_5
+U 1 1 72767515
+P 2140 9700
+F 0 "C_5" H 2232 9746 50  0001 L CNN
+F 1 "0.1uF" H 2232 9700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2140 9700 50  0001 C CNN
+F 3 "~" H 2140 9700 50  0001 C CNN
+	1    2140 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_3233_1
+U 1 1 7276751B
+P 2140 10000
+F 0 "C_3233_1" H 2232 10046 50  0001 L CNN
+F 1 "0.47uF" H 2232 10000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2140 10000 50  0001 C CNN
+F 3 "~" H 2140 10000 50  0001 C CNN
+	1    2140 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_6
+U 1 1 728B9D3A
+P 2570 9700
+F 0 "C_6" H 2662 9746 50  0001 L CNN
+F 1 "0.1uF" H 2662 9700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2570 9700 50  0001 C CNN
+F 3 "~" H 2570 9700 50  0001 C CNN
+	1    2570 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_3233_3
+U 1 1 728B9D40
+P 2570 10000
+F 0 "C_3233_3" H 2662 10046 50  0001 L CNN
+F 1 "0.47uF" H 2662 10000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2570 10000 50  0001 C CNN
+F 3 "~" H 2570 10000 50  0001 C CNN
+	1    2570 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2480 9440 2480 9600
+Wire Wire Line
+	2480 9600 2570 9600
+Connection ~ 2480 9440
+Wire Wire Line
+	2480 9600 2480 9900
+Wire Wire Line
+	2480 9900 2570 9900
+Connection ~ 2480 9600
+Wire Wire Line
+	2570 9800 2140 9800
+Connection ~ 1720 9800
+Wire Wire Line
+	1720 9800 1370 9800
+Connection ~ 2140 9800
+Wire Wire Line
+	2140 9800 1720 9800
+Wire Wire Line
+	2280 9600 2140 9600
+Wire Wire Line
+	2280 9370 2280 9600
+Wire Wire Line
+	2140 9600 1720 9600
+Connection ~ 2140 9600
+Connection ~ 1720 9600
+Wire Wire Line
+	2180 9440 1220 9440
+Wire Wire Line
+	1220 9440 1220 9600
+Wire Wire Line
+	1220 9900 1720 9900
+Connection ~ 1720 9900
+Wire Wire Line
+	1720 9900 2140 9900
+Wire Wire Line
+	1720 10100 2140 10100
+Connection ~ 2140 10100
+Wire Wire Line
+	2140 10100 2570 10100
+$Comp
+L power:+5V #PWR0118
+U 1 1 73E232E8
+P 1220 9440
+F 0 "#PWR0118" H 1220 9290 50  0001 C CNN
+F 1 "+5V" V 1235 9568 50  0000 L CNN
+F 2 "" H 1220 9440 50  0001 C CNN
+F 3 "" H 1220 9440 50  0001 C CNN
+	1    1220 9440
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1220 9440
+Connection ~ 1220 9600
+Wire Wire Line
+	1220 9600 1220 9900
+Wire Wire Line
+	2480 9600 2280 9600
+Connection ~ 2280 9600
+$Comp
+L power:GND #PWR0119
+U 1 1 740F09D3
+P 2900 9800
+F 0 "#PWR0119" H 2900 9550 50  0001 C CNN
+F 1 "GND" V 2905 9672 50  0000 R CNN
+F 2 "" H 2900 9800 50  0001 C CNN
+F 3 "" H 2900 9800 50  0001 C CNN
+	1    2900 9800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2570 9800 2900 9800
+Connection ~ 2570 9800
+Wire Wire Line
+	1720 10100 1370 10100
+Wire Wire Line
+	1370 10100 1370 9800
+Connection ~ 1720 10100
+Text GLabel 1680 7370 0    50   Input ~ 0
+SW2
+Text GLabel 1680 7470 0    50   Input ~ 0
+SW1
+Text GLabel 1680 7270 0    50   Input ~ 0
+SW3
+Text GLabel 1680 7170 0    50   Input ~ 0
+SW4
+Text GLabel 1680 7070 0    50   Input ~ 0
+SW5
+Text GLabel 1680 6970 0    50   Input ~ 0
+SW6
+Text GLabel 1680 6870 0    50   Input ~ 0
+SW7
+Text GLabel 1680 6770 0    50   Input ~ 0
+SW8
+Text GLabel 1680 6670 0    50   Input ~ 0
+SW9
+Text GLabel 1680 6570 0    50   Input ~ 0
+SW10
+Text GLabel 1680 6470 0    50   Input ~ 0
+SW11
+Text GLabel 1680 6370 0    50   Input ~ 0
+SW12
+Text GLabel 4860 1440 0    31   Input ~ 0
+SW2
+Text GLabel 4790 1520 0    31   Input ~ 0
+SW1
+Text GLabel 4650 1680 0    31   Input ~ 0
+SW5
+Text GLabel 4560 1770 0    31   Input ~ 0
+SW4
+Text GLabel 4710 1600 0    31   Input ~ 0
+SW3
+Text GLabel 4480 1860 0    31   Input ~ 0
+SW6
+Text GLabel 4400 1960 0    31   Input ~ 0
+SW8
+Text GLabel 4330 2070 0    31   Input ~ 0
+SW7
+Text GLabel 4230 2170 0    31   Input ~ 0
+SW9
+Text GLabel 4150 2290 0    31   Input ~ 0
+SW11
+Text GLabel 4010 2410 0    31   Input ~ 0
+SW10
+Text GLabel 3940 2550 0    31   Input ~ 0
+SW12
+Wire Wire Line
+	1220 9600 1370 9600
+$Comp
+L Device:CP1_Small C_CAPACITORPOLARISED1
+U 1 1 7456100D
+P 1370 9700
+F 0 "C_CAPACITORPOLARISED1" H 1461 9719 50  0001 L CNN
+F 1 "22uF / 10V" H 1461 9700 16  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 1370 9700 50  0001 C CNN
+F 3 "~" H 1370 9700 50  0001 C CNN
+	1    1370 9700
+	1    0    0    -1  
+$EndComp
+Connection ~ 1370 9600
+Wire Wire Line
+	1370 9600 1720 9600
+Connection ~ 1370 9800
+Text GLabel 1680 9170 0    31   Input ~ 0
+CS1
+Text GLabel 1680 9070 0    31   Input ~ 0
+CS2
+Text GLabel 1680 8970 0    31   Input ~ 0
+CS3
+Text GLabel 1680 8870 0    31   Input ~ 0
+CS4
+Text GLabel 1680 8770 0    31   Input ~ 0
+CS5
+Text GLabel 1680 8670 0    31   Input ~ 0
+CS6
+Text GLabel 1680 8570 0    31   Input ~ 0
+CS7
+Text GLabel 1680 8470 0    31   Input ~ 0
+CS8
+Text GLabel 1680 8370 0    31   Input ~ 0
+CS9
+Text GLabel 1680 8270 0    31   Input ~ 0
+CS10
+Text GLabel 1680 8170 0    31   Input ~ 0
+CS11
+Text GLabel 1680 8070 0    31   Input ~ 0
+CS12
+Text GLabel 1680 7970 0    31   Input ~ 0
+CS13
+Text GLabel 1680 7870 0    31   Input ~ 0
+CS14
+Text GLabel 5640 3970 0    31   Input ~ 0
+CS1
+Text GLabel 6320 3970 0    31   Input ~ 0
+CS2
+Text GLabel 7010 3970 0    31   Input ~ 0
+CS3
+Text GLabel 7720 3970 0    31   Input ~ 0
+CS4
+Text GLabel 8430 3970 0    31   Input ~ 0
+CS5
+Text GLabel 9110 3970 0    31   Input ~ 0
+CS6
+Text GLabel 9800 3970 0    31   Input ~ 0
+CS7
+Text GLabel 10500 3970 0    31   Input ~ 0
+CS8
+Text GLabel 11220 3970 0    31   Input ~ 0
+CS9
+Text GLabel 11900 3970 0    31   Input ~ 0
+CS10
+Text GLabel 12600 3970 0    31   Input ~ 0
+CS11
+Text GLabel 13300 3970 0    31   Input ~ 0
+CS12
+Text GLabel 13960 3970 0    31   Input ~ 0
+CS13
+Text GLabel 14760 3970 0    31   Input ~ 0
+CS14
+Text GLabel 5310 1800 1    31   Input ~ 0
+C0
+Text GLabel 6390 1800 1    31   Input ~ 0
+C1
+Text GLabel 7090 1800 1    31   Input ~ 0
+C2
+Text GLabel 7770 1800 1    31   Input ~ 0
+C3
+Text GLabel 8480 1800 1    31   Input ~ 0
+C4
+Text GLabel 9160 1800 1    31   Input ~ 0
+C5
+Text GLabel 9870 1800 1    31   Input ~ 0
+C6
+Text GLabel 10550 1800 1    31   Input ~ 0
+C7
+Text GLabel 11250 1800 1    31   Input ~ 0
+C8
+Text GLabel 11930 1800 1    31   Input ~ 0
+C9
+Text GLabel 12640 1800 1    31   Input ~ 0
+C10
+Text GLabel 13320 1800 1    31   Input ~ 0
+C11
+Text GLabel 14050 1800 1    31   Input ~ 0
+C12
+Text GLabel 14870 1800 1    31   Input ~ 0
+C13
+Text GLabel 15630 2110 2    31   Input ~ 0
+R0
+Text GLabel 15630 2510 2    31   Input ~ 0
+R1
+Text GLabel 15630 2920 2    31   Input ~ 0
+R2
+Text GLabel 15630 3330 2    31   Input ~ 0
+R3
+Text GLabel 15630 3710 2    31   Input ~ 0
+R4
+$Comp
+L Device:R_Small R_rgb1
+U 1 1 76FFC81B
+P 2830 3790
+F 0 "R_rgb1" V 2634 3790 50  0001 C CNN
+F 1 "150" V 2830 3790 28  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2830 3790 50  0001 C CNN
+F 3 "~" H 2830 3790 50  0001 C CNN
+	1    2830 3790
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2730 1990 2820 1990
+Wire Wire Line
+	2930 3790 3070 3790
+Text GLabel 3070 3790 2    31   Input ~ 0
+RGB
+$Comp
+L Device:R_Small R_CAPLOCKS1
+U 1 1 774D9271
+P 2830 1590
+F 0 "R_CAPLOCKS1" V 2634 1590 50  0001 C CNN
+F 1 "150" V 2830 1590 28  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2830 1590 50  0001 C CNN
+F 3 "~" H 2830 1590 50  0001 C CNN
+	1    2830 1590
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2730 2090 2820 2090
+Wire Wire Line
+	2930 1590 3070 1590
+Text GLabel 3070 1590 2    31   Input ~ 0
+CAPLOCKS
+$Comp
+L LED:WS2812B RGB17
+U 1 1 7B2AAE6C
+P 8140 5790
+F 0 "RGB17" H 8484 5790 50  0001 L CNN
+F 1 "WS2812B" H 8484 5745 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8190 5490 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8240 5415 50  0001 L TNN
+	1    8140 5790
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B RGB18
+U 1 1 7B2AF4D2
+P 8140 6390
+F 0 "RGB18" H 8484 6390 50  0001 L CNN
+F 1 "WS2812B" H 8484 6345 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8190 6090 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8240 6015 50  0001 L TNN
+	1    8140 6390
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B RGB19
+U 1 1 7B479996
+P 8140 6990
+F 0 "RGB19" H 8484 6990 50  0001 L CNN
+F 1 "WS2812B" H 8484 6945 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8190 6690 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8240 6615 50  0001 L TNN
+	1    8140 6990
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B RGB20
+U 1 1 7B47999C
+P 8140 7590
+F 0 "RGB20" H 8484 7590 50  0001 L CNN
+F 1 "WS2812B" H 8484 7545 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8190 7290 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8240 7215 50  0001 L TNN
+	1    8140 7590
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B RGB21
+U 1 1 7B6461C8
+P 8140 8190
+F 0 "RGB21" H 8484 8190 50  0001 L CNN
+F 1 "WS2812B" H 8484 8145 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8190 7890 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8240 7815 50  0001 L TNN
+	1    8140 8190
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B RGB22
+U 1 1 7B6461CE
+P 8140 8790
+F 0 "RGB22" H 8484 8790 50  0001 L CNN
+F 1 "WS2812B" H 8484 8745 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8190 8490 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8240 8415 50  0001 L TNN
+	1    8140 8790
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B RGB23
+U 1 1 7B6461D4
+P 8140 9390
+F 0 "RGB23" H 8484 9390 50  0001 L CNN
+F 1 "WS2812B" H 8484 9345 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8190 9090 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8240 9015 50  0001 L TNN
+	1    8140 9390
+	0    1    1    0   
+$EndComp
+$Comp
+L LED:WS2812B RGB15
+U 1 1 7B829EE2
+P 7540 9390
+F 0 "RGB15" H 7884 9390 50  0001 L CNN
+F 1 "WS2812B" H 7884 9345 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7590 9090 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7640 9015 50  0001 L TNN
+	1    7540 9390
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED:WS2812B RGB14
+U 1 1 7B829EE8
+P 7540 8790
+F 0 "RGB14" H 7884 8790 50  0001 L CNN
+F 1 "WS2812B" H 7884 8745 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7590 8490 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7640 8415 50  0001 L TNN
+	1    7540 8790
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED:WS2812B RGB13
+U 1 1 7B829EEE
+P 7540 8190
+F 0 "RGB13" H 7884 8190 50  0001 L CNN
+F 1 "WS2812B" H 7884 8145 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7590 7890 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7640 7815 50  0001 L TNN
+	1    7540 8190
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED:WS2812B RGB12
+U 1 1 7B829EF4
+P 7540 7590
+F 0 "RGB12" H 7884 7590 50  0001 L CNN
+F 1 "WS2812B" H 7884 7545 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7590 7290 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7640 7215 50  0001 L TNN
+	1    7540 7590
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED:WS2812B RGB11
+U 1 1 7B829EFA
+P 7540 6990
+F 0 "RGB11" H 7884 6990 50  0001 L CNN
+F 1 "WS2812B" H 7884 6945 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7590 6690 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7640 6615 50  0001 L TNN
+	1    7540 6990
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED:WS2812B RGB10
+U 1 1 7B829F00
+P 7540 6390
+F 0 "RGB10" H 7884 6390 50  0001 L CNN
+F 1 "WS2812B" H 7884 6345 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7590 6090 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7640 6015 50  0001 L TNN
+	1    7540 6390
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8140 5490 1    31   Input ~ 0
+RGB
+Wire Wire Line
+	8440 5790 8440 6390
+Wire Wire Line
+	8440 7590 8440 8190
+Connection ~ 8440 8190
+Wire Wire Line
+	8440 8190 8440 8790
+Connection ~ 8440 8790
+Wire Wire Line
+	8440 8790 8440 9390
+Connection ~ 8440 9390
+Connection ~ 7240 9990
+Wire Wire Line
+	7240 6390 7240 6990
+Connection ~ 7240 6990
+Wire Wire Line
+	7240 6990 7240 7590
+Connection ~ 7240 7590
+Wire Wire Line
+	7240 7590 7240 8190
+Connection ~ 7240 8190
+Wire Wire Line
+	7240 8190 7240 8790
+Connection ~ 7240 8790
+Wire Wire Line
+	7240 8790 7240 9390
+Connection ~ 7240 9390
+Wire Wire Line
+	7240 9390 7240 9990
+Wire Wire Line
+	7840 5790 7840 6390
+Connection ~ 7840 5790
+Connection ~ 7840 6390
+Wire Wire Line
+	7840 6390 7840 6990
+Connection ~ 7840 6990
+Wire Wire Line
+	7840 6990 7840 7590
+Connection ~ 7840 7590
+Wire Wire Line
+	7840 7590 7840 8190
+Connection ~ 7840 8190
+Wire Wire Line
+	7840 8190 7840 8790
+Connection ~ 7840 8790
+Wire Wire Line
+	7840 8790 7840 9390
+Connection ~ 7840 9390
+Wire Wire Line
+	7840 5790 7840 5270
+Wire Wire Line
+	6640 5270 7840 5270
+Wire Wire Line
+	7240 9990 7240 10610
+Wire Wire Line
+	7240 10610 8440 10610
+$Comp
+L power:GND #PWR0128
+U 1 1 7D1DC2EE
+P 7840 5270
+F 0 "#PWR0128" H 7840 5020 50  0001 C CNN
+F 1 "GND" V 7845 5142 50  0000 R CNN
+F 2 "" H 7840 5270 50  0001 C CNN
+F 3 "" H 7840 5270 50  0001 C CNN
+	1    7840 5270
+	-1   0    0    1   
+$EndComp
+Connection ~ 7840 5270
+$Comp
+L power:+5V #PWR0129
+U 1 1 7D1DE906
+P 7240 10610
+F 0 "#PWR0129" H 7240 10460 50  0001 C CNN
+F 1 "+5V" V 7255 10738 50  0000 L CNN
+F 2 "" H 7240 10610 50  0001 C CNN
+F 3 "" H 7240 10610 50  0001 C CNN
+	1    7240 10610
+	-1   0    0    1   
+$EndComp
+Connection ~ 7240 10610
+$Comp
+L Device:C_Small C_RGB17
+U 1 1 7D1E31C5
+P 6440 7040
+F 0 "C_RGB17" H 6532 7086 50  0001 L CNN
+F 1 "0.1uF" H 6480 6960 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6440 7040 50  0001 C CNN
+F 3 "~" H 6440 7040 50  0001 C CNN
+	1    6440 7040
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB18
+U 1 1 7D1E86EE
+P 6440 7360
+F 0 "C_RGB18" H 6532 7406 50  0001 L CNN
+F 1 "0.1uF" H 6480 7280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6440 7360 50  0001 C CNN
+F 3 "~" H 6440 7360 50  0001 C CNN
+	1    6440 7360
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB19
+U 1 1 7D3C84F5
+P 6440 7630
+F 0 "C_RGB19" H 6532 7676 50  0001 L CNN
+F 1 "0.1uF" H 6480 7550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6440 7630 50  0001 C CNN
+F 3 "~" H 6440 7630 50  0001 C CNN
+	1    6440 7630
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB20
+U 1 1 7D3C84FB
+P 6440 7950
+F 0 "C_RGB20" H 6532 7996 50  0001 L CNN
+F 1 "0.1uF" H 6480 7870 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6440 7950 50  0001 C CNN
+F 3 "~" H 6440 7950 50  0001 C CNN
+	1    6440 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB21
+U 1 1 7D5A8282
+P 6440 8220
+F 0 "C_RGB21" H 6532 8266 50  0001 L CNN
+F 1 "0.1uF" H 6480 8140 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6440 8220 50  0001 C CNN
+F 3 "~" H 6440 8220 50  0001 C CNN
+	1    6440 8220
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB22
+U 1 1 7D5A8288
+P 6440 8540
+F 0 "C_RGB22" H 6532 8586 50  0001 L CNN
+F 1 "0.1uF" H 6480 8460 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6440 8540 50  0001 C CNN
+F 3 "~" H 6440 8540 50  0001 C CNN
+	1    6440 8540
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB23
+U 1 1 7D96CC51
+P 6440 8810
+F 0 "C_RGB23" H 6532 8856 50  0001 L CNN
+F 1 "0.1uF" H 6480 8730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6440 8810 50  0001 C CNN
+F 3 "~" H 6440 8810 50  0001 C CNN
+	1    6440 8810
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB24
+U 1 1 7D96CC57
+P 6440 9130
+F 0 "C_RGB24" H 6532 9176 50  0001 L CNN
+F 1 "0.1uF" H 6480 9050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6440 9130 50  0001 C CNN
+F 3 "~" H 6440 9130 50  0001 C CNN
+	1    6440 9130
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB10
+U 1 1 7DB4F256
+P 6180 7360
+F 0 "C_RGB10" H 6272 7406 50  0001 L CNN
+F 1 "0.1uF" H 6220 7280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6180 7360 50  0001 C CNN
+F 3 "~" H 6180 7360 50  0001 C CNN
+	1    6180 7360
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB11
+U 1 1 7DB4F25C
+P 6180 7630
+F 0 "C_RGB11" H 6272 7676 50  0001 L CNN
+F 1 "0.1uF" H 6220 7550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6180 7630 50  0001 C CNN
+F 3 "~" H 6180 7630 50  0001 C CNN
+	1    6180 7630
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB12
+U 1 1 7DB4F262
+P 6180 7950
+F 0 "C_RGB12" H 6272 7996 50  0001 L CNN
+F 1 "0.1uF" H 6220 7870 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6180 7950 50  0001 C CNN
+F 3 "~" H 6180 7950 50  0001 C CNN
+	1    6180 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB13
+U 1 1 7DB4F268
+P 6180 8220
+F 0 "C_RGB13" H 6272 8266 50  0001 L CNN
+F 1 "0.1uF" H 6220 8140 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6180 8220 50  0001 C CNN
+F 3 "~" H 6180 8220 50  0001 C CNN
+	1    6180 8220
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB14
+U 1 1 7DB4F26E
+P 6180 8540
+F 0 "C_RGB14" H 6272 8586 50  0001 L CNN
+F 1 "0.1uF" H 6220 8460 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6180 8540 50  0001 C CNN
+F 3 "~" H 6180 8540 50  0001 C CNN
+	1    6180 8540
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB15
+U 1 1 7DB4F274
+P 6180 8810
+F 0 "C_RGB15" H 6272 8856 50  0001 L CNN
+F 1 "0.1uF" H 6220 8730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6180 8810 50  0001 C CNN
+F 3 "~" H 6180 8810 50  0001 C CNN
+	1    6180 8810
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C_RGB16
+U 1 1 7DB4F27A
+P 6180 9130
+F 0 "C_RGB16" H 6272 9176 50  0001 L CNN
+F 1 "0.1uF" H 6220 9050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6180 9130 50  0001 C CNN
+F 3 "~" H 6180 9130 50  0001 C CNN
+	1    6180 9130
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6540 7040 6540 7360
+Connection ~ 6540 7360
+Wire Wire Line
+	6540 7360 6540 7630
+Connection ~ 6540 7630
+Wire Wire Line
+	6540 7630 6540 7950
+Connection ~ 6540 7950
+Wire Wire Line
+	6540 7950 6540 8220
+Connection ~ 6540 8220
+Wire Wire Line
+	6540 8220 6540 8540
+Connection ~ 6540 8540
+Wire Wire Line
+	6540 8540 6540 8810
+Connection ~ 6540 8810
+Wire Wire Line
+	6540 8810 6540 9130
+Wire Wire Line
+	6340 9130 6340 8810
+Connection ~ 6340 7360
+Wire Wire Line
+	6340 7360 6340 7040
+Connection ~ 6340 7630
+Wire Wire Line
+	6340 7630 6340 7360
+Connection ~ 6340 7950
+Wire Wire Line
+	6340 7950 6340 7630
+Connection ~ 6340 8220
+Wire Wire Line
+	6340 8220 6340 7950
+Connection ~ 6340 8540
+Wire Wire Line
+	6340 8540 6340 8220
+Connection ~ 6340 8810
+Wire Wire Line
+	6340 8810 6340 8540
+Connection ~ 6280 7360
+Wire Wire Line
+	6280 7360 6280 7630
+Connection ~ 6280 7630
+Wire Wire Line
+	6280 7630 6280 7950
+Connection ~ 6280 7950
+Wire Wire Line
+	6280 7950 6280 8220
+Connection ~ 6280 8220
+Wire Wire Line
+	6280 8220 6280 8540
+Connection ~ 6280 8540
+Wire Wire Line
+	6280 8540 6280 8810
+Connection ~ 6280 8810
+Wire Wire Line
+	6280 8810 6280 9130
+Wire Wire Line
+	6080 9130 6080 8810
+Connection ~ 6080 7630
+Wire Wire Line
+	6080 7630 6080 7360
+Connection ~ 6080 7950
+Wire Wire Line
+	6080 7950 6080 7630
+Connection ~ 6080 8220
+Wire Wire Line
+	6080 8220 6080 7950
+Connection ~ 6080 8540
+Wire Wire Line
+	6080 8540 6080 8220
+Connection ~ 6080 8810
+Wire Wire Line
+	6080 8810 6080 8540
+Wire Wire Line
+	6540 7040 6540 6890
+Wire Wire Line
+	6540 6890 6280 6890
+Connection ~ 6540 7040
+Wire Wire Line
+	6340 9130 6340 9290
+Wire Wire Line
+	6340 9290 6080 9290
+Wire Wire Line
+	6080 9290 6080 9130
+Connection ~ 6340 9130
+Connection ~ 6080 9130
+Wire Wire Line
+	6540 10610 6540 9130
+Connection ~ 6540 9130
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW6
+U 1 1 6391E7EA
+P 6190 1800
+F 0 "SW6" H 6190 1993 50  0000 C CNN
+F 1 "SW_Push" H 6190 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 6190 2000 50  0001 C CNN
+F 3 "~" H 6190 2000 50  0001 C CNN
+	1    6190 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW11
+U 1 1 639219F9
+P 6890 1800
+F 0 "SW11" H 6890 1993 50  0000 C CNN
+F 1 "SW_Push" H 6890 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 6890 2000 50  0001 C CNN
+F 3 "~" H 6890 2000 50  0001 C CNN
+	1    6890 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW17
+U 1 1 63B243AA
+P 7570 1800
+F 0 "SW17" H 7570 1993 50  0000 C CNN
+F 1 "SW_Push" H 7570 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 7570 2000 50  0001 C CNN
+F 3 "~" H 7570 2000 50  0001 C CNN
+	1    7570 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW21
+U 1 1 63D26B3A
+P 8280 1800
+F 0 "SW21" H 8280 1993 50  0000 C CNN
+F 1 "SW_Push" H 8280 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 8280 2000 50  0001 C CNN
+F 3 "~" H 8280 2000 50  0001 C CNN
+	1    8280 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW25
+U 1 1 63F29389
+P 8960 1800
+F 0 "SW25" H 8960 1993 50  0000 C CNN
+F 1 "SW_Push" H 8960 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 8960 2000 50  0001 C CNN
+F 3 "~" H 8960 2000 50  0001 C CNN
+	1    8960 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW29
+U 1 1 6412BAA5
+P 9670 1800
+F 0 "SW29" H 9670 1993 50  0000 C CNN
+F 1 "SW_Push" H 9670 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 9670 2000 50  0001 C CNN
+F 3 "~" H 9670 2000 50  0001 C CNN
+	1    9670 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW34
+U 1 1 6432E26F
+P 10350 1800
+F 0 "SW34" H 10350 1993 50  0000 C CNN
+F 1 "SW_Push" H 10350 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 10350 2000 50  0001 C CNN
+F 3 "~" H 10350 2000 50  0001 C CNN
+	1    10350 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW38
+U 1 1 64530A2A
+P 11050 1800
+F 0 "SW38" H 11050 1993 50  0000 C CNN
+F 1 "SW_Push" H 11050 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 11050 2000 50  0001 C CNN
+F 3 "~" H 11050 2000 50  0001 C CNN
+	1    11050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW43
+U 1 1 6473319C
+P 11730 1800
+F 0 "SW43" H 11730 1993 50  0000 C CNN
+F 1 "SW_Push" H 11730 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 11730 2000 50  0001 C CNN
+F 3 "~" H 11730 2000 50  0001 C CNN
+	1    11730 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW48
+U 1 1 64935C15
+P 12440 1800
+F 0 "SW48" H 12440 1993 50  0000 C CNN
+F 1 "SW_Push" H 12440 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 12440 2000 50  0001 C CNN
+F 3 "~" H 12440 2000 50  0001 C CNN
+	1    12440 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW53
+U 1 1 64B38778
+P 13120 1800
+F 0 "SW53" H 13120 1993 50  0000 C CNN
+F 1 "SW_Push" H 13120 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 13120 2000 50  0001 C CNN
+F 3 "~" H 13120 2000 50  0001 C CNN
+	1    13120 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW58
+U 1 1 64D3B039
+P 13850 1800
+F 0 "SW58" H 13850 1993 50  0000 C CNN
+F 1 "SW_Push" H 13850 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 13850 2000 50  0001 C CNN
+F 3 "~" H 13850 2000 50  0001 C CNN
+	1    13850 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW63
+U 1 1 64F3D7DD
+P 14530 1800
+F 0 "SW63" H 14530 1993 50  0000 C CNN
+F 1 "SW_Push" H 14530 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_2.00u_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-HS" H 14530 2000 50  0001 C CNN
+F 3 "~" H 14530 2000 50  0001 C CNN
+	1    14530 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 1800 10550 2210
+Wire Wire Line
+	9160 1800 9160 2210
+Wire Wire Line
+	8480 1800 8480 2210
+Wire Wire Line
+	7770 1800 7770 2210
+Wire Wire Line
+	6390 1800 6390 2210
+Wire Wire Line
+	7090 1800 7090 2210
+Wire Wire Line
+	9870 1800 9870 2210
+Wire Wire Line
+	11250 1800 11250 2210
+Wire Wire Line
+	11050 3160 11200 3160
+Wire Wire Line
+	11730 3160 11880 3160
+Wire Wire Line
+	11930 1800 11930 2210
+Wire Wire Line
+	12440 3160 12590 3160
+Wire Wire Line
+	12640 1800 12640 2210
+Wire Wire Line
+	13320 1800 13320 2210
+Wire Wire Line
+	13120 3160 13270 3160
+Wire Wire Line
+	14050 1800 14050 2210
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW1
+U 1 1 65746BBF
+P 5510 1800
+F 0 "SW1" H 5510 1993 50  0000 C CNN
+F 1 "SW_Push" H 5510 1950 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 5510 2000 50  0001 C CNN
+F 3 "~" H 5510 2000 50  0001 C CNN
+	1    5510 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW2
+U 1 1 65B144AD
+P 5510 2210
+F 0 "SW2" H 5510 2403 50  0000 C CNN
+F 1 "SW_Push" H 5510 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.50u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 5510 2410 50  0001 C CNN
+F 3 "~" H 5510 2410 50  0001 C CNN
+	1    5510 2210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5710 2210 5710 2620
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW7
+U 1 1 65CFC7E5
+P 6190 2210
+F 0 "SW7" H 6190 2403 50  0000 C CNN
+F 1 "SW_Push" H 6190 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 6190 2410 50  0001 C CNN
+F 3 "~" H 6190 2410 50  0001 C CNN
+	1    6190 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW12
+U 1 1 65EE3B30
+P 6890 2210
+F 0 "SW12" H 6890 2403 50  0000 C CNN
+F 1 "SW_Push" H 6890 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 6890 2410 50  0001 C CNN
+F 3 "~" H 6890 2410 50  0001 C CNN
+	1    6890 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW18
+U 1 1 660CAD42
+P 7570 2210
+F 0 "SW18" H 7570 2403 50  0000 C CNN
+F 1 "SW_Push" H 7570 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 7570 2410 50  0001 C CNN
+F 3 "~" H 7570 2410 50  0001 C CNN
+	1    7570 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW22
+U 1 1 662B1BD7
+P 8280 2210
+F 0 "SW22" H 8280 2403 50  0000 C CNN
+F 1 "SW_Push" H 8280 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 8280 2410 50  0001 C CNN
+F 3 "~" H 8280 2410 50  0001 C CNN
+	1    8280 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW26
+U 1 1 66498A27
+P 8960 2210
+F 0 "SW26" H 8960 2403 50  0000 C CNN
+F 1 "SW_Push" H 8960 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 8960 2410 50  0001 C CNN
+F 3 "~" H 8960 2410 50  0001 C CNN
+	1    8960 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW30
+U 1 1 6667FB0B
+P 9670 2210
+F 0 "SW30" H 9670 2403 50  0000 C CNN
+F 1 "SW_Push" H 9670 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 9670 2410 50  0001 C CNN
+F 3 "~" H 9670 2410 50  0001 C CNN
+	1    9670 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW35
+U 1 1 668670C2
+P 10350 2210
+F 0 "SW35" H 10350 2403 50  0000 C CNN
+F 1 "SW_Push" H 10350 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 10350 2410 50  0001 C CNN
+F 3 "~" H 10350 2410 50  0001 C CNN
+	1    10350 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW39
+U 1 1 66A4E11C
+P 11050 2210
+F 0 "SW39" H 11050 2403 50  0000 C CNN
+F 1 "SW_Push" H 11050 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 11050 2410 50  0001 C CNN
+F 3 "~" H 11050 2410 50  0001 C CNN
+	1    11050 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW44
+U 1 1 66C352A4
+P 11730 2210
+F 0 "SW44" H 11730 2403 50  0000 C CNN
+F 1 "SW_Push" H 11730 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 11730 2410 50  0001 C CNN
+F 3 "~" H 11730 2410 50  0001 C CNN
+	1    11730 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW49
+U 1 1 66E1C5EB
+P 12440 2210
+F 0 "SW49" H 12440 2403 50  0000 C CNN
+F 1 "SW_Push" H 12440 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 12440 2410 50  0001 C CNN
+F 3 "~" H 12440 2410 50  0001 C CNN
+	1    12440 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW54
+U 1 1 670039AF
+P 13120 2210
+F 0 "SW54" H 13120 2403 50  0000 C CNN
+F 1 "SW_Push" H 13120 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 13120 2410 50  0001 C CNN
+F 3 "~" H 13120 2410 50  0001 C CNN
+	1    13120 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW59
+U 1 1 671EAF06
+P 13850 2210
+F 0 "SW59" H 13850 2403 50  0000 C CNN
+F 1 "SW_Push" H 13850 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 13850 2410 50  0001 C CNN
+F 3 "~" H 13850 2410 50  0001 C CNN
+	1    13850 2210
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW64
+U 1 1 673D22A6
+P 14530 2210
+F 0 "SW64" H 14530 2403 50  0000 C CNN
+F 1 "SW_Push" H 14530 2360 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.50u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 14530 2410 50  0001 C CNN
+F 3 "~" H 14530 2410 50  0001 C CNN
+	1    14530 2210
+	1    0    0    -1  
+$EndComp
+Connection ~ 13320 2210
+Wire Wire Line
+	13320 2210 13320 2620
+Connection ~ 12640 2210
+Wire Wire Line
+	12640 2210 12640 2620
+Connection ~ 11930 2210
+Wire Wire Line
+	11930 2210 11930 2620
+Connection ~ 11250 2210
+Wire Wire Line
+	11250 2210 11250 2620
+Connection ~ 10550 2210
+Wire Wire Line
+	10550 2210 10550 2620
+Connection ~ 9870 2210
+Wire Wire Line
+	9870 2210 9870 2620
+Connection ~ 9160 2210
+Wire Wire Line
+	9160 2210 9160 2620
+Connection ~ 8480 2210
+Wire Wire Line
+	8480 2210 8480 2620
+Connection ~ 7770 2210
+Wire Wire Line
+	7770 2210 7770 2620
+Connection ~ 7090 2210
+Wire Wire Line
+	7090 2210 7090 2620
+Connection ~ 6390 2210
+Wire Wire Line
+	6390 2210 6390 2620
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW3
+U 1 1 610BB669
+P 5510 2620
+F 0 "SW3" H 5510 2813 50  0000 C CNN
+F 1 "SW_Push" H 5510 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.75u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 5510 2820 50  0001 C CNN
+F 3 "~" H 5510 2820 50  0001 C CNN
+	1    5510 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW8
+U 1 1 612A910A
+P 6190 2620
+F 0 "SW8" H 6190 2813 50  0000 C CNN
+F 1 "SW_Push" H 6190 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 6190 2820 50  0001 C CNN
+F 3 "~" H 6190 2820 50  0001 C CNN
+	1    6190 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW13
+U 1 1 61496D83
+P 6890 2620
+F 0 "SW13" H 6890 2813 50  0000 C CNN
+F 1 "SW_Push" H 6890 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 6890 2820 50  0001 C CNN
+F 3 "~" H 6890 2820 50  0001 C CNN
+	1    6890 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW19
+U 1 1 61684D1E
+P 7570 2620
+F 0 "SW19" H 7570 2813 50  0000 C CNN
+F 1 "SW_Push" H 7570 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 7570 2820 50  0001 C CNN
+F 3 "~" H 7570 2820 50  0001 C CNN
+	1    7570 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW23
+U 1 1 61872CE6
+P 8280 2620
+F 0 "SW23" H 8280 2813 50  0000 C CNN
+F 1 "SW_Push" H 8280 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 8280 2820 50  0001 C CNN
+F 3 "~" H 8280 2820 50  0001 C CNN
+	1    8280 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW27
+U 1 1 61A60D23
+P 8960 2620
+F 0 "SW27" H 8960 2813 50  0000 C CNN
+F 1 "SW_Push" H 8960 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 8960 2820 50  0001 C CNN
+F 3 "~" H 8960 2820 50  0001 C CNN
+	1    8960 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW31
+U 1 1 61C4EFF6
+P 9670 2620
+F 0 "SW31" H 9670 2813 50  0000 C CNN
+F 1 "SW_Push" H 9670 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 9670 2820 50  0001 C CNN
+F 3 "~" H 9670 2820 50  0001 C CNN
+	1    9670 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW36
+U 1 1 61E3CD50
+P 10350 2620
+F 0 "SW36" H 10350 2813 50  0000 C CNN
+F 1 "SW_Push" H 10350 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 10350 2820 50  0001 C CNN
+F 3 "~" H 10350 2820 50  0001 C CNN
+	1    10350 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW40
+U 1 1 6202ABED
+P 11050 2620
+F 0 "SW40" H 11050 2813 50  0000 C CNN
+F 1 "SW_Push" H 11050 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 11050 2820 50  0001 C CNN
+F 3 "~" H 11050 2820 50  0001 C CNN
+	1    11050 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW45
+U 1 1 62218AD7
+P 11730 2620
+F 0 "SW45" H 11730 2813 50  0000 C CNN
+F 1 "SW_Push" H 11730 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 11730 2820 50  0001 C CNN
+F 3 "~" H 11730 2820 50  0001 C CNN
+	1    11730 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW50
+U 1 1 62406C78
+P 12440 2620
+F 0 "SW50" H 12440 2813 50  0000 C CNN
+F 1 "SW_Push" H 12440 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 12440 2820 50  0001 C CNN
+F 3 "~" H 12440 2820 50  0001 C CNN
+	1    12440 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW55
+U 1 1 625F4643
+P 13120 2620
+F 0 "SW55" H 13120 2813 50  0000 C CNN
+F 1 "SW_Push" H 13120 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 13120 2820 50  0001 C CNN
+F 3 "~" H 13120 2820 50  0001 C CNN
+	1    13120 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW60
+U 1 1 627E2283
+P 13850 2620
+F 0 "SW60" H 13850 2813 50  0000 C CNN
+F 1 "SW_Push" H 13850 2770 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_2.25u_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-HS" H 13850 2820 50  0001 C CNN
+F 3 "~" H 13850 2820 50  0001 C CNN
+	1    13850 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW56
+U 1 1 6356A624
+P 13120 3030
+F 0 "SW56" H 13120 3223 50  0000 C CNN
+F 1 "SW_Push" H 13120 3180 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_2.75u_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-HS" H 13120 3230 50  0001 C CNN
+F 3 "~" H 13120 3230 50  0001 C CNN
+	1    13120 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW57
+U 1 1 63758019
+P 13120 3410
+F 0 "SW57" H 13120 3603 50  0000 C CNN
+F 1 "SW_Push" H 13120 3560 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.25u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 13120 3610 50  0001 C CNN
+F 3 "~" H 13120 3610 50  0001 C CNN
+	1    13120 3410
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW51
+U 1 1 63945A32
+P 12440 3030
+F 0 "SW51" H 12440 3223 50  0000 C CNN
+F 1 "SW_Push" H 12440 3180 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 12440 3230 50  0001 C CNN
+F 3 "~" H 12440 3230 50  0001 C CNN
+	1    12440 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW46
+U 1 1 63B3329E
+P 11730 3030
+F 0 "SW46" H 11730 3223 50  0000 C CNN
+F 1 "SW_Push" H 11730 3180 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 11730 3230 50  0001 C CNN
+F 3 "~" H 11730 3230 50  0001 C CNN
+	1    11730 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW41
+U 1 1 63D20A6C
+P 11050 3030
+F 0 "SW41" H 11050 3223 50  0000 C CNN
+F 1 "SW_Push" H 11050 3180 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 11050 3230 50  0001 C CNN
+F 3 "~" H 11050 3230 50  0001 C CNN
+	1    11050 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW37
+U 1 1 63F0E3AF
+P 10350 3030
+F 0 "SW37" H 10350 3223 50  0000 C CNN
+F 1 "SW_Push" H 10350 3180 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 10350 3230 50  0001 C CNN
+F 3 "~" H 10350 3230 50  0001 C CNN
+	1    10350 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW32
+U 1 1 640FBBD2
+P 9670 3030
+F 0 "SW32" H 9670 3223 50  0000 C CNN
+F 1 "SW_Push" H 9670 3180 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 9670 3230 50  0001 C CNN
+F 3 "~" H 9670 3230 50  0001 C CNN
+	1    9670 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW28
+U 1 1 642E96E6
+P 8960 3030
+F 0 "SW28" H 8960 3223 50  0000 C CNN
+F 1 "SW_Push" H 8960 3180 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 8960 3230 50  0001 C CNN
+F 3 "~" H 8960 3230 50  0001 C CNN
+	1    8960 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW24
+U 1 1 644D6FF6
+P 8280 3030
+F 0 "SW24" H 8280 3223 50  0000 C CNN
+F 1 "SW_Push" H 8280 3180 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 8280 3230 50  0001 C CNN
+F 3 "~" H 8280 3230 50  0001 C CNN
+	1    8280 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW20
+U 1 1 646C48EE
+P 7570 3030
+F 0 "SW20" H 7570 3223 50  0000 C CNN
+F 1 "SW_Push" H 7570 3180 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 7570 3230 50  0001 C CNN
+F 3 "~" H 7570 3230 50  0001 C CNN
+	1    7570 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW14
+U 1 1 648B22FE
+P 6890 3030
+F 0 "SW14" H 6890 3223 50  0000 C CNN
+F 1 "SW_Push" H 6890 3180 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 6890 3230 50  0001 C CNN
+F 3 "~" H 6890 3230 50  0001 C CNN
+	1    6890 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW9
+U 1 1 64AA013A
+P 6190 3030
+F 0 "SW9" H 6190 3223 50  0000 C CNN
+F 1 "SW_Push" H 6190 3180 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.00u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 6190 3230 50  0001 C CNN
+F 3 "~" H 6190 3230 50  0001 C CNN
+	1    6190 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW4
+U 1 1 64C8DD10
+P 5510 3030
+F 0 "SW4" H 5510 3223 50  0000 C CNN
+F 1 "SW_Push" H 5510 3180 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_2.25u_PCB_KailhSocket_StabWireTop_LTST-A683CEGBW-HS" H 5510 3230 50  0001 C CNN
+F 3 "~" H 5510 3230 50  0001 C CNN
+	1    5510 3030
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW5
+U 1 1 6506B492
+P 5510 3410
+F 0 "SW5" H 5510 3603 50  0000 C CNN
+F 1 "SW_Push" H 5510 3560 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.25u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 5510 3610 50  0001 C CNN
+F 3 "~" H 5510 3610 50  0001 C CNN
+	1    5510 3410
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW10
+U 1 1 6525941D
+P 6190 3410
+F 0 "SW10" H 6190 3603 50  0000 C CNN
+F 1 "SW_Push" H 6190 3560 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.25u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 6190 3610 50  0001 C CNN
+F 3 "~" H 6190 3610 50  0001 C CNN
+	1    6190 3410
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW15
+U 1 1 65447BA2
+P 6890 3410
+F 0 "SW15" H 6890 3603 50  0000 C CNN
+F 1 "SW_Push" H 6890 3560 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.25u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 6890 3610 50  0001 C CNN
+F 3 "~" H 6890 3610 50  0001 C CNN
+	1    6890 3410
+	1    0    0    -1  
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW52
+U 1 1 65FDA63F
+P 12440 3410
+F 0 "SW52" H 12440 3603 50  0000 C CNN
+F 1 "SW_Push" H 12440 3560 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.25u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 12440 3610 50  0001 C CNN
+F 3 "~" H 12440 3610 50  0001 C CNN
+	1    12440 3410
+	1    0    0    -1  
+$EndComp
+Connection ~ 12590 3160
+Wire Wire Line
+	12590 3160 12610 3160
+Connection ~ 11880 3160
+Wire Wire Line
+	11880 3160 11900 3160
+Connection ~ 13270 3160
+Wire Wire Line
+	13270 3160 13300 3160
+Connection ~ 13320 3030
+Wire Wire Line
+	13320 3030 13320 3410
+Connection ~ 12640 3030
+Wire Wire Line
+	12640 3030 12640 3410
+Connection ~ 11250 3030
+Wire Wire Line
+	11250 3030 11250 3410
+Connection ~ 11200 3160
+Wire Wire Line
+	11200 3160 11220 3160
+Connection ~ 13320 2620
+Wire Wire Line
+	13320 2620 13320 3030
+Connection ~ 12640 2620
+Wire Wire Line
+	12640 2620 12640 3030
+Connection ~ 11930 2620
+Wire Wire Line
+	11930 2620 11930 3030
+Connection ~ 11250 2620
+Wire Wire Line
+	11250 2620 11250 3030
+Connection ~ 10550 2620
+Wire Wire Line
+	10550 2620 10550 3030
+Connection ~ 9870 2620
+Wire Wire Line
+	9870 2620 9870 3030
+Connection ~ 9160 2620
+Wire Wire Line
+	9160 2620 9160 3030
+Connection ~ 8480 2620
+Wire Wire Line
+	8480 2620 8480 3030
+Connection ~ 7770 2620
+Wire Wire Line
+	7770 2620 7770 3030
+Connection ~ 7090 2620
+Wire Wire Line
+	7090 2620 7090 3030
+Connection ~ 7090 3030
+Wire Wire Line
+	7090 3030 7090 3410
+Connection ~ 6390 3030
+Wire Wire Line
+	6390 3030 6390 3410
+Connection ~ 6390 2620
+Wire Wire Line
+	6390 2620 6390 3030
+Connection ~ 5710 2620
+Wire Wire Line
+	5710 2620 5710 3030
+Connection ~ 5710 3030
+Wire Wire Line
+	5710 3030 5710 3410
+Wire Wire Line
+	9670 3540 9670 3600
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW33
+U 1 1 65823EC5
+P 9670 3410
+F 0 "SW33" H 9670 3603 50  0000 C CNN
+F 1 "SW_Push" H 9670 3560 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_6.25u_PCB_KailhSocket_StabWireBottom_LTST-A683CEGBW-HS" H 9670 3610 50  0001 C CNN
+F 3 "~" H 9670 3610 50  0001 C CNN
+	1    9670 3410
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9940 3480 9820 3480
+Wire Wire Line
+	12210 2140 12940 2140
+Wire Wire Line
+	12260 2060 12880 2060
+Wire Wire Line
+	12880 1870 12880 2060
+Connection ~ 12880 2060
+Wire Wire Line
+	12880 2060 13670 2060
+Wire Wire Line
+	12940 1930 12940 2140
+Connection ~ 12940 2140
+Wire Wire Line
+	12940 2140 13620 2140
+Wire Wire Line
+	12210 2550 12940 2550
+Wire Wire Line
+	12260 2470 12880 2470
+Wire Wire Line
+	12880 2280 12880 2470
+Connection ~ 12880 2470
+Wire Wire Line
+	12880 2470 13670 2470
+Wire Wire Line
+	12940 2340 12940 2550
+Connection ~ 12940 2550
+Wire Wire Line
+	12940 2550 13620 2550
+Wire Wire Line
+	12210 2960 12940 2960
+Wire Wire Line
+	12880 2690 12880 2880
+Wire Wire Line
+	12260 2880 12880 2880
+Connection ~ 12880 2880
+Wire Wire Line
+	12880 2880 13670 2880
+Wire Wire Line
+	12940 2750 12940 2960
+Connection ~ 12940 2960
+Wire Wire Line
+	12940 2960 13620 2960
+Wire Wire Line
+	12210 3370 12940 3370
+Wire Wire Line
+	12260 3290 12880 3290
+Wire Wire Line
+	12880 3100 12880 3290
+Wire Wire Line
+	12940 3160 12940 3370
+Wire Wire Line
+	14530 3160 14760 3160
+Wire Wire Line
+	14530 2340 14530 3160
+Wire Wire Line
+	12770 3710 15630 3710
+Wire Wire Line
+	11320 3260 12030 3260
+Wire Wire Line
+	12770 3330 15630 3330
+Wire Wire Line
+	13500 2100 14180 2100
+Wire Wire Line
+	14730 1800 14870 1800
+Wire Wire Line
+	14730 2210 14870 2210
+Wire Wire Line
+	13500 2510 14180 2510
+Connection ~ 14050 2920
+Wire Wire Line
+	14050 2920 15630 2920
+Wire Wire Line
+	12770 2920 14050 2920
+Wire Wire Line
+	7840 9390 7840 9990
+Connection ~ 7840 9990
+$Comp
+L LED:WS2812B RGB16
+U 1 1 7B829EDC
+P 7540 9990
+F 0 "RGB16" H 7884 9990 50  0001 L CNN
+F 1 "WS2812B" H 7884 9945 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7590 9690 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7640 9615 50  0001 L TNN
+	1    7540 9990
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8140 10290 7540 10290
+Wire Wire Line
+	8440 9990 8440 10610
+Wire Wire Line
+	8440 9390 8440 9990
+Connection ~ 8440 9990
+$Comp
+L LED:WS2812B RGB24
+U 1 1 7B6461DA
+P 8140 9990
+F 0 "RGB24" H 8484 9990 50  0001 L CNN
+F 1 "WS2812B" H 8484 9945 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8190 9690 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8240 9615 50  0001 L TNN
+	1    8140 9990
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6540 10610 7240 10610
+Connection ~ 11930 3030
+Wire Wire Line
+	13500 2620 13500 2590
+Wire Wire Line
+	13500 2590 14050 2590
+Wire Wire Line
+	14050 2590 14050 2210
+Connection ~ 14050 2210
+Wire Wire Line
+	10700 3710 11380 3710
+Wire Wire Line
+	11380 3710 12090 3710
+Connection ~ 11380 3710
+$Comp
+L Diode:1N4148 D47
+U 1 1 65075142
+P 11380 3560
+F 0 "D47" H 11430 3660 50  0000 R CNN
+F 1 "1N4148" V 11335 3480 50  0001 R CNN
+F 2 "Diode_SMD:D_SOD-323" H 11380 3385 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 11380 3560 50  0001 C CNN
+	1    11380 3560
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW47
+U 1 1 6657CD9B
+P 11730 3410
+F 0 "SW47" H 11730 3603 50  0000 C CNN
+F 1 "SW_Push" H 11730 3560 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.25u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 11730 3610 50  0001 C CNN
+F 3 "~" H 11730 3610 50  0001 C CNN
+	1    11730 3410
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11930 3030 11930 3410
+Wire Wire Line
+	11530 3410 11380 3410
+Wire Wire Line
+	10980 6360 11180 6360
+Wire Wire Line
+	10980 6160 11180 6160
+Wire Wire Line
+	2730 1690 3190 1690
+Wire Wire Line
+	2730 1890 3510 1890
+Wire Wire Line
+	2730 1790 3370 1790
+$Comp
+L Device:LED D16
+U 1 1 60F58092
+P 9320 5430
+F 0 "D16" H 9313 5647 50  0000 C CNN
+F 1 "LED" H 9313 5556 50  0000 C CNN
+F 2 "LED_SMD:LED_PLCC_2835" H 9320 5430 50  0001 C CNN
+F 3 "~" H 9320 5430 50  0001 C CNN
+	1    9320 5430
+	1    0    0    -1  
+$EndComp
+Text GLabel 9470 5430 2    31   Input ~ 0
+CAPLOCKS
+Wire Wire Line
+	7840 5270 9170 5270
+Wire Wire Line
+	9170 5270 9170 5430
+Wire Wire Line
+	2730 2990 2910 2990
+$Comp
+L Device:LED D61
+U 1 1 6139FF89
+P 9320 5690
+F 0 "D61" H 9313 5907 50  0000 C CNN
+F 1 "LED" H 9313 5816 50  0000 C CNN
+F 2 "LED_SMD:LED_PLCC_2835" H 9320 5690 50  0001 C CNN
+F 3 "~" H 9320 5690 50  0001 C CNN
+	1    9320 5690
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9170 5690 9170 5430
+Connection ~ 9170 5430
+Wire Wire Line
+	9470 5430 9470 5690
+$Comp
+L Regulator_Linear:AMS1117 U2
+U 1 1 6138AF42
+P 5385 8285
+F 0 "U2" H 5385 8527 50  0001 C CNN
+F 1 "AMS1117" H 5385 8436 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5385 8485 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 5485 8035 50  0001 C CNN
+	1    5385 8285
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0111
+U 1 1 616A531A
+P 5385 7945
+F 0 "#PWR0111" H 5385 7795 50  0001 C CNN
+F 1 "+3.3V" H 5400 8118 50  0000 C CNN
+F 2 "" H 5385 7945 50  0001 C CNN
+F 3 "" H 5385 7945 50  0001 C CNN
+	1    5385 7945
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5385 7985 5385 7945
+Wire Wire Line
+	5385 8615 5385 8585
+$Comp
+L power:GND #PWR0112
+U 1 1 61FFB521
+P 5685 8285
+F 0 "#PWR0112" H 5685 8035 50  0001 C CNN
+F 1 "GND" H 5690 8112 50  0000 C CNN
+F 2 "" H 5685 8285 50  0001 C CNN
+F 3 "" H 5685 8285 50  0001 C CNN
+	1    5685 8285
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5385 7945
+Connection ~ 5385 8615
+Connection ~ 5685 8285
+$Comp
+L power:+3.3V #PWR0124
+U 1 1 65A9DA43
+P 3790 8670
+F 0 "#PWR0124" H 3790 8520 50  0001 C CNN
+F 1 "+3.3V" V 3805 8798 50  0000 L CNN
+F 2 "" H 3790 8670 50  0001 C CNN
+F 3 "" H 3790 8670 50  0001 C CNN
+	1    3790 8670
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 TYPE_C1
+U 1 1 60CE9E4A
+P 10380 6210
+F 0 "TYPE_C1" H 10487 7077 50  0001 C CNN
+F 1 "USB_C" H 10180 6760 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 10530 6210 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 10530 6210 50  0001 C CNN
+	1    10380 6210
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	980  1790 1130 1790
+Wire Wire Line
+	1030 1890 1030 2030
+Wire Wire Line
+	1030 2030 1090 2030
+Wire Wire Line
+	1090 2030 1090 2290
+Connection ~ 1090 2290
+Wire Wire Line
+	1090 2290 1130 2290
+Wire Wire Line
+	1230 1890 1230 2030
+Wire Wire Line
+	1230 2030 1130 2030
+Wire Wire Line
+	1130 2030 1130 2290
+Connection ~ 1130 2290
+Wire Wire Line
+	1130 2290 1330 2290
+Wire Wire Line
+	5710 2210 5710 2180
+Wire Wire Line
+	5290 2180 5290 1800
+Wire Wire Line
+	5290 1800 5310 1800
+Wire Wire Line
+	5290 2180 5710 2180
+Connection ~ 5710 2210
+Wire Wire Line
+	5710 1800 5710 1670
+Wire Wire Line
+	5710 1670 5160 1670
+Wire Wire Line
+	5160 1670 5160 1800
+Text GLabel 5770 3480 1    31   Input ~ 0
+SW9
+Text GLabel 5520 3600 0    31   Input ~ 0
+CS14
+Text GLabel 6200 3610 0    31   Input ~ 0
+CS13
+Wire Wire Line
+	6200 3540 6200 3610
+Text GLabel 6000 3480 3    31   Input ~ 0
+SW11
+Text GLabel 5930 3540 3    31   Input ~ 0
+SW10
+Text GLabel 6390 3480 3    31   Input ~ 0
+SW12
+Wire Wire Line
+	5930 3540 6040 3540
+Wire Wire Line
+	6390 3480 6340 3480
+Text GLabel 6690 3480 3    31   Input ~ 0
+SW11
+Text GLabel 6620 3540 3    31   Input ~ 0
+SW10
+Wire Wire Line
+	6740 3480 6690 3480
+Text GLabel 7160 3480 3    31   Input ~ 0
+SW12
+Text GLabel 6890 3600 0    31   Input ~ 0
+CS14
+Text GLabel 5360 3480 0    31   Input ~ 0
+SW8
+Text GLabel 5360 3540 0    31   Input ~ 0
+SW7
+Text GLabel 1680 7770 0    31   Input ~ 0
+CS15
+Text GLabel 1680 7670 0    31   Input ~ 0
+CS16
+Text GLabel 9670 3600 0    31   Input ~ 0
+CS15
+Text GLabel 11050 3600 0    31   Input ~ 0
+CS16
+Wire Wire Line
+	11050 3540 11050 3600
+Text GLabel 9520 3480 0    31   Input ~ 0
+SW2
+Text GLabel 9520 3540 0    31   Input ~ 0
+SW1
+Text GLabel 9940 3480 3    31   Input ~ 0
+SW3
+Wire Wire Line
+	9320 3410 9470 3410
+$Comp
+L 65%_BLE-rescue:SW_Push-sw_push SW42
+U 1 1 65BFF45C
+P 11050 3410
+F 0 "SW42" H 11050 3603 50  0000 C CNN
+F 1 "SW_Push" H 11050 3560 20  0001 C CNN
+F 2 "Kailh HS:CherryMX_1.25u_PCB_KailhSocket_LTST-A683CEGBW-HS" H 11050 3610 50  0001 C CNN
+F 3 "~" H 11050 3610 50  0001 C CNN
+	1    11050 3410
+	1    0    0    -1  
+$EndComp
+Text GLabel 10900 3480 0    31   Input ~ 0
+SW2
+Text GLabel 10900 3540 0    31   Input ~ 0
+SW1
+Text GLabel 11280 3480 3    31   Input ~ 0
+SW3
+Wire Wire Line
+	11280 3480 11200 3480
+Text GLabel 11750 3600 0    31   Input ~ 0
+CS15
+Text GLabel 13140 3600 0    31   Input ~ 0
+CS15
+Text GLabel 12440 3600 0    31   Input ~ 0
+CS16
+Wire Wire Line
+	12440 3540 12440 3600
+Wire Wire Line
+	11750 3600 11750 3540
+Wire Wire Line
+	11750 3540 11880 3540
+Wire Wire Line
+	13140 3600 13270 3600
+Text GLabel 11580 3480 0    31   Input ~ 0
+SW5
+Text GLabel 11580 3540 0    31   Input ~ 0
+SW4
+Text GLabel 11960 3480 3    31   Input ~ 0
+SW6
+Wire Wire Line
+	11960 3480 11880 3480
+Text GLabel 12290 3480 0    31   Input ~ 0
+SW5
+Text GLabel 12290 3540 0    31   Input ~ 0
+SW4
+Text GLabel 12670 3480 3    31   Input ~ 0
+SW6
+Wire Wire Line
+	12670 3480 12590 3480
+Text GLabel 13430 3480 2    31   Input ~ 0
+SW9
+Text GLabel 12970 3480 0    31   Input ~ 0
+SW8
+Text GLabel 12970 3540 0    31   Input ~ 0
+SW7
+Wire Wire Line
+	5685 8285 5685 7065
+Wire Wire Line
+	5685 9355 5685 8285
+Wire Wire Line
+	5385 9355 5385 8615
+Wire Wire Line
+	5385 7945 5385 7065
+Wire Wire Line
+	5385 7065 5485 7065
+$Comp
+L Device:CP1_Small C_ASM1117
+U 1 1 69D15226
+P 5585 7065
+F 0 "C_ASM1117" H 5676 7084 50  0001 L CNN
+F 1 "10uF / 10V" H 5676 7065 16  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 5585 7065 50  0001 C CNN
+F 3 "~" H 5585 7065 50  0001 C CNN
+	1    5585 7065
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1_Small C_ASM1
+U 1 1 69E5D6EF
+P 5585 9355
+F 0 "C_ASM1" H 5676 9374 50  0001 L CNN
+F 1 "10uF / 10V" H 5676 9355 16  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 5585 9355 50  0001 C CNN
+F 3 "~" H 5585 9355 50  0001 C CNN
+	1    5585 9355
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5385 9355 5485 9355
+$Comp
+L Device:Crystal_GND24_Small crystal1
+U 1 1 664B1C2A
+P 1130 1890
+F 0 "crystal1" V 1084 2034 50  0001 L CNN
+F 1 "16mhz" V 1130 2034 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 1130 1890 50  0001 C CNN
+F 3 "~" H 1130 1890 50  0001 C CNN
+	1    1130 1890
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1130 1990 1330 1990
+Wire Wire Line
+	6640 5270 6640 6750
+Wire Wire Line
+	6280 6890 6280 7360
+Wire Wire Line
+	6080 7360 6080 6750
+Connection ~ 6080 7360
+Wire Wire Line
+	6080 6750 6640 6750
+Connection ~ 14180 2100
+Connection ~ 14180 2510
+Wire Wire Line
+	14180 2510 15630 2510
+Wire Wire Line
+	15630 2100 15630 2110
+Wire Wire Line
+	14870 1800 14870 2210
+Wire Wire Line
+	14180 2100 15630 2100
+Text GLabel 4315 5655 0    50   Input ~ 0
+RST
+$Comp
+L power:GND #PWR0120
+U 1 1 6104174F
+P 4915 5655
+F 0 "#PWR0120" H 4915 5405 50  0001 C CNN
+F 1 "GND" V 4920 5527 50  0000 R CNN
+F 2 "" H 4915 5655 50  0001 C CNN
+F 3 "" H 4915 5655 50  0001 C CNN
+	1    4915 5655
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Dual_2pin D62
+U 1 1 612F1CEE
+P 4615 5655
+F 0 "D62" H 4615 6051 50  0000 C CNN
+F 1 "LED_Dual_2pin" H 4615 5960 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 4615 5655 50  0001 C CNN
+F 3 "~" H 4615 5655 50  0001 C CNN
+	1    4615 5655
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3105 3285 2730 3285
+Wire Wire Line
+	2730 3285 2730 3290
+Wire Wire Line
+	1530 1990 1405 1990
+Wire Wire Line
+	1405 1990 1405 1955
+Wire Wire Line
+	1405 1955 1260 1955
+Wire Wire Line
+	1260 1955 1260 1790
+Wire Wire Line
+	1260 1790 1130 1790
+Connection ~ 1130 1790
+Wire Wire Line
+	1530 1790 1460 1790
+Wire Wire Line
+	1460 1790 1460 2015
+Wire Wire Line
+	1460 2015 1370 2015
+Wire Wire Line
+	1370 2015 1370 1990
+Wire Wire Line
+	1370 1990 1330 1990
+Connection ~ 1330 1990
+$Comp
+L LED:WS2812B RGB1
+U 1 1 610DABFE
+P 7540 5790
+F 0 "RGB1" H 7884 5790 50  0001 L CNN
+F 1 "WS2812B" H 7884 5745 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7590 5490 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7640 5415 50  0001 L TNN
+	1    7540 5790
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 7540 5490
+Wire Wire Line
+	7240 5790 7240 6390
+Connection ~ 7240 6390
+Text GLabel 9870 3410 2    31   Input ~ 0
+C5
+Text GLabel 2830 2890 2    50   Input ~ 0
+SDA
+Text GLabel 2830 2790 2    50   Input ~ 0
+SCL
+Text GLabel 2730 3990 2    50   Input ~ 0
+C5
+Text GLabel 2730 4090 2    50   Input ~ 0
+C6
+Text GLabel 2730 4190 2    50   Input ~ 0
+R3
+Text GLabel 2730 4290 2    50   Input ~ 0
+C7
+Text GLabel 2730 4390 2    50   Input ~ 0
+C4
+Text GLabel 2730 4490 2    50   Input ~ 0
+C3
+Text GLabel 3190 1690 2    50   Input ~ 0
+C0
+Text GLabel 3370 1790 2    50   Input ~ 0
+C1
+Text GLabel 3510 1890 2    50   Input ~ 0
+C2
+Text GLabel 2730 2290 2    50   Input ~ 0
+C8
+Text GLabel 2910 2990 2    50   Input ~ 0
+C9
+Text GLabel 2730 3090 2    50   Input ~ 0
+C10
+Text GLabel 3105 3285 2    50   Input ~ 0
+C11
+Text GLabel 2730 3190 2    50   Input ~ 0
+C12
+Text GLabel 2730 3390 2    50   Input ~ 0
+C13
+Text GLabel 2730 3490 2    50   Input ~ 0
+R4
+Text GLabel 2730 2590 2    50   Input ~ 0
+R0
+Text GLabel 2730 2490 2    50   Input ~ 0
+R1
+Text GLabel 2730 2190 2    50   Input ~ 0
+R2
+NoConn ~ 2820 1990
+NoConn ~ 2820 2090
+Wire Wire Line
+	2930 3690 2990 3690
+NoConn ~ 3080 8370
+Wire Wire Line
+	11080 5490 11080 5610
+Wire Wire Line
+	8440 6390 8440 6990
+Connection ~ 8440 6390
+Wire Wire Line
+	8440 6990 8440 7590
+Connection ~ 8440 6990
+Connection ~ 8440 7590
+Wire Wire Line
+	10380 7110 10475 7110
+Connection ~ 10380 7110
+Wire Wire Line
+	3080 9170 3320 9170
+Wire Wire Line
+	3320 9170 3320 9270
+Connection ~ 3320 9170
+Wire Wire Line
+	3320 9170 3530 9170
+$EndSCHEMATC

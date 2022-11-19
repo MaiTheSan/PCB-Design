@@ -1,0 +1,5710 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 16535 23386 portrait
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 4900 3350 1    50   Input ~ 0
+SW1
+Text GLabel 5650 3350 1    50   Input ~ 0
+SW2
+Text GLabel 6400 3350 1    50   Input ~ 0
+SW3
+Text GLabel 7150 3350 1    50   Input ~ 0
+SW4
+Text GLabel 7900 3350 1    50   Input ~ 0
+SW5
+Text GLabel 8650 3350 1    50   Input ~ 0
+SW6
+Text GLabel 9400 3350 1    50   Input ~ 0
+SW7
+Text GLabel 10150 3350 1    50   Input ~ 0
+SW8
+Text GLabel 10900 3350 1    50   Input ~ 0
+SW9
+Text GLabel 4050 21250 0    50   Input ~ 0
+CS1
+Text GLabel 4050 20750 0    50   Input ~ 0
+CS2
+Text GLabel 4050 20250 0    50   Input ~ 0
+CS3
+Text GLabel 4050 19750 0    50   Input ~ 0
+CS4
+Text GLabel 4050 19250 0    50   Input ~ 0
+CS5
+Text GLabel 4050 18750 0    50   Input ~ 0
+CS6
+Text GLabel 4050 18250 0    50   Input ~ 0
+CS7
+Text GLabel 4050 17750 0    50   Input ~ 0
+CS8
+Text GLabel 4050 17250 0    50   Input ~ 0
+CS9
+Text GLabel 4050 16750 0    50   Input ~ 0
+CS10
+Text GLabel 4050 11750 0    50   Input ~ 0
+CS20
+Text GLabel 4050 12250 0    50   Input ~ 0
+CS19
+Text GLabel 4050 12750 0    50   Input ~ 0
+CS18
+Text GLabel 4050 13250 0    50   Input ~ 0
+CS17
+Text GLabel 4050 13750 0    50   Input ~ 0
+CS16
+Text GLabel 4050 14250 0    50   Input ~ 0
+CS15
+Text GLabel 4050 14750 0    50   Input ~ 0
+CS14
+Text GLabel 4050 15250 0    50   Input ~ 0
+CS13
+Text GLabel 4050 15750 0    50   Input ~ 0
+CS12
+Text GLabel 4050 16250 0    50   Input ~ 0
+CS11
+Text GLabel 4050 6750 0    50   Input ~ 0
+CS30
+Text GLabel 4050 7250 0    50   Input ~ 0
+CS29
+Text GLabel 4050 7750 0    50   Input ~ 0
+CS28
+Text GLabel 4050 8250 0    50   Input ~ 0
+CS27
+Text GLabel 4050 8750 0    50   Input ~ 0
+CS26
+Text GLabel 4050 9250 0    50   Input ~ 0
+CS25
+Text GLabel 4050 9750 0    50   Input ~ 0
+CS24
+Text GLabel 4050 10250 0    50   Input ~ 0
+CS23
+Text GLabel 4050 10750 0    50   Input ~ 0
+CS22
+Text GLabel 4050 11250 0    50   Input ~ 0
+CS21
+Text GLabel 4050 3750 0    50   Input ~ 0
+CS36
+Text GLabel 4050 4250 0    50   Input ~ 0
+CS35
+Text GLabel 4050 4750 0    50   Input ~ 0
+CS34
+Text GLabel 4050 5250 0    50   Input ~ 0
+CS33
+Text GLabel 4050 5750 0    50   Input ~ 0
+CS32
+Text GLabel 4050 6250 0    50   Input ~ 0
+CS31
+$Comp
+L random-keyboard-parts:RGB-6028 LED7
+U 1 1 6081CB85
+P 4700 14000
+F 0 "LED7" H 4700 14225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 14134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 14000 50  0001 C CNN
+F 3 "" H 4700 14000 50  0001 C CNN
+	1    4700 14000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED7
+U 2 1 6081DD2D
+P 4700 14500
+F 0 "LED7" H 4700 14725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 14634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 14500 50  0001 C CNN
+F 3 "" H 4700 14500 50  0001 C CNN
+	2    4700 14500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED7
+U 3 1 6081DE9E
+P 4700 15000
+F 0 "LED7" H 4700 15225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 15134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 15000 50  0001 C CNN
+F 3 "" H 4700 15000 50  0001 C CNN
+	3    4700 15000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 15000 4500 15250
+Wire Wire Line
+	4500 14500 4500 14750
+Wire Wire Line
+	4500 14000 4500 14250
+$Comp
+L random-keyboard-parts:RGB-6028 LED17
+U 1 1 6082F234
+P 5450 14000
+F 0 "LED17" H 5450 14225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 14134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 14000 50  0001 C CNN
+F 3 "" H 5450 14000 50  0001 C CNN
+	1    5450 14000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED17
+U 2 1 6082F23A
+P 5450 14500
+F 0 "LED17" H 5450 14725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 14634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 14500 50  0001 C CNN
+F 3 "" H 5450 14500 50  0001 C CNN
+	2    5450 14500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED17
+U 3 1 6082F240
+P 5450 15000
+F 0 "LED17" H 5450 15225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 15134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 15000 50  0001 C CNN
+F 3 "" H 5450 15000 50  0001 C CNN
+	3    5450 15000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 15000 5250 15250
+Wire Wire Line
+	5250 14500 5250 14750
+Wire Wire Line
+	5250 14000 5250 14250
+$Comp
+L random-keyboard-parts:RGB-6028 LED29
+U 1 1 60830701
+P 6200 14000
+F 0 "LED29" H 6200 14225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 14134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 14000 50  0001 C CNN
+F 3 "" H 6200 14000 50  0001 C CNN
+	1    6200 14000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED29
+U 2 1 60830707
+P 6200 14500
+F 0 "LED29" H 6200 14725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 14634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 14500 50  0001 C CNN
+F 3 "" H 6200 14500 50  0001 C CNN
+	2    6200 14500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED29
+U 3 1 6083070D
+P 6200 15000
+F 0 "LED29" H 6200 15225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 15134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 15000 50  0001 C CNN
+F 3 "" H 6200 15000 50  0001 C CNN
+	3    6200 15000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 15000 6000 15250
+Wire Wire Line
+	6000 14500 6000 14750
+Wire Wire Line
+	6000 14000 6000 14250
+$Comp
+L random-keyboard-parts:RGB-6028 LED41
+U 1 1 60831C41
+P 6950 14000
+F 0 "LED41" H 6950 14225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 14134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 14000 50  0001 C CNN
+F 3 "" H 6950 14000 50  0001 C CNN
+	1    6950 14000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED41
+U 2 1 60831C47
+P 6950 14500
+F 0 "LED41" H 6950 14725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 14634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 14500 50  0001 C CNN
+F 3 "" H 6950 14500 50  0001 C CNN
+	2    6950 14500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED41
+U 3 1 60831C4D
+P 6950 15000
+F 0 "LED41" H 6950 15225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 15134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 15000 50  0001 C CNN
+F 3 "" H 6950 15000 50  0001 C CNN
+	3    6950 15000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 15000 6750 15250
+Wire Wire Line
+	6750 14500 6750 14750
+Wire Wire Line
+	6750 14000 6750 14250
+$Comp
+L random-keyboard-parts:RGB-6028 LED47
+U 1 1 608335D3
+P 7700 14000
+F 0 "LED47" H 7700 14225 50  0000 C CNN
+F 1 "RGB-6028" H 7700 14134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 14000 50  0001 C CNN
+F 3 "" H 7700 14000 50  0001 C CNN
+	1    7700 14000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED47
+U 2 1 608335D9
+P 7700 14500
+F 0 "LED47" H 7700 14725 50  0000 C CNN
+F 1 "RGB-6028" H 7700 14634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 14500 50  0001 C CNN
+F 3 "" H 7700 14500 50  0001 C CNN
+	2    7700 14500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED47
+U 3 1 608335DF
+P 7700 15000
+F 0 "LED47" H 7700 15225 50  0000 C CNN
+F 1 "RGB-6028" H 7700 15134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 15000 50  0001 C CNN
+F 3 "" H 7700 15000 50  0001 C CNN
+	3    7700 15000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 15000 7500 15250
+Wire Wire Line
+	7500 14500 7500 14750
+Wire Wire Line
+	7500 14000 7500 14250
+$Comp
+L random-keyboard-parts:RGB-6028 LED57
+U 1 1 6083546D
+P 8450 14000
+F 0 "LED57" H 8450 14225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 14134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 14000 50  0001 C CNN
+F 3 "" H 8450 14000 50  0001 C CNN
+	1    8450 14000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED57
+U 2 1 60835473
+P 8450 14500
+F 0 "LED57" H 8450 14725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 14634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 14500 50  0001 C CNN
+F 3 "" H 8450 14500 50  0001 C CNN
+	2    8450 14500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED57
+U 3 1 60835479
+P 8450 15000
+F 0 "LED57" H 8450 15225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 15134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 15000 50  0001 C CNN
+F 3 "" H 8450 15000 50  0001 C CNN
+	3    8450 15000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 15000 8250 15250
+Wire Wire Line
+	8250 14500 8250 14750
+Wire Wire Line
+	8250 14000 8250 14250
+$Comp
+L random-keyboard-parts:RGB-6028 LED66
+U 1 1 6083C8A5
+P 9200 14000
+F 0 "LED66" H 9200 14225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 14134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 14000 50  0001 C CNN
+F 3 "" H 9200 14000 50  0001 C CNN
+	1    9200 14000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED66
+U 2 1 6083C8AB
+P 9200 14500
+F 0 "LED66" H 9200 14725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 14634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 14500 50  0001 C CNN
+F 3 "" H 9200 14500 50  0001 C CNN
+	2    9200 14500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED66
+U 3 1 6083C8B1
+P 9200 15000
+F 0 "LED66" H 9200 15225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 15134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 15000 50  0001 C CNN
+F 3 "" H 9200 15000 50  0001 C CNN
+	3    9200 15000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 15000 9000 15250
+Wire Wire Line
+	9000 14500 9000 14750
+Wire Wire Line
+	9000 14000 9000 14250
+$Comp
+L random-keyboard-parts:RGB-6028 LED77
+U 1 1 6083C8BA
+P 9950 14000
+F 0 "LED77" H 9950 14225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 14134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 14000 50  0001 C CNN
+F 3 "" H 9950 14000 50  0001 C CNN
+	1    9950 14000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED77
+U 2 1 6083C8C0
+P 9950 14500
+F 0 "LED77" H 9950 14725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 14634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 14500 50  0001 C CNN
+F 3 "" H 9950 14500 50  0001 C CNN
+	2    9950 14500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED77
+U 3 1 6083C8C6
+P 9950 15000
+F 0 "LED77" H 9950 15225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 15134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 15000 50  0001 C CNN
+F 3 "" H 9950 15000 50  0001 C CNN
+	3    9950 15000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 15000 9750 15250
+Wire Wire Line
+	9750 14500 9750 14750
+Wire Wire Line
+	9750 14000 9750 14250
+$Comp
+L random-keyboard-parts:RGB-6028 LED86
+U 1 1 6083C8CF
+P 10700 14000
+F 0 "LED86" H 10700 14225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 14134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 14000 50  0001 C CNN
+F 3 "" H 10700 14000 50  0001 C CNN
+	1    10700 14000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED86
+U 2 1 6083C8D5
+P 10700 14500
+F 0 "LED86" H 10700 14725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 14634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 14500 50  0001 C CNN
+F 3 "" H 10700 14500 50  0001 C CNN
+	2    10700 14500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED86
+U 3 1 6083C8DB
+P 10700 15000
+F 0 "LED86" H 10700 15225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 15134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 15000 50  0001 C CNN
+F 3 "" H 10700 15000 50  0001 C CNN
+	3    10700 15000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 15000 10500 15250
+Wire Wire Line
+	10500 14500 10500 14750
+Wire Wire Line
+	10500 14000 10500 14250
+$Comp
+L random-keyboard-parts:RGB-6028 LED6
+U 1 1 608A966E
+P 4700 12500
+F 0 "LED6" H 4700 12725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 12634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 12500 50  0001 C CNN
+F 3 "" H 4700 12500 50  0001 C CNN
+	1    4700 12500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED6
+U 2 1 608A9674
+P 4700 13000
+F 0 "LED6" H 4700 13225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 13134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 13000 50  0001 C CNN
+F 3 "" H 4700 13000 50  0001 C CNN
+	2    4700 13000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED6
+U 3 1 608A967A
+P 4700 13500
+F 0 "LED6" H 4700 13725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 13634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 13500 50  0001 C CNN
+F 3 "" H 4700 13500 50  0001 C CNN
+	3    4700 13500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 13500 4500 13750
+Wire Wire Line
+	4500 13000 4500 13250
+Wire Wire Line
+	4500 12500 4500 12750
+$Comp
+L random-keyboard-parts:RGB-6028 LED28
+U 1 1 608A9698
+P 6200 12500
+F 0 "LED28" H 6200 12725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 12634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 12500 50  0001 C CNN
+F 3 "" H 6200 12500 50  0001 C CNN
+	1    6200 12500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED28
+U 2 1 608A969E
+P 6200 13000
+F 0 "LED28" H 6200 13225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 13134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 13000 50  0001 C CNN
+F 3 "" H 6200 13000 50  0001 C CNN
+	2    6200 13000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED28
+U 3 1 608A96A4
+P 6200 13500
+F 0 "LED28" H 6200 13725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 13634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 13500 50  0001 C CNN
+F 3 "" H 6200 13500 50  0001 C CNN
+	3    6200 13500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 13500 6000 13750
+Wire Wire Line
+	6000 13000 6000 13250
+Wire Wire Line
+	6000 12500 6000 12750
+$Comp
+L random-keyboard-parts:RGB-6028 LED40
+U 1 1 608A96AD
+P 6950 12500
+F 0 "LED40" H 6950 12725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 12634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 12500 50  0001 C CNN
+F 3 "" H 6950 12500 50  0001 C CNN
+	1    6950 12500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED40
+U 2 1 608A96B3
+P 6950 13000
+F 0 "LED40" H 6950 13225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 13134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 13000 50  0001 C CNN
+F 3 "" H 6950 13000 50  0001 C CNN
+	2    6950 13000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED40
+U 3 1 608A96B9
+P 6950 13500
+F 0 "LED40" H 6950 13725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 13634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 13500 50  0001 C CNN
+F 3 "" H 6950 13500 50  0001 C CNN
+	3    6950 13500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 13500 6750 13750
+Wire Wire Line
+	6750 13000 6750 13250
+Wire Wire Line
+	6750 12500 6750 12750
+$Comp
+L random-keyboard-parts:RGB-6028 LED46
+U 1 1 608A96C2
+P 7700 12500
+F 0 "LED46" H 7700 12725 50  0000 C CNN
+F 1 "RGB-6028" H 7700 12634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 12500 50  0001 C CNN
+F 3 "" H 7700 12500 50  0001 C CNN
+	1    7700 12500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED46
+U 2 1 608A96C8
+P 7700 13000
+F 0 "LED46" H 7700 13225 50  0000 C CNN
+F 1 "RGB-6028" H 7700 13134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 13000 50  0001 C CNN
+F 3 "" H 7700 13000 50  0001 C CNN
+	2    7700 13000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED46
+U 3 1 608A96CE
+P 7700 13500
+F 0 "LED46" H 7700 13725 50  0000 C CNN
+F 1 "RGB-6028" H 7700 13634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 13500 50  0001 C CNN
+F 3 "" H 7700 13500 50  0001 C CNN
+	3    7700 13500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 13500 7500 13750
+Wire Wire Line
+	7500 13000 7500 13250
+Wire Wire Line
+	7500 12500 7500 12750
+$Comp
+L random-keyboard-parts:RGB-6028 LED56
+U 1 1 608A96D7
+P 8450 12500
+F 0 "LED56" H 8450 12725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 12634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 12500 50  0001 C CNN
+F 3 "" H 8450 12500 50  0001 C CNN
+	1    8450 12500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED56
+U 2 1 608A96DD
+P 8450 13000
+F 0 "LED56" H 8450 13225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 13134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 13000 50  0001 C CNN
+F 3 "" H 8450 13000 50  0001 C CNN
+	2    8450 13000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED56
+U 3 1 608A96E3
+P 8450 13500
+F 0 "LED56" H 8450 13725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 13634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 13500 50  0001 C CNN
+F 3 "" H 8450 13500 50  0001 C CNN
+	3    8450 13500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 13500 8250 13750
+Wire Wire Line
+	8250 13000 8250 13250
+Wire Wire Line
+	8250 12500 8250 12750
+$Comp
+L random-keyboard-parts:RGB-6028 LED65
+U 1 1 608A96EC
+P 9200 12500
+F 0 "LED65" H 9200 12725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 12634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 12500 50  0001 C CNN
+F 3 "" H 9200 12500 50  0001 C CNN
+	1    9200 12500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED65
+U 2 1 608A96F2
+P 9200 13000
+F 0 "LED65" H 9200 13225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 13134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 13000 50  0001 C CNN
+F 3 "" H 9200 13000 50  0001 C CNN
+	2    9200 13000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED65
+U 3 1 608A96F8
+P 9200 13500
+F 0 "LED65" H 9200 13725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 13634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 13500 50  0001 C CNN
+F 3 "" H 9200 13500 50  0001 C CNN
+	3    9200 13500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 13500 9000 13750
+Wire Wire Line
+	9000 13000 9000 13250
+Wire Wire Line
+	9000 12500 9000 12750
+$Comp
+L random-keyboard-parts:RGB-6028 LED76
+U 1 1 608A9701
+P 9950 12500
+F 0 "LED76" H 9950 12725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 12634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 12500 50  0001 C CNN
+F 3 "" H 9950 12500 50  0001 C CNN
+	1    9950 12500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED76
+U 2 1 608A9707
+P 9950 13000
+F 0 "LED76" H 9950 13225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 13134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 13000 50  0001 C CNN
+F 3 "" H 9950 13000 50  0001 C CNN
+	2    9950 13000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED76
+U 3 1 608A970D
+P 9950 13500
+F 0 "LED76" H 9950 13725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 13634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 13500 50  0001 C CNN
+F 3 "" H 9950 13500 50  0001 C CNN
+	3    9950 13500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 13500 9750 13750
+Wire Wire Line
+	9750 13000 9750 13250
+Wire Wire Line
+	9750 12500 9750 12750
+$Comp
+L random-keyboard-parts:RGB-6028 LED85
+U 1 1 608A9716
+P 10700 12500
+F 0 "LED85" H 10700 12725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 12634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 12500 50  0001 C CNN
+F 3 "" H 10700 12500 50  0001 C CNN
+	1    10700 12500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED85
+U 2 1 608A971C
+P 10700 13000
+F 0 "LED85" H 10700 13225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 13134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 13000 50  0001 C CNN
+F 3 "" H 10700 13000 50  0001 C CNN
+	2    10700 13000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED85
+U 3 1 608A9722
+P 10700 13500
+F 0 "LED85" H 10700 13725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 13634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 13500 50  0001 C CNN
+F 3 "" H 10700 13500 50  0001 C CNN
+	3    10700 13500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 13500 10500 13750
+Wire Wire Line
+	10500 13000 10500 13250
+Wire Wire Line
+	10500 12500 10500 12750
+$Comp
+L random-keyboard-parts:RGB-6028 LED16
+U 1 1 608E4FC4
+P 5450 11000
+F 0 "LED16" H 5450 11225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 11134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 11000 50  0001 C CNN
+F 3 "" H 5450 11000 50  0001 C CNN
+	1    5450 11000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED16
+U 2 1 608E4FCA
+P 5450 11500
+F 0 "LED16" H 5450 11725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 11634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 11500 50  0001 C CNN
+F 3 "" H 5450 11500 50  0001 C CNN
+	2    5450 11500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED16
+U 3 1 608E4FD0
+P 5450 12000
+F 0 "LED16" H 5450 12225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 12134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 12000 50  0001 C CNN
+F 3 "" H 5450 12000 50  0001 C CNN
+	3    5450 12000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 12000 5250 12250
+Wire Wire Line
+	5250 11500 5250 11750
+Wire Wire Line
+	5250 11000 5250 11250
+$Comp
+L random-keyboard-parts:RGB-6028 LED27
+U 1 1 608E4FD9
+P 6200 11000
+F 0 "LED27" H 6200 11225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 11134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 11000 50  0001 C CNN
+F 3 "" H 6200 11000 50  0001 C CNN
+	1    6200 11000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED27
+U 2 1 608E4FDF
+P 6200 11500
+F 0 "LED27" H 6200 11725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 11634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 11500 50  0001 C CNN
+F 3 "" H 6200 11500 50  0001 C CNN
+	2    6200 11500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED27
+U 3 1 608E4FE5
+P 6200 12000
+F 0 "LED27" H 6200 12225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 12134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 12000 50  0001 C CNN
+F 3 "" H 6200 12000 50  0001 C CNN
+	3    6200 12000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 12000 6000 12250
+Wire Wire Line
+	6000 11500 6000 11750
+Wire Wire Line
+	6000 11000 6000 11250
+$Comp
+L random-keyboard-parts:RGB-6028 LED39
+U 1 1 608E4FEE
+P 6950 11000
+F 0 "LED39" H 6950 11225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 11134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 11000 50  0001 C CNN
+F 3 "" H 6950 11000 50  0001 C CNN
+	1    6950 11000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED39
+U 2 1 608E4FF4
+P 6950 11500
+F 0 "LED39" H 6950 11725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 11634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 11500 50  0001 C CNN
+F 3 "" H 6950 11500 50  0001 C CNN
+	2    6950 11500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED39
+U 3 1 608E4FFA
+P 6950 12000
+F 0 "LED39" H 6950 12225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 12134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 12000 50  0001 C CNN
+F 3 "" H 6950 12000 50  0001 C CNN
+	3    6950 12000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 12000 6750 12250
+Wire Wire Line
+	6750 11500 6750 11750
+Wire Wire Line
+	6750 11000 6750 11250
+$Comp
+L random-keyboard-parts:RGB-6028 LED55
+U 1 1 608E5018
+P 8450 11000
+F 0 "LED55" H 8450 11225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 11134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 11000 50  0001 C CNN
+F 3 "" H 8450 11000 50  0001 C CNN
+	1    8450 11000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED55
+U 2 1 608E501E
+P 8450 11500
+F 0 "LED55" H 8450 11725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 11634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 11500 50  0001 C CNN
+F 3 "" H 8450 11500 50  0001 C CNN
+	2    8450 11500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED55
+U 3 1 608E5024
+P 8450 12000
+F 0 "LED55" H 8450 12225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 12134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 12000 50  0001 C CNN
+F 3 "" H 8450 12000 50  0001 C CNN
+	3    8450 12000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 12000 8250 12250
+Wire Wire Line
+	8250 11500 8250 11750
+Wire Wire Line
+	8250 11000 8250 11250
+$Comp
+L random-keyboard-parts:RGB-6028 LED64
+U 1 1 608E502D
+P 9200 11000
+F 0 "LED64" H 9200 11225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 11134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 11000 50  0001 C CNN
+F 3 "" H 9200 11000 50  0001 C CNN
+	1    9200 11000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED64
+U 2 1 608E5033
+P 9200 11500
+F 0 "LED64" H 9200 11725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 11634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 11500 50  0001 C CNN
+F 3 "" H 9200 11500 50  0001 C CNN
+	2    9200 11500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED64
+U 3 1 608E5039
+P 9200 12000
+F 0 "LED64" H 9200 12225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 12134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 12000 50  0001 C CNN
+F 3 "" H 9200 12000 50  0001 C CNN
+	3    9200 12000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 12000 9000 12250
+Wire Wire Line
+	9000 11500 9000 11750
+Wire Wire Line
+	9000 11000 9000 11250
+$Comp
+L random-keyboard-parts:RGB-6028 LED75
+U 1 1 608E5042
+P 9950 11000
+F 0 "LED75" H 9950 11225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 11134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 11000 50  0001 C CNN
+F 3 "" H 9950 11000 50  0001 C CNN
+	1    9950 11000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED75
+U 2 1 608E5048
+P 9950 11500
+F 0 "LED75" H 9950 11725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 11634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 11500 50  0001 C CNN
+F 3 "" H 9950 11500 50  0001 C CNN
+	2    9950 11500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED75
+U 3 1 608E504E
+P 9950 12000
+F 0 "LED75" H 9950 12225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 12134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 12000 50  0001 C CNN
+F 3 "" H 9950 12000 50  0001 C CNN
+	3    9950 12000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 12000 9750 12250
+Wire Wire Line
+	9750 11500 9750 11750
+Wire Wire Line
+	9750 11000 9750 11250
+$Comp
+L random-keyboard-parts:RGB-6028 LED84
+U 1 1 608E5057
+P 10700 11000
+F 0 "LED84" H 10700 11225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 11134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 11000 50  0001 C CNN
+F 3 "" H 10700 11000 50  0001 C CNN
+	1    10700 11000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED84
+U 2 1 608E505D
+P 10700 11500
+F 0 "LED84" H 10700 11725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 11634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 11500 50  0001 C CNN
+F 3 "" H 10700 11500 50  0001 C CNN
+	2    10700 11500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED84
+U 3 1 608E5063
+P 10700 12000
+F 0 "LED84" H 10700 12225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 12134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 12000 50  0001 C CNN
+F 3 "" H 10700 12000 50  0001 C CNN
+	3    10700 12000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 12000 10500 12250
+Wire Wire Line
+	10500 11500 10500 11750
+Wire Wire Line
+	10500 11000 10500 11250
+$Comp
+L random-keyboard-parts:RGB-6028 LED5
+U 1 1 608E506C
+P 4700 9500
+F 0 "LED5" H 4700 9725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 9634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 9500 50  0001 C CNN
+F 3 "" H 4700 9500 50  0001 C CNN
+	1    4700 9500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED5
+U 2 1 608E5072
+P 4700 10000
+F 0 "LED5" H 4700 10225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 10134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 10000 50  0001 C CNN
+F 3 "" H 4700 10000 50  0001 C CNN
+	2    4700 10000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED5
+U 3 1 608E5078
+P 4700 10500
+F 0 "LED5" H 4700 10725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 10634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 10500 50  0001 C CNN
+F 3 "" H 4700 10500 50  0001 C CNN
+	3    4700 10500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 10500 4500 10750
+Wire Wire Line
+	4500 10000 4500 10250
+Wire Wire Line
+	4500 9500 4500 9750
+$Comp
+L random-keyboard-parts:RGB-6028 LED15
+U 1 1 608E5081
+P 5450 9500
+F 0 "LED15" H 5450 9725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 9634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 9500 50  0001 C CNN
+F 3 "" H 5450 9500 50  0001 C CNN
+	1    5450 9500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED15
+U 2 1 608E5087
+P 5450 10000
+F 0 "LED15" H 5450 10225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 10134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 10000 50  0001 C CNN
+F 3 "" H 5450 10000 50  0001 C CNN
+	2    5450 10000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED15
+U 3 1 608E508D
+P 5450 10500
+F 0 "LED15" H 5450 10725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 10634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 10500 50  0001 C CNN
+F 3 "" H 5450 10500 50  0001 C CNN
+	3    5450 10500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 10500 5250 10750
+Wire Wire Line
+	5250 10000 5250 10250
+Wire Wire Line
+	5250 9500 5250 9750
+$Comp
+L random-keyboard-parts:RGB-6028 LED26
+U 2 1 608E509C
+P 6200 10000
+F 0 "LED26" H 6200 10225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 10134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 10000 50  0001 C CNN
+F 3 "" H 6200 10000 50  0001 C CNN
+	2    6200 10000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED26
+U 3 1 608E50A2
+P 6200 10500
+F 0 "LED26" H 6200 10725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 10634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 10500 50  0001 C CNN
+F 3 "" H 6200 10500 50  0001 C CNN
+	3    6200 10500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 10500 6000 10750
+Wire Wire Line
+	6000 10000 6000 10250
+Wire Wire Line
+	6000 9500 6000 9750
+$Comp
+L random-keyboard-parts:RGB-6028 LED38
+U 1 1 608E50AB
+P 6950 9500
+F 0 "LED38" H 6950 9725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 9634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 9500 50  0001 C CNN
+F 3 "" H 6950 9500 50  0001 C CNN
+	1    6950 9500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED38
+U 2 1 608E50B1
+P 6950 10000
+F 0 "LED38" H 6950 10225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 10134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 10000 50  0001 C CNN
+F 3 "" H 6950 10000 50  0001 C CNN
+	2    6950 10000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED38
+U 3 1 608E50B7
+P 6950 10500
+F 0 "LED38" H 6950 10725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 10634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 10500 50  0001 C CNN
+F 3 "" H 6950 10500 50  0001 C CNN
+	3    6950 10500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 10500 6750 10750
+Wire Wire Line
+	6750 10000 6750 10250
+Wire Wire Line
+	6750 9500 6750 9750
+$Comp
+L random-keyboard-parts:RGB-6028 LED74
+U 1 1 608E50FF
+P 9950 9500
+F 0 "LED74" H 9950 9725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 9634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 9500 50  0001 C CNN
+F 3 "" H 9950 9500 50  0001 C CNN
+	1    9950 9500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED74
+U 2 1 608E5105
+P 9950 10000
+F 0 "LED74" H 9950 10225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 10134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 10000 50  0001 C CNN
+F 3 "" H 9950 10000 50  0001 C CNN
+	2    9950 10000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED74
+U 3 1 608E510B
+P 9950 10500
+F 0 "LED74" H 9950 10725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 10634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 10500 50  0001 C CNN
+F 3 "" H 9950 10500 50  0001 C CNN
+	3    9950 10500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 10500 9750 10750
+Wire Wire Line
+	9750 10000 9750 10250
+Wire Wire Line
+	9750 9500 9750 9750
+$Comp
+L random-keyboard-parts:RGB-6028 LED4
+U 1 1 6093A883
+P 4700 8000
+F 0 "LED4" H 4700 8225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 8134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 8000 50  0001 C CNN
+F 3 "" H 4700 8000 50  0001 C CNN
+	1    4700 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED4
+U 2 1 6093A889
+P 4700 8500
+F 0 "LED4" H 4700 8725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 8634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 8500 50  0001 C CNN
+F 3 "" H 4700 8500 50  0001 C CNN
+	2    4700 8500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED4
+U 3 1 6093A88F
+P 4700 9000
+F 0 "LED4" H 4700 9225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 9134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 9000 50  0001 C CNN
+F 3 "" H 4700 9000 50  0001 C CNN
+	3    4700 9000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 9000 4500 9250
+Wire Wire Line
+	4500 8500 4500 8750
+Wire Wire Line
+	4500 8000 4500 8250
+$Comp
+L random-keyboard-parts:RGB-6028 LED14
+U 1 1 6093A898
+P 5450 8000
+F 0 "LED14" H 5450 8225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 8134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 8000 50  0001 C CNN
+F 3 "" H 5450 8000 50  0001 C CNN
+	1    5450 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED14
+U 2 1 6093A89E
+P 5450 8500
+F 0 "LED14" H 5450 8725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 8634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 8500 50  0001 C CNN
+F 3 "" H 5450 8500 50  0001 C CNN
+	2    5450 8500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED14
+U 3 1 6093A8A4
+P 5450 9000
+F 0 "LED14" H 5450 9225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 9134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 9000 50  0001 C CNN
+F 3 "" H 5450 9000 50  0001 C CNN
+	3    5450 9000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 9000 5250 9250
+Wire Wire Line
+	5250 8500 5250 8750
+Wire Wire Line
+	5250 8000 5250 8250
+$Comp
+L random-keyboard-parts:RGB-6028 LED25
+U 1 1 6093A8AD
+P 6200 8000
+F 0 "LED25" H 6200 8225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 8134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 8000 50  0001 C CNN
+F 3 "" H 6200 8000 50  0001 C CNN
+	1    6200 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED25
+U 2 1 6093A8B3
+P 6200 8500
+F 0 "LED25" H 6200 8725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 8634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 8500 50  0001 C CNN
+F 3 "" H 6200 8500 50  0001 C CNN
+	2    6200 8500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED25
+U 3 1 6093A8B9
+P 6200 9000
+F 0 "LED25" H 6200 9225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 9134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 9000 50  0001 C CNN
+F 3 "" H 6200 9000 50  0001 C CNN
+	3    6200 9000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 9000 6000 9250
+Wire Wire Line
+	6000 8500 6000 8750
+Wire Wire Line
+	6000 8000 6000 8250
+$Comp
+L random-keyboard-parts:RGB-6028 LED54
+U 1 1 6093A8EC
+P 8450 8000
+F 0 "LED54" H 8450 8225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 8134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 8000 50  0001 C CNN
+F 3 "" H 8450 8000 50  0001 C CNN
+	1    8450 8000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED54
+U 2 1 6093A8F2
+P 8450 8500
+F 0 "LED54" H 8450 8725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 8634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 8500 50  0001 C CNN
+F 3 "" H 8450 8500 50  0001 C CNN
+	2    8450 8500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED54
+U 3 1 6093A8F8
+P 8450 9000
+F 0 "LED54" H 8450 9225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 9134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 9000 50  0001 C CNN
+F 3 "" H 8450 9000 50  0001 C CNN
+	3    8450 9000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 9000 8250 9250
+Wire Wire Line
+	8250 8500 8250 8750
+Wire Wire Line
+	8250 8000 8250 8250
+$Comp
+L random-keyboard-parts:RGB-6028 LED3
+U 1 1 6093A940
+P 4700 6500
+F 0 "LED3" H 4700 6725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 6634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 6500 50  0001 C CNN
+F 3 "" H 4700 6500 50  0001 C CNN
+	1    4700 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED3
+U 2 1 6093A946
+P 4700 7000
+F 0 "LED3" H 4700 7225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 7134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 7000 50  0001 C CNN
+F 3 "" H 4700 7000 50  0001 C CNN
+	2    4700 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED3
+U 3 1 6093A94C
+P 4700 7500
+F 0 "LED3" H 4700 7725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 7634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 7500 50  0001 C CNN
+F 3 "" H 4700 7500 50  0001 C CNN
+	3    4700 7500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 7500 4500 7750
+Wire Wire Line
+	4500 7000 4500 7250
+Wire Wire Line
+	4500 6500 4500 6750
+$Comp
+L random-keyboard-parts:RGB-6028 LED13
+U 1 1 6093A955
+P 5450 6500
+F 0 "LED13" H 5450 6725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 6634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 6500 50  0001 C CNN
+F 3 "" H 5450 6500 50  0001 C CNN
+	1    5450 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED13
+U 2 1 6093A95B
+P 5450 7000
+F 0 "LED13" H 5450 7225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 7134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 7000 50  0001 C CNN
+F 3 "" H 5450 7000 50  0001 C CNN
+	2    5450 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED13
+U 3 1 6093A961
+P 5450 7500
+F 0 "LED13" H 5450 7725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 7634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 7500 50  0001 C CNN
+F 3 "" H 5450 7500 50  0001 C CNN
+	3    5450 7500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 7500 5250 7750
+Wire Wire Line
+	5250 7000 5250 7250
+Wire Wire Line
+	5250 6500 5250 6750
+$Comp
+L random-keyboard-parts:RGB-6028 LED24
+U 1 1 6093A96A
+P 6200 6500
+F 0 "LED24" H 6200 6725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 6634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 6500 50  0001 C CNN
+F 3 "" H 6200 6500 50  0001 C CNN
+	1    6200 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED24
+U 2 1 6093A970
+P 6200 7000
+F 0 "LED24" H 6200 7225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 7134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 7000 50  0001 C CNN
+F 3 "" H 6200 7000 50  0001 C CNN
+	2    6200 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED24
+U 3 1 6093A976
+P 6200 7500
+F 0 "LED24" H 6200 7725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 7634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 7500 50  0001 C CNN
+F 3 "" H 6200 7500 50  0001 C CNN
+	3    6200 7500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 7500 6000 7750
+Wire Wire Line
+	6000 7000 6000 7250
+Wire Wire Line
+	6000 6500 6000 6750
+$Comp
+L random-keyboard-parts:RGB-6028 LED36
+U 1 1 6093A97F
+P 6950 6500
+F 0 "LED36" H 6950 6725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 6634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 6500 50  0001 C CNN
+F 3 "" H 6950 6500 50  0001 C CNN
+	1    6950 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED36
+U 2 1 6093A985
+P 6950 7000
+F 0 "LED36" H 6950 7225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 7134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 7000 50  0001 C CNN
+F 3 "" H 6950 7000 50  0001 C CNN
+	2    6950 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED36
+U 3 1 6093A98B
+P 6950 7500
+F 0 "LED36" H 6950 7725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 7634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 7500 50  0001 C CNN
+F 3 "" H 6950 7500 50  0001 C CNN
+	3    6950 7500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 7500 6750 7750
+Wire Wire Line
+	6750 7000 6750 7250
+Wire Wire Line
+	6750 6500 6750 6750
+$Comp
+L random-keyboard-parts:RGB-6028 LED63
+U 1 1 6093A9BE
+P 9200 6500
+F 0 "LED63" H 9200 6725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 6634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 6500 50  0001 C CNN
+F 3 "" H 9200 6500 50  0001 C CNN
+	1    9200 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED63
+U 2 1 6093A9C4
+P 9200 7000
+F 0 "LED63" H 9200 7225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 7134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 7000 50  0001 C CNN
+F 3 "" H 9200 7000 50  0001 C CNN
+	2    9200 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED63
+U 3 1 6093A9CA
+P 9200 7500
+F 0 "LED63" H 9200 7725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 7634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 7500 50  0001 C CNN
+F 3 "" H 9200 7500 50  0001 C CNN
+	3    9200 7500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 7500 9000 7750
+Wire Wire Line
+	9000 7000 9000 7250
+Wire Wire Line
+	9000 6500 9000 6750
+$Comp
+L random-keyboard-parts:RGB-6028 LED73
+U 1 1 6093A9D3
+P 9950 6500
+F 0 "LED73" H 9950 6725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 6634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 6500 50  0001 C CNN
+F 3 "" H 9950 6500 50  0001 C CNN
+	1    9950 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED73
+U 2 1 6093A9D9
+P 9950 7000
+F 0 "LED73" H 9950 7225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 7134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 7000 50  0001 C CNN
+F 3 "" H 9950 7000 50  0001 C CNN
+	2    9950 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED73
+U 3 1 6093A9DF
+P 9950 7500
+F 0 "LED73" H 9950 7725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 7634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 7500 50  0001 C CNN
+F 3 "" H 9950 7500 50  0001 C CNN
+	3    9950 7500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 7500 9750 7750
+Wire Wire Line
+	9750 7000 9750 7250
+Wire Wire Line
+	9750 6500 9750 6750
+$Comp
+L random-keyboard-parts:RGB-6028 LED83
+U 1 1 6093A9E8
+P 10700 6500
+F 0 "LED83" H 10700 6725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 6634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 6500 50  0001 C CNN
+F 3 "" H 10700 6500 50  0001 C CNN
+	1    10700 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED83
+U 2 1 6093A9EE
+P 10700 7000
+F 0 "LED83" H 10700 7225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 7134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 7000 50  0001 C CNN
+F 3 "" H 10700 7000 50  0001 C CNN
+	2    10700 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED83
+U 3 1 6093A9F4
+P 10700 7500
+F 0 "LED83" H 10700 7725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 7634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 7500 50  0001 C CNN
+F 3 "" H 10700 7500 50  0001 C CNN
+	3    10700 7500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 7500 10500 7750
+Wire Wire Line
+	10500 7000 10500 7250
+Wire Wire Line
+	10500 6500 10500 6750
+$Comp
+L random-keyboard-parts:RGB-6028 LED2
+U 1 1 6093A9FD
+P 4700 5000
+F 0 "LED2" H 4700 5225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 5134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 5000 50  0001 C CNN
+F 3 "" H 4700 5000 50  0001 C CNN
+	1    4700 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED2
+U 2 1 6093AA03
+P 4700 5500
+F 0 "LED2" H 4700 5725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 5634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 5500 50  0001 C CNN
+F 3 "" H 4700 5500 50  0001 C CNN
+	2    4700 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED2
+U 3 1 6093AA09
+P 4700 6000
+F 0 "LED2" H 4700 6225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 6134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 6000 50  0001 C CNN
+F 3 "" H 4700 6000 50  0001 C CNN
+	3    4700 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 6000 4500 6250
+Wire Wire Line
+	4500 5500 4500 5750
+Wire Wire Line
+	4500 5000 4500 5250
+$Comp
+L random-keyboard-parts:RGB-6028 LED12
+U 1 1 6093AA12
+P 5450 5000
+F 0 "LED12" H 5450 5225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 5134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 5000 50  0001 C CNN
+F 3 "" H 5450 5000 50  0001 C CNN
+	1    5450 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED12
+U 2 1 6093AA18
+P 5450 5500
+F 0 "LED12" H 5450 5725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 5634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 5500 50  0001 C CNN
+F 3 "" H 5450 5500 50  0001 C CNN
+	2    5450 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED12
+U 3 1 6093AA1E
+P 5450 6000
+F 0 "LED12" H 5450 6225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 6134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 6000 50  0001 C CNN
+F 3 "" H 5450 6000 50  0001 C CNN
+	3    5450 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 6000 5250 6250
+Wire Wire Line
+	5250 5500 5250 5750
+Wire Wire Line
+	5250 5000 5250 5250
+$Comp
+L random-keyboard-parts:RGB-6028 LED23
+U 1 1 6093AA27
+P 6200 5000
+F 0 "LED23" H 6200 5225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 5134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 5000 50  0001 C CNN
+F 3 "" H 6200 5000 50  0001 C CNN
+	1    6200 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED23
+U 2 1 6093AA2D
+P 6200 5500
+F 0 "LED23" H 6200 5725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 5634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 5500 50  0001 C CNN
+F 3 "" H 6200 5500 50  0001 C CNN
+	2    6200 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED23
+U 3 1 6093AA33
+P 6200 6000
+F 0 "LED23" H 6200 6225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 6134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 6000 50  0001 C CNN
+F 3 "" H 6200 6000 50  0001 C CNN
+	3    6200 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 6000 6000 6250
+Wire Wire Line
+	6000 5500 6000 5750
+Wire Wire Line
+	6000 5000 6000 5250
+$Comp
+L random-keyboard-parts:RGB-6028 LED35
+U 1 1 6093AA3C
+P 6950 5000
+F 0 "LED35" H 6950 5225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 5134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 5000 50  0001 C CNN
+F 3 "" H 6950 5000 50  0001 C CNN
+	1    6950 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED35
+U 2 1 6093AA42
+P 6950 5500
+F 0 "LED35" H 6950 5725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 5634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 5500 50  0001 C CNN
+F 3 "" H 6950 5500 50  0001 C CNN
+	2    6950 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED35
+U 3 1 6093AA48
+P 6950 6000
+F 0 "LED35" H 6950 6225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 6134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 6000 50  0001 C CNN
+F 3 "" H 6950 6000 50  0001 C CNN
+	3    6950 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 6000 6750 6250
+Wire Wire Line
+	6750 5500 6750 5750
+Wire Wire Line
+	6750 5000 6750 5250
+$Comp
+L random-keyboard-parts:RGB-6028 LED52
+U 1 1 6093AA66
+P 8450 5000
+F 0 "LED52" H 8450 5225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 5134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 5000 50  0001 C CNN
+F 3 "" H 8450 5000 50  0001 C CNN
+	1    8450 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED52
+U 2 1 6093AA6C
+P 8450 5500
+F 0 "LED52" H 8450 5725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 5634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 5500 50  0001 C CNN
+F 3 "" H 8450 5500 50  0001 C CNN
+	2    8450 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED52
+U 3 1 6093AA72
+P 8450 6000
+F 0 "LED52" H 8450 6225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 6134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 6000 50  0001 C CNN
+F 3 "" H 8450 6000 50  0001 C CNN
+	3    8450 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 6000 8250 6250
+Wire Wire Line
+	8250 5500 8250 5750
+Wire Wire Line
+	8250 5000 8250 5250
+$Comp
+L random-keyboard-parts:RGB-6028 LED62
+U 1 1 6093AA7B
+P 9200 5000
+F 0 "LED62" H 9200 5225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 5134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 5000 50  0001 C CNN
+F 3 "" H 9200 5000 50  0001 C CNN
+	1    9200 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED62
+U 2 1 6093AA81
+P 9200 5500
+F 0 "LED62" H 9200 5725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 5634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 5500 50  0001 C CNN
+F 3 "" H 9200 5500 50  0001 C CNN
+	2    9200 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED62
+U 3 1 6093AA87
+P 9200 6000
+F 0 "LED62" H 9200 6225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 6134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 6000 50  0001 C CNN
+F 3 "" H 9200 6000 50  0001 C CNN
+	3    9200 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 6000 9000 6250
+Wire Wire Line
+	9000 5500 9000 5750
+Wire Wire Line
+	9000 5000 9000 5250
+$Comp
+L random-keyboard-parts:RGB-6028 LED72
+U 1 1 6093AA90
+P 9950 5000
+F 0 "LED72" H 9950 5225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 5134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 5000 50  0001 C CNN
+F 3 "" H 9950 5000 50  0001 C CNN
+	1    9950 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED72
+U 2 1 6093AA96
+P 9950 5500
+F 0 "LED72" H 9950 5725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 5634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 5500 50  0001 C CNN
+F 3 "" H 9950 5500 50  0001 C CNN
+	2    9950 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED72
+U 3 1 6093AA9C
+P 9950 6000
+F 0 "LED72" H 9950 6225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 6134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 6000 50  0001 C CNN
+F 3 "" H 9950 6000 50  0001 C CNN
+	3    9950 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 6000 9750 6250
+Wire Wire Line
+	9750 5500 9750 5750
+Wire Wire Line
+	9750 5000 9750 5250
+$Comp
+L random-keyboard-parts:RGB-6028 LED82
+U 1 1 6093AAA5
+P 10700 5000
+F 0 "LED82" H 10700 5225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 5134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 5000 50  0001 C CNN
+F 3 "" H 10700 5000 50  0001 C CNN
+	1    10700 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED82
+U 2 1 6093AAAB
+P 10700 5500
+F 0 "LED82" H 10700 5725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 5634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 5500 50  0001 C CNN
+F 3 "" H 10700 5500 50  0001 C CNN
+	2    10700 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED82
+U 3 1 6093AAB1
+P 10700 6000
+F 0 "LED82" H 10700 6225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 6134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 6000 50  0001 C CNN
+F 3 "" H 10700 6000 50  0001 C CNN
+	3    10700 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 6000 10500 6250
+Wire Wire Line
+	10500 5500 10500 5750
+Wire Wire Line
+	10500 5000 10500 5250
+$Comp
+L random-keyboard-parts:RGB-6028 LED1
+U 1 1 6093AABA
+P 4700 3500
+F 0 "LED1" H 4700 3725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 3634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 3500 50  0001 C CNN
+F 3 "" H 4700 3500 50  0001 C CNN
+	1    4700 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED1
+U 2 1 6093AAC0
+P 4700 4000
+F 0 "LED1" H 4700 4225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 4134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 4000 50  0001 C CNN
+F 3 "" H 4700 4000 50  0001 C CNN
+	2    4700 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED1
+U 3 1 6093AAC6
+P 4700 4500
+F 0 "LED1" H 4700 4725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 4634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 4500 50  0001 C CNN
+F 3 "" H 4700 4500 50  0001 C CNN
+	3    4700 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 4500 4500 4750
+Wire Wire Line
+	4500 4000 4500 4250
+Wire Wire Line
+	4500 3500 4500 3750
+$Comp
+L random-keyboard-parts:RGB-6028 LED22
+U 1 1 6093AAE4
+P 6200 3500
+F 0 "LED22" H 6200 3725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 3634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 3500 50  0001 C CNN
+F 3 "" H 6200 3500 50  0001 C CNN
+	1    6200 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED22
+U 2 1 6093AAEA
+P 6200 4000
+F 0 "LED22" H 6200 4225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 4134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 4000 50  0001 C CNN
+F 3 "" H 6200 4000 50  0001 C CNN
+	2    6200 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED22
+U 3 1 6093AAF0
+P 6200 4500
+F 0 "LED22" H 6200 4725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 4634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 4500 50  0001 C CNN
+F 3 "" H 6200 4500 50  0001 C CNN
+	3    6200 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 4500 6000 4750
+Wire Wire Line
+	6000 4000 6000 4250
+Wire Wire Line
+	6000 3500 6000 3750
+$Comp
+L random-keyboard-parts:RGB-6028 LED34
+U 1 1 6093AAF9
+P 6950 3500
+F 0 "LED34" H 6950 3725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 3634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 3500 50  0001 C CNN
+F 3 "" H 6950 3500 50  0001 C CNN
+	1    6950 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED34
+U 2 1 6093AAFF
+P 6950 4000
+F 0 "LED34" H 6950 4225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 4134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 4000 50  0001 C CNN
+F 3 "" H 6950 4000 50  0001 C CNN
+	2    6950 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED34
+U 3 1 6093AB05
+P 6950 4500
+F 0 "LED34" H 6950 4725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 4634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 4500 50  0001 C CNN
+F 3 "" H 6950 4500 50  0001 C CNN
+	3    6950 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 4500 6750 4750
+Wire Wire Line
+	6750 4000 6750 4250
+Wire Wire Line
+	6750 3500 6750 3750
+$Comp
+L random-keyboard-parts:RGB-6028 LED45
+U 1 1 6093AB0E
+P 7700 3500
+F 0 "LED45" H 7700 3725 50  0000 C CNN
+F 1 "RGB-6028" H 7700 3634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 3500 50  0001 C CNN
+F 3 "" H 7700 3500 50  0001 C CNN
+	1    7700 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED45
+U 2 1 6093AB14
+P 7700 4000
+F 0 "LED45" H 7700 4225 50  0000 C CNN
+F 1 "RGB-6028" H 7700 4134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 4000 50  0001 C CNN
+F 3 "" H 7700 4000 50  0001 C CNN
+	2    7700 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED45
+U 3 1 6093AB1A
+P 7700 4500
+F 0 "LED45" H 7700 4725 50  0000 C CNN
+F 1 "RGB-6028" H 7700 4634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 4500 50  0001 C CNN
+F 3 "" H 7700 4500 50  0001 C CNN
+	3    7700 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 4500 7500 4750
+Wire Wire Line
+	7500 4000 7500 4250
+Wire Wire Line
+	7500 3500 7500 3750
+$Comp
+L random-keyboard-parts:RGB-6028 LED51
+U 1 1 6093AB23
+P 8450 3500
+F 0 "LED51" H 8450 3725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 3634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 3500 50  0001 C CNN
+F 3 "" H 8450 3500 50  0001 C CNN
+	1    8450 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED51
+U 2 1 6093AB29
+P 8450 4000
+F 0 "LED51" H 8450 4225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 4134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 4000 50  0001 C CNN
+F 3 "" H 8450 4000 50  0001 C CNN
+	2    8450 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED51
+U 3 1 6093AB2F
+P 8450 4500
+F 0 "LED51" H 8450 4725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 4634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 4500 50  0001 C CNN
+F 3 "" H 8450 4500 50  0001 C CNN
+	3    8450 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 4500 8250 4750
+Wire Wire Line
+	8250 4000 8250 4250
+Wire Wire Line
+	8250 3500 8250 3750
+$Comp
+L random-keyboard-parts:RGB-6028 LED61
+U 1 1 6093AB38
+P 9200 3500
+F 0 "LED61" H 9200 3725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 3634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 3500 50  0001 C CNN
+F 3 "" H 9200 3500 50  0001 C CNN
+	1    9200 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED61
+U 2 1 6093AB3E
+P 9200 4000
+F 0 "LED61" H 9200 4225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 4134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 4000 50  0001 C CNN
+F 3 "" H 9200 4000 50  0001 C CNN
+	2    9200 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED61
+U 3 1 6093AB44
+P 9200 4500
+F 0 "LED61" H 9200 4725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 4634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 4500 50  0001 C CNN
+F 3 "" H 9200 4500 50  0001 C CNN
+	3    9200 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 4500 9000 4750
+Wire Wire Line
+	9000 4000 9000 4250
+Wire Wire Line
+	9000 3500 9000 3750
+$Comp
+L random-keyboard-parts:RGB-6028 LED71
+U 1 1 6093AB4D
+P 9950 3500
+F 0 "LED71" H 9950 3725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 3634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 3500 50  0001 C CNN
+F 3 "" H 9950 3500 50  0001 C CNN
+	1    9950 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED71
+U 2 1 6093AB53
+P 9950 4000
+F 0 "LED71" H 9950 4225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 4134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 4000 50  0001 C CNN
+F 3 "" H 9950 4000 50  0001 C CNN
+	2    9950 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED71
+U 3 1 6093AB59
+P 9950 4500
+F 0 "LED71" H 9950 4725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 4634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 4500 50  0001 C CNN
+F 3 "" H 9950 4500 50  0001 C CNN
+	3    9950 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 4500 9750 4750
+Wire Wire Line
+	9750 4000 9750 4250
+Wire Wire Line
+	9750 3500 9750 3750
+$Comp
+L random-keyboard-parts:RGB-6028 LED81
+U 1 1 6093AB62
+P 10700 3500
+F 0 "LED81" H 10700 3725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 3634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 3500 50  0001 C CNN
+F 3 "" H 10700 3500 50  0001 C CNN
+	1    10700 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED81
+U 2 1 6093AB68
+P 10700 4000
+F 0 "LED81" H 10700 4225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 4134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 4000 50  0001 C CNN
+F 3 "" H 10700 4000 50  0001 C CNN
+	2    10700 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED81
+U 3 1 6093AB6E
+P 10700 4500
+F 0 "LED81" H 10700 4725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 4634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 4500 50  0001 C CNN
+F 3 "" H 10700 4500 50  0001 C CNN
+	3    10700 4500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 4500 10500 4750
+Wire Wire Line
+	10500 4000 10500 4250
+Wire Wire Line
+	10500 3500 10500 3750
+$Comp
+L random-keyboard-parts:RGB-6028 LED10
+U 1 1 60E3DF72
+P 4700 18500
+F 0 "LED10" H 4700 18725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 18634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 18500 50  0001 C CNN
+F 3 "" H 4700 18500 50  0001 C CNN
+	1    4700 18500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED10
+U 2 1 60E3DF78
+P 4700 19000
+F 0 "LED10" H 4700 19225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 19134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 19000 50  0001 C CNN
+F 3 "" H 4700 19000 50  0001 C CNN
+	2    4700 19000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED10
+U 3 1 60E3DF7E
+P 4700 19500
+F 0 "LED10" H 4700 19725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 19634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 19500 50  0001 C CNN
+F 3 "" H 4700 19500 50  0001 C CNN
+	3    4700 19500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 19500 4500 19750
+Wire Wire Line
+	4500 19000 4500 19250
+Wire Wire Line
+	4500 18500 4500 18750
+$Comp
+L random-keyboard-parts:RGB-6028 LED21
+U 1 1 60E3DF87
+P 5450 20000
+F 0 "LED21" H 5450 20225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 20134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 20000 50  0001 C CNN
+F 3 "" H 5450 20000 50  0001 C CNN
+	1    5450 20000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED21
+U 2 1 60E3DF8D
+P 5450 20500
+F 0 "LED21" H 5450 20725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 20634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 20500 50  0001 C CNN
+F 3 "" H 5450 20500 50  0001 C CNN
+	2    5450 20500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED21
+U 3 1 60E3DF93
+P 5450 21000
+F 0 "LED21" H 5450 21225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 21134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 21000 50  0001 C CNN
+F 3 "" H 5450 21000 50  0001 C CNN
+	3    5450 21000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 21000 5250 21250
+Wire Wire Line
+	5250 20500 5250 20750
+Wire Wire Line
+	5250 20000 5250 20250
+$Comp
+L random-keyboard-parts:RGB-6028 LED32
+U 1 1 60E3DF9C
+P 6200 18500
+F 0 "LED32" H 6200 18725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 18634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 18500 50  0001 C CNN
+F 3 "" H 6200 18500 50  0001 C CNN
+	1    6200 18500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED32
+U 2 1 60E3DFA2
+P 6200 19000
+F 0 "LED32" H 6200 19225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 19134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 19000 50  0001 C CNN
+F 3 "" H 6200 19000 50  0001 C CNN
+	2    6200 19000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED32
+U 3 1 60E3DFA8
+P 6200 19500
+F 0 "LED32" H 6200 19725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 19634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 19500 50  0001 C CNN
+F 3 "" H 6200 19500 50  0001 C CNN
+	3    6200 19500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 19500 6000 19750
+Wire Wire Line
+	6000 19000 6000 19250
+Wire Wire Line
+	6000 18500 6000 18750
+$Comp
+L random-keyboard-parts:RGB-6028 LED44
+U 1 1 60E3DFB1
+P 6950 18500
+F 0 "LED44" H 6950 18725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 18634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 18500 50  0001 C CNN
+F 3 "" H 6950 18500 50  0001 C CNN
+	1    6950 18500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED44
+U 2 1 60E3DFB7
+P 6950 19000
+F 0 "LED44" H 6950 19225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 19134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 19000 50  0001 C CNN
+F 3 "" H 6950 19000 50  0001 C CNN
+	2    6950 19000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED44
+U 3 1 60E3DFBD
+P 6950 19500
+F 0 "LED44" H 6950 19725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 19634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 19500 50  0001 C CNN
+F 3 "" H 6950 19500 50  0001 C CNN
+	3    6950 19500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 19500 6750 19750
+Wire Wire Line
+	6750 19000 6750 19250
+Wire Wire Line
+	6750 18500 6750 18750
+$Comp
+L random-keyboard-parts:RGB-6028 LED50
+U 1 1 60E3DFC6
+P 7700 18500
+F 0 "LED50" H 7700 18725 50  0000 C CNN
+F 1 "RGB-6028" H 7700 18634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 18500 50  0001 C CNN
+F 3 "" H 7700 18500 50  0001 C CNN
+	1    7700 18500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED50
+U 2 1 60E3DFCC
+P 7700 19000
+F 0 "LED50" H 7700 19225 50  0000 C CNN
+F 1 "RGB-6028" H 7700 19134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 19000 50  0001 C CNN
+F 3 "" H 7700 19000 50  0001 C CNN
+	2    7700 19000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED50
+U 3 1 60E3DFD2
+P 7700 19500
+F 0 "LED50" H 7700 19725 50  0000 C CNN
+F 1 "RGB-6028" H 7700 19634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 19500 50  0001 C CNN
+F 3 "" H 7700 19500 50  0001 C CNN
+	3    7700 19500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 19500 7500 19750
+Wire Wire Line
+	7500 19000 7500 19250
+Wire Wire Line
+	7500 18500 7500 18750
+$Comp
+L random-keyboard-parts:RGB-6028 LED60
+U 1 1 60E3DFDB
+P 8450 18500
+F 0 "LED60" H 8450 18725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 18634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 18500 50  0001 C CNN
+F 3 "" H 8450 18500 50  0001 C CNN
+	1    8450 18500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED60
+U 2 1 60E3DFE1
+P 8450 19000
+F 0 "LED60" H 8450 19225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 19134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 19000 50  0001 C CNN
+F 3 "" H 8450 19000 50  0001 C CNN
+	2    8450 19000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED60
+U 3 1 60E3DFE7
+P 8450 19500
+F 0 "LED60" H 8450 19725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 19634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 19500 50  0001 C CNN
+F 3 "" H 8450 19500 50  0001 C CNN
+	3    8450 19500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 19500 8250 19750
+Wire Wire Line
+	8250 19000 8250 19250
+Wire Wire Line
+	8250 18500 8250 18750
+$Comp
+L random-keyboard-parts:RGB-6028 LED69
+U 1 1 60E3DFF0
+P 9200 18500
+F 0 "LED69" H 9200 18725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 18634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 18500 50  0001 C CNN
+F 3 "" H 9200 18500 50  0001 C CNN
+	1    9200 18500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED69
+U 2 1 60E3DFF6
+P 9200 19000
+F 0 "LED69" H 9200 19225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 19134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 19000 50  0001 C CNN
+F 3 "" H 9200 19000 50  0001 C CNN
+	2    9200 19000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED69
+U 3 1 60E3DFFC
+P 9200 19500
+F 0 "LED69" H 9200 19725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 19634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 19500 50  0001 C CNN
+F 3 "" H 9200 19500 50  0001 C CNN
+	3    9200 19500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 19500 9000 19750
+Wire Wire Line
+	9000 19000 9000 19250
+Wire Wire Line
+	9000 18500 9000 18750
+$Comp
+L random-keyboard-parts:RGB-6028 LED80
+U 1 1 60E3E005
+P 9950 18500
+F 0 "LED80" H 9950 18725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 18634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 18500 50  0001 C CNN
+F 3 "" H 9950 18500 50  0001 C CNN
+	1    9950 18500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED80
+U 2 1 60E3E00B
+P 9950 19000
+F 0 "LED80" H 9950 19225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 19134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 19000 50  0001 C CNN
+F 3 "" H 9950 19000 50  0001 C CNN
+	2    9950 19000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED80
+U 3 1 60E3E011
+P 9950 19500
+F 0 "LED80" H 9950 19725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 19634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 19500 50  0001 C CNN
+F 3 "" H 9950 19500 50  0001 C CNN
+	3    9950 19500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 19500 9750 19750
+Wire Wire Line
+	9750 19000 9750 19250
+Wire Wire Line
+	9750 18500 9750 18750
+$Comp
+L random-keyboard-parts:RGB-6028 LED89
+U 1 1 60E3E01A
+P 10700 18500
+F 0 "LED89" H 10700 18725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 18634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 18500 50  0001 C CNN
+F 3 "" H 10700 18500 50  0001 C CNN
+	1    10700 18500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED89
+U 2 1 60E3E020
+P 10700 19000
+F 0 "LED89" H 10700 19225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 19134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 19000 50  0001 C CNN
+F 3 "" H 10700 19000 50  0001 C CNN
+	2    10700 19000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED89
+U 3 1 60E3E026
+P 10700 19500
+F 0 "LED89" H 10700 19725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 19634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 19500 50  0001 C CNN
+F 3 "" H 10700 19500 50  0001 C CNN
+	3    10700 19500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 19500 10500 19750
+Wire Wire Line
+	10500 19000 10500 19250
+Wire Wire Line
+	10500 18500 10500 18750
+$Comp
+L random-keyboard-parts:RGB-6028 LED9
+U 1 1 60E3E02F
+P 4700 17000
+F 0 "LED9" H 4700 17225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 17134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 17000 50  0001 C CNN
+F 3 "" H 4700 17000 50  0001 C CNN
+	1    4700 17000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED9
+U 2 1 60E3E035
+P 4700 17500
+F 0 "LED9" H 4700 17725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 17634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 17500 50  0001 C CNN
+F 3 "" H 4700 17500 50  0001 C CNN
+	2    4700 17500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED9
+U 3 1 60E3E03B
+P 4700 18000
+F 0 "LED9" H 4700 18225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 18134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 18000 50  0001 C CNN
+F 3 "" H 4700 18000 50  0001 C CNN
+	3    4700 18000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 18000 4500 18250
+Wire Wire Line
+	4500 17500 4500 17750
+Wire Wire Line
+	4500 17000 4500 17250
+$Comp
+L random-keyboard-parts:RGB-6028 LED19
+U 1 1 60E3E044
+P 5450 17000
+F 0 "LED19" H 5450 17225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 17134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 17000 50  0001 C CNN
+F 3 "" H 5450 17000 50  0001 C CNN
+	1    5450 17000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED19
+U 2 1 60E3E04A
+P 5450 17500
+F 0 "LED19" H 5450 17725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 17634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 17500 50  0001 C CNN
+F 3 "" H 5450 17500 50  0001 C CNN
+	2    5450 17500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED19
+U 3 1 60E3E050
+P 5450 18000
+F 0 "LED19" H 5450 18225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 18134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 18000 50  0001 C CNN
+F 3 "" H 5450 18000 50  0001 C CNN
+	3    5450 18000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 18000 5250 18250
+Wire Wire Line
+	5250 17500 5250 17750
+Wire Wire Line
+	5250 17000 5250 17250
+$Comp
+L random-keyboard-parts:RGB-6028 LED31
+U 1 1 60E3E059
+P 6200 17000
+F 0 "LED31" H 6200 17225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 17134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 17000 50  0001 C CNN
+F 3 "" H 6200 17000 50  0001 C CNN
+	1    6200 17000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED31
+U 2 1 60E3E05F
+P 6200 17500
+F 0 "LED31" H 6200 17725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 17634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 17500 50  0001 C CNN
+F 3 "" H 6200 17500 50  0001 C CNN
+	2    6200 17500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED31
+U 3 1 60E3E065
+P 6200 18000
+F 0 "LED31" H 6200 18225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 18134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 18000 50  0001 C CNN
+F 3 "" H 6200 18000 50  0001 C CNN
+	3    6200 18000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 18000 6000 18250
+Wire Wire Line
+	6000 17500 6000 17750
+Wire Wire Line
+	6000 17000 6000 17250
+$Comp
+L random-keyboard-parts:RGB-6028 LED43
+U 1 1 60E3E06E
+P 6950 17000
+F 0 "LED43" H 6950 17225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 17134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 17000 50  0001 C CNN
+F 3 "" H 6950 17000 50  0001 C CNN
+	1    6950 17000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED43
+U 2 1 60E3E074
+P 6950 17500
+F 0 "LED43" H 6950 17725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 17634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 17500 50  0001 C CNN
+F 3 "" H 6950 17500 50  0001 C CNN
+	2    6950 17500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED43
+U 3 1 60E3E07A
+P 6950 18000
+F 0 "LED43" H 6950 18225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 18134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 18000 50  0001 C CNN
+F 3 "" H 6950 18000 50  0001 C CNN
+	3    6950 18000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 18000 6750 18250
+Wire Wire Line
+	6750 17500 6750 17750
+Wire Wire Line
+	6750 17000 6750 17250
+$Comp
+L random-keyboard-parts:RGB-6028 LED49
+U 1 1 60E3E083
+P 7700 17000
+F 0 "LED49" H 7700 17225 50  0000 C CNN
+F 1 "RGB-6028" H 7700 17134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 17000 50  0001 C CNN
+F 3 "" H 7700 17000 50  0001 C CNN
+	1    7700 17000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED49
+U 2 1 60E3E089
+P 7700 17500
+F 0 "LED49" H 7700 17725 50  0000 C CNN
+F 1 "RGB-6028" H 7700 17634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 17500 50  0001 C CNN
+F 3 "" H 7700 17500 50  0001 C CNN
+	2    7700 17500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED49
+U 3 1 60E3E08F
+P 7700 18000
+F 0 "LED49" H 7700 18225 50  0000 C CNN
+F 1 "RGB-6028" H 7700 18134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 18000 50  0001 C CNN
+F 3 "" H 7700 18000 50  0001 C CNN
+	3    7700 18000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 18000 7500 18250
+Wire Wire Line
+	7500 17500 7500 17750
+Wire Wire Line
+	7500 17000 7500 17250
+$Comp
+L random-keyboard-parts:RGB-6028 LED59
+U 1 1 60E3E098
+P 8450 17000
+F 0 "LED59" H 8450 17225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 17134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 17000 50  0001 C CNN
+F 3 "" H 8450 17000 50  0001 C CNN
+	1    8450 17000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED59
+U 2 1 60E3E09E
+P 8450 17500
+F 0 "LED59" H 8450 17725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 17634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 17500 50  0001 C CNN
+F 3 "" H 8450 17500 50  0001 C CNN
+	2    8450 17500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED59
+U 3 1 60E3E0A4
+P 8450 18000
+F 0 "LED59" H 8450 18225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 18134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 18000 50  0001 C CNN
+F 3 "" H 8450 18000 50  0001 C CNN
+	3    8450 18000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 18000 8250 18250
+Wire Wire Line
+	8250 17500 8250 17750
+Wire Wire Line
+	8250 17000 8250 17250
+$Comp
+L random-keyboard-parts:RGB-6028 LED68
+U 1 1 60E3E0AD
+P 9200 17000
+F 0 "LED68" H 9200 17225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 17134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 17000 50  0001 C CNN
+F 3 "" H 9200 17000 50  0001 C CNN
+	1    9200 17000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED68
+U 2 1 60E3E0B3
+P 9200 17500
+F 0 "LED68" H 9200 17725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 17634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 17500 50  0001 C CNN
+F 3 "" H 9200 17500 50  0001 C CNN
+	2    9200 17500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED68
+U 3 1 60E3E0B9
+P 9200 18000
+F 0 "LED68" H 9200 18225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 18134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 18000 50  0001 C CNN
+F 3 "" H 9200 18000 50  0001 C CNN
+	3    9200 18000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 18000 9000 18250
+Wire Wire Line
+	9000 17500 9000 17750
+Wire Wire Line
+	9000 17000 9000 17250
+$Comp
+L random-keyboard-parts:RGB-6028 LED79
+U 1 1 60E3E0C2
+P 9950 17000
+F 0 "LED79" H 9950 17225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 17134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 17000 50  0001 C CNN
+F 3 "" H 9950 17000 50  0001 C CNN
+	1    9950 17000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED79
+U 2 1 60E3E0C8
+P 9950 17500
+F 0 "LED79" H 9950 17725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 17634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 17500 50  0001 C CNN
+F 3 "" H 9950 17500 50  0001 C CNN
+	2    9950 17500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED79
+U 3 1 60E3E0CE
+P 9950 18000
+F 0 "LED79" H 9950 18225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 18134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 18000 50  0001 C CNN
+F 3 "" H 9950 18000 50  0001 C CNN
+	3    9950 18000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 18000 9750 18250
+Wire Wire Line
+	9750 17500 9750 17750
+Wire Wire Line
+	9750 17000 9750 17250
+$Comp
+L random-keyboard-parts:RGB-6028 LED88
+U 1 1 60E3E0D7
+P 10700 17000
+F 0 "LED88" H 10700 17225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 17134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 17000 50  0001 C CNN
+F 3 "" H 10700 17000 50  0001 C CNN
+	1    10700 17000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED88
+U 2 1 60E3E0DD
+P 10700 17500
+F 0 "LED88" H 10700 17725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 17634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 17500 50  0001 C CNN
+F 3 "" H 10700 17500 50  0001 C CNN
+	2    10700 17500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED88
+U 3 1 60E3E0E3
+P 10700 18000
+F 0 "LED88" H 10700 18225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 18134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 18000 50  0001 C CNN
+F 3 "" H 10700 18000 50  0001 C CNN
+	3    10700 18000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 18000 10500 18250
+Wire Wire Line
+	10500 17500 10500 17750
+Wire Wire Line
+	10500 17000 10500 17250
+$Comp
+L random-keyboard-parts:RGB-6028 LED8
+U 1 1 60E3E0EC
+P 4700 15500
+F 0 "LED8" H 4700 15725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 15634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 15500 50  0001 C CNN
+F 3 "" H 4700 15500 50  0001 C CNN
+	1    4700 15500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED8
+U 2 1 60E3E0F2
+P 4700 16000
+F 0 "LED8" H 4700 16225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 16134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 16000 50  0001 C CNN
+F 3 "" H 4700 16000 50  0001 C CNN
+	2    4700 16000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED8
+U 3 1 60E3E0F8
+P 4700 16500
+F 0 "LED8" H 4700 16725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 16634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 16500 50  0001 C CNN
+F 3 "" H 4700 16500 50  0001 C CNN
+	3    4700 16500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 16500 4500 16750
+Wire Wire Line
+	4500 16000 4500 16250
+Wire Wire Line
+	4500 15500 4500 15750
+$Comp
+L random-keyboard-parts:RGB-6028 LED18
+U 1 1 60E3E101
+P 5450 15500
+F 0 "LED18" H 5450 15725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 15634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 15500 50  0001 C CNN
+F 3 "" H 5450 15500 50  0001 C CNN
+	1    5450 15500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED18
+U 2 1 60E3E107
+P 5450 16000
+F 0 "LED18" H 5450 16225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 16134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 16000 50  0001 C CNN
+F 3 "" H 5450 16000 50  0001 C CNN
+	2    5450 16000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED18
+U 3 1 60E3E10D
+P 5450 16500
+F 0 "LED18" H 5450 16725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 16634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 16500 50  0001 C CNN
+F 3 "" H 5450 16500 50  0001 C CNN
+	3    5450 16500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 16500 5250 16750
+Wire Wire Line
+	5250 16000 5250 16250
+Wire Wire Line
+	5250 15500 5250 15750
+$Comp
+L random-keyboard-parts:RGB-6028 LED30
+U 1 1 60E3E116
+P 6200 15500
+F 0 "LED30" H 6200 15725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 15634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 15500 50  0001 C CNN
+F 3 "" H 6200 15500 50  0001 C CNN
+	1    6200 15500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED30
+U 2 1 60E3E11C
+P 6200 16000
+F 0 "LED30" H 6200 16225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 16134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 16000 50  0001 C CNN
+F 3 "" H 6200 16000 50  0001 C CNN
+	2    6200 16000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED30
+U 3 1 60E3E122
+P 6200 16500
+F 0 "LED30" H 6200 16725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 16634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 16500 50  0001 C CNN
+F 3 "" H 6200 16500 50  0001 C CNN
+	3    6200 16500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 16500 6000 16750
+Wire Wire Line
+	6000 16000 6000 16250
+Wire Wire Line
+	6000 15500 6000 15750
+$Comp
+L random-keyboard-parts:RGB-6028 LED42
+U 1 1 60E3E12B
+P 6950 15500
+F 0 "LED42" H 6950 15725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 15634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 15500 50  0001 C CNN
+F 3 "" H 6950 15500 50  0001 C CNN
+	1    6950 15500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED42
+U 2 1 60E3E131
+P 6950 16000
+F 0 "LED42" H 6950 16225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 16134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 16000 50  0001 C CNN
+F 3 "" H 6950 16000 50  0001 C CNN
+	2    6950 16000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED42
+U 3 1 60E3E137
+P 6950 16500
+F 0 "LED42" H 6950 16725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 16634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 16500 50  0001 C CNN
+F 3 "" H 6950 16500 50  0001 C CNN
+	3    6950 16500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 16500 6750 16750
+Wire Wire Line
+	6750 16000 6750 16250
+Wire Wire Line
+	6750 15500 6750 15750
+$Comp
+L random-keyboard-parts:RGB-6028 LED48
+U 1 1 60E3E140
+P 7700 15500
+F 0 "LED48" H 7700 15725 50  0000 C CNN
+F 1 "RGB-6028" H 7700 15634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 15500 50  0001 C CNN
+F 3 "" H 7700 15500 50  0001 C CNN
+	1    7700 15500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED48
+U 2 1 60E3E146
+P 7700 16000
+F 0 "LED48" H 7700 16225 50  0000 C CNN
+F 1 "RGB-6028" H 7700 16134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 16000 50  0001 C CNN
+F 3 "" H 7700 16000 50  0001 C CNN
+	2    7700 16000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED48
+U 3 1 60E3E14C
+P 7700 16500
+F 0 "LED48" H 7700 16725 50  0000 C CNN
+F 1 "RGB-6028" H 7700 16634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 7700 16500 50  0001 C CNN
+F 3 "" H 7700 16500 50  0001 C CNN
+	3    7700 16500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 16500 7500 16750
+Wire Wire Line
+	7500 16000 7500 16250
+Wire Wire Line
+	7500 15500 7500 15750
+$Comp
+L random-keyboard-parts:RGB-6028 LED58
+U 1 1 60E3E155
+P 8450 15500
+F 0 "LED58" H 8450 15725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 15634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 15500 50  0001 C CNN
+F 3 "" H 8450 15500 50  0001 C CNN
+	1    8450 15500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED58
+U 2 1 60E3E15B
+P 8450 16000
+F 0 "LED58" H 8450 16225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 16134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 16000 50  0001 C CNN
+F 3 "" H 8450 16000 50  0001 C CNN
+	2    8450 16000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED58
+U 3 1 60E3E161
+P 8450 16500
+F 0 "LED58" H 8450 16725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 16634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 16500 50  0001 C CNN
+F 3 "" H 8450 16500 50  0001 C CNN
+	3    8450 16500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 16500 8250 16750
+Wire Wire Line
+	8250 16000 8250 16250
+Wire Wire Line
+	8250 15500 8250 15750
+$Comp
+L random-keyboard-parts:RGB-6028 LED67
+U 1 1 60E3E16A
+P 9200 15500
+F 0 "LED67" H 9200 15725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 15634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 15500 50  0001 C CNN
+F 3 "" H 9200 15500 50  0001 C CNN
+	1    9200 15500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED67
+U 2 1 60E3E170
+P 9200 16000
+F 0 "LED67" H 9200 16225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 16134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 16000 50  0001 C CNN
+F 3 "" H 9200 16000 50  0001 C CNN
+	2    9200 16000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED67
+U 3 1 60E3E176
+P 9200 16500
+F 0 "LED67" H 9200 16725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 16634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 16500 50  0001 C CNN
+F 3 "" H 9200 16500 50  0001 C CNN
+	3    9200 16500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 16500 9000 16750
+Wire Wire Line
+	9000 16000 9000 16250
+Wire Wire Line
+	9000 15500 9000 15750
+$Comp
+L random-keyboard-parts:RGB-6028 LED78
+U 1 1 60E3E17F
+P 9950 15500
+F 0 "LED78" H 9950 15725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 15634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 15500 50  0001 C CNN
+F 3 "" H 9950 15500 50  0001 C CNN
+	1    9950 15500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED78
+U 2 1 60E3E185
+P 9950 16000
+F 0 "LED78" H 9950 16225 50  0000 C CNN
+F 1 "RGB-6028" H 9950 16134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 16000 50  0001 C CNN
+F 3 "" H 9950 16000 50  0001 C CNN
+	2    9950 16000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED78
+U 3 1 60E3E18B
+P 9950 16500
+F 0 "LED78" H 9950 16725 50  0000 C CNN
+F 1 "RGB-6028" H 9950 16634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9950 16500 50  0001 C CNN
+F 3 "" H 9950 16500 50  0001 C CNN
+	3    9950 16500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 16500 9750 16750
+Wire Wire Line
+	9750 16000 9750 16250
+Wire Wire Line
+	9750 15500 9750 15750
+$Comp
+L random-keyboard-parts:RGB-6028 LED87
+U 1 1 60E3E194
+P 10700 15500
+F 0 "LED87" H 10700 15725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 15634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 15500 50  0001 C CNN
+F 3 "" H 10700 15500 50  0001 C CNN
+	1    10700 15500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED87
+U 2 1 60E3E19A
+P 10700 16000
+F 0 "LED87" H 10700 16225 50  0000 C CNN
+F 1 "RGB-6028" H 10700 16134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 16000 50  0001 C CNN
+F 3 "" H 10700 16000 50  0001 C CNN
+	2    10700 16000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED87
+U 3 1 60E3E1A0
+P 10700 16500
+F 0 "LED87" H 10700 16725 50  0000 C CNN
+F 1 "RGB-6028" H 10700 16634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 10700 16500 50  0001 C CNN
+F 3 "" H 10700 16500 50  0001 C CNN
+	3    10700 16500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10500 16500 10500 16750
+Wire Wire Line
+	10500 16000 10500 16250
+Wire Wire Line
+	10500 15500 10500 15750
+$Comp
+L random-keyboard-parts:RGB-6028 LED11
+U 1 1 60FE44ED
+P 4700 20000
+F 0 "LED11" H 4700 20225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 20134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 20000 50  0001 C CNN
+F 3 "" H 4700 20000 50  0001 C CNN
+	1    4700 20000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED11
+U 2 1 60FE44F3
+P 4700 20500
+F 0 "LED11" H 4700 20725 50  0000 C CNN
+F 1 "RGB-6028" H 4700 20634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 20500 50  0001 C CNN
+F 3 "" H 4700 20500 50  0001 C CNN
+	2    4700 20500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED11
+U 3 1 60FE44F9
+P 4700 21000
+F 0 "LED11" H 4700 21225 50  0000 C CNN
+F 1 "RGB-6028" H 4700 21134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 4700 21000 50  0001 C CNN
+F 3 "" H 4700 21000 50  0001 C CNN
+	3    4700 21000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 21000 4500 21250
+Wire Wire Line
+	4500 20500 4500 20750
+Wire Wire Line
+	4500 20000 4500 20250
+$Comp
+L random-keyboard-parts:RGB-6028 LED33
+U 1 1 60FE4517
+P 6200 20000
+F 0 "LED33" H 6200 20225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 20134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 20000 50  0001 C CNN
+F 3 "" H 6200 20000 50  0001 C CNN
+	1    6200 20000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED33
+U 2 1 60FE451D
+P 6200 20500
+F 0 "LED33" H 6200 20725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 20634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 20500 50  0001 C CNN
+F 3 "" H 6200 20500 50  0001 C CNN
+	2    6200 20500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED33
+U 3 1 60FE4523
+P 6200 21000
+F 0 "LED33" H 6200 21225 50  0000 C CNN
+F 1 "RGB-6028" H 6200 21134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 21000 50  0001 C CNN
+F 3 "" H 6200 21000 50  0001 C CNN
+	3    6200 21000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 21000 6000 21250
+Wire Wire Line
+	6000 20500 6000 20750
+Wire Wire Line
+	6000 20000 6000 20250
+$Comp
+L random-keyboard-parts:RGB-6028 LED70
+U 1 1 60FE456B
+P 9200 20000
+F 0 "LED70" H 9200 20225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 20134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 20000 50  0001 C CNN
+F 3 "" H 9200 20000 50  0001 C CNN
+	1    9200 20000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED70
+U 2 1 60FE4571
+P 9200 20500
+F 0 "LED70" H 9200 20725 50  0000 C CNN
+F 1 "RGB-6028" H 9200 20634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 20500 50  0001 C CNN
+F 3 "" H 9200 20500 50  0001 C CNN
+	2    9200 20500
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED70
+U 3 1 60FE4577
+P 9200 21000
+F 0 "LED70" H 9200 21225 50  0000 C CNN
+F 1 "RGB-6028" H 9200 21134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 9200 21000 50  0001 C CNN
+F 3 "" H 9200 21000 50  0001 C CNN
+	3    9200 21000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9000 21000 9000 21250
+Wire Wire Line
+	9000 20500 9000 20750
+Wire Wire Line
+	9000 20000 9000 20250
+Connection ~ 4500 21250
+Wire Wire Line
+	4500 21250 4250 21250
+Connection ~ 6000 21250
+Wire Wire Line
+	4250 20750 4500 20750
+Connection ~ 4500 20750
+Connection ~ 6000 20750
+Connection ~ 4500 20250
+Wire Wire Line
+	4500 20250 4250 20250
+Connection ~ 6000 20250
+Wire Wire Line
+	4250 3750 4500 3750
+Connection ~ 4500 3750
+Connection ~ 6000 3750
+Wire Wire Line
+	6000 3750 6750 3750
+Connection ~ 6750 3750
+Wire Wire Line
+	6750 3750 7500 3750
+Connection ~ 7500 3750
+Wire Wire Line
+	7500 3750 8250 3750
+Connection ~ 8250 3750
+Wire Wire Line
+	8250 3750 9000 3750
+Connection ~ 9000 3750
+Wire Wire Line
+	9000 3750 9750 3750
+Connection ~ 9750 3750
+Wire Wire Line
+	9750 3750 10500 3750
+Wire Wire Line
+	10500 4250 9750 4250
+Connection ~ 4500 4250
+Wire Wire Line
+	4500 4250 4250 4250
+Connection ~ 6000 4250
+Connection ~ 6750 4250
+Wire Wire Line
+	6750 4250 6000 4250
+Connection ~ 7500 4250
+Wire Wire Line
+	7500 4250 6750 4250
+Connection ~ 8250 4250
+Wire Wire Line
+	8250 4250 7500 4250
+Connection ~ 9000 4250
+Wire Wire Line
+	9000 4250 8250 4250
+Connection ~ 9750 4250
+Wire Wire Line
+	9750 4250 9000 4250
+Wire Wire Line
+	4250 4750 4500 4750
+Connection ~ 4500 4750
+Connection ~ 6000 4750
+Wire Wire Line
+	6000 4750 6750 4750
+Connection ~ 6750 4750
+Wire Wire Line
+	6750 4750 7500 4750
+Connection ~ 7500 4750
+Wire Wire Line
+	7500 4750 8250 4750
+Connection ~ 8250 4750
+Wire Wire Line
+	8250 4750 9000 4750
+Connection ~ 9000 4750
+Wire Wire Line
+	9000 4750 9750 4750
+Connection ~ 9750 4750
+Wire Wire Line
+	9750 4750 10500 4750
+Wire Wire Line
+	10500 5250 9750 5250
+Connection ~ 4500 5250
+Wire Wire Line
+	4500 5250 4250 5250
+Connection ~ 5250 5250
+Wire Wire Line
+	5250 5250 4500 5250
+Connection ~ 6000 5250
+Wire Wire Line
+	6000 5250 5250 5250
+Connection ~ 6750 5250
+Wire Wire Line
+	6750 5250 6000 5250
+Connection ~ 8250 5250
+Connection ~ 9000 5250
+Wire Wire Line
+	9000 5250 8250 5250
+Connection ~ 9750 5250
+Wire Wire Line
+	9750 5250 9000 5250
+Wire Wire Line
+	4250 5750 4500 5750
+Connection ~ 4500 5750
+Wire Wire Line
+	4500 5750 5250 5750
+Connection ~ 5250 5750
+Wire Wire Line
+	5250 5750 6000 5750
+Connection ~ 6000 5750
+Wire Wire Line
+	6000 5750 6750 5750
+Connection ~ 6750 5750
+Connection ~ 8250 5750
+Wire Wire Line
+	8250 5750 9000 5750
+Connection ~ 9000 5750
+Wire Wire Line
+	9000 5750 9750 5750
+Connection ~ 9750 5750
+Wire Wire Line
+	9750 5750 10500 5750
+Wire Wire Line
+	10500 6250 9750 6250
+Connection ~ 4500 6250
+Wire Wire Line
+	4500 6250 4250 6250
+Connection ~ 5250 6250
+Wire Wire Line
+	5250 6250 4500 6250
+Connection ~ 6000 6250
+Wire Wire Line
+	6000 6250 5250 6250
+Connection ~ 6750 6250
+Wire Wire Line
+	6750 6250 6000 6250
+Connection ~ 8250 6250
+Connection ~ 9000 6250
+Wire Wire Line
+	9000 6250 8250 6250
+Connection ~ 9750 6250
+Wire Wire Line
+	9750 6250 9000 6250
+Wire Wire Line
+	4250 6750 4500 6750
+Connection ~ 4500 6750
+Wire Wire Line
+	4500 6750 5250 6750
+Connection ~ 5250 6750
+Wire Wire Line
+	5250 6750 6000 6750
+Connection ~ 6000 6750
+Wire Wire Line
+	6000 6750 6750 6750
+Connection ~ 6750 6750
+Connection ~ 9000 6750
+Wire Wire Line
+	9000 6750 9750 6750
+Connection ~ 9750 6750
+Wire Wire Line
+	9750 6750 10500 6750
+Wire Wire Line
+	10500 7250 9750 7250
+Connection ~ 4500 7250
+Wire Wire Line
+	4500 7250 4250 7250
+Connection ~ 5250 7250
+Wire Wire Line
+	5250 7250 4500 7250
+Connection ~ 6000 7250
+Wire Wire Line
+	6000 7250 5250 7250
+Connection ~ 6750 7250
+Wire Wire Line
+	6750 7250 6000 7250
+Connection ~ 9000 7250
+Connection ~ 9750 7250
+Wire Wire Line
+	9750 7250 9000 7250
+Wire Wire Line
+	4250 7750 4500 7750
+Connection ~ 4500 7750
+Wire Wire Line
+	4500 7750 5250 7750
+Connection ~ 5250 7750
+Wire Wire Line
+	5250 7750 6000 7750
+Connection ~ 6000 7750
+Wire Wire Line
+	6000 7750 6750 7750
+Connection ~ 9000 7750
+Wire Wire Line
+	9000 7750 9750 7750
+Connection ~ 9750 7750
+Wire Wire Line
+	9750 7750 10500 7750
+Connection ~ 4500 8250
+Wire Wire Line
+	4500 8250 4250 8250
+Connection ~ 5250 8250
+Wire Wire Line
+	5250 8250 4500 8250
+Wire Wire Line
+	6000 8250 5250 8250
+Wire Wire Line
+	4250 8750 4500 8750
+Connection ~ 4500 8750
+Wire Wire Line
+	4500 8750 5250 8750
+Connection ~ 5250 8750
+Wire Wire Line
+	5250 8750 6000 8750
+Connection ~ 4500 9250
+Wire Wire Line
+	4500 9250 4250 9250
+Connection ~ 5250 9250
+Wire Wire Line
+	5250 9250 4500 9250
+Connection ~ 6000 9250
+Wire Wire Line
+	6000 9250 5250 9250
+Wire Wire Line
+	4250 9750 4500 9750
+Connection ~ 4500 9750
+Wire Wire Line
+	4500 9750 5250 9750
+Connection ~ 5250 9750
+Wire Wire Line
+	5250 9750 6000 9750
+Connection ~ 6000 9750
+Wire Wire Line
+	6000 9750 6750 9750
+Connection ~ 6750 9750
+Connection ~ 4500 10250
+Wire Wire Line
+	4500 10250 4250 10250
+Connection ~ 5250 10250
+Wire Wire Line
+	5250 10250 4500 10250
+Connection ~ 6000 10250
+Wire Wire Line
+	6000 10250 5250 10250
+Connection ~ 6750 10250
+Wire Wire Line
+	6750 10250 6000 10250
+Wire Wire Line
+	4250 10750 4500 10750
+Connection ~ 4500 10750
+Wire Wire Line
+	4500 10750 5250 10750
+Connection ~ 5250 10750
+Wire Wire Line
+	5250 10750 6000 10750
+Connection ~ 6000 10750
+Wire Wire Line
+	6000 10750 6750 10750
+Connection ~ 6750 10750
+Wire Wire Line
+	10500 11250 9750 11250
+Connection ~ 5250 11250
+Connection ~ 6000 11250
+Wire Wire Line
+	6000 11250 5250 11250
+Connection ~ 6750 11250
+Wire Wire Line
+	6750 11250 6000 11250
+Connection ~ 8250 11250
+Connection ~ 9000 11250
+Wire Wire Line
+	9000 11250 8250 11250
+Connection ~ 9750 11250
+Wire Wire Line
+	9750 11250 9000 11250
+Connection ~ 5250 11750
+Wire Wire Line
+	5250 11750 6000 11750
+Connection ~ 6000 11750
+Wire Wire Line
+	6000 11750 6750 11750
+Connection ~ 6750 11750
+Connection ~ 8250 11750
+Wire Wire Line
+	8250 11750 9000 11750
+Connection ~ 9000 11750
+Wire Wire Line
+	9000 11750 9750 11750
+Connection ~ 9750 11750
+Wire Wire Line
+	9750 11750 10500 11750
+Wire Wire Line
+	10500 12250 9750 12250
+Connection ~ 5250 12250
+Connection ~ 6000 12250
+Wire Wire Line
+	6000 12250 5250 12250
+Connection ~ 6750 12250
+Wire Wire Line
+	6750 12250 6000 12250
+Connection ~ 8250 12250
+Connection ~ 9000 12250
+Wire Wire Line
+	9000 12250 8250 12250
+Connection ~ 9750 12250
+Wire Wire Line
+	9750 12250 9000 12250
+Wire Wire Line
+	4250 12750 4500 12750
+Connection ~ 4500 12750
+Connection ~ 6000 12750
+Wire Wire Line
+	6000 12750 6750 12750
+Connection ~ 6750 12750
+Wire Wire Line
+	6750 12750 7500 12750
+Connection ~ 7500 12750
+Wire Wire Line
+	7500 12750 8250 12750
+Connection ~ 8250 12750
+Wire Wire Line
+	8250 12750 9000 12750
+Connection ~ 9000 12750
+Wire Wire Line
+	9000 12750 9750 12750
+Connection ~ 9750 12750
+Wire Wire Line
+	9750 12750 10500 12750
+Wire Wire Line
+	10500 13250 9750 13250
+Connection ~ 4500 13250
+Wire Wire Line
+	4500 13250 4250 13250
+Connection ~ 6000 13250
+Connection ~ 6750 13250
+Wire Wire Line
+	6750 13250 6000 13250
+Connection ~ 7500 13250
+Wire Wire Line
+	7500 13250 6750 13250
+Connection ~ 8250 13250
+Wire Wire Line
+	8250 13250 7500 13250
+Connection ~ 9000 13250
+Wire Wire Line
+	9000 13250 8250 13250
+Connection ~ 9750 13250
+Wire Wire Line
+	9750 13250 9000 13250
+Wire Wire Line
+	4250 13750 4500 13750
+Connection ~ 4500 13750
+Connection ~ 6000 13750
+Wire Wire Line
+	6000 13750 6750 13750
+Connection ~ 6750 13750
+Wire Wire Line
+	6750 13750 7500 13750
+Connection ~ 7500 13750
+Wire Wire Line
+	7500 13750 8250 13750
+Connection ~ 8250 13750
+Wire Wire Line
+	8250 13750 9000 13750
+Connection ~ 9000 13750
+Wire Wire Line
+	9000 13750 9750 13750
+Connection ~ 9750 13750
+Wire Wire Line
+	9750 13750 10500 13750
+Wire Wire Line
+	10500 14250 9750 14250
+Connection ~ 4500 14250
+Wire Wire Line
+	4500 14250 4250 14250
+Connection ~ 5250 14250
+Wire Wire Line
+	5250 14250 4500 14250
+Connection ~ 6000 14250
+Wire Wire Line
+	6000 14250 5250 14250
+Connection ~ 6750 14250
+Wire Wire Line
+	6750 14250 6000 14250
+Connection ~ 7500 14250
+Wire Wire Line
+	7500 14250 6750 14250
+Connection ~ 8250 14250
+Wire Wire Line
+	8250 14250 7500 14250
+Connection ~ 9000 14250
+Wire Wire Line
+	9000 14250 8250 14250
+Connection ~ 9750 14250
+Wire Wire Line
+	9750 14250 9000 14250
+Wire Wire Line
+	4250 14750 4500 14750
+Connection ~ 4500 14750
+Wire Wire Line
+	4500 14750 5250 14750
+Connection ~ 5250 14750
+Wire Wire Line
+	5250 14750 6000 14750
+Connection ~ 6000 14750
+Wire Wire Line
+	6000 14750 6750 14750
+Connection ~ 6750 14750
+Wire Wire Line
+	6750 14750 7500 14750
+Connection ~ 7500 14750
+Wire Wire Line
+	7500 14750 8250 14750
+Connection ~ 8250 14750
+Wire Wire Line
+	8250 14750 9000 14750
+Connection ~ 9000 14750
+Wire Wire Line
+	9000 14750 9750 14750
+Connection ~ 9750 14750
+Wire Wire Line
+	9750 14750 10500 14750
+Wire Wire Line
+	10500 15250 9750 15250
+Connection ~ 4500 15250
+Wire Wire Line
+	4500 15250 4250 15250
+Connection ~ 5250 15250
+Wire Wire Line
+	5250 15250 4500 15250
+Connection ~ 6000 15250
+Wire Wire Line
+	6000 15250 5250 15250
+Connection ~ 6750 15250
+Wire Wire Line
+	6750 15250 6000 15250
+Connection ~ 7500 15250
+Wire Wire Line
+	7500 15250 6750 15250
+Connection ~ 8250 15250
+Wire Wire Line
+	8250 15250 7500 15250
+Connection ~ 9000 15250
+Wire Wire Line
+	9000 15250 8250 15250
+Connection ~ 9750 15250
+Wire Wire Line
+	9750 15250 9000 15250
+Wire Wire Line
+	4250 15750 4500 15750
+Connection ~ 4500 15750
+Wire Wire Line
+	4500 15750 5250 15750
+Connection ~ 5250 15750
+Wire Wire Line
+	5250 15750 6000 15750
+Connection ~ 6000 15750
+Wire Wire Line
+	6000 15750 6750 15750
+Connection ~ 6750 15750
+Wire Wire Line
+	6750 15750 7500 15750
+Connection ~ 7500 15750
+Wire Wire Line
+	7500 15750 8250 15750
+Connection ~ 8250 15750
+Wire Wire Line
+	8250 15750 9000 15750
+Connection ~ 9000 15750
+Wire Wire Line
+	9000 15750 9750 15750
+Connection ~ 9750 15750
+Wire Wire Line
+	9750 15750 10500 15750
+Wire Wire Line
+	10500 16250 9750 16250
+Connection ~ 4500 16250
+Wire Wire Line
+	4500 16250 4250 16250
+Connection ~ 5250 16250
+Wire Wire Line
+	5250 16250 4500 16250
+Connection ~ 6000 16250
+Wire Wire Line
+	6000 16250 5250 16250
+Connection ~ 6750 16250
+Wire Wire Line
+	6750 16250 6000 16250
+Connection ~ 7500 16250
+Wire Wire Line
+	7500 16250 6750 16250
+Connection ~ 8250 16250
+Wire Wire Line
+	8250 16250 7500 16250
+Connection ~ 9000 16250
+Wire Wire Line
+	9000 16250 8250 16250
+Connection ~ 9750 16250
+Wire Wire Line
+	9750 16250 9000 16250
+Wire Wire Line
+	4250 16750 4500 16750
+Connection ~ 4500 16750
+Wire Wire Line
+	4500 16750 5250 16750
+Connection ~ 5250 16750
+Wire Wire Line
+	5250 16750 6000 16750
+Connection ~ 6000 16750
+Wire Wire Line
+	6000 16750 6750 16750
+Connection ~ 6750 16750
+Wire Wire Line
+	6750 16750 7500 16750
+Connection ~ 7500 16750
+Wire Wire Line
+	7500 16750 8250 16750
+Connection ~ 8250 16750
+Wire Wire Line
+	8250 16750 9000 16750
+Connection ~ 9000 16750
+Wire Wire Line
+	9000 16750 9750 16750
+Connection ~ 9750 16750
+Wire Wire Line
+	9750 16750 10500 16750
+Wire Wire Line
+	10500 17250 9750 17250
+Connection ~ 4500 17250
+Wire Wire Line
+	4500 17250 4250 17250
+Connection ~ 5250 17250
+Wire Wire Line
+	5250 17250 4500 17250
+Connection ~ 6000 17250
+Wire Wire Line
+	6000 17250 5250 17250
+Connection ~ 6750 17250
+Wire Wire Line
+	6750 17250 6000 17250
+Connection ~ 7500 17250
+Wire Wire Line
+	7500 17250 6750 17250
+Connection ~ 8250 17250
+Wire Wire Line
+	8250 17250 7500 17250
+Connection ~ 9000 17250
+Wire Wire Line
+	9000 17250 8250 17250
+Connection ~ 9750 17250
+Wire Wire Line
+	9750 17250 9000 17250
+Wire Wire Line
+	4250 17750 4500 17750
+Connection ~ 4500 17750
+Wire Wire Line
+	4500 17750 5250 17750
+Connection ~ 5250 17750
+Wire Wire Line
+	5250 17750 6000 17750
+Connection ~ 6000 17750
+Wire Wire Line
+	6000 17750 6750 17750
+Connection ~ 6750 17750
+Wire Wire Line
+	6750 17750 7500 17750
+Connection ~ 7500 17750
+Wire Wire Line
+	7500 17750 8250 17750
+Connection ~ 8250 17750
+Wire Wire Line
+	8250 17750 9000 17750
+Connection ~ 9000 17750
+Wire Wire Line
+	9000 17750 9750 17750
+Connection ~ 9750 17750
+Wire Wire Line
+	9750 17750 10500 17750
+Wire Wire Line
+	10500 18250 9750 18250
+Connection ~ 4500 18250
+Wire Wire Line
+	4500 18250 4250 18250
+Connection ~ 5250 18250
+Wire Wire Line
+	5250 18250 4500 18250
+Connection ~ 6000 18250
+Wire Wire Line
+	6000 18250 5250 18250
+Connection ~ 6750 18250
+Wire Wire Line
+	6750 18250 6000 18250
+Connection ~ 7500 18250
+Wire Wire Line
+	7500 18250 6750 18250
+Connection ~ 8250 18250
+Wire Wire Line
+	8250 18250 7500 18250
+Connection ~ 9000 18250
+Wire Wire Line
+	9000 18250 8250 18250
+Connection ~ 9750 18250
+Wire Wire Line
+	9750 18250 9000 18250
+Wire Wire Line
+	4250 18750 4500 18750
+Wire Wire Line
+	6000 18750 6750 18750
+Connection ~ 6750 18750
+Wire Wire Line
+	6750 18750 7500 18750
+Connection ~ 7500 18750
+Wire Wire Line
+	7500 18750 8250 18750
+Connection ~ 8250 18750
+Wire Wire Line
+	8250 18750 9000 18750
+Connection ~ 9000 18750
+Wire Wire Line
+	9000 18750 9750 18750
+Connection ~ 9750 18750
+Wire Wire Line
+	9750 18750 10500 18750
+Wire Wire Line
+	10500 19250 9750 19250
+Wire Wire Line
+	4500 19250 4250 19250
+Connection ~ 6750 19250
+Wire Wire Line
+	6750 19250 6000 19250
+Connection ~ 7500 19250
+Wire Wire Line
+	7500 19250 6750 19250
+Connection ~ 8250 19250
+Wire Wire Line
+	8250 19250 7500 19250
+Connection ~ 9000 19250
+Wire Wire Line
+	9000 19250 8250 19250
+Connection ~ 9750 19250
+Wire Wire Line
+	9750 19250 9000 19250
+Wire Wire Line
+	4250 19750 4500 19750
+Wire Wire Line
+	6000 19750 6750 19750
+Connection ~ 6750 19750
+Wire Wire Line
+	6750 19750 7500 19750
+Connection ~ 7500 19750
+Wire Wire Line
+	7500 19750 8250 19750
+Connection ~ 8250 19750
+Wire Wire Line
+	8250 19750 9000 19750
+Connection ~ 9000 19750
+Wire Wire Line
+	9000 19750 9750 19750
+Connection ~ 9750 19750
+Wire Wire Line
+	9750 19750 10500 19750
+Wire Wire Line
+	4900 21000 4900 20500
+Connection ~ 4900 4000
+Wire Wire Line
+	4900 4000 4900 3500
+Connection ~ 4900 4500
+Wire Wire Line
+	4900 4500 4900 4000
+Connection ~ 4900 5000
+Wire Wire Line
+	4900 5000 4900 4500
+Connection ~ 4900 5500
+Wire Wire Line
+	4900 5500 4900 5000
+Connection ~ 4900 6000
+Wire Wire Line
+	4900 6000 4900 5500
+Connection ~ 4900 6500
+Wire Wire Line
+	4900 6500 4900 6000
+Connection ~ 4900 7000
+Wire Wire Line
+	4900 7000 4900 6500
+Connection ~ 4900 7500
+Wire Wire Line
+	4900 7500 4900 7000
+Connection ~ 4900 8000
+Wire Wire Line
+	4900 8000 4900 7500
+Connection ~ 4900 8500
+Wire Wire Line
+	4900 8500 4900 8000
+Connection ~ 4900 9000
+Wire Wire Line
+	4900 9000 4900 8500
+Connection ~ 4900 9500
+Wire Wire Line
+	4900 9500 4900 9000
+Connection ~ 4900 10000
+Wire Wire Line
+	4900 10000 4900 9500
+Connection ~ 4900 10500
+Wire Wire Line
+	4900 10500 4900 10000
+Connection ~ 4900 12500
+Connection ~ 4900 13000
+Wire Wire Line
+	4900 13000 4900 12500
+Connection ~ 4900 13500
+Wire Wire Line
+	4900 13500 4900 13000
+Connection ~ 4900 14000
+Wire Wire Line
+	4900 14000 4900 13500
+Connection ~ 4900 14500
+Wire Wire Line
+	4900 14500 4900 14000
+Connection ~ 4900 15000
+Wire Wire Line
+	4900 15000 4900 14500
+Connection ~ 4900 15500
+Wire Wire Line
+	4900 15500 4900 15000
+Connection ~ 4900 16000
+Wire Wire Line
+	4900 16000 4900 15500
+Connection ~ 4900 16500
+Wire Wire Line
+	4900 16500 4900 16000
+Connection ~ 4900 17000
+Wire Wire Line
+	4900 17000 4900 16500
+Connection ~ 4900 17500
+Wire Wire Line
+	4900 17500 4900 17000
+Connection ~ 4900 18000
+Wire Wire Line
+	4900 18000 4900 17500
+Connection ~ 4900 18500
+Wire Wire Line
+	4900 18500 4900 18000
+Connection ~ 4900 19000
+Wire Wire Line
+	4900 19000 4900 18500
+Connection ~ 4900 19500
+Wire Wire Line
+	4900 19500 4900 19000
+Connection ~ 4900 20000
+Wire Wire Line
+	4900 20000 4900 19500
+Connection ~ 4900 20500
+Wire Wire Line
+	4900 20500 4900 20000
+Connection ~ 5650 5000
+Connection ~ 5650 5500
+Wire Wire Line
+	5650 5500 5650 5000
+Connection ~ 5650 6000
+Wire Wire Line
+	5650 6000 5650 5500
+Connection ~ 5650 6500
+Wire Wire Line
+	5650 6500 5650 6000
+Connection ~ 5650 7000
+Wire Wire Line
+	5650 7000 5650 6500
+Connection ~ 5650 7500
+Wire Wire Line
+	5650 7500 5650 7000
+Connection ~ 5650 8000
+Wire Wire Line
+	5650 8000 5650 7500
+Connection ~ 5650 8500
+Wire Wire Line
+	5650 8500 5650 8000
+Connection ~ 5650 9000
+Wire Wire Line
+	5650 9000 5650 8500
+Connection ~ 5650 9500
+Wire Wire Line
+	5650 9500 5650 9000
+Connection ~ 5650 10000
+Wire Wire Line
+	5650 10000 5650 9500
+Connection ~ 5650 10500
+Wire Wire Line
+	5650 10500 5650 10000
+Connection ~ 5650 11000
+Wire Wire Line
+	5650 11000 5650 10500
+Connection ~ 5650 11500
+Wire Wire Line
+	5650 11500 5650 11000
+Connection ~ 5650 12000
+Wire Wire Line
+	5650 12000 5650 11500
+Connection ~ 5650 14000
+Connection ~ 5650 14500
+Wire Wire Line
+	5650 14500 5650 14000
+Connection ~ 5650 15000
+Wire Wire Line
+	5650 15000 5650 14500
+Connection ~ 5650 15500
+Wire Wire Line
+	5650 15500 5650 15000
+Connection ~ 5650 16000
+Wire Wire Line
+	5650 16000 5650 15500
+Connection ~ 5650 16500
+Wire Wire Line
+	5650 16500 5650 16000
+Connection ~ 5650 17000
+Wire Wire Line
+	5650 17000 5650 16500
+Connection ~ 5650 17500
+Wire Wire Line
+	5650 17500 5650 17000
+Wire Wire Line
+	5650 18000 5650 17500
+Wire Wire Line
+	6400 21000 6400 20500
+Connection ~ 6400 4000
+Wire Wire Line
+	6400 4000 6400 3500
+Connection ~ 6400 4500
+Wire Wire Line
+	6400 4500 6400 4000
+Connection ~ 6400 5000
+Wire Wire Line
+	6400 5000 6400 4500
+Connection ~ 6400 5500
+Wire Wire Line
+	6400 5500 6400 5000
+Connection ~ 6400 6000
+Wire Wire Line
+	6400 6000 6400 5500
+Connection ~ 6400 6500
+Wire Wire Line
+	6400 6500 6400 6000
+Connection ~ 6400 7000
+Wire Wire Line
+	6400 7000 6400 6500
+Connection ~ 6400 7500
+Wire Wire Line
+	6400 7500 6400 7000
+Connection ~ 6400 8000
+Wire Wire Line
+	6400 8000 6400 7500
+Connection ~ 6400 8500
+Wire Wire Line
+	6400 8500 6400 8000
+Connection ~ 6400 9000
+Wire Wire Line
+	6400 9000 6400 8500
+Connection ~ 6400 10000
+Connection ~ 6400 10500
+Wire Wire Line
+	6400 10500 6400 10000
+Connection ~ 6400 11000
+Wire Wire Line
+	6400 11000 6400 10500
+Connection ~ 6400 11500
+Wire Wire Line
+	6400 11500 6400 11000
+Connection ~ 6400 12000
+Wire Wire Line
+	6400 12000 6400 11500
+Connection ~ 6400 12500
+Wire Wire Line
+	6400 12500 6400 12000
+Connection ~ 6400 13000
+Wire Wire Line
+	6400 13000 6400 12500
+Connection ~ 6400 13500
+Wire Wire Line
+	6400 13500 6400 13000
+Connection ~ 6400 14000
+Wire Wire Line
+	6400 14000 6400 13500
+Connection ~ 6400 14500
+Wire Wire Line
+	6400 14500 6400 14000
+Connection ~ 6400 15000
+Wire Wire Line
+	6400 15000 6400 14500
+Connection ~ 6400 15500
+Wire Wire Line
+	6400 15500 6400 15000
+Connection ~ 6400 16000
+Wire Wire Line
+	6400 16000 6400 15500
+Connection ~ 6400 16500
+Wire Wire Line
+	6400 16500 6400 16000
+Connection ~ 6400 17000
+Wire Wire Line
+	6400 17000 6400 16500
+Connection ~ 6400 17500
+Wire Wire Line
+	6400 17500 6400 17000
+Connection ~ 6400 18000
+Wire Wire Line
+	6400 18000 6400 17500
+Connection ~ 6400 18500
+Wire Wire Line
+	6400 18500 6400 18000
+Connection ~ 6400 19000
+Wire Wire Line
+	6400 19000 6400 18500
+Connection ~ 6400 19500
+Wire Wire Line
+	6400 19500 6400 19000
+Connection ~ 6400 20000
+Wire Wire Line
+	6400 20000 6400 19500
+Connection ~ 6400 20500
+Wire Wire Line
+	6400 20500 6400 20000
+Connection ~ 7150 4000
+Wire Wire Line
+	7150 4000 7150 3500
+Connection ~ 7150 4500
+Wire Wire Line
+	7150 4500 7150 4000
+Connection ~ 7150 5000
+Wire Wire Line
+	7150 5000 7150 4500
+Connection ~ 7150 5500
+Wire Wire Line
+	7150 5500 7150 5000
+Connection ~ 7150 6000
+Wire Wire Line
+	7150 6000 7150 5500
+Connection ~ 7150 6500
+Wire Wire Line
+	7150 6500 7150 6000
+Connection ~ 7150 7000
+Wire Wire Line
+	7150 7000 7150 6500
+Wire Wire Line
+	7150 7500 7150 7000
+Connection ~ 7150 10000
+Wire Wire Line
+	7150 10000 7150 9500
+Connection ~ 7150 10500
+Wire Wire Line
+	7150 10500 7150 10000
+Connection ~ 7150 11000
+Wire Wire Line
+	7150 11000 7150 10500
+Connection ~ 7150 11500
+Wire Wire Line
+	7150 11500 7150 11000
+Connection ~ 7150 12000
+Wire Wire Line
+	7150 12000 7150 11500
+Connection ~ 7150 12500
+Wire Wire Line
+	7150 12500 7150 12000
+Connection ~ 7150 13000
+Wire Wire Line
+	7150 13000 7150 12500
+Connection ~ 7150 13500
+Wire Wire Line
+	7150 13500 7150 13000
+Connection ~ 7150 14000
+Wire Wire Line
+	7150 14000 7150 13500
+Connection ~ 7150 14500
+Wire Wire Line
+	7150 14500 7150 14000
+Connection ~ 7150 15000
+Wire Wire Line
+	7150 15000 7150 14500
+Connection ~ 7150 15500
+Wire Wire Line
+	7150 15500 7150 15000
+Connection ~ 7150 16000
+Wire Wire Line
+	7150 16000 7150 15500
+Connection ~ 7150 16500
+Wire Wire Line
+	7150 16500 7150 16000
+Connection ~ 7150 17000
+Wire Wire Line
+	7150 17000 7150 16500
+Connection ~ 7150 17500
+Wire Wire Line
+	7150 17500 7150 17000
+Connection ~ 7150 18000
+Wire Wire Line
+	7150 18000 7150 17500
+Connection ~ 7150 18500
+Wire Wire Line
+	7150 18500 7150 18000
+Connection ~ 7150 19000
+Wire Wire Line
+	7150 19000 7150 18500
+Wire Wire Line
+	7150 19500 7150 19000
+Connection ~ 7900 4000
+Wire Wire Line
+	7900 4000 7900 3500
+Connection ~ 7900 4500
+Wire Wire Line
+	7900 4500 7900 4000
+Connection ~ 7900 12500
+Connection ~ 7900 13000
+Wire Wire Line
+	7900 13000 7900 12500
+Connection ~ 7900 13500
+Wire Wire Line
+	7900 13500 7900 13000
+Connection ~ 7900 14000
+Wire Wire Line
+	7900 14000 7900 13500
+Connection ~ 7900 14500
+Wire Wire Line
+	7900 14500 7900 14000
+Connection ~ 7900 15000
+Wire Wire Line
+	7900 15000 7900 14500
+Connection ~ 7900 15500
+Wire Wire Line
+	7900 15500 7900 15000
+Connection ~ 7900 16000
+Wire Wire Line
+	7900 16000 7900 15500
+Connection ~ 7900 16500
+Wire Wire Line
+	7900 16500 7900 16000
+Connection ~ 7900 17000
+Wire Wire Line
+	7900 17000 7900 16500
+Connection ~ 7900 17500
+Wire Wire Line
+	7900 17500 7900 17000
+Connection ~ 7900 18000
+Wire Wire Line
+	7900 18000 7900 17500
+Connection ~ 7900 18500
+Wire Wire Line
+	7900 18500 7900 18000
+Connection ~ 7900 19000
+Wire Wire Line
+	7900 19000 7900 18500
+Wire Wire Line
+	7900 19500 7900 19000
+Connection ~ 8650 4000
+Wire Wire Line
+	8650 4000 8650 3500
+Connection ~ 8650 4500
+Wire Wire Line
+	8650 4500 8650 4000
+Connection ~ 8650 5000
+Wire Wire Line
+	8650 5000 8650 4500
+Connection ~ 8650 5500
+Wire Wire Line
+	8650 5500 8650 5000
+Connection ~ 8650 6000
+Wire Wire Line
+	8650 6000 8650 5500
+Connection ~ 8650 8000
+Connection ~ 8650 8500
+Wire Wire Line
+	8650 8500 8650 8000
+Connection ~ 8650 9000
+Wire Wire Line
+	8650 9000 8650 8500
+Connection ~ 8650 11000
+Connection ~ 8650 11500
+Wire Wire Line
+	8650 11500 8650 11000
+Connection ~ 8650 12000
+Wire Wire Line
+	8650 12000 8650 11500
+Connection ~ 8650 12500
+Wire Wire Line
+	8650 12500 8650 12000
+Connection ~ 8650 13000
+Wire Wire Line
+	8650 13000 8650 12500
+Connection ~ 8650 13500
+Wire Wire Line
+	8650 13500 8650 13000
+Connection ~ 8650 14000
+Wire Wire Line
+	8650 14000 8650 13500
+Connection ~ 8650 14500
+Wire Wire Line
+	8650 14500 8650 14000
+Connection ~ 8650 15000
+Wire Wire Line
+	8650 15000 8650 14500
+Connection ~ 8650 15500
+Wire Wire Line
+	8650 15500 8650 15000
+Connection ~ 8650 16000
+Wire Wire Line
+	8650 16000 8650 15500
+Connection ~ 8650 16500
+Wire Wire Line
+	8650 16500 8650 16000
+Connection ~ 8650 17000
+Wire Wire Line
+	8650 17000 8650 16500
+Connection ~ 8650 17500
+Wire Wire Line
+	8650 17500 8650 17000
+Connection ~ 8650 18000
+Wire Wire Line
+	8650 18000 8650 17500
+Connection ~ 8650 18500
+Wire Wire Line
+	8650 18500 8650 18000
+Connection ~ 8650 19000
+Wire Wire Line
+	8650 19000 8650 18500
+Wire Wire Line
+	8650 19500 8650 19000
+Wire Wire Line
+	9400 21000 9400 20500
+Connection ~ 9400 4000
+Wire Wire Line
+	9400 4000 9400 3500
+Connection ~ 9400 4500
+Wire Wire Line
+	9400 4500 9400 4000
+Connection ~ 9400 5000
+Wire Wire Line
+	9400 5000 9400 4500
+Connection ~ 9400 5500
+Wire Wire Line
+	9400 5500 9400 5000
+Connection ~ 9400 6000
+Wire Wire Line
+	9400 6000 9400 5500
+Connection ~ 9400 6500
+Wire Wire Line
+	9400 6500 9400 6000
+Connection ~ 9400 7000
+Wire Wire Line
+	9400 7000 9400 6500
+Connection ~ 9400 7500
+Wire Wire Line
+	9400 7500 9400 7000
+Connection ~ 9400 11000
+Connection ~ 9400 11500
+Wire Wire Line
+	9400 11500 9400 11000
+Connection ~ 9400 12000
+Wire Wire Line
+	9400 12000 9400 11500
+Connection ~ 9400 12500
+Wire Wire Line
+	9400 12500 9400 12000
+Connection ~ 9400 13000
+Wire Wire Line
+	9400 13000 9400 12500
+Connection ~ 9400 13500
+Wire Wire Line
+	9400 13500 9400 13000
+Connection ~ 9400 14000
+Wire Wire Line
+	9400 14000 9400 13500
+Connection ~ 9400 14500
+Wire Wire Line
+	9400 14500 9400 14000
+Connection ~ 9400 15000
+Wire Wire Line
+	9400 15000 9400 14500
+Connection ~ 9400 15500
+Wire Wire Line
+	9400 15500 9400 15000
+Connection ~ 9400 16000
+Wire Wire Line
+	9400 16000 9400 15500
+Connection ~ 9400 16500
+Wire Wire Line
+	9400 16500 9400 16000
+Connection ~ 9400 17000
+Wire Wire Line
+	9400 17000 9400 16500
+Connection ~ 9400 17500
+Wire Wire Line
+	9400 17500 9400 17000
+Connection ~ 9400 18000
+Wire Wire Line
+	9400 18000 9400 17500
+Connection ~ 9400 18500
+Wire Wire Line
+	9400 18500 9400 18000
+Connection ~ 9400 19000
+Wire Wire Line
+	9400 19000 9400 18500
+Connection ~ 9400 19500
+Wire Wire Line
+	9400 19500 9400 19000
+Connection ~ 9400 20000
+Wire Wire Line
+	9400 20000 9400 19500
+Connection ~ 9400 20500
+Wire Wire Line
+	9400 20500 9400 20000
+Connection ~ 10150 4000
+Wire Wire Line
+	10150 4000 10150 3500
+Connection ~ 10150 4500
+Wire Wire Line
+	10150 4500 10150 4000
+Connection ~ 10150 5000
+Wire Wire Line
+	10150 5000 10150 4500
+Connection ~ 10150 5500
+Wire Wire Line
+	10150 5500 10150 5000
+Connection ~ 10150 6000
+Wire Wire Line
+	10150 6000 10150 5500
+Connection ~ 10150 6500
+Wire Wire Line
+	10150 6500 10150 6000
+Connection ~ 10150 7000
+Wire Wire Line
+	10150 7000 10150 6500
+Connection ~ 10150 7500
+Wire Wire Line
+	10150 7500 10150 7000
+Connection ~ 10150 9500
+Connection ~ 10150 10000
+Wire Wire Line
+	10150 10000 10150 9500
+Connection ~ 10150 10500
+Wire Wire Line
+	10150 10500 10150 10000
+Connection ~ 10150 11000
+Wire Wire Line
+	10150 11000 10150 10500
+Connection ~ 10150 11500
+Wire Wire Line
+	10150 11500 10150 11000
+Connection ~ 10150 12000
+Wire Wire Line
+	10150 12000 10150 11500
+Connection ~ 10150 12500
+Wire Wire Line
+	10150 12500 10150 12000
+Connection ~ 10150 13000
+Wire Wire Line
+	10150 13000 10150 12500
+Connection ~ 10150 13500
+Wire Wire Line
+	10150 13500 10150 13000
+Connection ~ 10150 14000
+Wire Wire Line
+	10150 14000 10150 13500
+Connection ~ 10150 14500
+Wire Wire Line
+	10150 14500 10150 14000
+Connection ~ 10150 15000
+Wire Wire Line
+	10150 15000 10150 14500
+Connection ~ 10150 15500
+Wire Wire Line
+	10150 15500 10150 15000
+Connection ~ 10150 16000
+Wire Wire Line
+	10150 16000 10150 15500
+Connection ~ 10150 16500
+Wire Wire Line
+	10150 16500 10150 16000
+Connection ~ 10150 17000
+Wire Wire Line
+	10150 17000 10150 16500
+Connection ~ 10150 17500
+Wire Wire Line
+	10150 17500 10150 17000
+Connection ~ 10150 18000
+Wire Wire Line
+	10150 18000 10150 17500
+Connection ~ 10150 18500
+Wire Wire Line
+	10150 18500 10150 18000
+Connection ~ 10150 19000
+Wire Wire Line
+	10150 19000 10150 18500
+Wire Wire Line
+	10150 19500 10150 19000
+Wire Wire Line
+	10900 3500 10900 4000
+Connection ~ 10900 4000
+Wire Wire Line
+	10900 4000 10900 4500
+Connection ~ 10900 4500
+Wire Wire Line
+	10900 4500 10900 5000
+Connection ~ 10900 5000
+Wire Wire Line
+	10900 5000 10900 5500
+Connection ~ 10900 5500
+Wire Wire Line
+	10900 5500 10900 6000
+Connection ~ 10900 6000
+Wire Wire Line
+	10900 6000 10900 6500
+Connection ~ 10900 6500
+Wire Wire Line
+	10900 6500 10900 7000
+Connection ~ 10900 7000
+Wire Wire Line
+	10900 7000 10900 7500
+Connection ~ 10900 7500
+Connection ~ 10900 11000
+Wire Wire Line
+	10900 11000 10900 11500
+Connection ~ 10900 11500
+Wire Wire Line
+	10900 11500 10900 12000
+Connection ~ 10900 12000
+Wire Wire Line
+	10900 12000 10900 12500
+Connection ~ 10900 12500
+Wire Wire Line
+	10900 12500 10900 13000
+Connection ~ 10900 13000
+Wire Wire Line
+	10900 13000 10900 13500
+Connection ~ 10900 13500
+Wire Wire Line
+	10900 13500 10900 14000
+Connection ~ 10900 14000
+Wire Wire Line
+	10900 14000 10900 14500
+Connection ~ 10900 14500
+Wire Wire Line
+	10900 14500 10900 15000
+Connection ~ 10900 15000
+Wire Wire Line
+	10900 15000 10900 15500
+Connection ~ 10900 15500
+Wire Wire Line
+	10900 15500 10900 16000
+Connection ~ 10900 16000
+Wire Wire Line
+	10900 16000 10900 16500
+Connection ~ 10900 16500
+Wire Wire Line
+	10900 16500 10900 17000
+Connection ~ 10900 17000
+Wire Wire Line
+	10900 17000 10900 17500
+Connection ~ 10900 17500
+Wire Wire Line
+	10900 17500 10900 18000
+Connection ~ 10900 18000
+Wire Wire Line
+	10900 18000 10900 18500
+Connection ~ 10900 18500
+Wire Wire Line
+	10900 18500 10900 19000
+Connection ~ 10900 19000
+Wire Wire Line
+	10900 19000 10900 19500
+$Comp
+L Device:R_Small R?
+U 1 1 63537B64
+P 4150 21250
+AR Path="/63537B64" Ref="R?"  Part="1" 
+AR Path="/6058C647/63537B64" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63537B64" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63537B64" Ref="R?"  Part="1" 
+AR Path="/6094216F/63537B64" Ref="R52"  Part="1" 
+F 0 "R52" H 4209 21296 50  0000 L CNN
+F 1 "20k" H 4209 21205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 21250 50  0001 C CNN
+F 3 "~" H 4150 21250 50  0001 C CNN
+	1    4150 21250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6366D40A
+P 4150 20750
+AR Path="/6366D40A" Ref="R?"  Part="1" 
+AR Path="/6058C647/6366D40A" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/6366D40A" Ref="R?"  Part="1" 
+AR Path="/607EDC60/6366D40A" Ref="R?"  Part="1" 
+AR Path="/6094216F/6366D40A" Ref="R51"  Part="1" 
+F 0 "R51" H 4209 20796 50  0000 L CNN
+F 1 "20k" H 4209 20705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 20750 50  0001 C CNN
+F 3 "~" H 4150 20750 50  0001 C CNN
+	1    4150 20750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 637A2933
+P 4150 20250
+AR Path="/637A2933" Ref="R?"  Part="1" 
+AR Path="/6058C647/637A2933" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/637A2933" Ref="R?"  Part="1" 
+AR Path="/607EDC60/637A2933" Ref="R?"  Part="1" 
+AR Path="/6094216F/637A2933" Ref="R50"  Part="1" 
+F 0 "R50" H 4209 20296 50  0000 L CNN
+F 1 "51k" H 4209 20205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 20250 50  0001 C CNN
+F 3 "~" H 4150 20250 50  0001 C CNN
+	1    4150 20250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 638DCE5D
+P 4150 19750
+AR Path="/638DCE5D" Ref="R?"  Part="1" 
+AR Path="/6058C647/638DCE5D" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/638DCE5D" Ref="R?"  Part="1" 
+AR Path="/607EDC60/638DCE5D" Ref="R?"  Part="1" 
+AR Path="/6094216F/638DCE5D" Ref="R49"  Part="1" 
+F 0 "R49" H 4209 19796 50  0000 L CNN
+F 1 "20k" H 4209 19705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 19750 50  0001 C CNN
+F 3 "~" H 4150 19750 50  0001 C CNN
+	1    4150 19750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 638DCE63
+P 4150 19250
+AR Path="/638DCE63" Ref="R?"  Part="1" 
+AR Path="/6058C647/638DCE63" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/638DCE63" Ref="R?"  Part="1" 
+AR Path="/607EDC60/638DCE63" Ref="R?"  Part="1" 
+AR Path="/6094216F/638DCE63" Ref="R48"  Part="1" 
+F 0 "R48" H 4209 19296 50  0000 L CNN
+F 1 "20k" H 4209 19205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 19250 50  0001 C CNN
+F 3 "~" H 4150 19250 50  0001 C CNN
+	1    4150 19250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 638DCE69
+P 4150 18750
+AR Path="/638DCE69" Ref="R?"  Part="1" 
+AR Path="/6058C647/638DCE69" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/638DCE69" Ref="R?"  Part="1" 
+AR Path="/607EDC60/638DCE69" Ref="R?"  Part="1" 
+AR Path="/6094216F/638DCE69" Ref="R47"  Part="1" 
+F 0 "R47" H 4209 18796 50  0000 L CNN
+F 1 "51k" H 4209 18705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 18750 50  0001 C CNN
+F 3 "~" H 4150 18750 50  0001 C CNN
+	1    4150 18750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63A199F5
+P 4150 18250
+AR Path="/63A199F5" Ref="R?"  Part="1" 
+AR Path="/6058C647/63A199F5" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63A199F5" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63A199F5" Ref="R?"  Part="1" 
+AR Path="/6094216F/63A199F5" Ref="R46"  Part="1" 
+F 0 "R46" H 4209 18296 50  0000 L CNN
+F 1 "20k" H 4209 18205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 18250 50  0001 C CNN
+F 3 "~" H 4150 18250 50  0001 C CNN
+	1    4150 18250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63A199FB
+P 4150 17750
+AR Path="/63A199FB" Ref="R?"  Part="1" 
+AR Path="/6058C647/63A199FB" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63A199FB" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63A199FB" Ref="R?"  Part="1" 
+AR Path="/6094216F/63A199FB" Ref="R45"  Part="1" 
+F 0 "R45" H 4209 17796 50  0000 L CNN
+F 1 "20k" H 4209 17705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 17750 50  0001 C CNN
+F 3 "~" H 4150 17750 50  0001 C CNN
+	1    4150 17750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63A19A01
+P 4150 17250
+AR Path="/63A19A01" Ref="R?"  Part="1" 
+AR Path="/6058C647/63A19A01" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63A19A01" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63A19A01" Ref="R?"  Part="1" 
+AR Path="/6094216F/63A19A01" Ref="R44"  Part="1" 
+F 0 "R44" H 4209 17296 50  0000 L CNN
+F 1 "51k" H 4209 17205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 17250 50  0001 C CNN
+F 3 "~" H 4150 17250 50  0001 C CNN
+	1    4150 17250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63A19A07
+P 4150 16750
+AR Path="/63A19A07" Ref="R?"  Part="1" 
+AR Path="/6058C647/63A19A07" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63A19A07" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63A19A07" Ref="R?"  Part="1" 
+AR Path="/6094216F/63A19A07" Ref="R43"  Part="1" 
+F 0 "R43" H 4209 16796 50  0000 L CNN
+F 1 "20k" H 4209 16705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 16750 50  0001 C CNN
+F 3 "~" H 4150 16750 50  0001 C CNN
+	1    4150 16750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63A19A0D
+P 4150 16250
+AR Path="/63A19A0D" Ref="R?"  Part="1" 
+AR Path="/6058C647/63A19A0D" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63A19A0D" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63A19A0D" Ref="R?"  Part="1" 
+AR Path="/6094216F/63A19A0D" Ref="R42"  Part="1" 
+F 0 "R42" H 4209 16296 50  0000 L CNN
+F 1 "20k" H 4209 16205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 16250 50  0001 C CNN
+F 3 "~" H 4150 16250 50  0001 C CNN
+	1    4150 16250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63A19A13
+P 4150 15750
+AR Path="/63A19A13" Ref="R?"  Part="1" 
+AR Path="/6058C647/63A19A13" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63A19A13" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63A19A13" Ref="R?"  Part="1" 
+AR Path="/6094216F/63A19A13" Ref="R41"  Part="1" 
+F 0 "R41" H 4209 15796 50  0000 L CNN
+F 1 "51k" H 4209 15705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 15750 50  0001 C CNN
+F 3 "~" H 4150 15750 50  0001 C CNN
+	1    4150 15750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63B5142D
+P 4150 15250
+AR Path="/63B5142D" Ref="R?"  Part="1" 
+AR Path="/6058C647/63B5142D" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63B5142D" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63B5142D" Ref="R?"  Part="1" 
+AR Path="/6094216F/63B5142D" Ref="R40"  Part="1" 
+F 0 "R40" H 4209 15296 50  0000 L CNN
+F 1 "20k" H 4209 15205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 15250 50  0001 C CNN
+F 3 "~" H 4150 15250 50  0001 C CNN
+	1    4150 15250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63B51433
+P 4150 14750
+AR Path="/63B51433" Ref="R?"  Part="1" 
+AR Path="/6058C647/63B51433" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63B51433" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63B51433" Ref="R?"  Part="1" 
+AR Path="/6094216F/63B51433" Ref="R39"  Part="1" 
+F 0 "R39" H 4209 14796 50  0000 L CNN
+F 1 "20k" H 4209 14705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 14750 50  0001 C CNN
+F 3 "~" H 4150 14750 50  0001 C CNN
+	1    4150 14750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63B51439
+P 4150 14250
+AR Path="/63B51439" Ref="R?"  Part="1" 
+AR Path="/6058C647/63B51439" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63B51439" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63B51439" Ref="R?"  Part="1" 
+AR Path="/6094216F/63B51439" Ref="R38"  Part="1" 
+F 0 "R38" H 4209 14296 50  0000 L CNN
+F 1 "51k" H 4209 14205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 14250 50  0001 C CNN
+F 3 "~" H 4150 14250 50  0001 C CNN
+	1    4150 14250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63B5143F
+P 4150 13750
+AR Path="/63B5143F" Ref="R?"  Part="1" 
+AR Path="/6058C647/63B5143F" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63B5143F" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63B5143F" Ref="R?"  Part="1" 
+AR Path="/6094216F/63B5143F" Ref="R37"  Part="1" 
+F 0 "R37" H 4209 13796 50  0000 L CNN
+F 1 "20k" H 4209 13705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 13750 50  0001 C CNN
+F 3 "~" H 4150 13750 50  0001 C CNN
+	1    4150 13750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63B51445
+P 4150 13250
+AR Path="/63B51445" Ref="R?"  Part="1" 
+AR Path="/6058C647/63B51445" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63B51445" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63B51445" Ref="R?"  Part="1" 
+AR Path="/6094216F/63B51445" Ref="R36"  Part="1" 
+F 0 "R36" H 4209 13296 50  0000 L CNN
+F 1 "20k" H 4209 13205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 13250 50  0001 C CNN
+F 3 "~" H 4150 13250 50  0001 C CNN
+	1    4150 13250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63B5144B
+P 4150 12750
+AR Path="/63B5144B" Ref="R?"  Part="1" 
+AR Path="/6058C647/63B5144B" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63B5144B" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63B5144B" Ref="R?"  Part="1" 
+AR Path="/6094216F/63B5144B" Ref="R35"  Part="1" 
+F 0 "R35" H 4209 12796 50  0000 L CNN
+F 1 "51k" H 4209 12705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 12750 50  0001 C CNN
+F 3 "~" H 4150 12750 50  0001 C CNN
+	1    4150 12750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63C88973
+P 4150 12250
+AR Path="/63C88973" Ref="R?"  Part="1" 
+AR Path="/6058C647/63C88973" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63C88973" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63C88973" Ref="R?"  Part="1" 
+AR Path="/6094216F/63C88973" Ref="R34"  Part="1" 
+F 0 "R34" H 4209 12296 50  0000 L CNN
+F 1 "20k" H 4209 12205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 12250 50  0001 C CNN
+F 3 "~" H 4150 12250 50  0001 C CNN
+	1    4150 12250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63C88979
+P 4150 11750
+AR Path="/63C88979" Ref="R?"  Part="1" 
+AR Path="/6058C647/63C88979" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63C88979" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63C88979" Ref="R?"  Part="1" 
+AR Path="/6094216F/63C88979" Ref="R33"  Part="1" 
+F 0 "R33" H 4209 11796 50  0000 L CNN
+F 1 "20k" H 4209 11705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 11750 50  0001 C CNN
+F 3 "~" H 4150 11750 50  0001 C CNN
+	1    4150 11750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63C8897F
+P 4150 11250
+AR Path="/63C8897F" Ref="R?"  Part="1" 
+AR Path="/6058C647/63C8897F" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63C8897F" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63C8897F" Ref="R?"  Part="1" 
+AR Path="/6094216F/63C8897F" Ref="R32"  Part="1" 
+F 0 "R32" H 4209 11296 50  0000 L CNN
+F 1 "51k" H 4209 11205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 11250 50  0001 C CNN
+F 3 "~" H 4150 11250 50  0001 C CNN
+	1    4150 11250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63C88985
+P 4150 10750
+AR Path="/63C88985" Ref="R?"  Part="1" 
+AR Path="/6058C647/63C88985" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63C88985" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63C88985" Ref="R?"  Part="1" 
+AR Path="/6094216F/63C88985" Ref="R31"  Part="1" 
+F 0 "R31" H 4209 10796 50  0000 L CNN
+F 1 "20k" H 4209 10705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 10750 50  0001 C CNN
+F 3 "~" H 4150 10750 50  0001 C CNN
+	1    4150 10750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63C8898B
+P 4150 10250
+AR Path="/63C8898B" Ref="R?"  Part="1" 
+AR Path="/6058C647/63C8898B" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63C8898B" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63C8898B" Ref="R?"  Part="1" 
+AR Path="/6094216F/63C8898B" Ref="R30"  Part="1" 
+F 0 "R30" H 4209 10296 50  0000 L CNN
+F 1 "20k" H 4209 10205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 10250 50  0001 C CNN
+F 3 "~" H 4150 10250 50  0001 C CNN
+	1    4150 10250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63C88991
+P 4150 9750
+AR Path="/63C88991" Ref="R?"  Part="1" 
+AR Path="/6058C647/63C88991" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63C88991" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63C88991" Ref="R?"  Part="1" 
+AR Path="/6094216F/63C88991" Ref="R29"  Part="1" 
+F 0 "R29" H 4209 9796 50  0000 L CNN
+F 1 "51k" H 4209 9705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 9750 50  0001 C CNN
+F 3 "~" H 4150 9750 50  0001 C CNN
+	1    4150 9750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63DC0EC1
+P 4150 9250
+AR Path="/63DC0EC1" Ref="R?"  Part="1" 
+AR Path="/6058C647/63DC0EC1" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63DC0EC1" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63DC0EC1" Ref="R?"  Part="1" 
+AR Path="/6094216F/63DC0EC1" Ref="R28"  Part="1" 
+F 0 "R28" H 4209 9296 50  0000 L CNN
+F 1 "20k" H 4209 9205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 9250 50  0001 C CNN
+F 3 "~" H 4150 9250 50  0001 C CNN
+	1    4150 9250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63DC0EC7
+P 4150 8750
+AR Path="/63DC0EC7" Ref="R?"  Part="1" 
+AR Path="/6058C647/63DC0EC7" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63DC0EC7" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63DC0EC7" Ref="R?"  Part="1" 
+AR Path="/6094216F/63DC0EC7" Ref="R27"  Part="1" 
+F 0 "R27" H 4209 8796 50  0000 L CNN
+F 1 "20k" H 4209 8705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 8750 50  0001 C CNN
+F 3 "~" H 4150 8750 50  0001 C CNN
+	1    4150 8750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63DC0ECD
+P 4150 8250
+AR Path="/63DC0ECD" Ref="R?"  Part="1" 
+AR Path="/6058C647/63DC0ECD" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63DC0ECD" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63DC0ECD" Ref="R?"  Part="1" 
+AR Path="/6094216F/63DC0ECD" Ref="R26"  Part="1" 
+F 0 "R26" H 4209 8296 50  0000 L CNN
+F 1 "51k" H 4209 8205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 8250 50  0001 C CNN
+F 3 "~" H 4150 8250 50  0001 C CNN
+	1    4150 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63DC0ED3
+P 4150 7750
+AR Path="/63DC0ED3" Ref="R?"  Part="1" 
+AR Path="/6058C647/63DC0ED3" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63DC0ED3" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63DC0ED3" Ref="R?"  Part="1" 
+AR Path="/6094216F/63DC0ED3" Ref="R25"  Part="1" 
+F 0 "R25" H 4209 7796 50  0000 L CNN
+F 1 "20k" H 4209 7705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 7750 50  0001 C CNN
+F 3 "~" H 4150 7750 50  0001 C CNN
+	1    4150 7750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63DC0ED9
+P 4150 7250
+AR Path="/63DC0ED9" Ref="R?"  Part="1" 
+AR Path="/6058C647/63DC0ED9" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63DC0ED9" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63DC0ED9" Ref="R?"  Part="1" 
+AR Path="/6094216F/63DC0ED9" Ref="R24"  Part="1" 
+F 0 "R24" H 4209 7296 50  0000 L CNN
+F 1 "20k" H 4209 7205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 7250 50  0001 C CNN
+F 3 "~" H 4150 7250 50  0001 C CNN
+	1    4150 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63DC0EDF
+P 4150 6750
+AR Path="/63DC0EDF" Ref="R?"  Part="1" 
+AR Path="/6058C647/63DC0EDF" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63DC0EDF" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63DC0EDF" Ref="R?"  Part="1" 
+AR Path="/6094216F/63DC0EDF" Ref="R23"  Part="1" 
+F 0 "R23" H 4209 6796 50  0000 L CNN
+F 1 "51k" H 4209 6705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 6750 50  0001 C CNN
+F 3 "~" H 4150 6750 50  0001 C CNN
+	1    4150 6750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63EFBFA9
+P 4150 6250
+AR Path="/63EFBFA9" Ref="R?"  Part="1" 
+AR Path="/6058C647/63EFBFA9" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63EFBFA9" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63EFBFA9" Ref="R?"  Part="1" 
+AR Path="/6094216F/63EFBFA9" Ref="R22"  Part="1" 
+F 0 "R22" H 4209 6296 50  0000 L CNN
+F 1 "20k" H 4209 6205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 6250 50  0001 C CNN
+F 3 "~" H 4150 6250 50  0001 C CNN
+	1    4150 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63EFBFAF
+P 4150 5750
+AR Path="/63EFBFAF" Ref="R?"  Part="1" 
+AR Path="/6058C647/63EFBFAF" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63EFBFAF" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63EFBFAF" Ref="R?"  Part="1" 
+AR Path="/6094216F/63EFBFAF" Ref="R21"  Part="1" 
+F 0 "R21" H 4209 5796 50  0000 L CNN
+F 1 "20k" H 4209 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 5750 50  0001 C CNN
+F 3 "~" H 4150 5750 50  0001 C CNN
+	1    4150 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63EFBFB5
+P 4150 5250
+AR Path="/63EFBFB5" Ref="R?"  Part="1" 
+AR Path="/6058C647/63EFBFB5" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63EFBFB5" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63EFBFB5" Ref="R?"  Part="1" 
+AR Path="/6094216F/63EFBFB5" Ref="R20"  Part="1" 
+F 0 "R20" H 4209 5296 50  0000 L CNN
+F 1 "51k" H 4209 5205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 5250 50  0001 C CNN
+F 3 "~" H 4150 5250 50  0001 C CNN
+	1    4150 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63EFBFBB
+P 4150 4750
+AR Path="/63EFBFBB" Ref="R?"  Part="1" 
+AR Path="/6058C647/63EFBFBB" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63EFBFBB" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63EFBFBB" Ref="R?"  Part="1" 
+AR Path="/6094216F/63EFBFBB" Ref="R19"  Part="1" 
+F 0 "R19" H 4209 4796 50  0000 L CNN
+F 1 "20k" H 4209 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 4750 50  0001 C CNN
+F 3 "~" H 4150 4750 50  0001 C CNN
+	1    4150 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63EFBFC1
+P 4150 4250
+AR Path="/63EFBFC1" Ref="R?"  Part="1" 
+AR Path="/6058C647/63EFBFC1" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63EFBFC1" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63EFBFC1" Ref="R?"  Part="1" 
+AR Path="/6094216F/63EFBFC1" Ref="R18"  Part="1" 
+F 0 "R18" H 4209 4296 50  0000 L CNN
+F 1 "20k" H 4209 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 4250 50  0001 C CNN
+F 3 "~" H 4150 4250 50  0001 C CNN
+	1    4150 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 63EFBFC7
+P 4150 3750
+AR Path="/63EFBFC7" Ref="R?"  Part="1" 
+AR Path="/6058C647/63EFBFC7" Ref="R?"  Part="1" 
+AR Path="/607ED8A2/63EFBFC7" Ref="R?"  Part="1" 
+AR Path="/607EDC60/63EFBFC7" Ref="R?"  Part="1" 
+AR Path="/6094216F/63EFBFC7" Ref="R17"  Part="1" 
+F 0 "R17" H 4209 3796 50  0000 L CNN
+F 1 "51k" H 4209 3705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4150 3750 50  0001 C CNN
+F 3 "~" H 4150 3750 50  0001 C CNN
+	1    4150 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 10000 6400 9500
+Wire Wire Line
+	6400 9500 6400 9000
+Connection ~ 6400 9500
+$Comp
+L random-keyboard-parts:RGB-6028 LED26
+U 1 1 608E5096
+P 6200 9500
+F 0 "LED26" H 6200 9725 50  0000 C CNN
+F 1 "RGB-6028" H 6200 9634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6200 9500 50  0001 C CNN
+F 3 "" H 6200 9500 50  0001 C CNN
+	1    6200 9500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10900 3350 10900 3500
+Connection ~ 10900 3500
+Wire Wire Line
+	10150 3350 10150 3500
+Connection ~ 10150 3500
+Wire Wire Line
+	9400 3350 9400 3500
+Connection ~ 9400 3500
+Wire Wire Line
+	8650 3350 8650 3500
+Connection ~ 8650 3500
+Wire Wire Line
+	7900 3350 7900 3500
+Connection ~ 7900 3500
+Wire Wire Line
+	7150 3350 7150 3500
+Connection ~ 7150 3500
+Wire Wire Line
+	6400 3350 6400 3500
+Connection ~ 6400 3500
+Wire Wire Line
+	4900 3350 4900 3500
+Connection ~ 4900 3500
+Wire Wire Line
+	4500 12750 6000 12750
+Wire Wire Line
+	4500 13250 6000 13250
+Wire Wire Line
+	4500 13750 6000 13750
+Wire Wire Line
+	5650 12000 5650 14000
+Wire Wire Line
+	4500 20250 5250 20250
+Wire Wire Line
+	4500 20750 5250 20750
+Wire Wire Line
+	4500 21250 5250 21250
+Wire Wire Line
+	6000 20250 9000 20250
+Wire Wire Line
+	6000 20750 9000 20750
+Wire Wire Line
+	6000 21250 9000 21250
+Connection ~ 5250 21250
+Wire Wire Line
+	5250 21250 6000 21250
+Connection ~ 5250 20250
+Wire Wire Line
+	5250 20250 6000 20250
+Wire Wire Line
+	4250 11250 5250 11250
+Wire Wire Line
+	4250 11750 5250 11750
+Wire Wire Line
+	4900 10500 4900 12500
+Wire Wire Line
+	4250 12250 5250 12250
+Wire Wire Line
+	4500 3750 6000 3750
+Wire Wire Line
+	4500 4250 6000 4250
+Wire Wire Line
+	5650 3350 5650 5000
+Wire Wire Line
+	4500 4750 6000 4750
+Wire Wire Line
+	6750 5250 8250 5250
+Wire Wire Line
+	6750 5750 8250 5750
+Wire Wire Line
+	6750 6250 8250 6250
+Wire Wire Line
+	6000 9250 6750 9250
+Wire Wire Line
+	6750 11250 8250 11250
+Wire Wire Line
+	6750 11750 8250 11750
+Wire Wire Line
+	7900 4500 7900 12500
+Wire Wire Line
+	6750 12250 8250 12250
+Wire Wire Line
+	8650 9000 8650 11000
+Wire Wire Line
+	6750 9750 9750 9750
+Wire Wire Line
+	6750 10250 9750 10250
+Wire Wire Line
+	9400 7500 9400 11000
+Wire Wire Line
+	6750 10750 9750 10750
+Wire Wire Line
+	10150 7500 10150 9500
+Wire Wire Line
+	10900 7500 10900 11000
+Connection ~ 5250 20750
+Wire Wire Line
+	5250 20750 6000 20750
+Connection ~ 5650 20500
+Wire Wire Line
+	5650 20500 5650 21000
+Wire Wire Line
+	5650 20000 5650 20500
+$Comp
+L random-keyboard-parts:RGB-6028 LED20
+U 1 1 60C747F7
+P 5450 18500
+F 0 "LED20" H 5450 18725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 18634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 18500 50  0001 C CNN
+F 3 "" H 5450 18500 50  0001 C CNN
+	1    5450 18500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 18500 5250 18750
+$Comp
+L random-keyboard-parts:RGB-6028 LED20
+U 2 1 60D21D01
+P 5450 19000
+F 0 "LED20" H 5450 19225 50  0000 C CNN
+F 1 "RGB-6028" H 5450 19134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 19000 50  0001 C CNN
+F 3 "" H 5450 19000 50  0001 C CNN
+	2    5450 19000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 19000 5250 19250
+$Comp
+L random-keyboard-parts:RGB-6028 LED20
+U 3 1 60DD023A
+P 5450 19500
+F 0 "LED20" H 5450 19725 50  0000 C CNN
+F 1 "RGB-6028" H 5450 19634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 5450 19500 50  0001 C CNN
+F 3 "" H 5450 19500 50  0001 C CNN
+	3    5450 19500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 19500 5250 19750
+Wire Wire Line
+	4500 19750 5250 19750
+Connection ~ 4500 19750
+Connection ~ 6000 19750
+Connection ~ 5250 19750
+Wire Wire Line
+	5250 19750 6000 19750
+Wire Wire Line
+	5650 20000 5650 19500
+Connection ~ 5650 20000
+Connection ~ 5650 18000
+Connection ~ 5650 18500
+Wire Wire Line
+	5650 18500 5650 18000
+Connection ~ 5650 19000
+Wire Wire Line
+	5650 19000 5650 18500
+Connection ~ 5650 19500
+Wire Wire Line
+	5650 19500 5650 19000
+Wire Wire Line
+	4500 18750 5250 18750
+Connection ~ 4500 18750
+Connection ~ 6000 18750
+Connection ~ 5250 18750
+Wire Wire Line
+	5250 18750 6000 18750
+Wire Wire Line
+	4500 19250 5250 19250
+Connection ~ 4500 19250
+Connection ~ 6000 19250
+Connection ~ 5250 19250
+Wire Wire Line
+	5250 19250 6000 19250
+$Comp
+L random-keyboard-parts:RGB-6028 LED37
+U 3 1 61541F64
+P 6950 9000
+F 0 "LED37" H 6950 9225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 9134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 9000 50  0001 C CNN
+F 3 "" H 6950 9000 50  0001 C CNN
+	3    6950 9000
+	-1   0    0    1   
+$EndComp
+$Comp
+L random-keyboard-parts:RGB-6028 LED37
+U 2 1 615F36C4
+P 6950 8500
+F 0 "LED37" H 6950 8725 50  0000 C CNN
+F 1 "RGB-6028" H 6950 8634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 8500 50  0001 C CNN
+F 3 "" H 6950 8500 50  0001 C CNN
+	2    6950 8500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 8500 6750 8750
+$Comp
+L random-keyboard-parts:RGB-6028 LED37
+U 1 1 616A6051
+P 6950 8000
+F 0 "LED37" H 6950 8225 50  0000 C CNN
+F 1 "RGB-6028" H 6950 8134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 6950 8000 50  0001 C CNN
+F 3 "" H 6950 8000 50  0001 C CNN
+	1    6950 8000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6750 8000 6750 8250
+Connection ~ 6750 7750
+Wire Wire Line
+	7150 7500 7150 8000
+Connection ~ 7150 7500
+Connection ~ 7150 9500
+Connection ~ 7150 8000
+Wire Wire Line
+	7150 8000 7150 8500
+Connection ~ 7150 8500
+Wire Wire Line
+	7150 8500 7150 9000
+Connection ~ 7150 9000
+Wire Wire Line
+	7150 9000 7150 9500
+Wire Wire Line
+	6750 9000 6750 9250
+Connection ~ 6750 9250
+Wire Wire Line
+	6750 9250 8250 9250
+Wire Wire Line
+	6000 8750 6750 8750
+Connection ~ 6000 8750
+Connection ~ 6750 8750
+Wire Wire Line
+	6750 8750 8250 8750
+Wire Wire Line
+	6000 8250 6750 8250
+Connection ~ 6000 8250
+Connection ~ 6750 8250
+Wire Wire Line
+	6750 8250 8250 8250
+Wire Wire Line
+	6750 6750 8250 6750
+Wire Wire Line
+	6750 7250 8250 7250
+Wire Wire Line
+	8650 6000 8650 6500
+Wire Wire Line
+	6750 7750 8250 7750
+$Comp
+L random-keyboard-parts:RGB-6028 LED53
+U 3 1 609A3017
+P 8450 7500
+F 0 "LED53" H 8450 7725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 7634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 7500 50  0001 C CNN
+F 3 "" H 8450 7500 50  0001 C CNN
+	3    8450 7500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 7500 8250 7750
+$Comp
+L random-keyboard-parts:RGB-6028 LED53
+U 2 1 60A562B5
+P 8450 7000
+F 0 "LED53" H 8450 7225 50  0000 C CNN
+F 1 "RGB-6028" H 8450 7134 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 7000 50  0001 C CNN
+F 3 "" H 8450 7000 50  0001 C CNN
+	2    8450 7000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 7000 8250 7250
+$Comp
+L random-keyboard-parts:RGB-6028 LED53
+U 1 1 60B093BD
+P 8450 6500
+F 0 "LED53" H 8450 6725 50  0000 C CNN
+F 1 "RGB-6028" H 8450 6634 50  0000 C CNN
+F 2 "random-keyboard-parts:RGB-6028" H 8450 6500 50  0001 C CNN
+F 3 "" H 8450 6500 50  0001 C CNN
+	1    8450 6500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 6500 8250 6750
+Connection ~ 8650 6500
+Wire Wire Line
+	8650 6500 8650 7000
+Connection ~ 8250 6750
+Wire Wire Line
+	8250 6750 9000 6750
+Connection ~ 8250 7250
+Wire Wire Line
+	8250 7250 9000 7250
+Connection ~ 8650 7000
+Wire Wire Line
+	8650 7000 8650 7500
+Connection ~ 8250 7750
+Wire Wire Line
+	8250 7750 9000 7750
+Connection ~ 8650 7500
+Wire Wire Line
+	8650 7500 8650 8000
+$EndSCHEMATC

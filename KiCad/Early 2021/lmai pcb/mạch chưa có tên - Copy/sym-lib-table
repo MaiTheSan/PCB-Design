@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name SawnsProjectAlice-rescue)(type Legacy)(uri "F:/Keyboard Design/Alice/colorlice/SawnsProjectAlice-rescue.lib")(options "")(descr ""))
+  (lib (name sanpjxlogo)(type Legacy)(uri "F:/Keyboard Design/phôi design pcb/1800 layout/sanpjxlogo.lib")(options "")(descr ""))
+  (lib (name mạch-chưa-có-tên-rescue)(type Legacy)(uri "${KIPRJMOD}/mạch chưa có tên-rescue.lib")(options "")(descr ""))
+)

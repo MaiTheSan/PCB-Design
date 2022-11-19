@@ -1,0 +1,443 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED:WS2812B D65
+U 1 1 61C2CA9C
+P 2735 1315
+F 0 "D65" H 2975 1450 50  0000 L CNN
+F 1 "WS2812B" H 2760 1560 50  0000 L CNN
+F 2 "MX_Cherry_RGB:SK6812_miniE" H 2785 1015 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2835 940 50  0001 L TNN
+	1    2735 1315
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D69
+U 1 1 61CA89C2
+P 3335 1315
+F 0 "D69" H 3575 1450 50  0000 L CNN
+F 1 "WS2812B" H 3360 1560 50  0000 L CNN
+F 2 "MX_Cherry_RGB:SK6812_miniE" H 3385 1015 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3435 940 50  0001 L TNN
+	1    3335 1315
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D73
+U 1 1 61CA89C8
+P 3935 1315
+F 0 "D73" H 4175 1450 50  0000 L CNN
+F 1 "WS2812B" H 3960 1560 50  0000 L CNN
+F 2 "MX_Cherry_RGB:SK6812_miniE" H 3985 1015 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4035 940 50  0001 L TNN
+	1    3935 1315
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D77
+U 1 1 61CE918D
+P 4535 1315
+F 0 "D77" H 4775 1450 50  0000 L CNN
+F 1 "WS2812B" H 4560 1560 50  0000 L CNN
+F 2 "MX_Cherry_RGB:SK6812_miniE" H 4585 1015 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4635 940 50  0001 L TNN
+	1    4535 1315
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D81
+U 1 1 61CE9193
+P 5135 1315
+F 0 "D81" H 5375 1450 50  0000 L CNN
+F 1 "WS2812B" H 5160 1560 50  0000 L CNN
+F 2 "MX_Cherry_RGB:SK6812_miniE" H 5185 1015 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5235 940 50  0001 L TNN
+	1    5135 1315
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D66
+U 1 1 61DA8919
+P 2750 2030
+F 0 "D66" H 2990 2165 50  0000 L CNN
+F 1 "WS2812B" H 2775 2275 50  0000 L CNN
+F 2 "MX_Cherry_RGB:SK6812_miniE" H 2800 1730 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2850 1655 50  0001 L TNN
+	1    2750 2030
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D70
+U 1 1 61DA891F
+P 3350 2030
+F 0 "D70" H 3590 2165 50  0000 L CNN
+F 1 "WS2812B" H 3375 2275 50  0000 L CNN
+F 2 "MX_Cherry_RGB:SK6812_miniE" H 3400 1730 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3450 1655 50  0001 L TNN
+	1    3350 2030
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D74
+U 1 1 61DA8925
+P 3950 2030
+F 0 "D74" H 4190 2165 50  0000 L CNN
+F 1 "WS2812B" H 3975 2275 50  0000 L CNN
+F 2 "MX_Cherry_RGB:SK6812_miniE" H 4000 1730 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4050 1655 50  0001 L TNN
+	1    3950 2030
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D78
+U 1 1 61DA892B
+P 4550 2030
+F 0 "D78" H 4790 2165 50  0000 L CNN
+F 1 "WS2812B" H 4575 2275 50  0000 L CNN
+F 2 "MX_Cherry_RGB:SK6812_miniE" H 4600 1730 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4650 1655 50  0001 L TNN
+	1    4550 2030
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D82
+U 1 1 61DA8931
+P 5150 2030
+F 0 "D82" H 5390 2165 50  0000 L CNN
+F 1 "WS2812B" H 5175 2275 50  0000 L CNN
+F 2 "MX_Cherry_RGB:SK6812_miniE" H 5200 1730 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5250 1655 50  0001 L TNN
+	1    5150 2030
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2735 1015 3335 1015
+Connection ~ 3335 1015
+Wire Wire Line
+	3335 1015 3935 1015
+Connection ~ 3935 1015
+Wire Wire Line
+	3935 1015 4535 1015
+Connection ~ 4535 1015
+Wire Wire Line
+	4535 1015 5135 1015
+Wire Wire Line
+	5135 1615 4535 1615
+Connection ~ 3335 1615
+Wire Wire Line
+	3335 1615 2735 1615
+Connection ~ 3935 1615
+Wire Wire Line
+	3935 1615 3335 1615
+Connection ~ 4535 1615
+Wire Wire Line
+	4535 1615 3935 1615
+Wire Wire Line
+	2750 1730 3350 1730
+Connection ~ 3350 1730
+Wire Wire Line
+	3350 1730 3950 1730
+Connection ~ 3950 1730
+Wire Wire Line
+	3950 1730 4550 1730
+Connection ~ 4550 1730
+Wire Wire Line
+	4550 1730 5150 1730
+Wire Wire Line
+	5150 2330 4550 2330
+Connection ~ 3350 2330
+Wire Wire Line
+	3350 2330 2750 2330
+Connection ~ 3950 2330
+Wire Wire Line
+	3950 2330 3350 2330
+Connection ~ 4550 2330
+Wire Wire Line
+	4550 2330 3950 2330
+Wire Wire Line
+	2435 1315 2305 1315
+Wire Wire Line
+	2305 1215 2465 1215
+Wire Wire Line
+	2465 1215 2465 1015
+Wire Wire Line
+	2465 1015 2735 1015
+Connection ~ 2735 1015
+Wire Wire Line
+	2305 1415 2465 1415
+Wire Wire Line
+	2465 1415 2465 1615
+Wire Wire Line
+	2465 1615 2735 1615
+Connection ~ 2735 1615
+Wire Wire Line
+	2450 2030 2320 2030
+Wire Wire Line
+	2320 1930 2480 1930
+Wire Wire Line
+	2320 2130 2480 2130
+Wire Wire Line
+	2750 1730 2480 1730
+Wire Wire Line
+	2480 1730 2480 1930
+Connection ~ 2750 1730
+Wire Wire Line
+	2480 2330 2480 2130
+NoConn ~ 5435 1315
+NoConn ~ 5450 2030
+$Comp
+L Connector:Conn_01x03_Female RGB_UP4
+U 1 1 628AC3AE
+P 2105 1315
+F 0 "RGB_UP4" H 1997 1082 50  0001 C CNN
+F 1 "Conn_01x03_Female" H 1997 1081 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal" H 2105 1315 50  0001 C CNN
+F 3 "~" H 2105 1315 50  0001 C CNN
+	1    2105 1315
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C_RGB19
+U 1 1 61641CD6
+P 5985 1315
+F 0 "C_RGB19" H 6077 1361 50  0001 L CNN
+F 1 "100nF" H 5945 1315 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5985 1315 50  0001 C CNN
+F 3 "~" H 5985 1315 50  0001 C CNN
+	1    5985 1315
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_RGB17
+U 1 1 61641CDC
+P 5850 1315
+F 0 "C_RGB17" H 5942 1361 50  0001 L CNN
+F 1 "100nF" H 5810 1315 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5850 1315 50  0001 C CNN
+F 3 "~" H 5850 1315 50  0001 C CNN
+	1    5850 1315
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_RGB21
+U 1 1 61641CE2
+P 6120 1315
+F 0 "C_RGB21" H 6212 1361 50  0001 L CNN
+F 1 "100nF" H 6080 1315 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6120 1315 50  0001 C CNN
+F 3 "~" H 6120 1315 50  0001 C CNN
+	1    6120 1315
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_RGB15
+U 1 1 61641CE8
+P 5715 1315
+F 0 "C_RGB15" H 5807 1361 50  0001 L CNN
+F 1 "100nF" H 5675 1315 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5715 1315 50  0001 C CNN
+F 3 "~" H 5715 1315 50  0001 C CNN
+	1    5715 1315
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_RGB13
+U 1 1 61641CEE
+P 5580 1315
+F 0 "C_RGB13" H 5672 1361 50  0001 L CNN
+F 1 "100nF" H 5540 1315 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5580 1315 50  0001 C CNN
+F 3 "~" H 5580 1315 50  0001 C CNN
+	1    5580 1315
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6120 1215 5985 1215
+Connection ~ 5715 1215
+Wire Wire Line
+	5715 1215 5580 1215
+Connection ~ 5850 1215
+Wire Wire Line
+	5850 1215 5715 1215
+Connection ~ 5985 1215
+Wire Wire Line
+	5985 1215 5850 1215
+Wire Wire Line
+	5580 1215 5580 1015
+Wire Wire Line
+	5580 1015 5135 1015
+Connection ~ 5580 1215
+Connection ~ 5135 1015
+Wire Wire Line
+	6120 1415 5985 1415
+Connection ~ 5715 1415
+Wire Wire Line
+	5715 1415 5580 1415
+Connection ~ 5850 1415
+Wire Wire Line
+	5850 1415 5715 1415
+Connection ~ 5985 1415
+Wire Wire Line
+	5985 1415 5850 1415
+Wire Wire Line
+	5580 1415 5580 1615
+Wire Wire Line
+	5580 1615 5135 1615
+Connection ~ 5580 1415
+Connection ~ 5135 1615
+$Comp
+L Device:C_Small C_RGB20
+U 1 1 617D5BB6
+P 5985 2030
+F 0 "C_RGB20" H 6077 2076 50  0001 L CNN
+F 1 "100nF" H 5945 2030 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5985 2030 50  0001 C CNN
+F 3 "~" H 5985 2030 50  0001 C CNN
+	1    5985 2030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_RGB18
+U 1 1 617D5BBC
+P 5850 2030
+F 0 "C_RGB18" H 5942 2076 50  0001 L CNN
+F 1 "100nF" H 5810 2030 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5850 2030 50  0001 C CNN
+F 3 "~" H 5850 2030 50  0001 C CNN
+	1    5850 2030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_RGB22
+U 1 1 617D5BC2
+P 6120 2030
+F 0 "C_RGB22" H 6212 2076 50  0001 L CNN
+F 1 "100nF" H 6080 2030 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6120 2030 50  0001 C CNN
+F 3 "~" H 6120 2030 50  0001 C CNN
+	1    6120 2030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_RGB16
+U 1 1 617D5BC8
+P 5715 2030
+F 0 "C_RGB16" H 5807 2076 50  0001 L CNN
+F 1 "100nF" H 5675 2030 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5715 2030 50  0001 C CNN
+F 3 "~" H 5715 2030 50  0001 C CNN
+	1    5715 2030
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_RGB14
+U 1 1 617D5BCE
+P 5580 2030
+F 0 "C_RGB14" H 5672 2076 50  0001 L CNN
+F 1 "100nF" H 5540 2030 20  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5580 2030 50  0001 C CNN
+F 3 "~" H 5580 2030 50  0001 C CNN
+	1    5580 2030
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6120 1930 5985 1930
+Connection ~ 5715 1930
+Wire Wire Line
+	5715 1930 5580 1930
+Connection ~ 5850 1930
+Wire Wire Line
+	5850 1930 5715 1930
+Connection ~ 5985 1930
+Wire Wire Line
+	5985 1930 5850 1930
+Wire Wire Line
+	5580 1930 5580 1730
+Wire Wire Line
+	5580 1730 5150 1730
+Connection ~ 5580 1930
+Connection ~ 5150 1730
+Wire Wire Line
+	6120 2130 5985 2130
+Wire Wire Line
+	5580 2130 5580 2330
+Wire Wire Line
+	5580 2330 5150 2330
+Connection ~ 5580 2130
+Connection ~ 5715 2130
+Wire Wire Line
+	5715 2130 5580 2130
+Connection ~ 5850 2130
+Wire Wire Line
+	5850 2130 5715 2130
+Connection ~ 5985 2130
+Wire Wire Line
+	5985 2130 5850 2130
+Connection ~ 5150 2330
+$Comp
+L Connector:Conn_01x04_Female J1
+U 1 1 61596F24
+P 2120 2130
+F 0 "J1" H 2012 1797 50  0001 C CNN
+F 1 "Conn_01x04_Female" H 2012 1796 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 2120 2130 50  0001 C CNN
+F 3 "~" H 2120 2130 50  0001 C CNN
+	1    2120 2130
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 61598BA1
+P 2320 2380
+F 0 "D1" H 2313 2125 50  0000 C CNN
+F 1 "LED" H 2313 2216 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 2320 2380 50  0001 C CNN
+F 3 "~" H 2320 2380 50  0001 C CNN
+	1    2320 2380
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2480 2330 2750 2330
+Connection ~ 2750 2330
+Wire Wire Line
+	2750 2330 2750 2590
+Wire Wire Line
+	2750 2590 2320 2590
+Wire Wire Line
+	2320 2590 2320 2530
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 615BA540
+P 1175 1060
+F 0 "H1" H 1275 1106 50  0000 L CNN
+F 1 "MountingHole" H 1275 1015 50  0000 L CNN
+F 2 "Keyboard:HOLE_M2.6" H 1175 1060 50  0001 C CNN
+F 3 "~" H 1175 1060 50  0001 C CNN
+	1    1175 1060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 615BBF02
+P 1180 1265
+F 0 "H2" H 1280 1311 50  0000 L CNN
+F 1 "MountingHole" H 1280 1220 50  0000 L CNN
+F 2 "Keyboard:HOLE_M2.6" H 1180 1265 50  0001 C CNN
+F 3 "~" H 1180 1265 50  0001 C CNN
+	1    1180 1265
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

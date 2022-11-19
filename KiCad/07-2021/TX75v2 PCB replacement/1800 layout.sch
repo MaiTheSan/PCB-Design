@@ -1,0 +1,7102 @@
+EESchema Schematic File Version 4
+LIBS:1800 layout-cache
+EELAYER 29 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1465 15225 3    50   Input ~ 0
+LedGND
+$Comp
+L Device:R_Small R111
+U 1 1 659F3690
+P 2115 15025
+F 0 "R111" V 1919 15025 50  0000 C CNN
+F 1 "1k" V 2010 15025 50  0000 C CNN
+F 2 "random-keyboard-parts:R_0805" H 2115 15025 50  0001 C CNN
+F 3 "~" H 2115 15025 50  0001 C CNN
+	1    2115 15025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 5A4CB170
+P 1465 14440
+F 0 "#PWR035" H 1465 14190 50  0001 C CNN
+F 1 "GND" H 1465 14290 50  0000 C CNN
+F 2 "" H 1465 14440 50  0001 C CNN
+F 3 "" H 1465 14440 50  0001 C CNN
+	1    1465 14440
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR032
+U 1 1 5B33A96C
+P 19165 7960
+F 0 "#PWR032" H 19165 7810 50  0001 C CNN
+F 1 "+5V" H 19165 8100 50  0000 C CNN
+F 2 "" H 19165 7960 50  0001 C CNN
+F 3 "" H 19165 7960 50  0001 C CNN
+	1    19165 7960
+	1    0    0    -1  
+$EndComp
+Text GLabel 20365 8385 2    60   Input ~ 0
+D-
+$Comp
+L Device:R_Small R110
+U 1 1 5B33C34D
+P 20165 8385
+F 0 "R110" H 20195 8405 50  0000 L CNN
+F 1 "22" H 20195 8345 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 20165 8385 50  0001 C CNN
+F 3 "" H 20165 8385 50  0001 C CNN
+	1    20165 8385
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R109
+U 1 1 5B33C7A5
+P 19965 8485
+F 0 "R109" H 19995 8505 50  0000 L CNN
+F 1 "22" H 19995 8445 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 19965 8485 50  0001 C CNN
+F 3 "" H 19965 8485 50  0001 C CNN
+	1    19965 8485
+	0    1    1    0   
+$EndComp
+Text GLabel 20365 8485 2    60   Input ~ 0
+D+
+$Comp
+L 1800-layout-rescue:HRO-TYPE-C-31-M-12-Type-C-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue USB1
+U 1 1 5B361237
+P 17640 8410
+F 0 "USB1" H 17440 9060 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" V 17240 8360 60  0000 C CNN
+F 2 "random-keyboard-parts:HRO-TYPE-C-31-M-12-Assembly" H 17640 8410 60  0001 C CNN
+F 3 "" H 17640 8410 60  0001 C CNN
+	1    17640 8410
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5B3665A1
+P 18190 9060
+F 0 "#PWR027" H 18190 8810 50  0001 C CNN
+F 1 "GND" H 18190 8910 50  0000 C CNN
+F 2 "" H 18190 9060 50  0001 C CNN
+F 3 "" H 18190 9060 50  0001 C CNN
+	1    18190 9060
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R107
+U 1 1 5B369C99
+P 18790 9135
+F 0 "R107" H 18820 9155 50  0000 L CNN
+F 1 "5.1k" H 18820 9095 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 18790 9135 50  0001 C CNN
+F 3 "" H 18790 9135 50  0001 C CNN
+	1    18790 9135
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R108
+U 1 1 5B36AD9E
+P 18790 9385
+F 0 "R108" H 18820 9405 50  0000 L CNN
+F 1 "5.1k" H 18820 9345 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 18790 9385 50  0001 C CNN
+F 3 "" H 18790 9385 50  0001 C CNN
+	1    18790 9385
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5B36AF7A
+P 19040 9385
+F 0 "#PWR031" H 19040 9135 50  0001 C CNN
+F 1 "GND" H 19040 9235 50  0000 C CNN
+F 2 "" H 19040 9385 50  0001 C CNN
+F 3 "" H 19040 9385 50  0001 C CNN
+	1    19040 9385
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17740 7960 18240 7960
+Wire Wire Line
+	20265 8385 20365 8385
+Wire Wire Line
+	17740 8360 17965 8360
+Wire Wire Line
+	17965 8360 17965 8485
+Wire Wire Line
+	17965 8560 17740 8560
+Wire Wire Line
+	17740 8460 18090 8460
+Wire Wire Line
+	18090 8460 18090 8385
+Wire Wire Line
+	18090 8260 17740 8260
+Connection ~ 18090 8385
+Connection ~ 17965 8485
+Wire Wire Line
+	18240 7960 18240 8860
+Wire Wire Line
+	18240 8860 17740 8860
+Wire Wire Line
+	17740 8960 18190 8960
+Wire Wire Line
+	18190 7860 18190 8960
+Wire Wire Line
+	18190 7860 17740 7860
+Wire Wire Line
+	18190 9060 17740 9060
+Connection ~ 18190 8960
+Connection ~ 18240 7960
+Wire Wire Line
+	17740 8160 18540 8160
+Wire Wire Line
+	18540 8160 18540 9135
+Wire Wire Line
+	18540 9135 18690 9135
+Wire Wire Line
+	17740 8760 18490 8760
+Wire Wire Line
+	18490 8760 18490 9385
+Wire Wire Line
+	18490 9385 18690 9385
+Wire Wire Line
+	19040 9385 18890 9385
+Wire Wire Line
+	18890 9135 19040 9135
+Wire Wire Line
+	19040 9135 19040 9385
+Wire Wire Line
+	18090 8385 18090 8260
+Wire Wire Line
+	17965 8485 17965 8560
+Wire Wire Line
+	18190 8960 18190 9060
+Wire Wire Line
+	20065 8485 20365 8485
+Wire Wire Line
+	17965 8485 18890 8485
+Wire Wire Line
+	19740 8810 19640 8810
+Wire Wire Line
+	19040 9135 19040 9035
+Wire Wire Line
+	19040 9035 18715 9035
+Wire Wire Line
+	18715 9035 18715 8810
+Wire Wire Line
+	18715 8810 19040 8810
+Connection ~ 19040 9135
+Wire Wire Line
+	19040 8910 18890 8910
+Wire Wire Line
+	19640 8910 19840 8910
+Wire Wire Line
+	18090 8385 19840 8385
+Wire Wire Line
+	19840 8910 19840 8385
+Connection ~ 19840 8385
+Wire Wire Line
+	19840 8385 20065 8385
+Wire Wire Line
+	18890 8910 18890 8485
+Connection ~ 18890 8485
+Wire Wire Line
+	18890 8485 19865 8485
+NoConn ~ 17740 8660
+NoConn ~ 17740 8060
+Connection ~ 18190 9060
+Connection ~ 19040 9385
+$Comp
+L LED:WS2812B RGB6
+U 1 1 5F9C37FD
+P 9980 9815
+F 0 "RGB6" H 10324 9861 50  0000 L CNN
+F 1 "WS2812B" H 10324 9770 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10030 9515 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10080 9440 50  0001 L TNN
+	1    9980 9815
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B RGB4
+U 1 1 5F9C3803
+P 9185 9815
+F 0 "RGB4" H 9529 9861 50  0000 L CNN
+F 1 "WS2812B" H 9529 9770 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9235 9515 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9285 9440 50  0001 L TNN
+	1    9185 9815
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B RGB14
+U 1 1 5F9E189B
+P 13160 9815
+F 0 "RGB14" H 13504 9861 50  0000 L CNN
+F 1 "WS2812B" H 13504 9770 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 13210 9515 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13260 9440 50  0001 L TNN
+	1    13160 9815
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B RGB12
+U 1 1 5F9E18A1
+P 12365 9815
+F 0 "RGB12" H 12709 9861 50  0000 L CNN
+F 1 "WS2812B" H 12709 9770 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12415 9515 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12465 9440 50  0001 L TNN
+	1    12365 9815
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B RGB8
+U 1 1 5F9E18AD
+P 10775 9815
+F 0 "RGB8" H 11119 9861 50  0000 L CNN
+F 1 "WS2812B" H 11119 9770 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10825 9515 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10875 9440 50  0001 L TNN
+	1    10775 9815
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B RGB10
+U 1 1 5F9E18B3
+P 11570 9815
+F 0 "RGB10" H 11914 9861 50  0000 L CNN
+F 1 "WS2812B" H 11914 9770 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11620 9515 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11670 9440 50  0001 L TNN
+	1    11570 9815
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B RGB16
+U 1 1 5F9FF44F
+P 13955 9815
+F 0 "RGB16" H 14299 9861 50  0000 L CNN
+F 1 "WS2812B" H 14299 9770 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 14005 9515 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14055 9440 50  0001 L TNN
+	1    13955 9815
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B RGB18
+U 1 1 5F9FF455
+P 14750 9815
+F 0 "RGB18" H 15094 9861 50  0000 L CNN
+F 1 "WS2812B" H 15094 9770 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 14800 9515 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14850 9440 50  0001 L TNN
+	1    14750 9815
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B RGB9
+U 1 1 5FA1FE09
+P 10775 10945
+F 0 "RGB9" H 11119 10991 50  0000 L CNN
+F 1 "WS2812B" H 11119 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10825 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10875 10570 50  0001 L TNN
+	1    10775 10945
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB7
+U 1 1 5FA1FE0F
+P 9980 10945
+F 0 "RGB7" H 10324 10991 50  0000 L CNN
+F 1 "WS2812B" H 10324 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 10030 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10080 10570 50  0001 L TNN
+	1    9980 10945
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB3
+U 1 1 5FA1FE15
+P 8390 10945
+F 0 "RGB3" H 8734 10991 50  0000 L CNN
+F 1 "WS2812B" H 8734 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8440 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8490 10570 50  0001 L TNN
+	1    8390 10945
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB5
+U 1 1 5FA1FE1B
+P 9185 10945
+F 0 "RGB5" H 9529 10991 50  0000 L CNN
+F 1 "WS2812B" H 9529 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 9235 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9285 10570 50  0001 L TNN
+	1    9185 10945
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB17
+U 1 1 5FA1FE21
+P 13955 10945
+F 0 "RGB17" H 14299 10991 50  0000 L CNN
+F 1 "WS2812B" H 14299 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 14005 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14055 10570 50  0001 L TNN
+	1    13955 10945
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB15
+U 1 1 5FA1FE27
+P 13160 10945
+F 0 "RGB15" H 13504 10991 50  0000 L CNN
+F 1 "WS2812B" H 13504 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 13210 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13260 10570 50  0001 L TNN
+	1    13160 10945
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB11
+U 1 1 5FA1FE2D
+P 11570 10945
+F 0 "RGB11" H 11914 10991 50  0000 L CNN
+F 1 "WS2812B" H 11914 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 11620 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11670 10570 50  0001 L TNN
+	1    11570 10945
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB13
+U 1 1 5FA1FE33
+P 12365 10945
+F 0 "RGB13" H 12709 10991 50  0000 L CNN
+F 1 "WS2812B" H 12709 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 12415 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12465 10570 50  0001 L TNN
+	1    12365 10945
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB23
+U 1 1 5FA1FE39
+P 17135 9815
+F 0 "RGB23" H 17479 9861 50  0000 L CNN
+F 1 "WS2812B" H 17479 9770 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 17185 9515 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 17235 9440 50  0001 L TNN
+	1    17135 9815
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B RGB22
+U 1 1 5FA1FE3F
+P 16340 10945
+F 0 "RGB22" H 16684 10991 50  0000 L CNN
+F 1 "WS2812B" H 16684 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 16390 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 16440 10570 50  0001 L TNN
+	1    16340 10945
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB19
+U 1 1 5FA1FE45
+P 14750 10945
+F 0 "RGB19" H 15094 10991 50  0000 L CNN
+F 1 "WS2812B" H 15094 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 14800 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14850 10570 50  0001 L TNN
+	1    14750 10945
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB21
+U 1 1 5FA1FE4B
+P 15545 10945
+F 0 "RGB21" H 15889 10991 50  0000 L CNN
+F 1 "WS2812B" H 15889 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 15595 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 15645 10570 50  0001 L TNN
+	1    15545 10945
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8690 10945 8885 10945
+Wire Wire Line
+	9485 10945 9680 10945
+Wire Wire Line
+	10280 10945 10475 10945
+Wire Wire Line
+	11075 10945 11270 10945
+Wire Wire Line
+	11870 10945 12065 10945
+Wire Wire Line
+	12665 10945 12860 10945
+Wire Wire Line
+	13460 10945 13655 10945
+Wire Wire Line
+	14255 10945 14450 10945
+Wire Wire Line
+	15050 10945 15245 10945
+Wire Wire Line
+	15845 10945 16040 10945
+Wire Wire Line
+	17435 10945 17630 10945
+Wire Wire Line
+	15245 9815 15050 9815
+Wire Wire Line
+	14450 9815 14255 9815
+Wire Wire Line
+	13655 9815 13460 9815
+Wire Wire Line
+	12860 9815 12665 9815
+Wire Wire Line
+	12065 9815 11870 9815
+Wire Wire Line
+	11075 9815 11270 9815
+Wire Wire Line
+	10475 9815 10280 9815
+Wire Wire Line
+	9680 9815 9485 9815
+Wire Wire Line
+	9185 10115 9980 10115
+Connection ~ 9980 10115
+Wire Wire Line
+	9980 10115 10775 10115
+Connection ~ 10775 10115
+Wire Wire Line
+	10775 10115 11570 10115
+Connection ~ 11570 10115
+Wire Wire Line
+	11570 10115 12365 10115
+Connection ~ 12365 10115
+Wire Wire Line
+	12365 10115 13160 10115
+Connection ~ 13160 10115
+Connection ~ 9980 9515
+Wire Wire Line
+	9980 9515 9185 9515
+Connection ~ 10775 9515
+Wire Wire Line
+	10775 9515 9980 9515
+Connection ~ 11570 9515
+Wire Wire Line
+	11570 9515 10775 9515
+Connection ~ 12365 9515
+Wire Wire Line
+	12365 9515 11570 9515
+Connection ~ 13160 9515
+Wire Wire Line
+	13160 9515 12365 9515
+Wire Wire Line
+	17135 10645 17135 10385
+Wire Wire Line
+	17630 10945 17630 9815
+Wire Wire Line
+	17630 9815 17435 9815
+Wire Wire Line
+	17895 11245 17895 10385
+Text GLabel 6500 10945 0    50   Input ~ 0
+LedRGB
+Wire Wire Line
+	8090 10945 7895 10945
+$Comp
+L LED:WS2812B RGB20
+U 1 1 5FA1FE57
+P 15545 9815
+F 0 "RGB20" H 15889 9861 50  0000 L CNN
+F 1 "WS2812B" H 15889 9770 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 15595 9515 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 15645 9440 50  0001 L TNN
+	1    15545 9815
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B RGB2
+U 1 1 5F9C380F
+P 7595 10945
+F 0 "RGB2" H 7939 10991 50  0000 L CNN
+F 1 "WS2812B" H 7939 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7645 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7695 10570 50  0001 L TNN
+	1    7595 10945
+	1    0    0    -1  
+$EndComp
+Connection ~ 14750 9515
+Wire Wire Line
+	14750 9515 15545 9515
+Connection ~ 14750 10115
+Wire Wire Line
+	14750 10115 15545 10115
+Connection ~ 15545 9515
+Connection ~ 15545 10115
+Connection ~ 17135 9515
+Wire Wire Line
+	17135 9515 17895 9515
+Connection ~ 17135 10115
+$Comp
+L power:+5V #PWR023
+U 1 1 61AC2665
+P 17135 10385
+F 0 "#PWR023" H 17135 10235 50  0001 C CNN
+F 1 "+5V" H 17135 10525 50  0000 C CNN
+F 2 "" H 17135 10385 50  0001 C CNN
+F 3 "" H 17135 10385 50  0001 C CNN
+	1    17135 10385
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17135 10385
+Wire Wire Line
+	17135 10385 17135 10115
+$Comp
+L power:GND #PWR025
+U 1 1 61C1E4E9
+P 17895 10385
+F 0 "#PWR025" H 17895 10135 50  0001 C CNN
+F 1 "GND" H 17895 10235 50  0000 C CNN
+F 2 "" H 17895 10385 50  0001 C CNN
+F 3 "" H 17895 10385 50  0001 C CNN
+	1    17895 10385
+	0    -1   -1   0   
+$EndComp
+Connection ~ 17895 10385
+Wire Wire Line
+	17895 10385 17895 9515
+Wire Wire Line
+	13160 10115 13955 10115
+Wire Wire Line
+	13160 9515 13955 9515
+Connection ~ 13955 10115
+Wire Wire Line
+	13955 10115 14750 10115
+Connection ~ 13955 9515
+Wire Wire Line
+	13955 9515 14750 9515
+Wire Wire Line
+	8390 10645 9185 10645
+Wire Wire Line
+	8390 11245 9185 11245
+$Comp
+L LED:WS2812B RGB24
+U 1 1 5F6123BE
+P 17135 10945
+F 0 "RGB24" H 17479 10991 50  0000 L CNN
+F 1 "WS2812B" H 17479 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 17185 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 17235 10570 50  0001 L TNN
+	1    17135 10945
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16640 10945 16835 10945
+Wire Wire Line
+	7295 10945 7100 10945
+$Comp
+L LED:WS2812B RGB1
+U 1 1 5F707F7A
+P 6800 10945
+F 0 "RGB1" H 7144 10991 50  0000 L CNN
+F 1 "WS2812B" H 7144 10900 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 6850 10645 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6900 10570 50  0001 L TNN
+	1    6800 10945
+	1    0    0    -1  
+$EndComp
+Connection ~ 9185 10645
+Wire Wire Line
+	9185 10645 9980 10645
+Connection ~ 9185 11245
+Wire Wire Line
+	9185 11245 9980 11245
+Connection ~ 9980 10645
+Wire Wire Line
+	9980 10645 10775 10645
+Connection ~ 9980 11245
+Wire Wire Line
+	9980 11245 10775 11245
+Connection ~ 10775 10645
+Wire Wire Line
+	10775 10645 11570 10645
+Connection ~ 10775 11245
+Wire Wire Line
+	10775 11245 11570 11245
+Connection ~ 11570 10645
+Wire Wire Line
+	11570 10645 12365 10645
+Connection ~ 11570 11245
+Wire Wire Line
+	11570 11245 12365 11245
+Connection ~ 12365 10645
+Wire Wire Line
+	12365 10645 13160 10645
+Connection ~ 12365 11245
+Wire Wire Line
+	12365 11245 13160 11245
+Connection ~ 13160 10645
+Wire Wire Line
+	13160 10645 13955 10645
+Connection ~ 13160 11245
+Wire Wire Line
+	13160 11245 13955 11245
+Connection ~ 13955 10645
+Wire Wire Line
+	13955 10645 14750 10645
+Connection ~ 13955 11245
+Wire Wire Line
+	13955 11245 14750 11245
+Connection ~ 14750 10645
+Wire Wire Line
+	14750 10645 15545 10645
+Connection ~ 14750 11245
+Wire Wire Line
+	14750 11245 15545 11245
+Connection ~ 15545 10645
+Wire Wire Line
+	15545 10645 16340 10645
+Connection ~ 15545 11245
+Wire Wire Line
+	15545 11245 16340 11245
+Connection ~ 16340 10645
+Wire Wire Line
+	16340 10645 17135 10645
+Connection ~ 16340 11245
+Wire Wire Line
+	16340 11245 17135 11245
+Connection ~ 17135 10645
+Connection ~ 17135 11245
+Wire Wire Line
+	17135 11245 17895 11245
+Wire Wire Line
+	8390 10645 7595 10645
+Connection ~ 8390 10645
+Connection ~ 7595 10645
+Wire Wire Line
+	7595 10645 6800 10645
+Wire Wire Line
+	6800 11245 7595 11245
+Connection ~ 8390 11245
+Connection ~ 7595 11245
+Wire Wire Line
+	7595 11245 8390 11245
+Text GLabel 2875 13635 0    50   Input ~ 0
+Row2
+Text GLabel 2875 13835 0    50   Input ~ 0
+Col18
+Wire Wire Line
+	18240 7960 19165 7960
+$Comp
+L 1800-layout-rescue:PRTR5V0U2X-random-keyboard-parts U5
+U 1 1 5F3898FF
+P 19340 8860
+F 0 "U5" H 19340 9157 60  0000 C CNN
+F 1 "PRTR5V0U2X" H 19340 9051 60  0000 C CNN
+F 2 "random-keyboard-parts:SOT143B" H 19340 8860 60  0001 C CNN
+F 3 "" H 19340 8860 60  0001 C CNN
+	1    19340 8860
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR034
+U 1 1 5F7E17C0
+P 19740 8810
+F 0 "#PWR034" H 19740 8660 50  0001 C CNN
+F 1 "+5V" H 19740 8950 50  0000 C CNN
+F 2 "" H 19740 8810 50  0001 C CNN
+F 3 "" H 19740 8810 50  0001 C CNN
+	1    19740 8810
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_FN1
+U 1 1 5F6F6E58
+P 8020 1805
+F 0 "MX_FN1" H 8106 2022 60  0000 C CNN
+F 1 "1U" H 8106 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 7995 1780 60  0001 C CNN
+F 3 "" H 7995 1780 60  0001 C CNN
+	1    8020 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_FN2
+U 1 1 5F6FC4D3
+P 8425 1805
+F 0 "MX_FN2" H 8511 2022 60  0000 C CNN
+F 1 "1U" H 8511 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 8400 1780 60  0001 C CNN
+F 3 "" H 8400 1780 60  0001 C CNN
+	1    8425 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_FN3
+U 1 1 5F6FD911
+P 8830 1805
+F 0 "MX_FN3" H 8916 2022 60  0000 C CNN
+F 1 "1U" H 8916 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 8805 1780 60  0001 C CNN
+F 3 "" H 8805 1780 60  0001 C CNN
+	1    8830 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_FN4
+U 1 1 5F6FD917
+P 9235 1805
+F 0 "MX_FN4" H 9321 2022 60  0000 C CNN
+F 1 "1U_FLIPPED" H 9321 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 9210 1780 60  0001 C CNN
+F 3 "" H 9210 1780 60  0001 C CNN
+	1    9235 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_ESC1
+U 1 1 5F7014B7
+P 10345 1805
+F 0 "MX_ESC1" H 10431 2022 60  0000 C CNN
+F 1 "1U FLIPPED" H 10431 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 10320 1780 60  0001 C CNN
+F 3 "" H 10320 1780 60  0001 C CNN
+	1    10345 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_PrtSc1
+U 1 1 5F70044E
+P 9790 1805
+F 0 "MX_PrtSc1" H 9876 2022 60  0000 C CNN
+F 1 "1U" H 9876 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 9765 1780 60  0001 C CNN
+F 3 "" H 9765 1780 60  0001 C CNN
+	1    9790 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F1
+U 1 1 5F705157
+P 11305 1805
+F 0 "MX_F1" H 11391 2022 60  0000 C CNN
+F 1 "1U" H 11391 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 11280 1780 60  0001 C CNN
+F 3 "" H 11280 1780 60  0001 C CNN
+	1    11305 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F2
+U 1 1 5F706796
+P 11710 1805
+F 0 "MX_F2" H 11796 2022 60  0000 C CNN
+F 1 "1U FLIPPED" H 11796 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 11685 1780 60  0001 C CNN
+F 3 "" H 11685 1780 60  0001 C CNN
+	1    11710 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F3
+U 1 1 5F707BE4
+P 12115 1805
+F 0 "MX_F3" H 12201 2022 60  0000 C CNN
+F 1 "1U FLIPPED" H 12201 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U-FLIPPED" H 12090 1780 60  0001 C CNN
+F 3 "" H 12090 1780 60  0001 C CNN
+	1    12115 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F5
+U 1 1 5F70A1D3
+P 12670 1805
+F 0 "MX_F5" H 12756 2022 60  0000 C CNN
+F 1 "1U" H 12756 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 12645 1780 60  0001 C CNN
+F 3 "" H 12645 1780 60  0001 C CNN
+	1    12670 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F6
+U 1 1 5F70A1D9
+P 13075 1805
+F 0 "MX_F6" H 13161 2022 60  0000 C CNN
+F 1 "1U" H 13161 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13050 1780 60  0001 C CNN
+F 3 "" H 13050 1780 60  0001 C CNN
+	1    13075 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F7
+U 1 1 5F70A1DF
+P 13480 1805
+F 0 "MX_F7" H 13566 2022 60  0000 C CNN
+F 1 "1U FLIPPED" H 13566 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13455 1780 60  0001 C CNN
+F 3 "" H 13455 1780 60  0001 C CNN
+	1    13480 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F8
+U 1 1 5F70A1E5
+P 13885 1805
+F 0 "MX_F8" H 13971 2022 60  0000 C CNN
+F 1 "1U" H 13971 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13860 1780 60  0001 C CNN
+F 3 "" H 13860 1780 60  0001 C CNN
+	1    13885 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F9
+U 1 1 5F70C7CA
+P 14440 1805
+F 0 "MX_F9" H 14526 2022 60  0000 C CNN
+F 1 "1U FLIPPED" H 14526 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 14415 1780 60  0001 C CNN
+F 3 "" H 14415 1780 60  0001 C CNN
+	1    14440 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F10
+U 1 1 5F70C7D0
+P 14845 1805
+F 0 "MX_F10" H 14931 2022 60  0000 C CNN
+F 1 "1U" H 14931 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 14820 1780 60  0001 C CNN
+F 3 "" H 14820 1780 60  0001 C CNN
+	1    14845 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F11
+U 1 1 5F70C7D6
+P 15250 1805
+F 0 "MX_F11" H 15336 2022 60  0000 C CNN
+F 1 "1U" H 15336 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 15225 1780 60  0001 C CNN
+F 3 "" H 15225 1780 60  0001 C CNN
+	1    15250 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F12
+U 1 1 5F70C7DC
+P 15655 1805
+F 0 "MX_F12" H 15741 2022 60  0000 C CNN
+F 1 "1U FLIPPED" H 15741 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 15630 1780 60  0001 C CNN
+F 3 "" H 15630 1780 60  0001 C CNN
+	1    15655 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F13
+U 1 1 5F710CBB
+P 16210 1805
+F 0 "MX_F13" H 16296 2022 60  0000 C CNN
+F 1 "1U FLIPPED" H 16296 1948 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 16185 1780 60  0001 C CNN
+F 3 "" H 16185 1780 60  0001 C CNN
+	1    16210 1805
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num-1
+U 1 1 5F725A66
+P 8020 2600
+F 0 "MX_num-1" H 8106 2817 60  0000 C CNN
+F 1 "1U" H 8106 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 7995 2575 60  0001 C CNN
+F 3 "" H 7995 2575 60  0001 C CNN
+	1    8020 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num*1
+U 1 1 5F725A6C
+P 8425 2600
+F 0 "MX_num*1" H 8511 2817 60  0000 C CNN
+F 1 "1U" H 8511 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 8400 2575 60  0001 C CNN
+F 3 "" H 8400 2575 60  0001 C CNN
+	1    8425 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num/1
+U 1 1 5F725A72
+P 8830 2600
+F 0 "MX_num/1" H 8916 2817 60  0000 C CNN
+F 1 "1U" H 8916 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 8805 2575 60  0001 C CNN
+F 3 "" H 8805 2575 60  0001 C CNN
+	1    8830 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_numLk1
+U 1 1 5F725A78
+P 5620 3020
+F 0 "MX_numLk1" H 5706 3237 60  0000 C CNN
+F 1 "1U" H 5706 3163 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 5595 2995 60  0001 C CNN
+F 3 "" H 5595 2995 60  0001 C CNN
+	1    5620 3020
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_`~1
+U 1 1 5F725A7E
+P 10345 2600
+F 0 "MX_`~1" H 10431 2825 60  0000 C CNN
+F 1 "1U" H 10431 2744 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 10320 2575 60  0001 C CNN
+F 3 "" H 10320 2575 60  0001 C CNN
+	1    10345 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_insert1
+U 1 1 5F725A84
+P 9790 2600
+F 0 "MX_insert1" H 9876 2817 60  0000 C CNN
+F 1 "1U" H 9876 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 9765 2575 60  0001 C CNN
+F 3 "" H 9765 2575 60  0001 C CNN
+	1    9790 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num+1
+U 1 1 5F744D15
+P 8020 3395
+F 0 "MX_num+1" H 8106 3612 60  0000 C CNN
+F 1 "2U FLIPPED" H 8106 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-2U" H 7995 3370 60  0001 C CNN
+F 3 "" H 7995 3370 60  0001 C CNN
+	1    8020 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num1
+U 1 1 5F744D1B
+P 8425 3395
+F 0 "MX_num1" H 8511 3612 60  0000 C CNN
+F 1 "1U" H 8511 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 8400 3370 60  0001 C CNN
+F 3 "" H 8400 3370 60  0001 C CNN
+	1    8425 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num5
+U 1 1 5F744D21
+P 8830 3395
+F 0 "MX_num5" H 8916 3612 60  0000 C CNN
+F 1 "1U" H 8916 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 8805 3370 60  0001 C CNN
+F 3 "" H 8805 3370 60  0001 C CNN
+	1    8830 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num8
+U 1 1 5F744D27
+P 9235 3395
+F 0 "MX_num8" H 9321 3612 60  0000 C CNN
+F 1 "1U" H 9321 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 9210 3370 60  0001 C CNN
+F 3 "" H 9210 3370 60  0001 C CNN
+	1    9235 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_tab1
+U 1 1 5F744D2D
+P 10345 3395
+F 0 "MX_tab1" H 10431 3612 60  0000 C CNN
+F 1 "1,5U" H 10431 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.5U" H 10320 3370 60  0001 C CNN
+F 3 "" H 10320 3370 60  0001 C CNN
+	1    10345 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_Delete1
+U 1 1 5F744D33
+P 9790 3395
+F 0 "MX_Delete1" H 9876 3612 60  0000 C CNN
+F 1 "1U" H 9876 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 9765 3370 60  0001 C CNN
+F 3 "" H 9765 3370 60  0001 C CNN
+	1    9790 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_Q1
+U 1 1 5F744D39
+P 10900 3395
+F 0 "MX_Q1" H 10986 3612 60  0000 C CNN
+F 1 "1U" H 10986 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 10875 3370 60  0001 C CNN
+F 3 "" H 10875 3370 60  0001 C CNN
+	1    10900 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_W1
+U 1 1 5F744D3F
+P 11305 3395
+F 0 "MX_W1" H 11391 3612 60  0000 C CNN
+F 1 "1U" H 11391 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 11280 3370 60  0001 C CNN
+F 3 "" H 11280 3370 60  0001 C CNN
+	1    11305 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_E1
+U 1 1 5F744D45
+P 11710 3395
+F 0 "MX_E1" H 11796 3612 60  0000 C CNN
+F 1 "1U" H 11796 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 11685 3370 60  0001 C CNN
+F 3 "" H 11685 3370 60  0001 C CNN
+	1    11710 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_P1
+U 1 1 5F744D4B
+P 14845 3395
+F 0 "MX_P1" H 14931 3612 60  0000 C CNN
+F 1 "1U" H 14931 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 14820 3370 60  0001 C CNN
+F 3 "" H 14820 3370 60  0001 C CNN
+	1    14845 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_O1
+U 1 1 5F744D51
+P 14440 3395
+F 0 "MX_O1" H 14526 3612 60  0000 C CNN
+F 1 "1U" H 14526 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 14415 3370 60  0001 C CNN
+F 3 "" H 14415 3370 60  0001 C CNN
+	1    14440 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_I1
+U 1 1 5F744D57
+P 13885 3395
+F 0 "MX_I1" H 13971 3612 60  0000 C CNN
+F 1 "1U" H 13971 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13860 3370 60  0001 C CNN
+F 3 "" H 13860 3370 60  0001 C CNN
+	1    13885 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_U1
+U 1 1 5F744D5D
+P 13480 3395
+F 0 "MX_U1" H 13566 3612 60  0000 C CNN
+F 1 "1U" H 13566 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13455 3370 60  0001 C CNN
+F 3 "" H 13455 3370 60  0001 C CNN
+	1    13480 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_Y1
+U 1 1 5F744D63
+P 13075 3395
+F 0 "MX_Y1" H 13161 3612 60  0000 C CNN
+F 1 "1U" H 13161 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13050 3370 60  0001 C CNN
+F 3 "" H 13050 3370 60  0001 C CNN
+	1    13075 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_T1
+U 1 1 5F744D69
+P 12670 3395
+F 0 "MX_T1" H 12756 3612 60  0000 C CNN
+F 1 "1U" H 12756 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 12645 3370 60  0001 C CNN
+F 3 "" H 12645 3370 60  0001 C CNN
+	1    12670 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_R1
+U 1 1 5F744D6F
+P 12115 3395
+F 0 "MX_R1" H 12201 3612 60  0000 C CNN
+F 1 "1U" H 12201 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 12090 3370 60  0001 C CNN
+F 3 "" H 12090 3370 60  0001 C CNN
+	1    12115 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_[1
+U 1 1 5F744D75
+P 15250 3395
+F 0 "MX_[1" H 15336 3612 60  0000 C CNN
+F 1 "1U" H 15336 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 15225 3370 60  0001 C CNN
+F 3 "" H 15225 3370 60  0001 C CNN
+	1    15250 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-NoLED-MX_Alps_Hybrid MX_|\2
+U 1 1 5F744D7B
+P 16935 3420
+F 0 "MX_|\\2" H 17021 3637 60  0000 C CNN
+F 1 "1.5U FLIPPED" H 17021 3563 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.5U-NoLED" H 16910 3395 60  0001 C CNN
+F 3 "" H 16910 3395 60  0001 C CNN
+	1    16935 3420
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_]1
+U 1 1 5F744D81
+P 15655 3395
+F 0 "MX_]1" H 15741 3612 60  0000 C CNN
+F 1 "1U" H 15741 3538 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 15630 3370 60  0001 C CNN
+F 3 "" H 15630 3370 60  0001 C CNN
+	1    15655 3395
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num2
+U 1 1 5F766093
+P 8425 4190
+F 0 "MX_num2" H 8511 4407 60  0000 C CNN
+F 1 "1U" H 8511 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 8400 4165 60  0001 C CNN
+F 3 "" H 8400 4165 60  0001 C CNN
+	1    8425 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num6
+U 1 1 5F766099
+P 8830 4190
+F 0 "MX_num6" H 8916 4407 60  0000 C CNN
+F 1 "1U" H 8916 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 8805 4165 60  0001 C CNN
+F 3 "" H 8805 4165 60  0001 C CNN
+	1    8830 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num9
+U 1 1 5F76609F
+P 9235 4190
+F 0 "MX_num9" H 9321 4407 60  0000 C CNN
+F 1 "1U" H 9321 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 9210 4165 60  0001 C CNN
+F 3 "" H 9210 4165 60  0001 C CNN
+	1    9235 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_A1
+U 1 1 5F7660B1
+P 10900 4190
+F 0 "MX_A1" H 10986 4407 60  0000 C CNN
+F 1 "1U" H 10986 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 10875 4165 60  0001 C CNN
+F 3 "" H 10875 4165 60  0001 C CNN
+	1    10900 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_S1
+U 1 1 5F7660B7
+P 11305 4190
+F 0 "MX_S1" H 11391 4407 60  0000 C CNN
+F 1 "1U" H 11391 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 11280 4165 60  0001 C CNN
+F 3 "" H 11280 4165 60  0001 C CNN
+	1    11305 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_D1
+U 1 1 5F7660BD
+P 11710 4190
+F 0 "MX_D1" H 11796 4407 60  0000 C CNN
+F 1 "1U" H 11796 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 11685 4165 60  0001 C CNN
+F 3 "" H 11685 4165 60  0001 C CNN
+	1    11710 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_;1
+U 1 1 5F7660C3
+P 14845 4190
+F 0 "MX_;1" H 14931 4407 60  0000 C CNN
+F 1 "1U" H 14931 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 14820 4165 60  0001 C CNN
+F 3 "" H 14820 4165 60  0001 C CNN
+	1    14845 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_L1
+U 1 1 5F7660C9
+P 14440 4190
+F 0 "MX_L1" H 14526 4407 60  0000 C CNN
+F 1 "1U" H 14526 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 14415 4165 60  0001 C CNN
+F 3 "" H 14415 4165 60  0001 C CNN
+	1    14440 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_K1
+U 1 1 5F7660CF
+P 13885 4190
+F 0 "MX_K1" H 13971 4407 60  0000 C CNN
+F 1 "1U" H 13971 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13860 4165 60  0001 C CNN
+F 3 "" H 13860 4165 60  0001 C CNN
+	1    13885 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_J1
+U 1 1 5F7660D5
+P 13480 4190
+F 0 "MX_J1" H 13566 4407 60  0000 C CNN
+F 1 "1U" H 13566 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13455 4165 60  0001 C CNN
+F 3 "" H 13455 4165 60  0001 C CNN
+	1    13480 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_H1
+U 1 1 5F7660DB
+P 13075 4190
+F 0 "MX_H1" H 13161 4407 60  0000 C CNN
+F 1 "1U" H 13161 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13050 4165 60  0001 C CNN
+F 3 "" H 13050 4165 60  0001 C CNN
+	1    13075 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_G1
+U 1 1 5F7660E1
+P 12670 4190
+F 0 "MX_G1" H 12756 4407 60  0000 C CNN
+F 1 "1U" H 12756 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 12645 4165 60  0001 C CNN
+F 3 "" H 12645 4165 60  0001 C CNN
+	1    12670 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_F4
+U 1 1 5F7660E7
+P 12115 4190
+F 0 "MX_F4" H 12201 4407 60  0000 C CNN
+F 1 "1U" H 12201 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 12090 4165 60  0001 C CNN
+F 3 "" H 12090 4165 60  0001 C CNN
+	1    12115 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_'1
+U 1 1 5F7660ED
+P 15250 4190
+F 0 "MX_'1" H 15336 4407 60  0000 C CNN
+F 1 "1U" H 15336 4333 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 15225 4165 60  0001 C CNN
+F 3 "" H 15225 4165 60  0001 C CNN
+	1    15250 4190
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-NoLED-MX_Alps_Hybrid MX_ENTER2
+U 1 1 5F7660F9
+P 16235 4215
+F 0 "MX_ENTER2" H 16321 4432 60  0000 C CNN
+F 1 "2,25U FLIPPED" H 16321 4358 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-2.25U-ReversedStabilizers-NoLED" H 16210 4190 60  0001 C CNN
+F 3 "" H 16210 4190 60  0001 C CNN
+	1    16235 4215
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_numEnter1
+U 1 1 5F775328
+P 8020 4985
+F 0 "MX_numEnter1" H 8106 5202 60  0000 C CNN
+F 1 "2U" H 8106 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-2U-FLIPPED" H 7995 4960 60  0001 C CNN
+F 3 "" H 7995 4960 60  0001 C CNN
+	1    8020 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num3
+U 1 1 5F780247
+P 8425 4985
+F 0 "MX_num3" H 8511 5202 60  0000 C CNN
+F 1 "1U" H 8511 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 8400 4960 60  0001 C CNN
+F 3 "" H 8400 4960 60  0001 C CNN
+	1    8425 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num7
+U 1 1 5F78024D
+P 8830 4985
+F 0 "MX_num7" H 8916 5202 60  0000 C CNN
+F 1 "1U" H 8916 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 8805 4960 60  0001 C CNN
+F 3 "" H 8805 4960 60  0001 C CNN
+	1    8830 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num10
+U 1 1 5F780253
+P 9235 4985
+F 0 "MX_num10" H 9321 5202 60  0000 C CNN
+F 1 "1U" H 9321 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 9210 4960 60  0001 C CNN
+F 3 "" H 9210 4960 60  0001 C CNN
+	1    9235 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_LShift1
+U 1 1 5F780259
+P 10345 4985
+F 0 "MX_LShift1" H 10431 5202 60  0000 C CNN
+F 1 "2,25U" H 10431 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-2.25U" H 10320 4960 60  0001 C CNN
+F 3 "" H 10320 4960 60  0001 C CNN
+	1    10345 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_up1
+U 1 1 5F78025F
+P 9790 4985
+F 0 "MX_up1" H 9876 5202 60  0000 C CNN
+F 1 "1U" H 9876 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 9765 4960 60  0001 C CNN
+F 3 "" H 9765 4960 60  0001 C CNN
+	1    9790 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_z1
+U 1 1 5F780265
+P 10900 4985
+F 0 "MX_z1" H 10986 5202 60  0000 C CNN
+F 1 "1U" H 10986 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 10875 4960 60  0001 C CNN
+F 3 "" H 10875 4960 60  0001 C CNN
+	1    10900 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_x1
+U 1 1 5F78026B
+P 11305 4985
+F 0 "MX_x1" H 11391 5202 60  0000 C CNN
+F 1 "1U" H 11391 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 11280 4960 60  0001 C CNN
+F 3 "" H 11280 4960 60  0001 C CNN
+	1    11305 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_c1
+U 1 1 5F780271
+P 11710 4985
+F 0 "MX_c1" H 11796 5202 60  0000 C CNN
+F 1 "1U" H 11796 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 11685 4960 60  0001 C CNN
+F 3 "" H 11685 4960 60  0001 C CNN
+	1    11710 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_/?/1
+U 1 1 5F780277
+P 14845 4985
+F 0 "MX_/?/1" H 14931 5202 60  0000 C CNN
+F 1 "1U" H 14931 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 14820 4960 60  0001 C CNN
+F 3 "" H 14820 4960 60  0001 C CNN
+	1    14845 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_>1
+U 1 1 5F78027D
+P 14440 4985
+F 0 "MX_>1" H 14526 5202 60  0000 C CNN
+F 1 "1U" H 14526 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 14415 4960 60  0001 C CNN
+F 3 "" H 14415 4960 60  0001 C CNN
+	1    14440 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_<1
+U 1 1 5F780283
+P 13885 4985
+F 0 "MX_<1" H 13971 5202 60  0000 C CNN
+F 1 "1U" H 13971 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13860 4960 60  0001 C CNN
+F 3 "" H 13860 4960 60  0001 C CNN
+	1    13885 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_m1
+U 1 1 5F780289
+P 13480 4985
+F 0 "MX_m1" H 13566 5202 60  0000 C CNN
+F 1 "1U" H 13566 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13455 4960 60  0001 C CNN
+F 3 "" H 13455 4960 60  0001 C CNN
+	1    13480 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_n1
+U 1 1 5F78028F
+P 13075 4985
+F 0 "MX_n1" H 13161 5202 60  0000 C CNN
+F 1 "1U" H 13161 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13050 4960 60  0001 C CNN
+F 3 "" H 13050 4960 60  0001 C CNN
+	1    13075 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_b1
+U 1 1 5F780295
+P 12670 4985
+F 0 "MX_b1" H 12756 5202 60  0000 C CNN
+F 1 "1U" H 12756 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 12645 4960 60  0001 C CNN
+F 3 "" H 12645 4960 60  0001 C CNN
+	1    12670 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_v1
+U 1 1 5F78029B
+P 12115 4985
+F 0 "MX_v1" H 12201 5202 60  0000 C CNN
+F 1 "1U" H 12201 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 12090 4960 60  0001 C CNN
+F 3 "" H 12090 4960 60  0001 C CNN
+	1    12115 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_RShift1
+U 1 1 5F7802A1
+P 16210 4985
+F 0 "MX_RShift1" H 16296 5202 60  0000 C CNN
+F 1 "2,75U FLIPPED" H 16296 5128 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-2.75U" H 16185 4960 60  0001 C CNN
+F 3 "" H 16185 4960 60  0001 C CNN
+	1    16210 4985
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_+1
+U 1 1 5F73FDBF
+P 15655 2600
+F 0 "MX_+1" H 15741 2817 60  0000 C CNN
+F 1 "1U" H 15741 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 15630 2575 60  0001 C CNN
+F 3 "" H 15630 2575 60  0001 C CNN
+	1    15655 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_BkSp1
+U 1 1 5F73FDB9
+P 16210 2600
+F 0 "MX_BkSp1" H 16296 2817 60  0000 C CNN
+F 1 "2U FLIPPED" H 16296 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-2U" H 16185 2575 60  0001 C CNN
+F 3 "" H 16185 2575 60  0001 C CNN
+	1    16210 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_-1
+U 1 1 5F73E0F7
+P 15250 2600
+F 0 "MX_-1" H 15336 2817 60  0000 C CNN
+F 1 "1U" H 15336 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 15225 2575 60  0001 C CNN
+F 3 "" H 15225 2575 60  0001 C CNN
+	1    15250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_4
+U 1 1 5F725AA2
+P 12115 2600
+F 0 "MX_4" H 12201 2817 60  0000 C CNN
+F 1 "1U" H 12201 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 12090 2575 60  0001 C CNN
+F 3 "" H 12090 2575 60  0001 C CNN
+	1    12115 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_5
+U 1 1 5F725AA8
+P 12670 2600
+F 0 "MX_5" H 12756 2817 60  0000 C CNN
+F 1 "1U" H 12756 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 12645 2575 60  0001 C CNN
+F 3 "" H 12645 2575 60  0001 C CNN
+	1    12670 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_6
+U 1 1 5F725AAE
+P 13075 2600
+F 0 "MX_6" H 13161 2817 60  0000 C CNN
+F 1 "1U" H 13161 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13050 2575 60  0001 C CNN
+F 3 "" H 13050 2575 60  0001 C CNN
+	1    13075 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_7
+U 1 1 5F725AB4
+P 13480 2600
+F 0 "MX_7" H 13566 2817 60  0000 C CNN
+F 1 "1U" H 13566 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13455 2575 60  0001 C CNN
+F 3 "" H 13455 2575 60  0001 C CNN
+	1    13480 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_8
+U 1 1 5F725AC0
+P 13885 2600
+F 0 "MX_8" H 13971 2817 60  0000 C CNN
+F 1 "1U" H 13971 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 13860 2575 60  0001 C CNN
+F 3 "" H 13860 2575 60  0001 C CNN
+	1    13885 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_9
+U 1 1 5F725AC6
+P 14440 2600
+F 0 "MX_9" H 14526 2817 60  0000 C CNN
+F 1 "1U" H 14526 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 14415 2575 60  0001 C CNN
+F 3 "" H 14415 2575 60  0001 C CNN
+	1    14440 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_10
+U 1 1 5F725ACC
+P 14845 2600
+F 0 "MX_10" H 14931 2817 60  0000 C CNN
+F 1 "1U" H 14931 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 14820 2575 60  0001 C CNN
+F 3 "" H 14820 2575 60  0001 C CNN
+	1    14845 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_3
+U 1 1 5F725A96
+P 11710 2600
+F 0 "MX_3" H 11796 2817 60  0000 C CNN
+F 1 "1U" H 11796 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 11685 2575 60  0001 C CNN
+F 3 "" H 11685 2575 60  0001 C CNN
+	1    11710 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_2
+U 1 1 5F725A90
+P 11305 2600
+F 0 "MX_2" H 11391 2817 60  0000 C CNN
+F 1 "1U" H 11391 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 11280 2575 60  0001 C CNN
+F 3 "" H 11280 2575 60  0001 C CNN
+	1    11305 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_1
+U 1 1 5F725A8A
+P 10900 2600
+F 0 "MX_1" H 10986 2817 60  0000 C CNN
+F 1 "1U" H 10986 2743 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 10875 2575 60  0001 C CNN
+F 3 "" H 10875 2575 60  0001 C CNN
+	1    10900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_num4
+U 1 1 5F794F36
+P 8425 5780
+F 0 "MX_num4" H 8511 5997 60  0000 C CNN
+F 1 "1U" H 8511 5923 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 8400 5755 60  0001 C CNN
+F 3 "" H 8400 5755 60  0001 C CNN
+	1    8425 5780
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_numDel1
+U 1 1 5F794F3C
+P 8830 5780
+F 0 "MX_numDel1" H 8916 5997 60  0000 C CNN
+F 1 "1U" H 8916 5923 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 8805 5755 60  0001 C CNN
+F 3 "" H 8805 5755 60  0001 C CNN
+	1    8830 5780
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 5905 13165 5905
+Wire Wire Line
+	11735 5905 11800 5905
+Wire Wire Line
+	11330 5905 11395 5905
+Wire Wire Line
+	10925 5905 10990 5905
+Wire Wire Line
+	9815 5905 9880 5905
+Wire Wire Line
+	10370 5905 10435 5905
+Wire Wire Line
+	9260 5905 9325 5905
+Wire Wire Line
+	8855 5905 8920 5905
+Wire Wire Line
+	8450 5905 8515 5905
+Wire Wire Line
+	13050 5955 12890 5955
+Wire Wire Line
+	11685 5955 11525 5955
+Wire Wire Line
+	11280 5955 11120 5955
+Wire Wire Line
+	10875 5955 10715 5955
+Wire Wire Line
+	10320 5955 10160 5955
+Wire Wire Line
+	9765 5955 9605 5955
+Wire Wire Line
+	9210 5955 9050 5955
+Wire Wire Line
+	8805 5955 8645 5955
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_right1
+U 1 1 5F38AAE1
+P 10345 5780
+F 0 "MX_right1" H 10431 5997 60  0000 C CNN
+F 1 "1U" H 10431 5923 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 10320 5755 60  0001 C CNN
+F 3 "" H 10320 5755 60  0001 C CNN
+	1    10345 5780
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_Down1
+U 1 1 5F38AAE2
+P 9790 5780
+F 0 "MX_Down1" H 9876 5997 60  0000 C CNN
+F 1 "1U" H 9876 5923 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 9765 5755 60  0001 C CNN
+F 3 "" H 9765 5755 60  0001 C CNN
+	1    9790 5780
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_LControl1
+U 1 1 5F38AAE3
+P 10900 5780
+F 0 "MX_LControl1" H 10986 5997 60  0000 C CNN
+F 1 "1,5U" H 10986 5923 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.5U" H 10875 5755 60  0001 C CNN
+F 3 "" H 10875 5755 60  0001 C CNN
+	1    10900 5780
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_LWin1
+U 1 1 5F794F5A
+P 11305 5780
+F 0 "MX_LWin1" H 11391 5997 60  0000 C CNN
+F 1 "1U" H 11391 5923 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 11280 5755 60  0001 C CNN
+F 3 "" H 11280 5755 60  0001 C CNN
+	1    11305 5780
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_ALT1
+U 1 1 5F38AAE5
+P 11710 5780
+F 0 "MX_ALT1" H 11796 5997 60  0000 C CNN
+F 1 "1,5U" H 11796 5923 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.5U" H 11685 5755 60  0001 C CNN
+F 3 "" H 11685 5755 60  0001 C CNN
+	1    11710 5780
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_SpaceBar1
+U 1 1 5F38AAE8
+P 13075 5780
+F 0 "MX_SpaceBar1" H 13161 5997 60  0000 C CNN
+F 1 "6,25U FLIPPED" H 13161 5923 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-6.25U-FLIPPED-ReversedStabilizers" H 13050 5755 60  0001 C CNN
+F 3 "" H 13050 5755 60  0001 C CNN
+	1    13075 5780
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_LControl2
+U 1 1 5F2D728F
+P 10900 6555
+F 0 "MX_LControl2" H 10986 6772 60  0000 C CNN
+F 1 "1,25U FLIPPED" H 10986 6698 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.25U-FLIPPED" H 10875 6530 60  0001 C CNN
+F 3 "" H 10875 6530 60  0001 C CNN
+	1    10900 6555
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_ALT2
+U 1 1 5F2D729B
+P 11710 6555
+F 0 "MX_ALT2" H 11796 6772 60  0000 C CNN
+F 1 "1,25U FLIPPED" H 11796 6698 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.25U-FLIPPED" H 11685 6530 60  0001 C CNN
+F 3 "" H 11685 6530 60  0001 C CNN
+	1    11710 6555
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_LWin2
+U 1 1 5F2E14E5
+P 11305 6555
+F 0 "MX_LWin2" H 11391 6772 60  0000 C CNN
+F 1 "1,25U NoLed" H 11391 6698 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.25U-FLIPPED" H 11280 6530 60  0001 C CNN
+F 3 "" H 11280 6530 60  0001 C CNN
+	1    11305 6555
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_SpaceBar2
+U 1 1 5F2E8C71
+P 13075 6555
+F 0 "MX_SpaceBar2" H 13161 6772 60  0000 C CNN
+F 1 "6,25U FLIPPED" H 13161 6698 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-6.25U-FLIPPED-ReversedStabilizers" H 13050 6530 60  0001 C CNN
+F 3 "" H 13050 6530 60  0001 C CNN
+	1    13075 6555
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_SpaceBar3
+U 1 1 5F2ED02F
+P 13075 7330
+F 0 "MX_SpaceBar3" H 13161 7547 60  0000 C CNN
+F 1 "7U" H 13161 7473 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-7U-ReversedStabilizers" H 13050 7305 60  0001 C CNN
+F 3 "" H 13050 7305 60  0001 C CNN
+	1    13075 7330
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D16
+U 1 1 5F42B5A4
+P 8645 6105
+F 0 "D16" V 8691 6026 50  0000 R CNN
+F 1 "SOD123" V 8600 6026 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8645 6105 50  0001 C CNN
+F 3 "~" H 8645 6105 50  0001 C CNN
+	1    8645 6105
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9765 5160 9605 5160
+$Comp
+L Device:D D26
+U 1 1 5F43D662
+P 9605 5310
+F 0 "D26" V 9651 5231 50  0000 R CNN
+F 1 "SOD123" V 9560 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9605 5310 50  0001 C CNN
+F 3 "~" H 9605 5310 50  0001 C CNN
+	1    9605 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 5955 8240 5955
+$Comp
+L Device:D D10
+U 1 1 5F45E557
+P 8240 6105
+F 0 "D10" V 8286 6026 50  0000 R CNN
+F 1 "SOD123" V 8195 6026 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8240 6105 50  0001 C CNN
+F 3 "~" H 8240 6105 50  0001 C CNN
+	1    8240 6105
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7995 1980 7835 1980
+$Comp
+L Device:D D1
+U 1 1 5F466B4F
+P 7835 2130
+F 0 "D1" V 7881 2051 50  0000 R CNN
+F 1 "SOD123" V 7790 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7835 2130 50  0001 C CNN
+F 3 "~" H 7835 2130 50  0001 C CNN
+	1    7835 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 1980 8240 1980
+$Comp
+L Device:D D5
+U 1 1 5F46F326
+P 8240 2130
+F 0 "D5" V 8286 2051 50  0000 R CNN
+F 1 "SOD123" V 8195 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8240 2130 50  0001 C CNN
+F 3 "~" H 8240 2130 50  0001 C CNN
+	1    8240 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8805 1980 8645 1980
+$Comp
+L Device:D D11
+U 1 1 5F477C3C
+P 8645 2130
+F 0 "D11" V 8691 2051 50  0000 R CNN
+F 1 "SOD123" V 8600 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8645 2130 50  0001 C CNN
+F 3 "~" H 8645 2130 50  0001 C CNN
+	1    8645 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9210 1980 9050 1980
+$Comp
+L Device:D D17
+U 1 1 5F48059D
+P 9050 2130
+F 0 "D17" V 9096 2051 50  0000 R CNN
+F 1 "SOD123" V 9005 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9050 2130 50  0001 C CNN
+F 3 "~" H 9050 2130 50  0001 C CNN
+	1    9050 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9765 1980 9605 1980
+$Comp
+L Device:D D23
+U 1 1 5F489107
+P 9605 2130
+F 0 "D23" V 9651 2051 50  0000 R CNN
+F 1 "SOD123" V 9560 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9605 2130 50  0001 C CNN
+F 3 "~" H 9605 2130 50  0001 C CNN
+	1    9605 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10320 1980 10160 1980
+$Comp
+L Device:D D28
+U 1 1 5F491E21
+P 10160 2130
+F 0 "D28" V 10206 2051 50  0000 R CNN
+F 1 "SOD123" V 10115 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10160 2130 50  0001 C CNN
+F 3 "~" H 10160 2130 50  0001 C CNN
+	1    10160 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11280 1980 11120 1980
+$Comp
+L Device:D D39
+U 1 1 5F4A3DFE
+P 11120 2130
+F 0 "D39" V 11166 2051 50  0000 R CNN
+F 1 "SOD123" V 11075 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11120 2130 50  0001 C CNN
+F 3 "~" H 11120 2130 50  0001 C CNN
+	1    11120 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11685 1980 11525 1980
+$Comp
+L Device:D D45
+U 1 1 5F4ACF7B
+P 11525 2130
+F 0 "D45" V 11571 2051 50  0000 R CNN
+F 1 "SOD123" V 11480 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11525 2130 50  0001 C CNN
+F 3 "~" H 11525 2130 50  0001 C CNN
+	1    11525 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12090 1980 11930 1980
+$Comp
+L Device:D D51
+U 1 1 5F4B6204
+P 11930 2130
+F 0 "D51" V 11976 2051 50  0000 R CNN
+F 1 "SOD123" V 11885 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11930 2130 50  0001 C CNN
+F 3 "~" H 11930 2130 50  0001 C CNN
+	1    11930 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12645 1980 12485 1980
+$Comp
+L Device:D D56
+U 1 1 5F4BF6B9
+P 12485 2130
+F 0 "D56" V 12531 2051 50  0000 R CNN
+F 1 "SOD123" V 12440 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 12485 2130 50  0001 C CNN
+F 3 "~" H 12485 2130 50  0001 C CNN
+	1    12485 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13050 1980 12890 1980
+$Comp
+L Device:D D61
+U 1 1 5F4C8BC3
+P 12890 2130
+F 0 "D61" V 12936 2051 50  0000 R CNN
+F 1 "SOD123" V 12845 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 12890 2130 50  0001 C CNN
+F 3 "~" H 12890 2130 50  0001 C CNN
+	1    12890 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13455 1980 13295 1980
+$Comp
+L Device:D D67
+U 1 1 5F4D21ED
+P 13295 2130
+F 0 "D67" V 13341 2051 50  0000 R CNN
+F 1 "SOD123" V 13250 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 13295 2130 50  0001 C CNN
+F 3 "~" H 13295 2130 50  0001 C CNN
+	1    13295 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13860 1980 13700 1980
+$Comp
+L Device:D D72
+U 1 1 5F4E6AAD
+P 13700 2130
+F 0 "D72" V 13746 2051 50  0000 R CNN
+F 1 "SOD123" V 13655 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 13700 2130 50  0001 C CNN
+F 3 "~" H 13700 2130 50  0001 C CNN
+	1    13700 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14415 1980 14255 1980
+$Comp
+L Device:D D77
+U 1 1 5F4F0560
+P 14255 2130
+F 0 "D77" V 14301 2051 50  0000 R CNN
+F 1 "SOD123" V 14210 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 14255 2130 50  0001 C CNN
+F 3 "~" H 14255 2130 50  0001 C CNN
+	1    14255 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14820 1980 14660 1980
+$Comp
+L Device:D D82
+U 1 1 5F4FA106
+P 14660 2130
+F 0 "D82" V 14706 2051 50  0000 R CNN
+F 1 "SOD123" V 14615 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 14660 2130 50  0001 C CNN
+F 3 "~" H 14660 2130 50  0001 C CNN
+	1    14660 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15225 1980 15065 1980
+$Comp
+L Device:D D88
+U 1 1 5F503D58
+P 15065 2130
+F 0 "D88" V 15111 2051 50  0000 R CNN
+F 1 "SOD123" V 15020 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15065 2130 50  0001 C CNN
+F 3 "~" H 15065 2130 50  0001 C CNN
+	1    15065 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15630 1980 15470 1980
+$Comp
+L Device:D D93
+U 1 1 5F50DA25
+P 15470 2130
+F 0 "D93" V 15516 2051 50  0000 R CNN
+F 1 "SOD123" V 15425 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15470 2130 50  0001 C CNN
+F 3 "~" H 15470 2130 50  0001 C CNN
+	1    15470 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16185 1980 16025 1980
+$Comp
+L Device:D D96
+U 1 1 5F517928
+P 16025 2130
+F 0 "D96" V 16071 2051 50  0000 R CNN
+F 1 "SOD123" V 15980 2051 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 16025 2130 50  0001 C CNN
+F 3 "~" H 16025 2130 50  0001 C CNN
+	1    16025 2130
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7995 2775 7835 2775
+$Comp
+L Device:D D2
+U 1 1 5F521A1A
+P 7835 2925
+F 0 "D2" V 7881 2846 50  0000 R CNN
+F 1 "SOD123" V 7790 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7835 2925 50  0001 C CNN
+F 3 "~" H 7835 2925 50  0001 C CNN
+	1    7835 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 2775 8240 2775
+$Comp
+L Device:D D6
+U 1 1 5F52BE54
+P 8240 2925
+F 0 "D6" V 8286 2846 50  0000 R CNN
+F 1 "SOD123" V 8195 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8240 2925 50  0001 C CNN
+F 3 "~" H 8240 2925 50  0001 C CNN
+	1    8240 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8805 2775 8645 2775
+$Comp
+L Device:D D12
+U 1 1 5F536283
+P 8645 2925
+F 0 "D12" V 8691 2846 50  0000 R CNN
+F 1 "SOD123" V 8600 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8645 2925 50  0001 C CNN
+F 3 "~" H 8645 2925 50  0001 C CNN
+	1    8645 2925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D18
+U 1 1 5F54C913
+P 5595 3345
+F 0 "D18" V 5641 3266 50  0000 R CNN
+F 1 "SOD123" V 5550 3266 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5595 3345 50  0001 C CNN
+F 3 "~" H 5595 3345 50  0001 C CNN
+	1    5595 3345
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9765 2775 9605 2775
+$Comp
+L Device:D D24
+U 1 1 5F5571EB
+P 9605 2925
+F 0 "D24" V 9651 2846 50  0000 R CNN
+F 1 "SOD123" V 9560 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9605 2925 50  0001 C CNN
+F 3 "~" H 9605 2925 50  0001 C CNN
+	1    9605 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10320 2775 10160 2775
+$Comp
+L Device:D D29
+U 1 1 5F561C7C
+P 10160 2925
+F 0 "D29" V 10206 2846 50  0000 R CNN
+F 1 "SOD123" V 10115 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10160 2925 50  0001 C CNN
+F 3 "~" H 10160 2925 50  0001 C CNN
+	1    10160 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10875 2775 10715 2775
+$Comp
+L Device:D D34
+U 1 1 5F56C7BB
+P 10715 2925
+F 0 "D34" V 10761 2846 50  0000 R CNN
+F 1 "SOD123" V 10670 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10715 2925 50  0001 C CNN
+F 3 "~" H 10715 2925 50  0001 C CNN
+	1    10715 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11280 2775 11120 2775
+$Comp
+L Device:D D40
+U 1 1 5F577506
+P 11120 2925
+F 0 "D40" V 11166 2846 50  0000 R CNN
+F 1 "SOD123" V 11075 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11120 2925 50  0001 C CNN
+F 3 "~" H 11120 2925 50  0001 C CNN
+	1    11120 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11685 2775 11525 2775
+$Comp
+L Device:D D46
+U 1 1 5F582319
+P 11525 2925
+F 0 "D46" V 11571 2846 50  0000 R CNN
+F 1 "SOD123" V 11480 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11525 2925 50  0001 C CNN
+F 3 "~" H 11525 2925 50  0001 C CNN
+	1    11525 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12090 2775 11930 2775
+$Comp
+L Device:D D52
+U 1 1 5F58D48D
+P 11930 2925
+F 0 "D52" V 11976 2846 50  0000 R CNN
+F 1 "SOD123" V 11885 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11930 2925 50  0001 C CNN
+F 3 "~" H 11930 2925 50  0001 C CNN
+	1    11930 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12645 2775 12485 2775
+$Comp
+L Device:D D57
+U 1 1 5F598879
+P 12485 2925
+F 0 "D57" V 12531 2846 50  0000 R CNN
+F 1 "SOD123" V 12440 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 12485 2925 50  0001 C CNN
+F 3 "~" H 12485 2925 50  0001 C CNN
+	1    12485 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13050 2775 12890 2775
+$Comp
+L Device:D D62
+U 1 1 5F5B0AC4
+P 12890 2925
+F 0 "D62" V 12936 2846 50  0000 R CNN
+F 1 "SOD123" V 12845 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 12890 2925 50  0001 C CNN
+F 3 "~" H 12890 2925 50  0001 C CNN
+	1    12890 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13455 2775 13295 2775
+$Comp
+L Device:D D68
+U 1 1 5F5BC09B
+P 13295 2925
+F 0 "D68" V 13341 2846 50  0000 R CNN
+F 1 "SOD123" V 13250 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 13295 2925 50  0001 C CNN
+F 3 "~" H 13295 2925 50  0001 C CNN
+	1    13295 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13860 2775 13700 2775
+$Comp
+L Device:D D73
+U 1 1 5F5C76D3
+P 13700 2925
+F 0 "D73" V 13746 2846 50  0000 R CNN
+F 1 "SOD123" V 13655 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 13700 2925 50  0001 C CNN
+F 3 "~" H 13700 2925 50  0001 C CNN
+	1    13700 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14415 2775 14255 2775
+$Comp
+L Device:D D78
+U 1 1 5F5D2EAC
+P 14255 2925
+F 0 "D78" V 14301 2846 50  0000 R CNN
+F 1 "SOD123" V 14210 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 14255 2925 50  0001 C CNN
+F 3 "~" H 14255 2925 50  0001 C CNN
+	1    14255 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14820 2775 14660 2775
+$Comp
+L Device:D D83
+U 1 1 5F5DE8A4
+P 14660 2925
+F 0 "D83" V 14706 2846 50  0000 R CNN
+F 1 "SOD123" V 14615 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 14660 2925 50  0001 C CNN
+F 3 "~" H 14660 2925 50  0001 C CNN
+	1    14660 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15225 2775 15065 2775
+$Comp
+L Device:D D89
+U 1 1 5F5EA47F
+P 15065 2925
+F 0 "D89" V 15111 2846 50  0000 R CNN
+F 1 "SOD123" V 15020 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15065 2925 50  0001 C CNN
+F 3 "~" H 15065 2925 50  0001 C CNN
+	1    15065 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15630 2775 15470 2775
+$Comp
+L Device:D D94
+U 1 1 5F6039EA
+P 15470 2925
+F 0 "D94" V 15516 2846 50  0000 R CNN
+F 1 "SOD123" V 15425 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15470 2925 50  0001 C CNN
+F 3 "~" H 15470 2925 50  0001 C CNN
+	1    15470 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16185 2775 16025 2775
+$Comp
+L Device:D D97
+U 1 1 5F60F9ED
+P 16025 2925
+F 0 "D97" V 16071 2846 50  0000 R CNN
+F 1 "SOD123" V 15980 2846 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 16025 2925 50  0001 C CNN
+F 3 "~" H 16025 2925 50  0001 C CNN
+	1    16025 2925
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10875 3570 10715 3570
+$Comp
+L Device:D D35
+U 1 1 5F62BB64
+P 10715 3720
+F 0 "D35" V 10761 3641 50  0000 R CNN
+F 1 "SOD123" V 10670 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10715 3720 50  0001 C CNN
+F 3 "~" H 10715 3720 50  0001 C CNN
+	1    10715 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11280 3570 11120 3570
+$Comp
+L Device:D D41
+U 1 1 5F62BB6B
+P 11120 3720
+F 0 "D41" V 11166 3641 50  0000 R CNN
+F 1 "SOD123" V 11075 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11120 3720 50  0001 C CNN
+F 3 "~" H 11120 3720 50  0001 C CNN
+	1    11120 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11685 3570 11525 3570
+$Comp
+L Device:D D47
+U 1 1 5F62BB72
+P 11525 3720
+F 0 "D47" V 11571 3641 50  0000 R CNN
+F 1 "SOD123" V 11480 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11525 3720 50  0001 C CNN
+F 3 "~" H 11525 3720 50  0001 C CNN
+	1    11525 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12090 3570 11930 3570
+$Comp
+L Device:D D53
+U 1 1 5F62BB79
+P 11930 3720
+F 0 "D53" V 11976 3641 50  0000 R CNN
+F 1 "SOD123" V 11885 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11930 3720 50  0001 C CNN
+F 3 "~" H 11930 3720 50  0001 C CNN
+	1    11930 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12645 3570 12485 3570
+$Comp
+L Device:D D58
+U 1 1 5F62BB80
+P 12485 3720
+F 0 "D58" V 12531 3641 50  0000 R CNN
+F 1 "SOD123" V 12440 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 12485 3720 50  0001 C CNN
+F 3 "~" H 12485 3720 50  0001 C CNN
+	1    12485 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13050 3570 12890 3570
+$Comp
+L Device:D D63
+U 1 1 5F62BB87
+P 12890 3720
+F 0 "D63" V 12936 3641 50  0000 R CNN
+F 1 "SOD123" V 12845 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 12890 3720 50  0001 C CNN
+F 3 "~" H 12890 3720 50  0001 C CNN
+	1    12890 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13455 3570 13295 3570
+$Comp
+L Device:D D69
+U 1 1 5F62BB8E
+P 13295 3720
+F 0 "D69" V 13341 3641 50  0000 R CNN
+F 1 "SOD123" V 13250 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 13295 3720 50  0001 C CNN
+F 3 "~" H 13295 3720 50  0001 C CNN
+	1    13295 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13860 3570 13700 3570
+$Comp
+L Device:D D74
+U 1 1 5F62BB95
+P 13700 3720
+F 0 "D74" V 13746 3641 50  0000 R CNN
+F 1 "SOD123" V 13655 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 13700 3720 50  0001 C CNN
+F 3 "~" H 13700 3720 50  0001 C CNN
+	1    13700 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14415 3570 14255 3570
+$Comp
+L Device:D D79
+U 1 1 5F62BB9C
+P 14255 3720
+F 0 "D79" V 14301 3641 50  0000 R CNN
+F 1 "SOD123" V 14210 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 14255 3720 50  0001 C CNN
+F 3 "~" H 14255 3720 50  0001 C CNN
+	1    14255 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14820 3570 14660 3570
+$Comp
+L Device:D D84
+U 1 1 5F62BBA3
+P 14660 3720
+F 0 "D84" V 14706 3641 50  0000 R CNN
+F 1 "SOD123" V 14615 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 14660 3720 50  0001 C CNN
+F 3 "~" H 14660 3720 50  0001 C CNN
+	1    14660 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15225 3570 15065 3570
+$Comp
+L Device:D D90
+U 1 1 5F62BBAA
+P 15065 3720
+F 0 "D90" V 15111 3641 50  0000 R CNN
+F 1 "SOD123" V 15020 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15065 3720 50  0001 C CNN
+F 3 "~" H 15065 3720 50  0001 C CNN
+	1    15065 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15630 3570 15470 3570
+$Comp
+L Device:D D95
+U 1 1 5F62BBB1
+P 15470 3720
+F 0 "D95" V 15516 3641 50  0000 R CNN
+F 1 "SOD123" V 15425 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15470 3720 50  0001 C CNN
+F 3 "~" H 15470 3720 50  0001 C CNN
+	1    15470 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7995 3570 7835 3570
+$Comp
+L Device:D D3
+U 1 1 5F67DE13
+P 7835 3720
+F 0 "D3" V 7881 3641 50  0000 R CNN
+F 1 "SOD123" V 7790 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7835 3720 50  0001 C CNN
+F 3 "~" H 7835 3720 50  0001 C CNN
+	1    7835 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3570 8240 3570
+$Comp
+L Device:D D7
+U 1 1 5F67DE1A
+P 8240 3720
+F 0 "D7" V 8286 3641 50  0000 R CNN
+F 1 "SOD123" V 8195 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8240 3720 50  0001 C CNN
+F 3 "~" H 8240 3720 50  0001 C CNN
+	1    8240 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8805 3570 8645 3570
+$Comp
+L Device:D D13
+U 1 1 5F67DE21
+P 8645 3720
+F 0 "D13" V 8691 3641 50  0000 R CNN
+F 1 "SOD123" V 8600 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8645 3720 50  0001 C CNN
+F 3 "~" H 8645 3720 50  0001 C CNN
+	1    8645 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9210 3570 9050 3570
+$Comp
+L Device:D D19
+U 1 1 5F67DE28
+P 9050 3720
+F 0 "D19" V 9096 3641 50  0000 R CNN
+F 1 "SOD123" V 9005 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9050 3720 50  0001 C CNN
+F 3 "~" H 9050 3720 50  0001 C CNN
+	1    9050 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9765 3570 9605 3570
+$Comp
+L Device:D D25
+U 1 1 5F68EBE7
+P 9605 3720
+F 0 "D25" V 9651 3641 50  0000 R CNN
+F 1 "SOD123" V 9560 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9605 3720 50  0001 C CNN
+F 3 "~" H 9605 3720 50  0001 C CNN
+	1    9605 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 4365 8240 4365
+$Comp
+L Device:D D8
+U 1 1 5F68EBEE
+P 8240 4515
+F 0 "D8" V 8286 4436 50  0000 R CNN
+F 1 "SOD123" V 8195 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8240 4515 50  0001 C CNN
+F 3 "~" H 8240 4515 50  0001 C CNN
+	1    8240 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8805 4365 8645 4365
+$Comp
+L Device:D D14
+U 1 1 5F68EBF5
+P 8645 4515
+F 0 "D14" V 8691 4436 50  0000 R CNN
+F 1 "SOD123" V 8600 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8645 4515 50  0001 C CNN
+F 3 "~" H 8645 4515 50  0001 C CNN
+	1    8645 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9210 4365 9050 4365
+$Comp
+L Device:D D20
+U 1 1 5F68EBFC
+P 9050 4515
+F 0 "D20" V 9096 4436 50  0000 R CNN
+F 1 "SOD123" V 9005 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9050 4515 50  0001 C CNN
+F 3 "~" H 9050 4515 50  0001 C CNN
+	1    9050 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10320 3570 10160 3570
+$Comp
+L Device:D D30
+U 1 1 5F6B275E
+P 10160 3720
+F 0 "D30" V 10206 3641 50  0000 R CNN
+F 1 "SOD123" V 10115 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10160 3720 50  0001 C CNN
+F 3 "~" H 10160 3720 50  0001 C CNN
+	1    10160 3720
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D31
+U 1 1 5F6B2765
+P 5195 2430
+F 0 "D31" V 5241 2351 50  0000 R CNN
+F 1 "SOD123" V 5150 2351 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 5195 2430 50  0001 C CNN
+F 3 "~" H 5195 2430 50  0001 C CNN
+	1    5195 2430
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10875 4365 10715 4365
+$Comp
+L Device:D D36
+U 1 1 5F6B276C
+P 10715 4515
+F 0 "D36" V 10761 4436 50  0000 R CNN
+F 1 "SOD123" V 10670 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10715 4515 50  0001 C CNN
+F 3 "~" H 10715 4515 50  0001 C CNN
+	1    10715 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11685 4365 11525 4365
+$Comp
+L Device:D D48
+U 1 1 5F6D8361
+P 11525 4515
+F 0 "D48" V 11571 4436 50  0000 R CNN
+F 1 "SOD123" V 11480 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11525 4515 50  0001 C CNN
+F 3 "~" H 11525 4515 50  0001 C CNN
+	1    11525 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12090 4365 11930 4365
+$Comp
+L Device:D D54
+U 1 1 5F6D8368
+P 11930 4515
+F 0 "D54" V 11976 4436 50  0000 R CNN
+F 1 "SOD123" V 11885 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11930 4515 50  0001 C CNN
+F 3 "~" H 11930 4515 50  0001 C CNN
+	1    11930 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12645 4365 12485 4365
+$Comp
+L Device:D D59
+U 1 1 5F6D836F
+P 12485 4515
+F 0 "D59" V 12531 4436 50  0000 R CNN
+F 1 "SOD123" V 12440 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 12485 4515 50  0001 C CNN
+F 3 "~" H 12485 4515 50  0001 C CNN
+	1    12485 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13050 4365 12890 4365
+$Comp
+L Device:D D64
+U 1 1 5F6D8376
+P 12890 4515
+F 0 "D64" V 12936 4436 50  0000 R CNN
+F 1 "SOD123" V 12845 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 12890 4515 50  0001 C CNN
+F 3 "~" H 12890 4515 50  0001 C CNN
+	1    12890 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13455 4365 13295 4365
+$Comp
+L Device:D D70
+U 1 1 5F6FCB31
+P 13295 4515
+F 0 "D70" V 13341 4436 50  0000 R CNN
+F 1 "SOD123" V 13250 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 13295 4515 50  0001 C CNN
+F 3 "~" H 13295 4515 50  0001 C CNN
+	1    13295 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13860 4365 13700 4365
+$Comp
+L Device:D D75
+U 1 1 5F6FCB38
+P 13700 4515
+F 0 "D75" V 13746 4436 50  0000 R CNN
+F 1 "SOD123" V 13655 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 13700 4515 50  0001 C CNN
+F 3 "~" H 13700 4515 50  0001 C CNN
+	1    13700 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14415 4365 14255 4365
+$Comp
+L Device:D D80
+U 1 1 5F6FCB3F
+P 14255 4515
+F 0 "D80" V 14301 4436 50  0000 R CNN
+F 1 "SOD123" V 14210 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 14255 4515 50  0001 C CNN
+F 3 "~" H 14255 4515 50  0001 C CNN
+	1    14255 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14820 4365 14660 4365
+$Comp
+L Device:D D85
+U 1 1 5F6FCB46
+P 14660 4515
+F 0 "D85" V 14706 4436 50  0000 R CNN
+F 1 "SOD123" V 14615 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 14660 4515 50  0001 C CNN
+F 3 "~" H 14660 4515 50  0001 C CNN
+	1    14660 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	15225 4365 15065 4365
+$Comp
+L Device:D D91
+U 1 1 5F70FEF6
+P 15065 4515
+F 0 "D91" V 15111 4436 50  0000 R CNN
+F 1 "SOD123" V 15020 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15065 4515 50  0001 C CNN
+F 3 "~" H 15065 4515 50  0001 C CNN
+	1    15065 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11280 4365 11120 4365
+$Comp
+L Device:D D42
+U 1 1 5F70FEFD
+P 11120 4515
+F 0 "D42" V 11166 4436 50  0000 R CNN
+F 1 "SOD123" V 11075 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11120 4515 50  0001 C CNN
+F 3 "~" H 11120 4515 50  0001 C CNN
+	1    11120 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16185 3570 16025 3570
+$Comp
+L Device:D D98
+U 1 1 5F70FF04
+P 16025 3720
+F 0 "D98" V 16071 3641 50  0000 R CNN
+F 1 "SOD123" V 15980 3641 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 16025 3720 50  0001 C CNN
+F 3 "~" H 16025 3720 50  0001 C CNN
+	1    16025 3720
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16185 4365 16025 4365
+$Comp
+L Device:D D99
+U 1 1 5F70FF0B
+P 16025 4515
+F 0 "D99" V 16071 4436 50  0000 R CNN
+F 1 "SOD123" V 15980 4436 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 16025 4515 50  0001 C CNN
+F 3 "~" H 16025 4515 50  0001 C CNN
+	1    16025 4515
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7995 5160 7835 5160
+$Comp
+L Device:D D4
+U 1 1 5F75B63F
+P 7835 5310
+F 0 "D4" V 7881 5231 50  0000 R CNN
+F 1 "SOD123" V 7790 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 7835 5310 50  0001 C CNN
+F 3 "~" H 7835 5310 50  0001 C CNN
+	1    7835 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 5160 8240 5160
+$Comp
+L Device:D D9
+U 1 1 5F75B646
+P 8240 5310
+F 0 "D9" V 8286 5231 50  0000 R CNN
+F 1 "SOD123" V 8195 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8240 5310 50  0001 C CNN
+F 3 "~" H 8240 5310 50  0001 C CNN
+	1    8240 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8805 5160 8645 5160
+$Comp
+L Device:D D15
+U 1 1 5F75B64D
+P 8645 5310
+F 0 "D15" V 8691 5231 50  0000 R CNN
+F 1 "SOD123" V 8600 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8645 5310 50  0001 C CNN
+F 3 "~" H 8645 5310 50  0001 C CNN
+	1    8645 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9210 5160 9050 5160
+$Comp
+L Device:D D21
+U 1 1 5F75B654
+P 9050 5310
+F 0 "D21" V 9096 5231 50  0000 R CNN
+F 1 "SOD123" V 9005 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9050 5310 50  0001 C CNN
+F 3 "~" H 9050 5310 50  0001 C CNN
+	1    9050 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10875 5160 10715 5160
+$Comp
+L Device:D D37
+U 1 1 5F78504A
+P 10715 5310
+F 0 "D37" V 10761 5231 50  0000 R CNN
+F 1 "SOD123" V 10670 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10715 5310 50  0001 C CNN
+F 3 "~" H 10715 5310 50  0001 C CNN
+	1    10715 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11280 5160 11120 5160
+$Comp
+L Device:D D43
+U 1 1 5F785051
+P 11120 5310
+F 0 "D43" V 11166 5231 50  0000 R CNN
+F 1 "SOD123" V 11075 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11120 5310 50  0001 C CNN
+F 3 "~" H 11120 5310 50  0001 C CNN
+	1    11120 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11685 5160 11525 5160
+$Comp
+L Device:D D49
+U 1 1 5F785058
+P 11525 5310
+F 0 "D49" V 11571 5231 50  0000 R CNN
+F 1 "SOD123" V 11480 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11525 5310 50  0001 C CNN
+F 3 "~" H 11525 5310 50  0001 C CNN
+	1    11525 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12090 5160 11930 5160
+$Comp
+L Device:D D55
+U 1 1 5F78505F
+P 11930 5310
+F 0 "D55" V 11976 5231 50  0000 R CNN
+F 1 "SOD123" V 11885 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11930 5310 50  0001 C CNN
+F 3 "~" H 11930 5310 50  0001 C CNN
+	1    11930 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12645 5160 12485 5160
+$Comp
+L Device:D D60
+U 1 1 5F799D8E
+P 12485 5310
+F 0 "D60" V 12531 5231 50  0000 R CNN
+F 1 "SOD123" V 12440 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 12485 5310 50  0001 C CNN
+F 3 "~" H 12485 5310 50  0001 C CNN
+	1    12485 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13050 5160 12890 5160
+$Comp
+L Device:D D65
+U 1 1 5F799D95
+P 12890 5310
+F 0 "D65" V 12936 5231 50  0000 R CNN
+F 1 "SOD123" V 12845 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 12890 5310 50  0001 C CNN
+F 3 "~" H 12890 5310 50  0001 C CNN
+	1    12890 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13455 5160 13295 5160
+$Comp
+L Device:D D71
+U 1 1 5F799D9C
+P 13295 5310
+F 0 "D71" V 13341 5231 50  0000 R CNN
+F 1 "SOD123" V 13250 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 13295 5310 50  0001 C CNN
+F 3 "~" H 13295 5310 50  0001 C CNN
+	1    13295 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13860 5160 13700 5160
+$Comp
+L Device:D D76
+U 1 1 5F799DA3
+P 13700 5310
+F 0 "D76" V 13746 5231 50  0000 R CNN
+F 1 "SOD123" V 13655 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 13700 5310 50  0001 C CNN
+F 3 "~" H 13700 5310 50  0001 C CNN
+	1    13700 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14415 5160 14255 5160
+$Comp
+L Device:D D81
+U 1 1 5F7AF4E7
+P 14255 5310
+F 0 "D81" V 14301 5231 50  0000 R CNN
+F 1 "SOD123" V 14210 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 14255 5310 50  0001 C CNN
+F 3 "~" H 14255 5310 50  0001 C CNN
+	1    14255 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14820 5160 14660 5160
+$Comp
+L Device:D D86
+U 1 1 5F7AF4EE
+P 14660 5310
+F 0 "D86" V 14706 5231 50  0000 R CNN
+F 1 "SOD123" V 14615 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 14660 5310 50  0001 C CNN
+F 3 "~" H 14660 5310 50  0001 C CNN
+	1    14660 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10320 5160 10160 5160
+$Comp
+L Device:D D32
+U 1 1 5F7AF4F5
+P 10160 5310
+F 0 "D32" V 10206 5231 50  0000 R CNN
+F 1 "SOD123" V 10115 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10160 5310 50  0001 C CNN
+F 3 "~" H 10160 5310 50  0001 C CNN
+	1    10160 5310
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	16185 5160 16025 5160
+$Comp
+L Device:D D100
+U 1 1 5F7AF4FC
+P 16025 5310
+F 0 "D100" V 16071 5231 50  0000 R CNN
+F 1 "SOD123" V 15980 5231 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 16025 5310 50  0001 C CNN
+F 3 "~" H 16025 5310 50  0001 C CNN
+	1    16025 5310
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D38
+U 1 1 5F7F3F62
+P 10715 6105
+F 0 "D38" V 10761 6026 50  0000 R CNN
+F 1 "SOD123" V 10670 6026 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10715 6105 50  0001 C CNN
+F 3 "~" H 10715 6105 50  0001 C CNN
+	1    10715 6105
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D44
+U 1 1 5F7F3F68
+P 11120 6105
+F 0 "D44" V 11166 6026 50  0000 R CNN
+F 1 "SOD123" V 11075 6026 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11120 6105 50  0001 C CNN
+F 3 "~" H 11120 6105 50  0001 C CNN
+	1    11120 6105
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D50
+U 1 1 5F7F3F6E
+P 11525 6105
+F 0 "D50" V 11571 6026 50  0000 R CNN
+F 1 "SOD123" V 11480 6026 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 11525 6105 50  0001 C CNN
+F 3 "~" H 11525 6105 50  0001 C CNN
+	1    11525 6105
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D33
+U 1 1 5F7F3F74
+P 10160 6105
+F 0 "D33" V 10206 6026 50  0000 R CNN
+F 1 "SOD123" V 10115 6026 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 10160 6105 50  0001 C CNN
+F 3 "~" H 10160 6105 50  0001 C CNN
+	1    10160 6105
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D87
+U 1 1 5F80A3EE
+P 14660 6105
+F 0 "D87" V 14706 6026 50  0000 R CNN
+F 1 "SOD123" V 14615 6026 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 14660 6105 50  0001 C CNN
+F 3 "~" H 14660 6105 50  0001 C CNN
+	1    14660 6105
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D66
+U 1 1 5F80A3F4
+P 12890 6105
+F 0 "D66" V 12936 6026 50  0000 R CNN
+F 1 "SOD123" V 12845 6026 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 12890 6105 50  0001 C CNN
+F 3 "~" H 12890 6105 50  0001 C CNN
+	1    12890 6105
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D27
+U 1 1 5F80A3FA
+P 9605 6105
+F 0 "D27" V 9651 6026 50  0000 R CNN
+F 1 "SOD123" V 9560 6026 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9605 6105 50  0001 C CNN
+F 3 "~" H 9605 6105 50  0001 C CNN
+	1    9605 6105
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D22
+U 1 1 5F80A400
+P 9050 6105
+F 0 "D22" V 9096 6026 50  0000 R CNN
+F 1 "SOD123" V 9005 6026 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9050 6105 50  0001 C CNN
+F 3 "~" H 9050 6105 50  0001 C CNN
+	1    9050 6105
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R23
+U 1 1 5F8FE97C
+P 9325 6055
+F 0 "R23" H 9395 6101 50  0000 L CNN
+F 1 "1k" H 9395 6010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 9255 6055 50  0001 C CNN
+F 3 "~" H 9325 6055 50  0001 C CNN
+	1    9325 6055
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R52
+U 1 1 5F8FFA57
+P 11800 6055
+F 0 "R52" H 11870 6101 50  0000 L CNN
+F 1 "1k" H 11870 6010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 11730 6055 50  0001 C CNN
+F 3 "~" H 11800 6055 50  0001 C CNN
+	1    11800 6055
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8045 5110 8110 5110
+$Comp
+L Device:R R6
+U 1 1 5F929E3A
+P 8110 5260
+F 0 "R6" H 8180 5306 50  0000 L CNN
+F 1 "1k" H 8180 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8040 5260 50  0001 C CNN
+F 3 "~" H 8110 5260 50  0001 C CNN
+	1    8110 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 5110 8515 5110
+$Comp
+L Device:R R11
+U 1 1 5F93EF88
+P 8515 5260
+F 0 "R11" H 8585 5306 50  0000 L CNN
+F 1 "1k" H 8585 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8445 5260 50  0001 C CNN
+F 3 "~" H 8515 5260 50  0001 C CNN
+	1    8515 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8855 5110 8920 5110
+$Comp
+L Device:R R17
+U 1 1 5F9542BB
+P 8920 5260
+F 0 "R17" H 8990 5306 50  0000 L CNN
+F 1 "1k" H 8990 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8850 5260 50  0001 C CNN
+F 3 "~" H 8920 5260 50  0001 C CNN
+	1    8920 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9260 5110 9325 5110
+$Comp
+L Device:R R22
+U 1 1 5F969A3B
+P 9325 5260
+F 0 "R22" H 9395 5306 50  0000 L CNN
+F 1 "1k" H 9395 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 9255 5260 50  0001 C CNN
+F 3 "~" H 9325 5260 50  0001 C CNN
+	1    9325 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9815 5110 9880 5110
+$Comp
+L Device:R R28
+U 1 1 5F97F77C
+P 9880 5260
+F 0 "R28" H 9950 5306 50  0000 L CNN
+F 1 "1k" H 9950 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 9810 5260 50  0001 C CNN
+F 3 "~" H 9880 5260 50  0001 C CNN
+	1    9880 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10370 5110 10435 5110
+$Comp
+L Device:R R33
+U 1 1 5F9955DF
+P 10435 5260
+F 0 "R33" H 10505 5306 50  0000 L CNN
+F 1 "1k" H 10505 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 10365 5260 50  0001 C CNN
+F 3 "~" H 10435 5260 50  0001 C CNN
+	1    10435 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10925 5110 10990 5110
+$Comp
+L Device:R R39
+U 1 1 5F9AB62A
+P 10990 5260
+F 0 "R39" H 11060 5306 50  0000 L CNN
+F 1 "1k" H 11060 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 10920 5260 50  0001 C CNN
+F 3 "~" H 10990 5260 50  0001 C CNN
+	1    10990 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11330 5110 11395 5110
+$Comp
+L Device:R R45
+U 1 1 5F9C1AF7
+P 11395 5260
+F 0 "R45" H 11465 5306 50  0000 L CNN
+F 1 "1k" H 11465 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 11325 5260 50  0001 C CNN
+F 3 "~" H 11395 5260 50  0001 C CNN
+	1    11395 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11735 5110 11800 5110
+$Comp
+L Device:R R51
+U 1 1 5F9D835A
+P 11800 5260
+F 0 "R51" H 11870 5306 50  0000 L CNN
+F 1 "1k" H 11870 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 11730 5260 50  0001 C CNN
+F 3 "~" H 11800 5260 50  0001 C CNN
+	1    11800 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12140 5110 12205 5110
+$Comp
+L Device:R R57
+U 1 1 5F9EED6F
+P 12205 5260
+F 0 "R57" H 12275 5306 50  0000 L CNN
+F 1 "1k" H 12275 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 12135 5260 50  0001 C CNN
+F 3 "~" H 12205 5260 50  0001 C CNN
+	1    12205 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12695 5110 12760 5110
+$Comp
+L Device:R R62
+U 1 1 5FA05B47
+P 12760 5260
+F 0 "R62" H 12830 5306 50  0000 L CNN
+F 1 "1k" H 12830 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 12690 5260 50  0001 C CNN
+F 3 "~" H 12760 5260 50  0001 C CNN
+	1    12760 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 5110 13165 5110
+$Comp
+L Device:R R67
+U 1 1 5FA1CB50
+P 13165 5260
+F 0 "R67" H 13235 5306 50  0000 L CNN
+F 1 "1k" H 13235 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13095 5260 50  0001 C CNN
+F 3 "~" H 13165 5260 50  0001 C CNN
+	1    13165 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13505 5110 13570 5110
+$Comp
+L Device:R R73
+U 1 1 5FA33DF7
+P 13570 5260
+F 0 "R73" H 13640 5306 50  0000 L CNN
+F 1 "1k" H 13640 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13500 5260 50  0001 C CNN
+F 3 "~" H 13570 5260 50  0001 C CNN
+	1    13570 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13910 5110 13975 5110
+$Comp
+L Device:R R78
+U 1 1 5FA4B49E
+P 13975 5260
+F 0 "R78" H 14045 5306 50  0000 L CNN
+F 1 "1k" H 14045 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13905 5260 50  0001 C CNN
+F 3 "~" H 13975 5260 50  0001 C CNN
+	1    13975 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14465 5110 14530 5110
+$Comp
+L Device:R R83
+U 1 1 5FA62D50
+P 14530 5260
+F 0 "R83" H 14600 5306 50  0000 L CNN
+F 1 "1k" H 14600 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 14460 5260 50  0001 C CNN
+F 3 "~" H 14530 5260 50  0001 C CNN
+	1    14530 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14870 5110 14935 5110
+$Comp
+L Device:R R88
+U 1 1 5FA7A8C5
+P 14935 5260
+F 0 "R88" H 15005 5306 50  0000 L CNN
+F 1 "1k" H 15005 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 14865 5260 50  0001 C CNN
+F 3 "~" H 14935 5260 50  0001 C CNN
+	1    14935 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16235 5110 16300 5110
+$Comp
+L Device:R R102
+U 1 1 5FA9299B
+P 16300 5260
+F 0 "R102" H 16370 5306 50  0000 L CNN
+F 1 "1k" H 16370 5215 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 16230 5260 50  0001 C CNN
+F 3 "~" H 16300 5260 50  0001 C CNN
+	1    16300 5260
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R101
+U 1 1 5FAAAB3D
+P 17910 4065
+F 0 "R101" H 17980 4111 50  0000 L CNN
+F 1 "1k" H 17980 4020 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 17840 4065 50  0001 C CNN
+F 3 "~" H 17910 4065 50  0001 C CNN
+	1    17910 4065
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15275 4315 15340 4315
+$Comp
+L Device:R R93
+U 1 1 5FAC2E9B
+P 15340 4465
+F 0 "R93" H 15410 4511 50  0000 L CNN
+F 1 "1k" H 15410 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 15270 4465 50  0001 C CNN
+F 3 "~" H 15340 4465 50  0001 C CNN
+	1    15340 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14870 4315 14935 4315
+$Comp
+L Device:R R87
+U 1 1 5FADB426
+P 14935 4465
+F 0 "R87" H 15005 4511 50  0000 L CNN
+F 1 "1k" H 15005 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 14865 4465 50  0001 C CNN
+F 3 "~" H 14935 4465 50  0001 C CNN
+	1    14935 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14465 4315 14530 4315
+$Comp
+L Device:R R82
+U 1 1 5FAF3B9E
+P 14530 4465
+F 0 "R82" H 14600 4511 50  0000 L CNN
+F 1 "1k" H 14600 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 14460 4465 50  0001 C CNN
+F 3 "~" H 14530 4465 50  0001 C CNN
+	1    14530 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13910 4315 13975 4315
+$Comp
+L Device:R R77
+U 1 1 5FB0C70D
+P 13975 4465
+F 0 "R77" H 14045 4511 50  0000 L CNN
+F 1 "1k" H 14045 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13905 4465 50  0001 C CNN
+F 3 "~" H 13975 4465 50  0001 C CNN
+	1    13975 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13505 4315 13570 4315
+$Comp
+L Device:R R72
+U 1 1 5FB254CB
+P 13570 4465
+F 0 "R72" H 13640 4511 50  0000 L CNN
+F 1 "1k" H 13640 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13500 4465 50  0001 C CNN
+F 3 "~" H 13570 4465 50  0001 C CNN
+	1    13570 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 4315 13165 4315
+$Comp
+L Device:R R66
+U 1 1 5FB3E5A3
+P 13165 4465
+F 0 "R66" H 13235 4511 50  0000 L CNN
+F 1 "1k" H 13235 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13095 4465 50  0001 C CNN
+F 3 "~" H 13165 4465 50  0001 C CNN
+	1    13165 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12695 4315 12760 4315
+$Comp
+L Device:R R61
+U 1 1 5FB57A77
+P 12760 4465
+F 0 "R61" H 12830 4511 50  0000 L CNN
+F 1 "1k" H 12830 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 12690 4465 50  0001 C CNN
+F 3 "~" H 12760 4465 50  0001 C CNN
+	1    12760 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12140 4315 12205 4315
+$Comp
+L Device:R R56
+U 1 1 5FB71126
+P 12205 4465
+F 0 "R56" H 12275 4511 50  0000 L CNN
+F 1 "1k" H 12275 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 12135 4465 50  0001 C CNN
+F 3 "~" H 12205 4465 50  0001 C CNN
+	1    12205 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11735 4315 11800 4315
+$Comp
+L Device:R R50
+U 1 1 5FB8AB6E
+P 11800 4465
+F 0 "R50" H 11870 4511 50  0000 L CNN
+F 1 "1k" H 11870 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 11730 4465 50  0001 C CNN
+F 3 "~" H 11800 4465 50  0001 C CNN
+	1    11800 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11330 4315 11395 4315
+$Comp
+L Device:R R44
+U 1 1 5FBA498C
+P 11395 4465
+F 0 "R44" H 11465 4511 50  0000 L CNN
+F 1 "1k" H 11465 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 11325 4465 50  0001 C CNN
+F 3 "~" H 11395 4465 50  0001 C CNN
+	1    11395 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10925 4315 10990 4315
+$Comp
+L Device:R R38
+U 1 1 5FBBEB4A
+P 10990 4465
+F 0 "R38" H 11060 4511 50  0000 L CNN
+F 1 "1k" H 11060 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 10920 4465 50  0001 C CNN
+F 3 "~" H 10990 4465 50  0001 C CNN
+	1    10990 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5405 2230 5470 2230
+$Comp
+L Device:R R35
+U 1 1 5FBD9026
+P 1755 13480
+F 0 "R35" H 1825 13526 50  0000 L CNN
+F 1 "300" H 1825 13435 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 1685 13480 50  0001 C CNN
+F 3 "~" H 1755 13480 50  0001 C CNN
+	1    1755 13480
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9260 4315 9325 4315
+$Comp
+L Device:R R21
+U 1 1 5FBF3830
+P 9325 4465
+F 0 "R21" H 9395 4511 50  0000 L CNN
+F 1 "1k" H 9395 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 9255 4465 50  0001 C CNN
+F 3 "~" H 9325 4465 50  0001 C CNN
+	1    9325 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8855 4315 8920 4315
+$Comp
+L Device:R R16
+U 1 1 5FC0E42B
+P 8920 4465
+F 0 "R16" H 8990 4511 50  0000 L CNN
+F 1 "1k" H 8990 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8850 4465 50  0001 C CNN
+F 3 "~" H 8920 4465 50  0001 C CNN
+	1    8920 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4315 8515 4315
+$Comp
+L Device:R R10
+U 1 1 5FC294DF
+P 8515 4465
+F 0 "R10" H 8585 4511 50  0000 L CNN
+F 1 "1k" H 8585 4420 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8445 4465 50  0001 C CNN
+F 3 "~" H 8515 4465 50  0001 C CNN
+	1    8515 4465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9815 2725 9880 2725
+$Comp
+L Device:R R26
+U 1 1 5FC46AAE
+P 9880 2875
+F 0 "R26" H 9950 2921 50  0000 L CNN
+F 1 "1k" H 9950 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 9810 2875 50  0001 C CNN
+F 3 "~" H 9880 2875 50  0001 C CNN
+	1    9880 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R100
+U 1 1 5FC46AB5
+P 17460 4065
+F 0 "R100" H 17530 4111 50  0000 L CNN
+F 1 "1k" H 17530 4020 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 17390 4065 50  0001 C CNN
+F 3 "~" H 17460 4065 50  0001 C CNN
+	1    17460 4065
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9815 3520 9880 3520
+$Comp
+L Device:R R27
+U 1 1 5FC46ABC
+P 9880 3670
+F 0 "R27" H 9950 3716 50  0000 L CNN
+F 1 "1k" H 9950 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 9810 3670 50  0001 C CNN
+F 3 "~" H 9880 3670 50  0001 C CNN
+	1    9880 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10370 3520 10435 3520
+$Comp
+L Device:R R32
+U 1 1 5FC46AC3
+P 10435 3670
+F 0 "R32" H 10505 3716 50  0000 L CNN
+F 1 "1k" H 10505 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 10365 3670 50  0001 C CNN
+F 3 "~" H 10435 3670 50  0001 C CNN
+	1    10435 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8045 3520 8110 3520
+$Comp
+L Device:R R5
+U 1 1 5FCF7875
+P 8110 3670
+F 0 "R5" H 8180 3716 50  0000 L CNN
+F 1 "1k" H 8180 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8040 3670 50  0001 C CNN
+F 3 "~" H 8110 3670 50  0001 C CNN
+	1    8110 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 3520 8515 3520
+$Comp
+L Device:R R9
+U 1 1 5FCF787C
+P 8515 3670
+F 0 "R9" H 8585 3716 50  0000 L CNN
+F 1 "1k" H 8585 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8445 3670 50  0001 C CNN
+F 3 "~" H 8515 3670 50  0001 C CNN
+	1    8515 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8855 3520 8920 3520
+$Comp
+L Device:R R15
+U 1 1 5FCF7883
+P 8920 3670
+F 0 "R15" H 8990 3716 50  0000 L CNN
+F 1 "1k" H 8990 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8850 3670 50  0001 C CNN
+F 3 "~" H 8920 3670 50  0001 C CNN
+	1    8920 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9260 3520 9325 3520
+$Comp
+L Device:R R20
+U 1 1 5FCF788A
+P 9325 3670
+F 0 "R20" H 9395 3716 50  0000 L CNN
+F 1 "1k" H 9395 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 9255 3670 50  0001 C CNN
+F 3 "~" H 9325 3670 50  0001 C CNN
+	1    9325 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14465 3520 14530 3520
+$Comp
+L Device:R R81
+U 1 1 5FD16086
+P 14530 3670
+F 0 "R81" H 14600 3716 50  0000 L CNN
+F 1 "1k" H 14600 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 14460 3670 50  0001 C CNN
+F 3 "~" H 14530 3670 50  0001 C CNN
+	1    14530 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14870 3520 14935 3520
+$Comp
+L Device:R R86
+U 1 1 5FD1608D
+P 14935 3670
+F 0 "R86" H 15005 3716 50  0000 L CNN
+F 1 "1k" H 15005 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 14865 3670 50  0001 C CNN
+F 3 "~" H 14935 3670 50  0001 C CNN
+	1    14935 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15275 3520 15340 3520
+$Comp
+L Device:R R92
+U 1 1 5FD16094
+P 15340 3670
+F 0 "R92" H 15410 3716 50  0000 L CNN
+F 1 "1k" H 15410 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 15270 3670 50  0001 C CNN
+F 3 "~" H 15340 3670 50  0001 C CNN
+	1    15340 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15680 3520 15745 3520
+$Comp
+L Device:R R97
+U 1 1 5FD1609B
+P 15745 3670
+F 0 "R97" H 15815 3716 50  0000 L CNN
+F 1 "1k" H 15815 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 15675 3670 50  0001 C CNN
+F 3 "~" H 15745 3670 50  0001 C CNN
+	1    15745 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12695 3520 12760 3520
+$Comp
+L Device:R R60
+U 1 1 5FD351D6
+P 12760 3670
+F 0 "R60" H 12830 3716 50  0000 L CNN
+F 1 "1k" H 12830 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 12690 3670 50  0001 C CNN
+F 3 "~" H 12760 3670 50  0001 C CNN
+	1    12760 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 3520 13165 3520
+$Comp
+L Device:R R65
+U 1 1 5FD351DD
+P 13165 3670
+F 0 "R65" H 13235 3716 50  0000 L CNN
+F 1 "1k" H 13235 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13095 3670 50  0001 C CNN
+F 3 "~" H 13165 3670 50  0001 C CNN
+	1    13165 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13505 3520 13570 3520
+$Comp
+L Device:R R71
+U 1 1 5FD351E4
+P 13570 3670
+F 0 "R71" H 13640 3716 50  0000 L CNN
+F 1 "1k" H 13640 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13500 3670 50  0001 C CNN
+F 3 "~" H 13570 3670 50  0001 C CNN
+	1    13570 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13910 3520 13975 3520
+$Comp
+L Device:R R76
+U 1 1 5FD351EB
+P 13975 3670
+F 0 "R76" H 14045 3716 50  0000 L CNN
+F 1 "1k" H 14045 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13905 3670 50  0001 C CNN
+F 3 "~" H 13975 3670 50  0001 C CNN
+	1    13975 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10925 3520 10990 3520
+$Comp
+L Device:R R37
+U 1 1 5FD5549A
+P 10990 3670
+F 0 "R37" H 11060 3716 50  0000 L CNN
+F 1 "1k" H 11060 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 10920 3670 50  0001 C CNN
+F 3 "~" H 10990 3670 50  0001 C CNN
+	1    10990 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11330 3520 11395 3520
+$Comp
+L Device:R R43
+U 1 1 5FD554A1
+P 11395 3670
+F 0 "R43" H 11465 3716 50  0000 L CNN
+F 1 "1k" H 11465 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 11325 3670 50  0001 C CNN
+F 3 "~" H 11395 3670 50  0001 C CNN
+	1    11395 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11735 3520 11800 3520
+$Comp
+L Device:R R49
+U 1 1 5FD554A8
+P 11800 3670
+F 0 "R49" H 11870 3716 50  0000 L CNN
+F 1 "1k" H 11870 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 11730 3670 50  0001 C CNN
+F 3 "~" H 11800 3670 50  0001 C CNN
+	1    11800 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12140 3520 12205 3520
+$Comp
+L Device:R R55
+U 1 1 5FD554AF
+P 12205 3670
+F 0 "R55" H 12275 3716 50  0000 L CNN
+F 1 "1k" H 12275 3625 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 12135 3670 50  0001 C CNN
+F 3 "~" H 12205 3670 50  0001 C CNN
+	1    12205 3670
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8045 2725 8110 2725
+$Comp
+L Device:R R4
+U 1 1 5FDF6E48
+P 8110 2875
+F 0 "R4" H 8180 2921 50  0000 L CNN
+F 1 "1k" H 8180 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8040 2875 50  0001 C CNN
+F 3 "~" H 8110 2875 50  0001 C CNN
+	1    8110 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2725 8515 2725
+$Comp
+L Device:R R8
+U 1 1 5FDF6E4F
+P 8515 2875
+F 0 "R8" H 8585 2921 50  0000 L CNN
+F 1 "1k" H 8585 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8445 2875 50  0001 C CNN
+F 3 "~" H 8515 2875 50  0001 C CNN
+	1    8515 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8855 2725 8920 2725
+$Comp
+L Device:R R14
+U 1 1 5FDF6E56
+P 8920 2875
+F 0 "R14" H 8990 2921 50  0000 L CNN
+F 1 "1k" H 8990 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8850 2875 50  0001 C CNN
+F 3 "~" H 8920 2875 50  0001 C CNN
+	1    8920 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5FDF6E5D
+P 1755 13635
+F 0 "R24" H 1825 13681 50  0000 L CNN
+F 1 "300" H 1825 13590 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 1685 13635 50  0001 C CNN
+F 3 "~" H 1755 13635 50  0001 C CNN
+	1    1755 13635
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10925 2725 10990 2725
+$Comp
+L Device:R R36
+U 1 1 5FE184D5
+P 10990 2875
+F 0 "R36" H 11060 2921 50  0000 L CNN
+F 1 "1k" H 11060 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 10920 2875 50  0001 C CNN
+F 3 "~" H 10990 2875 50  0001 C CNN
+	1    10990 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11330 2725 11395 2725
+$Comp
+L Device:R R42
+U 1 1 5FE184DC
+P 11395 2875
+F 0 "R42" H 11465 2921 50  0000 L CNN
+F 1 "1k" H 11465 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 11325 2875 50  0001 C CNN
+F 3 "~" H 11395 2875 50  0001 C CNN
+	1    11395 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11735 2725 11800 2725
+$Comp
+L Device:R R48
+U 1 1 5FE184E3
+P 11800 2875
+F 0 "R48" H 11870 2921 50  0000 L CNN
+F 1 "1k" H 11870 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 11730 2875 50  0001 C CNN
+F 3 "~" H 11800 2875 50  0001 C CNN
+	1    11800 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12140 2725 12205 2725
+$Comp
+L Device:R R54
+U 1 1 5FE184EA
+P 12205 2875
+F 0 "R54" H 12275 2921 50  0000 L CNN
+F 1 "1k" H 12275 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 12135 2875 50  0001 C CNN
+F 3 "~" H 12205 2875 50  0001 C CNN
+	1    12205 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12695 2725 12760 2725
+$Comp
+L Device:R R59
+U 1 1 5FE3B2B7
+P 12760 2875
+F 0 "R59" H 12830 2921 50  0000 L CNN
+F 1 "1k" H 12830 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 12690 2875 50  0001 C CNN
+F 3 "~" H 12760 2875 50  0001 C CNN
+	1    12760 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 2725 13165 2725
+$Comp
+L Device:R R64
+U 1 1 5FE3B2BE
+P 13165 2875
+F 0 "R64" H 13235 2921 50  0000 L CNN
+F 1 "1k" H 13235 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13095 2875 50  0001 C CNN
+F 3 "~" H 13165 2875 50  0001 C CNN
+	1    13165 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13505 2725 13570 2725
+$Comp
+L Device:R R70
+U 1 1 5FE3B2C5
+P 13570 2875
+F 0 "R70" H 13640 2921 50  0000 L CNN
+F 1 "1k" H 13640 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13500 2875 50  0001 C CNN
+F 3 "~" H 13570 2875 50  0001 C CNN
+	1    13570 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13910 2725 13975 2725
+$Comp
+L Device:R R75
+U 1 1 5FE3B2CC
+P 13975 2875
+F 0 "R75" H 14045 2921 50  0000 L CNN
+F 1 "1k" H 14045 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13905 2875 50  0001 C CNN
+F 3 "~" H 13975 2875 50  0001 C CNN
+	1    13975 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14465 2725 14530 2725
+$Comp
+L Device:R R80
+U 1 1 5FE5EC6F
+P 14530 2875
+F 0 "R80" H 14600 2921 50  0000 L CNN
+F 1 "1k" H 14600 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 14460 2875 50  0001 C CNN
+F 3 "~" H 14530 2875 50  0001 C CNN
+	1    14530 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14870 2725 14935 2725
+$Comp
+L Device:R R85
+U 1 1 5FE5EC76
+P 14935 2875
+F 0 "R85" H 15005 2921 50  0000 L CNN
+F 1 "1k" H 15005 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 14865 2875 50  0001 C CNN
+F 3 "~" H 14935 2875 50  0001 C CNN
+	1    14935 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15275 2725 15340 2725
+$Comp
+L Device:R R91
+U 1 1 5FE5EC7D
+P 15340 2875
+F 0 "R91" H 15410 2921 50  0000 L CNN
+F 1 "1k" H 15410 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 15270 2875 50  0001 C CNN
+F 3 "~" H 15340 2875 50  0001 C CNN
+	1    15340 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15680 2725 15745 2725
+$Comp
+L Device:R R96
+U 1 1 5FE5EC84
+P 15745 2875
+F 0 "R96" H 15815 2921 50  0000 L CNN
+F 1 "1k" H 15815 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 15675 2875 50  0001 C CNN
+F 3 "~" H 15745 2875 50  0001 C CNN
+	1    15745 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16235 2725 16300 2725
+$Comp
+L Device:R R99
+U 1 1 5FE825D0
+P 16300 2875
+F 0 "R99" H 16370 2921 50  0000 L CNN
+F 1 "1k" H 16370 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 16230 2875 50  0001 C CNN
+F 3 "~" H 16300 2875 50  0001 C CNN
+	1    16300 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10370 2725 10435 2725
+$Comp
+L Device:R R31
+U 1 1 5FE825D7
+P 10435 2875
+F 0 "R31" H 10505 2921 50  0000 L CNN
+F 1 "1k" H 10505 2830 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 10365 2875 50  0001 C CNN
+F 3 "~" H 10435 2875 50  0001 C CNN
+	1    10435 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9815 1930 9880 1930
+$Comp
+L Device:R R25
+U 1 1 5FE825DE
+P 9880 2080
+F 0 "R25" H 9950 2126 50  0000 L CNN
+F 1 "1k" H 9950 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 9810 2080 50  0001 C CNN
+F 3 "~" H 9880 2080 50  0001 C CNN
+	1    9880 2080
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5FE825E5
+P 8515 6055
+F 0 "R12" H 8585 6101 50  0000 L CNN
+F 1 "1k" H 8585 6010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8445 6055 50  0001 C CNN
+F 3 "~" H 8515 6055 50  0001 C CNN
+	1    8515 6055
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8045 1930 8110 1930
+$Comp
+L Device:R R3
+U 1 1 5FEF1A52
+P 8110 2080
+F 0 "R3" H 8180 2126 50  0000 L CNN
+F 1 "1k" H 8180 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8040 2080 50  0001 C CNN
+F 3 "~" H 8110 2080 50  0001 C CNN
+	1    8110 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 1930 8515 1930
+$Comp
+L Device:R R7
+U 1 1 5FEF1A59
+P 8515 2080
+F 0 "R7" H 8585 2126 50  0000 L CNN
+F 1 "1k" H 8585 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8445 2080 50  0001 C CNN
+F 3 "~" H 8515 2080 50  0001 C CNN
+	1    8515 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8855 1930 8920 1930
+$Comp
+L Device:R R13
+U 1 1 5FEF1A60
+P 8920 2080
+F 0 "R13" H 8990 2126 50  0000 L CNN
+F 1 "1k" H 8990 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8850 2080 50  0001 C CNN
+F 3 "~" H 8920 2080 50  0001 C CNN
+	1    8920 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9260 1930 9325 1930
+$Comp
+L Device:R R19
+U 1 1 5FEF1A67
+P 9325 2080
+F 0 "R19" H 9395 2126 50  0000 L CNN
+F 1 "1k" H 9395 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 9255 2080 50  0001 C CNN
+F 3 "~" H 9325 2080 50  0001 C CNN
+	1    9325 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11330 1930 11395 1930
+$Comp
+L Device:R R41
+U 1 1 5FF18F62
+P 11395 2080
+F 0 "R41" H 11465 2126 50  0000 L CNN
+F 1 "1k" H 11465 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 11325 2080 50  0001 C CNN
+F 3 "~" H 11395 2080 50  0001 C CNN
+	1    11395 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11735 1930 11800 1930
+$Comp
+L Device:R R47
+U 1 1 5FF18F69
+P 11800 2080
+F 0 "R47" H 11870 2126 50  0000 L CNN
+F 1 "1k" H 11870 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 11730 2080 50  0001 C CNN
+F 3 "~" H 11800 2080 50  0001 C CNN
+	1    11800 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12140 1930 12205 1930
+$Comp
+L Device:R R53
+U 1 1 5FF18F70
+P 12205 2080
+F 0 "R53" H 12275 2126 50  0000 L CNN
+F 1 "1k" H 12275 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 12135 2080 50  0001 C CNN
+F 3 "~" H 12205 2080 50  0001 C CNN
+	1    12205 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12695 1930 12760 1930
+$Comp
+L Device:R R58
+U 1 1 5FF4046B
+P 12760 2080
+F 0 "R58" H 12830 2126 50  0000 L CNN
+F 1 "1k" H 12830 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 12690 2080 50  0001 C CNN
+F 3 "~" H 12760 2080 50  0001 C CNN
+	1    12760 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 1930 13165 1930
+$Comp
+L Device:R R63
+U 1 1 5FF40472
+P 13165 2080
+F 0 "R63" H 13235 2126 50  0000 L CNN
+F 1 "1k" H 13235 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13095 2080 50  0001 C CNN
+F 3 "~" H 13165 2080 50  0001 C CNN
+	1    13165 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13505 1930 13570 1930
+$Comp
+L Device:R R69
+U 1 1 5FF40479
+P 13570 2080
+F 0 "R69" H 13640 2126 50  0000 L CNN
+F 1 "1k" H 13640 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13500 2080 50  0001 C CNN
+F 3 "~" H 13570 2080 50  0001 C CNN
+	1    13570 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13910 1930 13975 1930
+$Comp
+L Device:R R74
+U 1 1 5FF40480
+P 13975 2080
+F 0 "R74" H 14045 2126 50  0000 L CNN
+F 1 "1k" H 14045 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13905 2080 50  0001 C CNN
+F 3 "~" H 13975 2080 50  0001 C CNN
+	1    13975 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14465 1930 14530 1930
+$Comp
+L Device:R R79
+U 1 1 5FF68971
+P 14530 2080
+F 0 "R79" H 14600 2126 50  0000 L CNN
+F 1 "1k" H 14600 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 14460 2080 50  0001 C CNN
+F 3 "~" H 14530 2080 50  0001 C CNN
+	1    14530 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14870 1930 14935 1930
+$Comp
+L Device:R R84
+U 1 1 5FF68978
+P 14935 2080
+F 0 "R84" H 15005 2126 50  0000 L CNN
+F 1 "1k" H 15005 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 14865 2080 50  0001 C CNN
+F 3 "~" H 14935 2080 50  0001 C CNN
+	1    14935 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15275 1930 15340 1930
+$Comp
+L Device:R R90
+U 1 1 5FF6897F
+P 15340 2080
+F 0 "R90" H 15410 2126 50  0000 L CNN
+F 1 "1k" H 15410 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 15270 2080 50  0001 C CNN
+F 3 "~" H 15340 2080 50  0001 C CNN
+	1    15340 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15680 1930 15745 1930
+$Comp
+L Device:R R95
+U 1 1 5FF68986
+P 15745 2080
+F 0 "R95" H 15815 2126 50  0000 L CNN
+F 1 "1k" H 15815 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 15675 2080 50  0001 C CNN
+F 3 "~" H 15745 2080 50  0001 C CNN
+	1    15745 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16235 1930 16300 1930
+$Comp
+L Device:R R98
+U 1 1 5FF915FB
+P 16300 2080
+F 0 "R98" H 16370 2126 50  0000 L CNN
+F 1 "1k" H 16370 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 16230 2080 50  0001 C CNN
+F 3 "~" H 16300 2080 50  0001 C CNN
+	1    16300 2080
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10370 1930 10435 1930
+$Comp
+L Device:R R30
+U 1 1 5FF91602
+P 10435 2080
+F 0 "R30" H 10505 2126 50  0000 L CNN
+F 1 "1k" H 10505 2035 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 10365 2080 50  0001 C CNN
+F 3 "~" H 10435 2080 50  0001 C CNN
+	1    10435 2080
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5FF91609
+P 8920 6055
+F 0 "R18" H 8990 6101 50  0000 L CNN
+F 1 "1k" H 8990 6010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 8850 6055 50  0001 C CNN
+F 3 "~" H 8920 6055 50  0001 C CNN
+	1    8920 6055
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R68
+U 1 1 5FF91610
+P 13165 6055
+F 0 "R68" H 13235 6101 50  0000 L CNN
+F 1 "1k" H 13235 6010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 13095 6055 50  0001 C CNN
+F 3 "~" H 13165 6055 50  0001 C CNN
+	1    13165 6055
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R46
+U 1 1 600B4CB9
+P 11395 6055
+F 0 "R46" H 11465 6101 50  0000 L CNN
+F 1 "1k" H 11465 6010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 11325 6055 50  0001 C CNN
+F 3 "~" H 11395 6055 50  0001 C CNN
+	1    11395 6055
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R40
+U 1 1 600B4CC0
+P 10990 6055
+F 0 "R40" H 11060 6101 50  0000 L CNN
+F 1 "1k" H 11060 6010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 10920 6055 50  0001 C CNN
+F 3 "~" H 10990 6055 50  0001 C CNN
+	1    10990 6055
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 600B4CC7
+P 10435 6055
+F 0 "R34" H 10505 6101 50  0000 L CNN
+F 1 "1k" H 10505 6010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 10365 6055 50  0001 C CNN
+F 3 "~" H 10435 6055 50  0001 C CNN
+	1    10435 6055
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R29
+U 1 1 600B4CCE
+P 9880 6055
+F 0 "R29" H 9950 6101 50  0000 L CNN
+F 1 "1k" H 9950 6010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 9810 6055 50  0001 C CNN
+F 3 "~" H 9880 6055 50  0001 C CNN
+	1    9880 6055
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R94
+U 1 1 6022399F
+P 15340 6055
+F 0 "R94" H 15410 6101 50  0000 L CNN
+F 1 "1k" H 15410 6010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 15270 6055 50  0001 C CNN
+F 3 "~" H 15340 6055 50  0001 C CNN
+	1    15340 6055
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R89
+U 1 1 60223991
+P 14935 6055
+F 0 "R89" H 15005 6101 50  0000 L CNN
+F 1 "1k" H 15005 6010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 14865 6055 50  0001 C CNN
+F 3 "~" H 14935 6055 50  0001 C CNN
+	1    14935 6055
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D92
+U 1 1 5F8741A6
+P 15065 6105
+F 0 "D92" V 15111 6026 50  0000 R CNN
+F 1 "SOD123" V 15020 6026 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 15065 6105 50  0001 C CNN
+F 3 "~" H 15065 6105 50  0001 C CNN
+	1    15065 6105
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_RAlt3
+U 1 1 5F3030B4
+P 15250 8375
+F 0 "MX_RAlt3" H 15336 8592 60  0000 C CNN
+F 1 "1,5U" H 15336 8518 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.5U" H 15225 8350 60  0001 C CNN
+F 3 "" H 15225 8350 60  0001 C CNN
+	1    15250 8375
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_RAlt2
+U 1 1 5F2FF727
+P 14845 6555
+F 0 "MX_RAlt2" H 14931 6772 60  0000 C CNN
+F 1 "1,5U FLIPPED" H 14931 6698 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.5U-FLIPPED" H 14820 6530 60  0001 C CNN
+F 3 "" H 14820 6530 60  0001 C CNN
+	1    14845 6555
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_RWin3
+U 1 1 5F2F798D
+P 15250 7330
+F 0 "MX_RWin3" H 15336 7547 60  0000 C CNN
+F 1 "1U" H 15336 7473 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 15225 7305 60  0001 C CNN
+F 3 "" H 15225 7305 60  0001 C CNN
+	1    15250 7330
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_RWin2
+U 1 1 5F2F5A28
+P 15250 6555
+F 0 "MX_RWin2" H 15336 6772 60  0000 C CNN
+F 1 "1,5U" H 15336 6698 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.5U" H 15225 6530 60  0001 C CNN
+F 3 "" H 15225 6530 60  0001 C CNN
+	1    15250 6555
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_RAlt1
+U 1 1 5F38AAE7
+P 14845 5780
+F 0 "MX_RAlt1" H 14931 5997 60  0000 C CNN
+F 1 "1,25U" H 14931 5923 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.25U" H 14820 5755 60  0001 C CNN
+F 3 "" H 14820 5755 60  0001 C CNN
+	1    14845 5780
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_RWin1
+U 1 1 5F38AAE6
+P 15250 5780
+F 0 "MX_RWin1" H 15336 5997 60  0000 C CNN
+F 1 "NoLed" H 15336 5923 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.25U-FLIPPED" H 15225 5755 60  0001 C CNN
+F 3 "" H 15225 5755 60  0001 C CNN
+	1    15250 5780
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14820 5955 14660 5955
+Wire Wire Line
+	15225 5955 15065 5955
+Wire Wire Line
+	14870 5905 14935 5905
+Wire Wire Line
+	15275 5905 15340 5905
+Wire Wire Line
+	8195 1780 8195 1495
+Text GLabel 8195 1495 1    50   Input ~ 0
+Col0
+Wire Wire Line
+	8600 1780 8600 1495
+Text GLabel 8600 1495 1    50   Input ~ 0
+Col1
+Wire Wire Line
+	9005 1780 9005 1495
+Text GLabel 9005 1495 1    50   Input ~ 0
+Col2
+Wire Wire Line
+	9410 1780 9410 1495
+Text GLabel 5795 2995 1    50   Input ~ 0
+Col3
+Text GLabel 11075 1495 1    50   Input ~ 0
+Col6
+Wire Wire Line
+	11480 1780 11480 1495
+Text GLabel 11480 1495 1    50   Input ~ 0
+Col7
+Wire Wire Line
+	11885 1780 11885 1495
+Text GLabel 11885 1495 1    50   Input ~ 0
+Col8
+Wire Wire Line
+	12290 1780 12290 1495
+Text GLabel 12290 1495 1    50   Input ~ 0
+Col9
+Wire Wire Line
+	12845 1780 12845 1495
+Text GLabel 12845 1495 1    50   Input ~ 0
+Col10
+Wire Wire Line
+	13250 1780 13250 1495
+Text GLabel 13250 1495 1    50   Input ~ 0
+Col11
+Wire Wire Line
+	13655 1780 13655 1495
+Text GLabel 13655 1495 1    50   Input ~ 0
+Col12
+Wire Wire Line
+	14060 1780 14060 1495
+Text GLabel 14060 1495 1    50   Input ~ 0
+Col13
+Wire Wire Line
+	14615 1780 14615 1495
+Text GLabel 14615 1495 1    50   Input ~ 0
+Col14
+Wire Wire Line
+	15020 1780 15020 1495
+Text GLabel 15020 1495 1    50   Input ~ 0
+Col15
+Wire Wire Line
+	15425 1780 15425 1495
+Wire Wire Line
+	15830 1780 15830 1495
+Wire Wire Line
+	9965 1780 9965 1495
+Text GLabel 9965 1495 1    50   Input ~ 0
+Col4
+Wire Wire Line
+	10520 1780 10520 1495
+Text GLabel 10520 1495 1    50   Input ~ 0
+Col5
+Wire Wire Line
+	16385 1780 16385 1495
+Wire Wire Line
+	16025 2280 15470 2280
+Connection ~ 7835 2280
+Wire Wire Line
+	7835 2280 7700 2280
+Connection ~ 8240 2280
+Wire Wire Line
+	8240 2280 7835 2280
+Connection ~ 8645 2280
+Wire Wire Line
+	8645 2280 8240 2280
+Connection ~ 9050 2280
+Wire Wire Line
+	9050 2280 8645 2280
+Connection ~ 9605 2280
+Wire Wire Line
+	9605 2280 9050 2280
+Connection ~ 10160 2280
+Wire Wire Line
+	10160 2280 9605 2280
+Connection ~ 11120 2280
+Connection ~ 11525 2280
+Wire Wire Line
+	11525 2280 11120 2280
+Connection ~ 11930 2280
+Wire Wire Line
+	11930 2280 11525 2280
+Connection ~ 12485 2280
+Wire Wire Line
+	12485 2280 11930 2280
+Connection ~ 12890 2280
+Wire Wire Line
+	12890 2280 12485 2280
+Connection ~ 13295 2280
+Wire Wire Line
+	13295 2280 12890 2280
+Connection ~ 13700 2280
+Wire Wire Line
+	13700 2280 13295 2280
+Connection ~ 14255 2280
+Wire Wire Line
+	14255 2280 13700 2280
+Connection ~ 14660 2280
+Wire Wire Line
+	14660 2280 14255 2280
+Connection ~ 15065 2280
+Wire Wire Line
+	15065 2280 14660 2280
+Connection ~ 15470 2280
+Wire Wire Line
+	15470 2280 15065 2280
+Text GLabel 7700 2280 0    50   Input ~ 0
+Row0
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_Left1
+U 1 1 5F38AAE0
+P 9235 5780
+F 0 "MX_Left1" H 9321 5997 60  0000 C CNN
+F 1 "1U" H 9321 5923 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U" H 9210 5755 60  0001 C CNN
+F 3 "" H 9210 5755 60  0001 C CNN
+	1    9235 5780
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16025 3075 15470 3075
+Connection ~ 7835 3075
+Wire Wire Line
+	7835 3075 7700 3075
+Connection ~ 8240 3075
+Wire Wire Line
+	8240 3075 7835 3075
+Connection ~ 8645 3075
+Wire Wire Line
+	8645 3075 8240 3075
+Connection ~ 9605 3075
+Connection ~ 10160 3075
+Wire Wire Line
+	10160 3075 9605 3075
+Connection ~ 10715 3075
+Wire Wire Line
+	10715 3075 10160 3075
+Connection ~ 11120 3075
+Wire Wire Line
+	11120 3075 10715 3075
+Connection ~ 11525 3075
+Wire Wire Line
+	11525 3075 11120 3075
+Connection ~ 11930 3075
+Wire Wire Line
+	11930 3075 11525 3075
+Connection ~ 12485 3075
+Wire Wire Line
+	12485 3075 11930 3075
+Connection ~ 12890 3075
+Wire Wire Line
+	12890 3075 12485 3075
+Connection ~ 13295 3075
+Wire Wire Line
+	13295 3075 12890 3075
+Connection ~ 13700 3075
+Wire Wire Line
+	13700 3075 13295 3075
+Connection ~ 14255 3075
+Wire Wire Line
+	14255 3075 13700 3075
+Connection ~ 14660 3075
+Wire Wire Line
+	14660 3075 14255 3075
+Connection ~ 15065 3075
+Wire Wire Line
+	15065 3075 14660 3075
+Connection ~ 15470 3075
+Wire Wire Line
+	15470 3075 15065 3075
+Text GLabel 7700 3075 0    50   Input ~ 0
+Row1
+Wire Wire Line
+	8110 2230 8515 2230
+Connection ~ 8515 2230
+Wire Wire Line
+	8515 2230 8920 2230
+Connection ~ 8920 2230
+Wire Wire Line
+	8920 2230 9325 2230
+Connection ~ 9325 2230
+Wire Wire Line
+	9325 2230 9880 2230
+Connection ~ 9880 2230
+Wire Wire Line
+	9880 2230 10435 2230
+Connection ~ 10435 2230
+Connection ~ 11395 2230
+Wire Wire Line
+	11395 2230 11800 2230
+Connection ~ 11800 2230
+Wire Wire Line
+	11800 2230 12205 2230
+Connection ~ 12205 2230
+Wire Wire Line
+	12205 2230 12760 2230
+Connection ~ 12760 2230
+Wire Wire Line
+	12760 2230 13165 2230
+Connection ~ 13165 2230
+Wire Wire Line
+	13165 2230 13570 2230
+Connection ~ 13570 2230
+Wire Wire Line
+	13570 2230 13975 2230
+Connection ~ 13975 2230
+Wire Wire Line
+	13975 2230 14530 2230
+Connection ~ 14530 2230
+Wire Wire Line
+	14530 2230 14935 2230
+Connection ~ 14935 2230
+Wire Wire Line
+	14935 2230 15340 2230
+Connection ~ 15340 2230
+Wire Wire Line
+	15340 2230 15745 2230
+Connection ~ 15745 2230
+Wire Wire Line
+	15745 2230 16300 2230
+Connection ~ 16300 2230
+Wire Wire Line
+	16300 2230 16600 2230
+Text GLabel 16755 2230 2    50   Input ~ 0
+LedGND
+Wire Wire Line
+	7835 3870 8240 3870
+Connection ~ 8240 3870
+Wire Wire Line
+	8240 3870 8645 3870
+Connection ~ 8645 3870
+Wire Wire Line
+	8645 3870 9050 3870
+Connection ~ 9050 3870
+Wire Wire Line
+	9050 3870 9605 3870
+Connection ~ 9605 3870
+Wire Wire Line
+	9605 3870 10160 3870
+Connection ~ 10160 3870
+Wire Wire Line
+	10160 3870 10715 3870
+Connection ~ 10715 3870
+Wire Wire Line
+	10715 3870 11120 3870
+Connection ~ 11120 3870
+Wire Wire Line
+	11120 3870 11525 3870
+Connection ~ 11525 3870
+Wire Wire Line
+	11525 3870 11930 3870
+Connection ~ 11930 3870
+Wire Wire Line
+	11930 3870 12485 3870
+Connection ~ 12485 3870
+Wire Wire Line
+	12485 3870 12890 3870
+Connection ~ 12890 3870
+Wire Wire Line
+	12890 3870 13295 3870
+Connection ~ 13295 3870
+Wire Wire Line
+	13295 3870 13700 3870
+Connection ~ 13700 3870
+Wire Wire Line
+	13700 3870 14255 3870
+Connection ~ 14255 3870
+Wire Wire Line
+	14255 3870 14660 3870
+Connection ~ 14660 3870
+Wire Wire Line
+	14660 3870 15065 3870
+Connection ~ 15065 3870
+Wire Wire Line
+	15065 3870 15470 3870
+Connection ~ 15470 3870
+Wire Wire Line
+	15470 3870 16025 3870
+Wire Wire Line
+	8240 4665 8645 4665
+Connection ~ 8645 4665
+Wire Wire Line
+	8645 4665 9050 4665
+Connection ~ 9050 4665
+Connection ~ 10715 4665
+Wire Wire Line
+	10715 4665 11120 4665
+Connection ~ 11120 4665
+Wire Wire Line
+	11120 4665 11525 4665
+Connection ~ 11525 4665
+Wire Wire Line
+	11525 4665 11930 4665
+Connection ~ 11930 4665
+Wire Wire Line
+	11930 4665 12485 4665
+Connection ~ 12485 4665
+Wire Wire Line
+	12485 4665 12890 4665
+Connection ~ 12890 4665
+Wire Wire Line
+	12890 4665 13295 4665
+Connection ~ 13295 4665
+Wire Wire Line
+	13295 4665 13700 4665
+Connection ~ 13700 4665
+Wire Wire Line
+	13700 4665 14255 4665
+Connection ~ 14255 4665
+Wire Wire Line
+	14255 4665 14660 4665
+Connection ~ 14660 4665
+Wire Wire Line
+	14660 4665 15065 4665
+Connection ~ 15065 4665
+Wire Wire Line
+	7835 5460 8240 5460
+Connection ~ 8240 5460
+Wire Wire Line
+	8240 5460 8645 5460
+Connection ~ 8645 5460
+Wire Wire Line
+	8645 5460 9050 5460
+Connection ~ 9050 5460
+Wire Wire Line
+	9050 5460 9605 5460
+Connection ~ 9605 5460
+Wire Wire Line
+	9605 5460 10160 5460
+Connection ~ 10160 5460
+Wire Wire Line
+	10160 5460 10715 5460
+Connection ~ 10715 5460
+Wire Wire Line
+	10715 5460 11120 5460
+Connection ~ 11120 5460
+Wire Wire Line
+	11120 5460 11525 5460
+Connection ~ 11525 5460
+Wire Wire Line
+	11525 5460 11930 5460
+Connection ~ 11930 5460
+Wire Wire Line
+	11930 5460 12485 5460
+Connection ~ 12485 5460
+Wire Wire Line
+	12485 5460 12890 5460
+Connection ~ 12890 5460
+Wire Wire Line
+	12890 5460 13295 5460
+Connection ~ 13295 5460
+Wire Wire Line
+	13295 5460 13700 5460
+Connection ~ 13700 5460
+Wire Wire Line
+	13700 5460 14255 5460
+Connection ~ 14255 5460
+Wire Wire Line
+	14255 5460 14660 5460
+Connection ~ 14660 5460
+Wire Wire Line
+	14660 5460 16025 5460
+Connection ~ 8645 6255
+Wire Wire Line
+	8645 6255 8240 6255
+Connection ~ 9050 6255
+Wire Wire Line
+	9050 6255 8645 6255
+Connection ~ 9605 6255
+Wire Wire Line
+	9605 6255 9050 6255
+Connection ~ 10160 6255
+Wire Wire Line
+	10160 6255 9605 6255
+Connection ~ 10715 6255
+Wire Wire Line
+	10715 6255 10160 6255
+Connection ~ 11120 6255
+Wire Wire Line
+	11120 6255 10715 6255
+Connection ~ 11525 6255
+Wire Wire Line
+	11525 6255 11120 6255
+Connection ~ 14660 6255
+Wire Wire Line
+	14660 6255 12890 6255
+Connection ~ 15065 6255
+Wire Wire Line
+	15065 6255 14660 6255
+Wire Wire Line
+	7835 3870 7700 3870
+Connection ~ 7835 3870
+Text GLabel 7700 3870 0    50   Input ~ 0
+Row2
+Wire Wire Line
+	7835 5460 7700 5460
+Connection ~ 7835 5460
+Connection ~ 8240 4665
+Text GLabel 7700 4665 0    50   Input ~ 0
+Row3
+Wire Wire Line
+	7700 4665 8240 4665
+Text GLabel 7700 5460 0    50   Input ~ 0
+Row4
+Wire Wire Line
+	7700 6255 8240 6255
+Connection ~ 8240 6255
+Text GLabel 7700 6255 0    50   Input ~ 0
+Row5
+Connection ~ 16600 2230
+Wire Wire Line
+	16600 2230 16755 2230
+Connection ~ 8920 6205
+Wire Wire Line
+	8920 6205 8515 6205
+Connection ~ 9325 6205
+Wire Wire Line
+	9325 6205 8920 6205
+Connection ~ 9880 6205
+Wire Wire Line
+	9880 6205 9325 6205
+Connection ~ 10435 6205
+Wire Wire Line
+	10435 6205 9880 6205
+Connection ~ 10990 6205
+Wire Wire Line
+	10990 6205 10435 6205
+Connection ~ 11395 6205
+Wire Wire Line
+	11395 6205 10990 6205
+Connection ~ 11800 6205
+Wire Wire Line
+	11800 6205 11395 6205
+Connection ~ 14935 6205
+Wire Wire Line
+	14935 6205 13165 6205
+Wire Wire Line
+	15340 6205 14935 6205
+Wire Wire Line
+	8110 5410 8515 5410
+Connection ~ 8515 5410
+Wire Wire Line
+	8515 5410 8920 5410
+Connection ~ 8920 5410
+Wire Wire Line
+	8920 5410 9325 5410
+Connection ~ 9325 5410
+Wire Wire Line
+	9325 5410 9880 5410
+Connection ~ 9880 5410
+Wire Wire Line
+	9880 5410 10435 5410
+Connection ~ 10435 5410
+Wire Wire Line
+	10435 5410 10990 5410
+Connection ~ 10990 5410
+Wire Wire Line
+	10990 5410 11395 5410
+Connection ~ 11395 5410
+Wire Wire Line
+	11395 5410 11800 5410
+Connection ~ 11800 5410
+Wire Wire Line
+	11800 5410 12205 5410
+Connection ~ 12205 5410
+Wire Wire Line
+	12205 5410 12760 5410
+Connection ~ 12760 5410
+Wire Wire Line
+	12760 5410 13165 5410
+Connection ~ 13165 5410
+Wire Wire Line
+	13165 5410 13570 5410
+Connection ~ 13570 5410
+Wire Wire Line
+	13570 5410 13975 5410
+Connection ~ 13975 5410
+Wire Wire Line
+	13975 5410 14530 5410
+Connection ~ 14530 5410
+Wire Wire Line
+	14530 5410 14935 5410
+Connection ~ 14935 5410
+Wire Wire Line
+	14935 5410 16300 5410
+Connection ~ 16300 5410
+Wire Wire Line
+	16300 5410 16600 5410
+Wire Wire Line
+	8515 4615 8920 4615
+Connection ~ 16600 4615
+Wire Wire Line
+	16600 4615 16600 5410
+Connection ~ 8920 4615
+Wire Wire Line
+	8920 4615 9325 4615
+Connection ~ 9325 4615
+Connection ~ 10990 4615
+Wire Wire Line
+	10990 4615 11395 4615
+Connection ~ 11395 4615
+Wire Wire Line
+	11395 4615 11800 4615
+Connection ~ 11800 4615
+Wire Wire Line
+	11800 4615 12205 4615
+Connection ~ 12205 4615
+Wire Wire Line
+	12205 4615 12760 4615
+Connection ~ 12760 4615
+Wire Wire Line
+	12760 4615 13165 4615
+Connection ~ 13165 4615
+Wire Wire Line
+	13165 4615 13570 4615
+Connection ~ 13570 4615
+Wire Wire Line
+	13570 4615 13975 4615
+Connection ~ 13975 4615
+Wire Wire Line
+	13975 4615 14530 4615
+Connection ~ 14530 4615
+Wire Wire Line
+	14530 4615 14935 4615
+Connection ~ 14935 4615
+Wire Wire Line
+	14935 4615 15340 4615
+Connection ~ 15340 4615
+Wire Wire Line
+	8110 3820 8515 3820
+Connection ~ 16600 3820
+Wire Wire Line
+	16600 3820 16600 4615
+Connection ~ 8515 3820
+Wire Wire Line
+	8515 3820 8920 3820
+Connection ~ 8920 3820
+Wire Wire Line
+	8920 3820 9325 3820
+Connection ~ 9325 3820
+Wire Wire Line
+	9325 3820 9880 3820
+Connection ~ 9880 3820
+Wire Wire Line
+	9880 3820 10435 3820
+Connection ~ 10435 3820
+Wire Wire Line
+	10435 3820 10990 3820
+Connection ~ 10990 3820
+Wire Wire Line
+	10990 3820 11395 3820
+Connection ~ 11395 3820
+Wire Wire Line
+	11395 3820 11800 3820
+Connection ~ 11800 3820
+Wire Wire Line
+	11800 3820 12205 3820
+Connection ~ 12205 3820
+Wire Wire Line
+	12205 3820 12760 3820
+Connection ~ 12760 3820
+Wire Wire Line
+	12760 3820 13165 3820
+Connection ~ 13165 3820
+Wire Wire Line
+	13165 3820 13570 3820
+Connection ~ 13570 3820
+Wire Wire Line
+	13570 3820 13975 3820
+Connection ~ 13975 3820
+Wire Wire Line
+	13975 3820 14530 3820
+Connection ~ 14530 3820
+Wire Wire Line
+	14530 3820 14935 3820
+Connection ~ 14935 3820
+Wire Wire Line
+	14935 3820 15340 3820
+Connection ~ 15340 3820
+Wire Wire Line
+	15340 3820 15745 3820
+Connection ~ 15745 3820
+Wire Wire Line
+	8110 3025 8515 3025
+Connection ~ 16600 3025
+Wire Wire Line
+	16600 3025 16600 3820
+Connection ~ 8515 3025
+Wire Wire Line
+	8515 3025 8920 3025
+Connection ~ 8920 3025
+Connection ~ 9880 3025
+Wire Wire Line
+	9880 3025 10435 3025
+Connection ~ 10435 3025
+Wire Wire Line
+	10435 3025 10990 3025
+Connection ~ 10990 3025
+Wire Wire Line
+	10990 3025 11395 3025
+Connection ~ 11395 3025
+Wire Wire Line
+	11395 3025 11800 3025
+Connection ~ 11800 3025
+Wire Wire Line
+	11800 3025 12205 3025
+Connection ~ 12205 3025
+Wire Wire Line
+	12205 3025 12760 3025
+Connection ~ 12760 3025
+Wire Wire Line
+	12760 3025 13165 3025
+Connection ~ 13165 3025
+Wire Wire Line
+	13165 3025 13570 3025
+Connection ~ 13570 3025
+Wire Wire Line
+	13570 3025 13975 3025
+Connection ~ 13975 3025
+Wire Wire Line
+	13975 3025 14530 3025
+Connection ~ 14530 3025
+Wire Wire Line
+	14530 3025 14935 3025
+Connection ~ 14935 3025
+Wire Wire Line
+	14935 3025 15340 3025
+Connection ~ 15340 3025
+Wire Wire Line
+	15340 3025 15745 3025
+Connection ~ 15745 3025
+Wire Wire Line
+	15745 3025 16300 3025
+Connection ~ 16300 3025
+Wire Wire Line
+	16300 3025 16600 3025
+Connection ~ 11280 5955
+Wire Wire Line
+	11280 6730 11280 5955
+Connection ~ 11685 5955
+Wire Wire Line
+	11685 6730 11685 5955
+Wire Wire Line
+	10875 6730 10875 5955
+Connection ~ 10875 5955
+Wire Wire Line
+	10925 5905 10925 6680
+Connection ~ 10925 5905
+Connection ~ 11330 5905
+Wire Wire Line
+	11735 5905 11735 6680
+Connection ~ 11735 5905
+Wire Wire Line
+	13050 5955 13050 6730
+Wire Wire Line
+	13050 6730 13050 7505
+Wire Wire Line
+	13100 6680 13100 5905
+Wire Wire Line
+	13100 7455 13100 6680
+Wire Wire Line
+	14820 5955 14820 6730
+Connection ~ 14820 5955
+Wire Wire Line
+	15225 5955 15225 6730
+Connection ~ 15225 5955
+Connection ~ 15225 6730
+Wire Wire Line
+	15225 6730 15225 7505
+Connection ~ 15225 7505
+Wire Wire Line
+	14870 5905 14870 6680
+Connection ~ 14870 5905
+Wire Wire Line
+	15275 5905 15275 6680
+Connection ~ 15275 5905
+Connection ~ 15275 6680
+Wire Wire Line
+	15275 6680 15275 7455
+Connection ~ 15275 7455
+Wire Wire Line
+	8195 1780 8195 2575
+Connection ~ 8195 1780
+Connection ~ 8195 2575
+Wire Wire Line
+	8195 2575 8195 3370
+Connection ~ 8195 3370
+Wire Wire Line
+	8195 3370 8195 4960
+Wire Wire Line
+	8145 1830 8550 1830
+Connection ~ 8550 1830
+Wire Wire Line
+	8550 1830 8955 1830
+Connection ~ 8955 1830
+Wire Wire Line
+	8955 1830 9360 1830
+Connection ~ 9360 1830
+Wire Wire Line
+	9360 1830 9915 1830
+Connection ~ 9915 1830
+Wire Wire Line
+	9915 1830 10470 1830
+Connection ~ 10470 1830
+Connection ~ 11430 1830
+Wire Wire Line
+	11430 1830 11835 1830
+Connection ~ 11835 1830
+Wire Wire Line
+	11835 1830 12240 1830
+Connection ~ 12240 1830
+Wire Wire Line
+	12240 1830 12795 1830
+Connection ~ 12795 1830
+Wire Wire Line
+	12795 1830 13200 1830
+Connection ~ 13200 1830
+Wire Wire Line
+	13200 1830 13605 1830
+Connection ~ 13605 1830
+Wire Wire Line
+	13605 1830 14010 1830
+Connection ~ 14010 1830
+Wire Wire Line
+	14010 1830 14565 1830
+Connection ~ 14565 1830
+Wire Wire Line
+	14565 1830 14970 1830
+Connection ~ 14970 1830
+Wire Wire Line
+	14970 1830 15375 1830
+Connection ~ 15375 1830
+Wire Wire Line
+	15375 1830 15780 1830
+Connection ~ 15780 1830
+Wire Wire Line
+	15780 1830 16335 1830
+Connection ~ 16335 1830
+Wire Wire Line
+	16335 1830 17035 1830
+Connection ~ 8955 5805
+Wire Wire Line
+	8955 5805 8550 5805
+Connection ~ 9360 5805
+Wire Wire Line
+	9360 5805 8955 5805
+Connection ~ 9915 5805
+Wire Wire Line
+	9915 5805 9360 5805
+Connection ~ 10470 5805
+Wire Wire Line
+	10470 5805 9915 5805
+Connection ~ 11025 5805
+Wire Wire Line
+	11025 5805 10470 5805
+Connection ~ 11430 5805
+Wire Wire Line
+	11430 5805 11025 5805
+Connection ~ 11835 5805
+Wire Wire Line
+	11835 5805 11430 5805
+Connection ~ 14970 5805
+Wire Wire Line
+	14970 5805 13200 5805
+Connection ~ 15375 5805
+Wire Wire Line
+	15375 5805 14970 5805
+Wire Wire Line
+	8145 5010 8550 5010
+Connection ~ 17035 5010
+Wire Wire Line
+	17035 5010 17035 5805
+Connection ~ 8550 5010
+Wire Wire Line
+	8550 5010 8955 5010
+Connection ~ 8955 5010
+Wire Wire Line
+	8955 5010 9360 5010
+Connection ~ 9360 5010
+Wire Wire Line
+	9360 5010 9915 5010
+Connection ~ 9915 5010
+Wire Wire Line
+	9915 5010 10470 5010
+Connection ~ 10470 5010
+Wire Wire Line
+	10470 5010 11025 5010
+Connection ~ 11025 5010
+Wire Wire Line
+	11025 5010 11430 5010
+Connection ~ 11430 5010
+Wire Wire Line
+	11430 5010 11835 5010
+Connection ~ 11835 5010
+Wire Wire Line
+	11835 5010 12240 5010
+Connection ~ 12240 5010
+Wire Wire Line
+	12240 5010 12795 5010
+Connection ~ 12795 5010
+Wire Wire Line
+	12795 5010 13200 5010
+Connection ~ 13200 5010
+Wire Wire Line
+	13200 5010 13605 5010
+Connection ~ 13605 5010
+Wire Wire Line
+	13605 5010 14010 5010
+Connection ~ 14010 5010
+Wire Wire Line
+	14010 5010 14565 5010
+Connection ~ 14565 5010
+Wire Wire Line
+	14565 5010 14970 5010
+Connection ~ 14970 5010
+Wire Wire Line
+	14970 5010 16335 5010
+Connection ~ 16335 5010
+Wire Wire Line
+	16335 5010 17035 5010
+Wire Wire Line
+	8550 4215 8955 4215
+Wire Wire Line
+	17035 1830 17035 2625
+Connection ~ 8955 4215
+Wire Wire Line
+	8955 4215 9360 4215
+Connection ~ 9360 4215
+Connection ~ 11025 4215
+Wire Wire Line
+	11025 4215 11430 4215
+Connection ~ 11430 4215
+Wire Wire Line
+	11430 4215 11835 4215
+Connection ~ 11835 4215
+Wire Wire Line
+	11835 4215 12240 4215
+Connection ~ 12240 4215
+Wire Wire Line
+	12240 4215 12795 4215
+Connection ~ 12795 4215
+Wire Wire Line
+	12795 4215 13200 4215
+Connection ~ 13200 4215
+Wire Wire Line
+	13200 4215 13605 4215
+Connection ~ 13605 4215
+Wire Wire Line
+	13605 4215 14010 4215
+Connection ~ 14010 4215
+Wire Wire Line
+	14010 4215 14565 4215
+Connection ~ 14565 4215
+Wire Wire Line
+	14565 4215 14970 4215
+Connection ~ 14970 4215
+Wire Wire Line
+	14970 4215 15375 4215
+Connection ~ 15375 4215
+Wire Wire Line
+	14970 6580 14970 5805
+Wire Wire Line
+	15375 7355 15375 6580
+Connection ~ 15375 6580
+Wire Wire Line
+	15375 6580 15375 5805
+Wire Wire Line
+	13200 6580 13200 5805
+Wire Wire Line
+	13200 7355 13200 6580
+Wire Wire Line
+	11025 6580 11025 5805
+Wire Wire Line
+	11835 6580 11835 5805
+Wire Wire Line
+	8600 1780 8600 2575
+Connection ~ 8600 1780
+Connection ~ 8600 2575
+Wire Wire Line
+	8600 2575 8600 3370
+Connection ~ 8600 3370
+Wire Wire Line
+	8600 3370 8600 4165
+Connection ~ 8600 4165
+Wire Wire Line
+	8600 4165 8600 4960
+Connection ~ 8600 4960
+Wire Wire Line
+	8600 4960 8600 5755
+Wire Wire Line
+	9005 1780 9005 2575
+Connection ~ 9005 1780
+Connection ~ 9005 2575
+Wire Wire Line
+	9005 2575 9005 3370
+Connection ~ 9005 3370
+Wire Wire Line
+	9005 3370 9005 4165
+Connection ~ 9005 4165
+Wire Wire Line
+	9005 4165 9005 4960
+Connection ~ 9005 4960
+Wire Wire Line
+	9005 4960 9005 5755
+Connection ~ 9410 1780
+Connection ~ 9410 3370
+Wire Wire Line
+	9410 3370 9410 4165
+Connection ~ 9410 4165
+Wire Wire Line
+	9410 4165 9410 4960
+Connection ~ 9410 4960
+Wire Wire Line
+	9410 4960 9410 5755
+Wire Wire Line
+	8145 3420 8550 3420
+Connection ~ 17035 3420
+Connection ~ 8550 3420
+Wire Wire Line
+	8550 3420 8955 3420
+Connection ~ 8955 3420
+Wire Wire Line
+	8955 3420 9360 3420
+Connection ~ 9360 3420
+Wire Wire Line
+	9360 3420 9915 3420
+Connection ~ 9915 3420
+Wire Wire Line
+	9915 3420 10470 3420
+Connection ~ 10470 3420
+Wire Wire Line
+	10470 3420 11025 3420
+Connection ~ 11025 3420
+Wire Wire Line
+	11025 3420 11430 3420
+Connection ~ 11430 3420
+Wire Wire Line
+	11430 3420 11835 3420
+Connection ~ 11835 3420
+Wire Wire Line
+	11835 3420 12240 3420
+Connection ~ 12240 3420
+Wire Wire Line
+	12240 3420 12795 3420
+Connection ~ 12795 3420
+Wire Wire Line
+	12795 3420 13200 3420
+Connection ~ 13200 3420
+Wire Wire Line
+	13200 3420 13605 3420
+Connection ~ 13605 3420
+Wire Wire Line
+	13605 3420 14010 3420
+Connection ~ 14010 3420
+Wire Wire Line
+	14010 3420 14565 3420
+Connection ~ 14565 3420
+Wire Wire Line
+	14565 3420 14970 3420
+Connection ~ 14970 3420
+Wire Wire Line
+	14970 3420 15375 3420
+Connection ~ 15375 3420
+Wire Wire Line
+	15375 3420 15780 3420
+Connection ~ 15780 3420
+Wire Wire Line
+	8145 2625 8550 2625
+Connection ~ 8550 2625
+Wire Wire Line
+	8550 2625 8955 2625
+Connection ~ 8955 2625
+Connection ~ 9915 2625
+Wire Wire Line
+	9915 2625 10470 2625
+Connection ~ 10470 2625
+Wire Wire Line
+	10470 2625 11025 2625
+Connection ~ 11025 2625
+Wire Wire Line
+	11025 2625 11430 2625
+Connection ~ 11430 2625
+Wire Wire Line
+	11430 2625 11835 2625
+Connection ~ 11835 2625
+Wire Wire Line
+	11835 2625 12240 2625
+Connection ~ 12240 2625
+Wire Wire Line
+	12240 2625 12795 2625
+Connection ~ 12795 2625
+Wire Wire Line
+	12795 2625 13200 2625
+Connection ~ 13200 2625
+Wire Wire Line
+	13200 2625 13605 2625
+Connection ~ 13605 2625
+Wire Wire Line
+	13605 2625 14010 2625
+Connection ~ 14010 2625
+Wire Wire Line
+	14010 2625 14565 2625
+Connection ~ 14565 2625
+Wire Wire Line
+	14565 2625 14970 2625
+Connection ~ 14970 2625
+Wire Wire Line
+	14970 2625 15375 2625
+Connection ~ 15375 2625
+Wire Wire Line
+	15375 2625 15780 2625
+Connection ~ 15780 2625
+Wire Wire Line
+	15780 2625 16335 2625
+Text GLabel 1905 13480 2    50   Input ~ 0
+NumLed
+Text GLabel 1905 13635 2    50   Input ~ 0
+CapLed
+Wire Wire Line
+	9965 1780 9965 2575
+Wire Wire Line
+	9325 4615 10990 4615
+Wire Wire Line
+	8920 3025 9880 3025
+Connection ~ 9965 1780
+Connection ~ 9965 2575
+Wire Wire Line
+	9965 2575 9965 3370
+Connection ~ 9965 3370
+Wire Wire Line
+	9965 3370 9965 4960
+Connection ~ 9965 4960
+Wire Wire Line
+	9965 4960 9965 5755
+Wire Wire Line
+	10520 1780 10520 2575
+Connection ~ 10520 1780
+Connection ~ 10520 2575
+Wire Wire Line
+	10520 2575 10520 3370
+Connection ~ 10520 3370
+Connection ~ 10520 4960
+Wire Wire Line
+	10520 4960 10520 5755
+Wire Wire Line
+	11075 6530 11075 5755
+Connection ~ 11075 2575
+Connection ~ 11075 3370
+Wire Wire Line
+	11075 3370 11075 2575
+Connection ~ 11075 4165
+Wire Wire Line
+	11075 4165 11075 3370
+Connection ~ 11075 4960
+Wire Wire Line
+	11075 4960 11075 4165
+Connection ~ 11075 5755
+Wire Wire Line
+	11075 5755 11075 4960
+Connection ~ 11480 1780
+Connection ~ 11480 2575
+Wire Wire Line
+	11480 2575 11480 1780
+Connection ~ 11480 3370
+Wire Wire Line
+	11480 3370 11480 2575
+Connection ~ 11480 4165
+Wire Wire Line
+	11480 4165 11480 3370
+Connection ~ 11480 4960
+Wire Wire Line
+	11480 4960 11480 4165
+Connection ~ 11480 5755
+Wire Wire Line
+	11480 5755 11480 4960
+Wire Wire Line
+	11480 6530 11480 5755
+Connection ~ 11885 1780
+Connection ~ 11885 2575
+Wire Wire Line
+	11885 2575 11885 1780
+Connection ~ 11885 3370
+Wire Wire Line
+	11885 3370 11885 2575
+Connection ~ 11885 4165
+Wire Wire Line
+	11885 4165 11885 3370
+Connection ~ 11885 4960
+Wire Wire Line
+	11885 4960 11885 4165
+Connection ~ 11885 5755
+Wire Wire Line
+	11885 5755 11885 4960
+Wire Wire Line
+	11885 6530 11885 5755
+Wire Wire Line
+	12290 4960 12290 4165
+Connection ~ 12290 1780
+Connection ~ 12290 2575
+Wire Wire Line
+	12290 2575 12290 1780
+Connection ~ 12290 3370
+Wire Wire Line
+	12290 3370 12290 2575
+Connection ~ 12290 4165
+Wire Wire Line
+	12290 4165 12290 3370
+Wire Wire Line
+	12845 1780 12845 2575
+Connection ~ 12845 1780
+Connection ~ 12845 2575
+Wire Wire Line
+	12845 2575 12845 3370
+Connection ~ 12845 3370
+Wire Wire Line
+	12845 3370 12845 4165
+Connection ~ 12845 4165
+Wire Wire Line
+	12845 4165 12845 4960
+Wire Wire Line
+	13250 4960 13250 5755
+Wire Wire Line
+	13250 5755 13250 6530
+Wire Wire Line
+	13250 6530 13250 7305
+Wire Wire Line
+	13250 1780 13250 2575
+Connection ~ 13250 1780
+Connection ~ 13250 2575
+Wire Wire Line
+	13250 2575 13250 3370
+Connection ~ 13250 3370
+Wire Wire Line
+	13250 3370 13250 4165
+Connection ~ 13250 4165
+Wire Wire Line
+	13250 4165 13250 4960
+Wire Wire Line
+	13655 1780 13655 2575
+Connection ~ 13655 1780
+Connection ~ 13655 2575
+Wire Wire Line
+	13655 2575 13655 3370
+Connection ~ 13655 3370
+Wire Wire Line
+	13655 3370 13655 4165
+Connection ~ 13655 4165
+Wire Wire Line
+	13655 4165 13655 4960
+Wire Wire Line
+	14060 1780 14060 2575
+Connection ~ 14060 1780
+Connection ~ 14060 2575
+Wire Wire Line
+	14060 2575 14060 3370
+Connection ~ 14060 3370
+Wire Wire Line
+	14060 3370 14060 4165
+Connection ~ 14060 4165
+Wire Wire Line
+	14060 4165 14060 4960
+Wire Wire Line
+	14615 1780 14615 2575
+Connection ~ 14615 1780
+Connection ~ 14615 2575
+Wire Wire Line
+	14615 2575 14615 3370
+Connection ~ 14615 3370
+Wire Wire Line
+	14615 3370 14615 4165
+Connection ~ 14615 4165
+Wire Wire Line
+	14615 4165 14615 4960
+Connection ~ 15020 1780
+Connection ~ 15020 2575
+Wire Wire Line
+	15020 2575 15020 1780
+Connection ~ 15020 3370
+Wire Wire Line
+	15020 3370 15020 2575
+Connection ~ 15020 4165
+Wire Wire Line
+	15020 4165 15020 3370
+Connection ~ 15020 4960
+Wire Wire Line
+	15020 4960 15020 4165
+Connection ~ 15020 5755
+Wire Wire Line
+	15020 5755 15020 4960
+Wire Wire Line
+	15020 6530 15020 5755
+Wire Wire Line
+	15425 1780 15425 2575
+Connection ~ 15425 1780
+Connection ~ 15425 2575
+Wire Wire Line
+	15425 2575 15425 3370
+Connection ~ 15425 3370
+Wire Wire Line
+	15425 3370 15425 4165
+Connection ~ 15425 4165
+Wire Wire Line
+	15425 4165 15425 5755
+Connection ~ 15425 5755
+Wire Wire Line
+	15425 5755 15425 6530
+Connection ~ 15425 6530
+Wire Wire Line
+	15425 6530 15425 7305
+Connection ~ 15425 7305
+Connection ~ 15375 7355
+Connection ~ 15830 1780
+Connection ~ 15830 2575
+Wire Wire Line
+	15830 2575 15830 1780
+Wire Wire Line
+	15830 3370 15830 2575
+Wire Wire Line
+	16385 1780 16385 2575
+Connection ~ 16385 1780
+Connection ~ 16385 2575
+Wire Wire Line
+	16385 2575 16385 3370
+Connection ~ 16385 3370
+Wire Wire Line
+	16385 3370 16385 4165
+Connection ~ 16385 4165
+Wire Wire Line
+	16385 4165 16385 4960
+$Comp
+L power:+5V #PWR022
+U 1 1 6407BB87
+P 17035 1830
+F 0 "#PWR022" H 17035 1680 50  0001 C CNN
+F 1 "+5V" H 17050 2003 50  0000 C CNN
+F 2 "" H 17035 1830 50  0001 C CNN
+F 3 "" H 17035 1830 50  0001 C CNN
+	1    17035 1830
+	0    1    1    0   
+$EndComp
+Connection ~ 17035 1830
+Wire Wire Line
+	16600 2230 16600 3025
+Wire Wire Line
+	16335 2625 17035 2625
+Connection ~ 16335 2625
+Connection ~ 17035 2625
+Wire Wire Line
+	17035 2625 17035 3420
+Wire Wire Line
+	15375 5805 16335 5805
+Wire Wire Line
+	15065 6255 16025 6255
+Connection ~ 16235 5905
+Connection ~ 16185 5955
+Wire Wire Line
+	16385 6530 16385 5755
+Connection ~ 16385 6530
+Wire Wire Line
+	16385 7305 16385 6530
+Wire Wire Line
+	16335 6580 16335 5805
+Connection ~ 16335 6580
+Wire Wire Line
+	16335 7355 16335 6580
+Wire Wire Line
+	16235 6680 16235 7455
+Connection ~ 16235 6680
+Wire Wire Line
+	16235 5905 16235 6680
+Wire Wire Line
+	16185 6730 16185 7505
+Connection ~ 16185 6730
+Wire Wire Line
+	16185 5955 16185 6730
+Wire Wire Line
+	16235 5905 16300 5905
+Wire Wire Line
+	16185 5955 16025 5955
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_RControl1
+U 1 1 5F38AAE9
+P 16210 5780
+F 0 "MX_RControl1" H 16296 5997 60  0000 C CNN
+F 1 "1,25U NoLed" H 16296 5923 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.25U" H 16185 5755 60  0001 C CNN
+F 3 "" H 16185 5755 60  0001 C CNN
+	1    16210 5780
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_RControl2
+U 1 1 5F2F0AF0
+P 16210 6555
+F 0 "MX_RControl2" H 16296 6772 60  0000 C CNN
+F 1 "1U FLIPPED" H 16296 6698 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U-FLIPPED" H 16185 6530 60  0001 C CNN
+F 3 "" H 16185 6530 60  0001 C CNN
+	1    16210 6555
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_RControl3
+U 1 1 5F2F3CDE
+P 16210 7330
+F 0 "MX_RControl3" H 16296 7547 60  0000 C CNN
+F 1 "1,5U FLIPPED" H 16296 7473 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.5U-FLIPPED" H 16185 7305 60  0001 C CNN
+F 3 "" H 16185 7305 60  0001 C CNN
+	1    16210 7330
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D101
+U 1 1 5F8741AC
+P 16025 6105
+F 0 "D101" V 16071 6026 50  0000 R CNN
+F 1 "SOD123" V 15980 6026 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 16025 6105 50  0001 C CNN
+F 3 "~" H 16025 6105 50  0001 C CNN
+	1    16025 6105
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R103
+U 1 1 602239A6
+P 16300 6055
+F 0 "R103" H 16370 6101 50  0000 L CNN
+F 1 "1k" H 16370 6010 50  0000 L CNN
+F 2 "random-keyboard-parts:R_0805" V 16230 6055 50  0001 C CNN
+F 3 "~" H 16300 6055 50  0001 C CNN
+	1    16300 6055
+	1    0    0    -1  
+$EndComp
+Connection ~ 16335 5805
+Wire Wire Line
+	16335 5805 17035 5805
+Wire Wire Line
+	16385 5755 16385 4960
+Connection ~ 16385 5755
+Connection ~ 16385 4960
+Wire Wire Line
+	15340 6205 16300 6205
+Connection ~ 15340 6205
+Wire Wire Line
+	16300 6205 16600 6205
+Wire Wire Line
+	16600 6205 16600 5410
+Connection ~ 16300 6205
+Connection ~ 16600 5410
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_CapLk2
+U 1 1 5F912D6E
+P 5380 2105
+F 0 "MX_CapLk2" H 5466 2322 60  0000 C CNN
+F 1 "1,25U FLIPPED" H 5466 2248 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.25U-FLIPPED" H 5355 2080 60  0001 C CNN
+F 3 "" H 5355 2080 60  0001 C CNN
+	1    5380 2105
+	1    0    0    -1  
+$EndComp
+Text GLabel 16385 1495 1    50   Input ~ 0
+Col18
+Text GLabel 15425 1495 1    50   Input ~ 0
+Col16
+Text GLabel 15830 1495 1    50   Input ~ 0
+Col17
+$Comp
+L 1800-layout-rescue:MX-NoLED-MX_Alps_Hybrid MX_|\1
+U 1 1 5F679FE9
+P 16235 3420
+F 0 "MX_|\\1" H 16321 3637 60  0000 C CNN
+F 1 "1U" H 16321 3563 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1U-NoLED" H 16210 3395 60  0001 C CNN
+F 3 "" H 16210 3395 60  0001 C CNN
+	1    16235 3420
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1800-layout-rescue:MX-NoLED-MX_Alps_Hybrid MX_ENTER1
+U 1 1 5F890598
+P 16750 4215
+F 0 "MX_ENTER1" H 16836 4432 60  0000 C CNN
+F 1 "2x2.25U ISO enter" H 16836 4358 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED" H 16725 4190 60  0001 C CNN
+F 3 "" H 16725 4190 60  0001 C CNN
+	1    16750 4215
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16885 3570 16885 3370
+Wire Wire Line
+	16885 3370 16385 3370
+Wire Wire Line
+	17085 3370 17085 3630
+Wire Wire Line
+	17085 3630 16185 3630
+Wire Wire Line
+	16185 3630 16185 3570
+Wire Wire Line
+	15065 4665 16025 4665
+Wire Wire Line
+	16185 4365 16700 4365
+Connection ~ 16185 4365
+Wire Wire Line
+	17035 3420 17035 4215
+Wire Wire Line
+	17035 4215 17035 5010
+Connection ~ 17035 4215
+Connection ~ 13250 4960
+Connection ~ 13200 5805
+Connection ~ 12890 6255
+Connection ~ 13050 5955
+Connection ~ 13100 5905
+Connection ~ 13165 6205
+Connection ~ 13250 5755
+Wire Wire Line
+	11525 6255 12890 6255
+Wire Wire Line
+	11800 6205 13165 6205
+Wire Wire Line
+	11835 5805 13200 5805
+Connection ~ 13050 6730
+Connection ~ 13100 6680
+Connection ~ 13200 6580
+Connection ~ 13250 6530
+Wire Wire Line
+	10435 2230 11395 2230
+Wire Wire Line
+	11075 1495 11075 2575
+Wire Wire Line
+	10470 1830 11430 1830
+Wire Wire Line
+	10160 2280 11120 2280
+Wire Wire Line
+	15545 10115 17135 10115
+Wire Wire Line
+	15545 9515 17135 9515
+Wire Wire Line
+	15845 9815 16835 9815
+Wire Wire Line
+	11330 5905 11330 6680
+Wire Wire Line
+	15425 7305 15425 8350
+Wire Wire Line
+	15225 7505 15225 8550
+Wire Wire Line
+	15375 7355 15375 8400
+Wire Wire Line
+	15275 7455 15275 8500
+Wire Wire Line
+	11430 6580 11430 5805
+$Comp
+L 1800-layout-rescue:MX-1U-MX_Alps_Hybrids-Voyager60-rescue-1800-layout-rescue-1800-layout-rescue MX_CapLk1
+U 1 1 5F7660A5
+P 5090 2105
+F 0 "MX_CapLk1" H 5176 2322 60  0000 C CNN
+F 1 "1,75U " H 5176 2248 20  0000 C CNN
+F 2 "MX_Only_v2:MXOnly-1.75U" H 5065 2080 60  0001 C CNN
+F 3 "" H 5065 2080 60  0001 C CNN
+	1    5090 2105
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5265 2080 5265 2280
+Wire Wire Line
+	5195 2280 5265 2280
+Connection ~ 5265 2280
+Wire Wire Line
+	5265 2280 5355 2280
+Wire Wire Line
+	5115 2230 5405 2230
+Connection ~ 5405 2230
+$Comp
+L Graphic:Logo_Open_Hardware_Large LOGO1
+U 1 1 5FDEC9C3
+P 22020 6665
+F 0 "LOGO1" H 22020 7165 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 22020 6265 50  0001 C CNN
+F 2 "MX_Only_v2:sanpjxlogo" H 22020 6665 50  0001 C CNN
+F 3 "~" H 22020 6665 50  0001 C CNN
+	1    22020 6665
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_ST_STM32F3:STM32F303CCTx U1
+U 1 1 5FCBE9E3
+P 3575 12835
+F 0 "U1" H 3525 11246 50  0000 C CNN
+F 1 "STM32F303CCTx" H 3525 11155 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 2975 11435 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 3575 12835 50  0001 C CNN
+	1    3575 12835
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 11535 2875 11535
+Wire Wire Line
+	2425 11535 2493 11535
+Wire Wire Line
+	1950 11385 1950 11535
+Wire Wire Line
+	1750 11385 1950 11385
+Wire Wire Line
+	1950 11535 2025 11535
+$Comp
+L power:GND #PWR02
+U 1 1 5FCC5F94
+P 1750 11385
+F 0 "#PWR02" H 1750 11135 50  0001 C CNN
+F 1 "GND" H 1750 11235 50  0000 C CNN
+F 2 "" H 1750 11385 50  0001 C CNN
+F 3 "" H 1750 11385 50  0001 C CNN
+	1    1750 11385
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5FCC5FA6
+P 2650 11215
+F 0 "R1" H 2680 11235 50  0000 L CNN
+F 1 "10k" H 2680 11175 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 2650 11215 50  0001 C CNN
+F 3 "" H 2650 11215 50  0001 C CNN
+	1    2650 11215
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1465 12135 1465 12460
+Wire Wire Line
+	1465 12135 1615 12135
+Wire Wire Line
+	1465 11835 1465 12135
+Wire Wire Line
+	1615 11835 1465 11835
+Wire Wire Line
+	1865 11985 1865 12460
+Wire Wire Line
+	2265 12460 2265 11985
+$Comp
+L Device:C_Small C2
+U 1 1 5FCE2CE6
+P 1715 12135
+F 0 "C2" H 1725 12205 50  0000 L CNN
+F 1 "22pF" H 1725 12055 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 1715 12135 50  0001 C CNN
+F 3 "" H 1715 12135 50  0001 C CNN
+	1    1715 12135
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5FCE2CEC
+P 1715 11835
+F 0 "C1" H 1725 11905 50  0000 L CNN
+F 1 "22pF" H 1725 11755 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 1715 11835 50  0001 C CNN
+F 3 "" H 1715 11835 50  0001 C CNN
+	1    1715 11835
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2065 11835 2445 11835
+Wire Wire Line
+	1815 11835 2065 11835
+Connection ~ 2065 11835
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5FCE2CF8
+P 2065 11985
+F 0 "Y1" H 2190 12185 50  0000 L CNN
+F 1 "16Mhz" H 2190 12110 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 2065 11985 50  0001 C CNN
+F 3 "" H 2065 11985 50  0001 C CNN
+	1    2065 11985
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1865 12460 1865 12510
+Wire Wire Line
+	1865 12460 2265 12460
+Connection ~ 1865 12460
+Wire Wire Line
+	1465 12460 1865 12460
+$Comp
+L power:GND #PWR03
+U 1 1 5FD0025D
+P 1865 12510
+F 0 "#PWR03" H 1865 12260 50  0001 C CNN
+F 1 "GND" H 1865 12360 50  0000 C CNN
+F 2 "" H 1865 12510 50  0001 C CNN
+F 3 "" H 1865 12510 50  0001 C CNN
+	1    1865 12510
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 12035 2700 12035
+$Comp
+L power:GND #PWR04
+U 1 1 5FCEF4E3
+P 2493 11335
+F 0 "#PWR04" H 2493 11085 50  0001 C CNN
+F 1 "GND" H 2493 11185 50  0000 C CNN
+F 2 "" H 2493 11335 50  0001 C CNN
+F 3 "" H 2493 11335 50  0001 C CNN
+	1    2493 11335
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3535 10560 3535 10660
+Wire Wire Line
+	3535 10160 3535 10260
+Wire Wire Line
+	3035 10560 3035 10460
+Wire Wire Line
+	3035 10260 3035 10160
+Connection ~ 3535 10560
+Wire Wire Line
+	3535 10460 3535 10560
+Wire Wire Line
+	3285 10560 3535 10560
+Wire Wire Line
+	3035 10560 3285 10560
+Connection ~ 3285 10560
+Wire Wire Line
+	3285 10460 3285 10560
+Wire Wire Line
+	3285 10160 3535 10160
+Connection ~ 3535 10160
+Wire Wire Line
+	3285 10160 3285 10260
+Wire Wire Line
+	3535 10060 3535 10160
+Connection ~ 3285 10160
+Wire Wire Line
+	3035 10160 3285 10160
+$Comp
+L Device:C_Small C4
+U 1 1 5FE1A683
+P 3035 10360
+F 0 "C4" H 3045 10430 50  0000 L CNN
+F 1 "10uF" H 3045 10280 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 3035 10360 50  0001 C CNN
+F 3 "" H 3035 10360 50  0001 C CNN
+	1    3035 10360
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5FE1A68F
+P 3535 10660
+F 0 "#PWR06" H 3535 10410 50  0001 C CNN
+F 1 "GND" H 3535 10510 50  0000 C CNN
+F 2 "" H 3535 10660 50  0001 C CNN
+F 3 "" H 3535 10660 50  0001 C CNN
+	1    3535 10660
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C6
+U 1 1 5FE1A69B
+P 3535 10360
+F 0 "C6" H 3545 10430 50  0000 L CNN
+F 1 "0.1uF" H 3545 10280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3535 10360 50  0001 C CNN
+F 3 "" H 3535 10360 50  0001 C CNN
+	1    3535 10360
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5FE1A6A1
+P 3285 10360
+F 0 "C5" H 3295 10430 50  0000 L CNN
+F 1 "0.1uF" H 3295 10280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3285 10360 50  0001 C CNN
+F 3 "" H 3285 10360 50  0001 C CNN
+	1    3285 10360
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4035 10460 4035 10560
+Wire Wire Line
+	4035 10160 4035 10260
+$Comp
+L Device:C_Small C7
+U 1 1 5FE5E822
+P 3785 10360
+F 0 "C7" H 3795 10430 50  0000 L CNN
+F 1 "0.1uF" H 3795 10280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3785 10360 50  0001 C CNN
+F 3 "" H 3785 10360 50  0001 C CNN
+	1    3785 10360
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C9
+U 1 1 5FE5E828
+P 4035 10360
+F 0 "C9" H 4045 10430 50  0000 L CNN
+F 1 "0.1uF" H 4045 10280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4035 10360 50  0001 C CNN
+F 3 "" H 4035 10360 50  0001 C CNN
+	1    4035 10360
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5FFE6192
+P 2493 11435
+F 0 "C3" H 2503 11505 50  0000 L CNN
+F 1 "0.1uF" H 2503 11355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2493 11435 50  0001 C CNN
+F 3 "" H 2493 11435 50  0001 C CNN
+	1    2493 11435
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5FCB339D
+P 2775 11735
+F 0 "R2" H 2805 11755 50  0000 L CNN
+F 1 "10k" H 2805 11695 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 2775 11735 50  0001 C CNN
+F 3 "" H 2775 11735 50  0001 C CNN
+	1    2775 11735
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 11315 2650 11535
+Connection ~ 2650 11535
+$Comp
+L Device:C_Small C10
+U 1 1 6018E188
+P 4140 11165
+F 0 "C10" H 4150 11235 50  0000 L CNN
+F 1 "1uF" H 4150 11085 50  0000 L CNN
+F 2 "random-keyboard-parts:C_0603" H 4140 11165 50  0001 C CNN
+F 3 "" H 4140 11165 50  0001 C CNN
+	1    4140 11165
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C8
+U 1 1 601B1485
+P 3975 11165
+F 0 "C8" H 3985 11235 50  0000 L CNN
+F 1 "10nF" H 3985 11085 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3975 11165 50  0001 C CNN
+F 3 "" H 3975 11165 50  0001 C CNN
+	1    3975 11165
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3535 10160 3785 10160
+Wire Wire Line
+	3535 10560 3785 10560
+Wire Wire Line
+	3785 10260 3785 10160
+Connection ~ 3785 10160
+Wire Wire Line
+	3785 10160 4035 10160
+Wire Wire Line
+	3785 10460 3785 10560
+Connection ~ 3785 10560
+Wire Wire Line
+	3785 10560 4035 10560
+Wire Wire Line
+	3775 11335 3775 11065
+Wire Wire Line
+	3775 11065 3975 11065
+Connection ~ 3975 11065
+Wire Wire Line
+	3975 11065 4140 11065
+Wire Wire Line
+	3975 11265 4140 11265
+Connection ~ 4140 11265
+Wire Wire Line
+	4140 11265 4230 11265
+Wire Wire Line
+	4140 11065 4315 11065
+Wire Wire Line
+	4315 11065 4315 10990
+Connection ~ 4140 11065
+$Comp
+L power:GND #PWR09
+U 1 1 6044ED3E
+P 4230 11265
+F 0 "#PWR09" H 4230 11015 50  0001 C CNN
+F 1 "GND" H 4230 11115 50  0000 C CNN
+F 2 "" H 4230 11265 50  0001 C CNN
+F 3 "" H 4230 11265 50  0001 C CNN
+	1    4230 11265
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4175 13735 2    60   Input ~ 0
+D-
+Text GLabel 4175 13835 2    60   Input ~ 0
+D+
+Wire Wire Line
+	3375 14335 3475 14335
+Connection ~ 3475 14335
+Wire Wire Line
+	3475 14335 3575 14335
+Connection ~ 3575 14335
+Wire Wire Line
+	3575 14335 3675 14335
+Connection ~ 3675 14335
+Wire Wire Line
+	3675 14335 3850 14335
+$Comp
+L power:GND #PWR08
+U 1 1 604A79C7
+P 3850 14335
+F 0 "#PWR08" H 3850 14085 50  0001 C CNN
+F 1 "GND" H 3850 14185 50  0000 C CNN
+F 2 "" H 3850 14335 50  0001 C CNN
+F 3 "" H 3850 14335 50  0001 C CNN
+	1    3850 14335
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3475 11335 3575 11335
+Connection ~ 3575 11335
+Wire Wire Line
+	3575 11335 3675 11335
+Wire Wire Line
+	3575 11335 3575 11260
+$Comp
+L power:VCC #PWR07
+U 1 1 60587081
+P 3575 11260
+F 0 "#PWR07" H 3575 11110 50  0001 C CNN
+F 1 "VCC" H 3592 11433 50  0000 C CNN
+F 2 "" H 3575 11260 50  0001 C CNN
+F 3 "" H 3575 11260 50  0001 C CNN
+	1    3575 11260
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR010
+U 1 1 60588654
+P 4315 10990
+F 0 "#PWR010" H 4315 10840 50  0001 C CNN
+F 1 "VCC" H 4332 11163 50  0000 C CNN
+F 2 "" H 4315 10990 50  0001 C CNN
+F 3 "" H 4315 10990 50  0001 C CNN
+	1    4315 10990
+	1    0    0    -1  
+$EndComp
+Text GLabel 4175 14035 2    50   Input ~ 0
+SWCLK
+NoConn ~ 2875 12835
+$Comp
+L power:+5V #PWR015
+U 1 1 5FE522AB
+P 7390 13125
+F 0 "#PWR015" H 7390 12975 50  0001 C CNN
+F 1 "+5V" H 7390 13265 50  0000 C CNN
+F 2 "" H 7390 13125 50  0001 C CNN
+F 3 "" H 7390 13125 50  0001 C CNN
+	1    7390 13125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 600D158A
+P 2650 11115
+F 0 "#PWR05" H 2650 10965 50  0001 C CNN
+F 1 "VCC" H 2667 11288 50  0000 C CNN
+F 2 "" H 2650 11115 50  0001 C CNN
+F 3 "" H 2650 11115 50  0001 C CNN
+	1    2650 11115
+	1    0    0    -1  
+$EndComp
+Text GLabel 6525 14295 2    50   Input ~ 0
+SWCLK
+Text GLabel 6525 14395 2    50   Input ~ 0
+SWDIO
+$Comp
+L power:GND #PWR011
+U 1 1 601F1CA1
+P 5970 15010
+F 0 "#PWR011" H 5970 14760 50  0001 C CNN
+F 1 "GND" H 5970 14860 50  0000 C CNN
+F 2 "" H 5970 15010 50  0001 C CNN
+F 3 "" H 5970 15010 50  0001 C CNN
+	1    5970 15010
+	0    1    1    0   
+$EndComp
+$Comp
+L 1800-layout-rescue:OLED-Pin-random-keyboard-parts-1800-layout-rescue U2
+U 1 1 601F1CA7
+P 6125 14395
+F 0 "U2" H 6125 14720 50  0000 C CNN
+F 1 "OLED-Pin" H 6125 14629 50  0000 C CNN
+F 2 "random-keyboard-parts:0.91_SSD1306_OLED" H 6125 14395 50  0001 C CNN
+F 3 "" H 6125 14395 50  0001 C CNN
+	1    6125 14395
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 11335 3475 11335
+Connection ~ 3475 11335
+$Comp
+L Switch:SW_Push SW1
+U 1 1 600C81EB
+P 2225 11535
+F 0 "SW1" H 2225 11820 50  0000 C CNN
+F 1 "SW_Push" H 2225 11729 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 2225 11735 50  0001 C CNN
+F 3 "" H 2225 11735 50  0001 C CNN
+	1    2225 11535
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 11935 2700 11935
+Wire Wire Line
+	2700 11935 2700 11875
+Wire Wire Line
+	2700 12095 2700 12035
+Wire Wire Line
+	2700 11875 2445 11875
+Wire Wire Line
+	2445 11875 2445 11835
+Wire Wire Line
+	2445 12095 2445 12135
+Wire Wire Line
+	1815 12135 2065 12135
+Connection ~ 2065 12135
+Wire Wire Line
+	2065 12135 2445 12135
+Connection ~ 1465 12135
+$Comp
+L Device:R_Small R105
+U 1 1 61A201C8
+P 2570 12095
+F 0 "R105" V 2374 12095 50  0000 C CNN
+F 1 "390" V 2465 12095 50  0000 C CNN
+F 2 "random-keyboard-parts:C_0603" H 2570 12095 50  0001 C CNN
+F 3 "~" H 2570 12095 50  0001 C CNN
+	1    2570 12095
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 12095 2670 12095
+Wire Wire Line
+	2470 12095 2445 12095
+Text GLabel 2450 15025 2    50   Input ~ 0
+BackLight
+Wire Wire Line
+	2215 15025 2450 15025
+$Comp
+L power:VCC #PWR0101
+U 1 1 5FFFCA89
+P 3535 10060
+F 0 "#PWR0101" H 3535 9910 50  0001 C CNN
+F 1 "VCC" H 3552 10233 50  0000 C CNN
+F 2 "" H 3535 10060 50  0001 C CNN
+F 3 "" H 3535 10060 50  0001 C CNN
+	1    3535 10060
+	1    0    0    -1  
+$EndComp
+Text GLabel 4175 13935 2    50   Input ~ 0
+SWDIO
+$Comp
+L power:+5V #PWR0102
+U 1 1 602FD7A8
+P 5970 15110
+F 0 "#PWR0102" H 5970 14960 50  0001 C CNN
+F 1 "+5V" H 5970 15250 50  0000 C CNN
+F 2 "" H 5970 15110 50  0001 C CNN
+F 3 "" H 5970 15110 50  0001 C CNN
+	1    5970 15110
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9410 1780 9410 3370
+Wire Wire Line
+	8955 2625 9915 2625
+Wire Wire Line
+	8645 3075 9605 3075
+Text GLabel 5595 3495 3    50   Input ~ 0
+Row1
+Text GLabel 9410 1495 1    50   Input ~ 0
+Col3
+Wire Wire Line
+	9360 4215 11025 4215
+Wire Wire Line
+	9050 4665 10715 4665
+Wire Wire Line
+	10520 3370 10520 4960
+Text GLabel 5555 2080 1    50   Input ~ 0
+Col5
+Text GLabel 5065 2280 0    50   Input ~ 0
+Col5
+Text GLabel 5195 2580 3    50   Input ~ 0
+Row3
+Wire Wire Line
+	5215 2130 5505 2130
+Connection ~ 5505 2130
+Wire Wire Line
+	5505 2130 5735 2130
+$Comp
+L 1800-layout-rescue:OLED-Pin-random-keyboard-parts-1800-layout-rescue U3
+U 1 1 601E6882
+P 6370 15110
+F 0 "U3" H 6370 15435 50  0000 C CNN
+F 1 "OLED-Pin" H 6370 15344 50  0000 C CNN
+F 2 "random-keyboard-parts:0.91_SSD1306_OLED" H 6370 15110 50  0001 C CNN
+F 3 "" H 6370 15110 50  0001 C CNN
+	1    6370 15110
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 6099C752
+P 5725 14295
+F 0 "#PWR0105" H 5725 14045 50  0001 C CNN
+F 1 "GND" H 5725 14145 50  0000 C CNN
+F 2 "" H 5725 14295 50  0001 C CNN
+F 3 "" H 5725 14295 50  0001 C CNN
+	1    5725 14295
+	0    1    1    0   
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-3.3 U6
+U 1 1 5FFBBAD8
+P 7950 13125
+F 0 "U6" H 7950 13367 50  0000 C CNN
+F 1 "AMS1117-3.3" H 7950 13276 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 7950 13325 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 8050 12875 50  0001 C CNN
+	1    7950 13125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 603F8ED2
+P 8510 13125
+F 0 "#PWR0108" H 8510 12975 50  0001 C CNN
+F 1 "VCC" H 8527 13298 50  0000 C CNN
+F 2 "" H 8510 13125 50  0001 C CNN
+F 3 "" H 8510 13125 50  0001 C CNN
+	1    8510 13125
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 614E4A85
+P 7950 13425
+F 0 "#PWR0110" H 7950 13175 50  0001 C CNN
+F 1 "GND" H 7950 13275 50  0000 C CNN
+F 2 "" H 7950 13425 50  0001 C CNN
+F 3 "" H 7950 13425 50  0001 C CNN
+	1    7950 13425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 13125 8400 13225
+$Comp
+L power:GND #PWR018
+U 1 1 5FEE9094
+P 8400 13485
+F 0 "#PWR018" H 8400 13235 50  0001 C CNN
+F 1 "GND" H 8400 13335 50  0000 C CNN
+F 2 "" H 8400 13485 50  0001 C CNN
+F 3 "" H 8400 13485 50  0001 C CNN
+	1    8400 13485
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 13425 8400 13485
+$Comp
+L Device:CP_Small C12
+U 1 1 5FDBB6B5
+P 8400 13325
+F 0 "C12" H 8488 13371 50  0000 L CNN
+F 1 ">=22uF" H 8488 13280 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" H 8400 13325 50  0001 C CNN
+F 3 "~" H 8400 13325 50  0001 C CNN
+	1    8400 13325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 13125 8400 13125
+Connection ~ 8400 13125
+Wire Wire Line
+	8400 13125 8510 13125
+Wire Wire Line
+	7390 13125 7515 13125
+Wire Wire Line
+	7515 13125 7515 13225
+$Comp
+L power:GND #PWR0107
+U 1 1 60628E03
+P 7515 13485
+F 0 "#PWR0107" H 7515 13235 50  0001 C CNN
+F 1 "GND" H 7515 13335 50  0000 C CNN
+F 2 "" H 7515 13485 50  0001 C CNN
+F 3 "" H 7515 13485 50  0001 C CNN
+	1    7515 13485
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7515 13425 7515 13485
+$Comp
+L Device:CP_Small C11
+U 1 1 60628E0A
+P 7515 13325
+F 0 "C11" H 7603 13371 50  0000 L CNN
+F 1 ">=22uF" H 7603 13280 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" H 7515 13325 50  0001 C CNN
+F 3 "~" H 7515 13325 50  0001 C CNN
+	1    7515 13325
+	1    0    0    -1  
+$EndComp
+Connection ~ 7515 13125
+Wire Wire Line
+	7515 13125 7650 13125
+Wire Wire Line
+	1465 14440 1465 14695
+Text Label 18670 8385 0    50   ~ 0
+R+
+Text Label 18665 8485 0    50   ~ 0
+R-
+Text GLabel 2875 12435 0    50   Input ~ 0
+Row5
+Text GLabel 2875 12335 0    50   Input ~ 0
+Row4
+Text GLabel 2875 12235 0    50   Input ~ 0
+CapLed
+Wire Wire Line
+	8885 9815 8690 9815
+Wire Wire Line
+	8390 9515 9185 9515
+Connection ~ 9185 9515
+Wire Wire Line
+	8390 10115 9185 10115
+Connection ~ 9185 10115
+Text GLabel 2875 13435 0    50   Input ~ 0
+Col5
+Text GLabel 2875 13535 0    50   Input ~ 0
+Col6
+Text GLabel 2875 13335 0    50   Input ~ 0
+Col7
+Text GLabel 2875 13235 0    50   Input ~ 0
+Col8
+Text GLabel 2875 13135 0    50   Input ~ 0
+Col9
+Text GLabel 2875 13035 0    50   Input ~ 0
+Col10
+Text GLabel 2875 12935 0    50   Input ~ 0
+Col11
+Text GLabel 4175 14135 2    50   Input ~ 0
+Col12
+Text GLabel 4175 12635 2    60   Input ~ 0
+Col3
+Text GLabel 4175 12735 2    60   Input ~ 0
+Col2
+Text GLabel 4175 12835 2    60   Input ~ 0
+Col1
+Text GLabel 4175 12935 2    60   Input ~ 0
+Col0
+Wire Wire Line
+	5024 13335 5274 13335
+$Comp
+L Device:R_Small R104
+U 1 1 5F2DE0F3
+P 4924 13335
+F 0 "R104" V 4728 13335 50  0000 C CNN
+F 1 "500" V 4819 13335 50  0000 C CNN
+F 2 "random-keyboard-parts:R_0805" H 4924 13335 50  0001 C CNN
+F 3 "~" H 4924 13335 50  0001 C CNN
+	1    4924 13335
+	0    1    1    0   
+$EndComp
+Text GLabel 5274 13335 2    50   Input ~ 0
+LedRGB
+Wire Wire Line
+	4824 13335 4175 13335
+Text GLabel 4175 13235 2    50   Input ~ 0
+BackLight
+Text GLabel 2875 13735 0    60   Input ~ 0
+NumLed
+Text GLabel 4175 13035 2    50   Input ~ 0
+Row0
+Text GLabel 2875 12735 0    50   Input ~ 0
+Row1
+Text GLabel 4175 13135 2    60   Input ~ 0
+Row3
+Text GLabel 4175 13635 2    60   Input ~ 0
+Col13
+Text GLabel 2875 14035 0    50   Input ~ 0
+Col16
+Text GLabel 2875 13935 0    50   Input ~ 0
+Col17
+Text GLabel 4175 13535 2    50   Input ~ 0
+Col4
+Text GLabel 2875 14135 0    50   Input ~ 0
+Col15
+$Comp
+L LED:WS2812B RGB26
+U 1 1 63C0B1AB
+P 7590 9815
+F 0 "RGB26" H 7934 9861 50  0000 L CNN
+F 1 "WS2812B" H 7934 9770 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7640 9515 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7690 9440 50  0001 L TNN
+	1    7590 9815
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED:WS2812B RGB25
+U 1 1 606C5F27
+P 8390 9815
+F 0 "RGB25" H 8734 9861 50  0000 L CNN
+F 1 "WS2812B" H 8734 9770 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8440 9515 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8490 9440 50  0001 L TNN
+	1    8390 9815
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7890 9815 8090 9815
+Wire Wire Line
+	7590 10115 8390 10115
+Connection ~ 8390 10115
+Wire Wire Line
+	7590 9515 8390 9515
+Connection ~ 8390 9515
+$Comp
+L power:VCC #PWR0106
+U 1 1 6409E374
+P 5725 14395
+F 0 "#PWR0106" H 5725 14245 50  0001 C CNN
+F 1 "VCC" H 5742 14568 50  0000 C CNN
+F 2 "" H 5725 14395 50  0001 C CNN
+F 3 "" H 5725 14395 50  0001 C CNN
+	1    5725 14395
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4175 13435 2    50   Input ~ 0
+Col14
+$Comp
+L Transistor_FET:FDS9926A Q1
+U 2 1 604F6658
+P 3775 15480
+F 0 "Q1" H 3979 15526 50  0000 L CNN
+F 1 "FDS9926A" H 3979 15435 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3975 15405 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 3775 15480 50  0001 L CNN
+	2    3775 15480
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_FET:FDS9926A Q1
+U 1 1 604F6D81
+P 1565 15025
+F 0 "Q1" H 1770 14979 50  0000 L CNN
+F 1 "FDS9926A" H 1770 15070 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1765 14950 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/FD/FDS9926A.pdf" H 1565 15025 50  0001 L CNN
+	1    1565 15025
+	-1   0    0    1   
+$EndComp
+Text GLabel 3675 15680 3    50   Input ~ 0
+LedGND
+$Comp
+L Device:R_Small R113
+U 1 1 60727570
+P 4325 15480
+F 0 "R113" V 4129 15480 50  0000 C CNN
+F 1 "1k" V 4220 15480 50  0000 C CNN
+F 2 "random-keyboard-parts:R_0805" H 4325 15480 50  0001 C CNN
+F 3 "~" H 4325 15480 50  0001 C CNN
+	1    4325 15480
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 60727576
+P 3675 14895
+F 0 "#PWR0109" H 3675 14645 50  0001 C CNN
+F 1 "GND" H 3675 14745 50  0000 C CNN
+F 2 "" H 3675 14895 50  0001 C CNN
+F 3 "" H 3675 14895 50  0001 C CNN
+	1    3675 14895
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3675 14895 3675 15150
+Text GLabel 4660 15480 2    50   Input ~ 0
+BackLight
+Wire Wire Line
+	4425 15480 4660 15480
+Wire Wire Line
+	1765 15025 1920 15025
+Wire Wire Line
+	3975 15480 4130 15480
+Wire Wire Line
+	1920 15025 1920 14695
+Wire Wire Line
+	1920 14695 1850 14695
+Connection ~ 1920 15025
+Wire Wire Line
+	1920 15025 2015 15025
+Wire Wire Line
+	1650 14695 1465 14695
+Connection ~ 1465 14695
+Wire Wire Line
+	1465 14695 1465 14825
+Wire Wire Line
+	4130 15480 4130 15150
+Wire Wire Line
+	4130 15150 4060 15150
+Wire Wire Line
+	3860 15150 3675 15150
+Connection ~ 3675 15150
+Wire Wire Line
+	3675 15150 3675 15280
+Connection ~ 4130 15480
+Wire Wire Line
+	4130 15480 4225 15480
+Connection ~ 16185 3570
+$Comp
+L Device:LED D102
+U 1 1 60B461E8
+P 17460 3765
+F 0 "D102" V 17407 3844 50  0000 L CNN
+F 1 "LED" V 17498 3844 50  0000 L CNN
+F 2 "MX_Only_v3:MXOnly-LEDONLY" H 17460 3765 50  0001 C CNN
+F 3 "~" H 17460 3765 50  0001 C CNN
+	1    17460 3765
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15745 3820 16600 3820
+Wire Wire Line
+	15340 4615 16600 4615
+Wire Wire Line
+	15375 4215 17035 4215
+Wire Wire Line
+	16385 4165 16900 4165
+Wire Wire Line
+	15780 3420 17035 3420
+$Comp
+L power:+5V #PWR0111
+U 1 1 611E8051
+P 17670 3465
+F 0 "#PWR0111" H 17670 3315 50  0001 C CNN
+F 1 "+5V" H 17685 3638 50  0000 C CNN
+F 2 "" H 17670 3465 50  0001 C CNN
+F 3 "" H 17670 3465 50  0001 C CNN
+	1    17670 3465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17670 3615 17670 3465
+Wire Wire Line
+	17670 3615 17910 3615
+Connection ~ 17670 3615
+Text GLabel 17745 4380 3    50   Input ~ 0
+LedGND
+Wire Wire Line
+	17910 4215 17910 4380
+Wire Wire Line
+	17460 4380 17910 4380
+$Comp
+L Device:LED D103
+U 1 1 61AC6D15
+P 17910 3765
+F 0 "D103" V 17949 3647 50  0000 R CNN
+F 1 "LED" V 17858 3647 50  0000 R CNN
+F 2 "MX_Only_v3:MXOnly-LEDONLY-FLIPPED" H 17910 3765 50  0001 C CNN
+F 3 "~" H 17910 3765 50  0001 C CNN
+	1    17910 3765
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17460 4215 17460 4380
+$Comp
+L Device:LED D104
+U 1 1 61F5E6AB
+P 17975 3765
+F 0 "D104" V 17922 3844 50  0000 L CNN
+F 1 "LED" V 18013 3844 50  0000 L CNN
+F 2 "MX_Only_v3:MXOnly-LEDONLY" H 17975 3765 50  0001 C CNN
+F 3 "~" H 17975 3765 50  0001 C CNN
+	1    17975 3765
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17975 3915 17910 3915
+Connection ~ 17910 3915
+Wire Wire Line
+	17975 3615 17910 3615
+Connection ~ 17910 3615
+$Comp
+L Device:LED D105
+U 1 1 62367A38
+P 17400 3765
+F 0 "D105" V 17347 3844 50  0000 L CNN
+F 1 "LED" V 17438 3844 50  0000 L CNN
+F 2 "MX_Only_v3:MXOnly-LEDONLY" H 17400 3765 50  0001 C CNN
+F 3 "~" H 17400 3765 50  0001 C CNN
+	1    17400 3765
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	17400 3615 17460 3615
+Connection ~ 17460 3615
+Wire Wire Line
+	17460 3615 17670 3615
+Wire Wire Line
+	17400 3915 17460 3915
+Connection ~ 17460 3915
+Text GLabel 6770 15010 2    50   Input ~ 0
+Col4
+Text GLabel 6770 15110 2    50   Input ~ 0
+Col13
+$Comp
+L Device:LED D106
+U 1 1 6109E65A
+P 1455 13325
+F 0 "D106" H 1448 13070 50  0000 C CNN
+F 1 "LED" H 1448 13161 50  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-LEDONLY-MID" H 1455 13325 50  0001 C CNN
+F 3 "~" H 1455 13325 50  0001 C CNN
+	1    1455 13325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D107
+U 1 1 610B0C3E
+P 1455 13480
+F 0 "D107" H 1448 13225 50  0000 C CNN
+F 1 "LED" H 1448 13316 50  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-LEDONLY-MID" H 1455 13480 50  0001 C CNN
+F 3 "~" H 1455 13480 50  0001 C CNN
+	1    1455 13480
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D108
+U 1 1 611CDAD1
+P 1455 13635
+F 0 "D108" H 1448 13380 50  0000 C CNN
+F 1 "LED" H 1448 13471 50  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-LEDONLY-MID" H 1455 13635 50  0001 C CNN
+F 3 "~" H 1455 13635 50  0001 C CNN
+	1    1455 13635
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 6154288B
+P 1305 13635
+F 0 "#PWR0112" H 1305 13485 50  0001 C CNN
+F 1 "+5V" H 1305 13775 50  0000 C CNN
+F 2 "" H 1305 13635 50  0001 C CNN
+F 3 "" H 1305 13635 50  0001 C CNN
+	1    1305 13635
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 6165E9BD
+P 1305 13480
+F 0 "#PWR0113" H 1305 13330 50  0001 C CNN
+F 1 "+5V" H 1305 13620 50  0000 C CNN
+F 2 "" H 1305 13480 50  0001 C CNN
+F 3 "" H 1305 13480 50  0001 C CNN
+	1    1305 13480
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0114
+U 1 1 6177B07B
+P 1305 13325
+F 0 "#PWR0114" H 1305 13175 50  0001 C CNN
+F 1 "+5V" H 1305 13465 50  0000 C CNN
+F 2 "" H 1305 13325 50  0001 C CNN
+F 3 "" H 1305 13325 50  0001 C CNN
+	1    1305 13325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R106
+U 1 1 619CEDED
+P 1755 13325
+F 0 "R106" H 1825 13371 50  0000 L CNN
+F 1 "300" H 1825 13280 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" V 1685 13325 50  0001 C CNN
+F 3 "~" H 1755 13325 50  0001 C CNN
+	1    1755 13325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R112
+U 1 1 620D3970
+P 5620 2230
+F 0 "R112" H 5690 2276 50  0000 L CNN
+F 1 "1k" H 5690 2185 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" V 5550 2230 50  0001 C CNN
+F 3 "~" H 5620 2230 50  0001 C CNN
+	1    5620 2230
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R114
+U 1 1 624313EE
+P 5795 3145
+F 0 "R114" H 5865 3191 50  0000 L CNN
+F 1 "1k" H 5865 3100 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" V 5725 3145 50  0001 C CNN
+F 3 "~" H 5795 3145 50  0001 C CNN
+	1    5795 3145
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5770 2230 2    50   Input ~ 0
+LedGND
+Text GLabel 5945 3145 2    50   Input ~ 0
+LedGND
+Text GLabel 1905 13325 2    50   Input ~ 0
+ScrollLed
+$Comp
+L power:+5V #PWR0103
+U 1 1 63682AAC
+P 5745 3045
+F 0 "#PWR0103" H 5745 2895 50  0001 C CNN
+F 1 "+5V" H 5760 3218 50  0000 C CNN
+F 2 "" H 5745 3045 50  0001 C CNN
+F 3 "" H 5745 3045 50  0001 C CNN
+	1    5745 3045
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 639DF2AB
+P 5735 2130
+F 0 "#PWR0104" H 5735 1980 50  0001 C CNN
+F 1 "+5V" H 5750 2303 50  0000 C CNN
+F 2 "" H 5735 2130 50  0001 C CNN
+F 3 "" H 5735 2130 50  0001 C CNN
+	1    5735 2130
+	0    1    1    0   
+$EndComp
+Text GLabel 2875 12635 0    50   Input ~ 0
+ScrollLed
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 6094AB2A
+P 3667 7621
+F 0 "SW?" H 3667 7906 50  0000 C CNN
+F 1 "SW_SPDT" H 3667 7815 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 3667 7621 50  0001 C CNN
+F 3 "~" H 3667 7621 50  0001 C CNN
+	1    3667 7621
+	1    0    0    -1  
+$EndComp
+Connection ~ 2493 11535
+Wire Wire Line
+	2493 11535 2650 11535
+Wire Wire Line
+	2535 11735 2675 11735
+Text GLabel 2535 11735 0    50   Input ~ 0
+Boot
+Text GLabel 3467 7621 0    50   Input ~ 0
+Boot
+$Comp
+L power:VCC #PWR?
+U 1 1 60CA3279
+P 3867 7721
+F 0 "#PWR?" H 3867 7571 50  0001 C CNN
+F 1 "VCC" H 3884 7894 50  0000 C CNN
+F 2 "" H 3867 7721 50  0001 C CNN
+F 3 "" H 3867 7721 50  0001 C CNN
+	1    3867 7721
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60EDB0B1
+P 3867 7521
+F 0 "#PWR?" H 3867 7271 50  0001 C CNN
+F 1 "GND" H 3867 7371 50  0000 C CNN
+F 2 "" H 3867 7521 50  0001 C CNN
+F 3 "" H 3867 7521 50  0001 C CNN
+	1    3867 7521
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,5 @@
+All HASL, 1.6
+Leopold: 5 cái, đen chữ trắng
+VCL6k+1: 30 PCB đen chữ trắng (đặt smd nhà máy)
+VCL7k-plate (đỏ 5 cái, đen 30 cái) 
+2 cái VCL mỗi loại 5 cái đen chữ trắng

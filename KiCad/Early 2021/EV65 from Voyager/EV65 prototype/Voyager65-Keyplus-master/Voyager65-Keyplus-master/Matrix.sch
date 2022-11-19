@@ -1,0 +1,2383 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Voyager65-rescue:MX-1U K_ESC1
+U 1 1 5A641474
+P 1500 1225
+F 0 "K_ESC1" H 1500 1350 60  0000 C CNN
+F 1 "MX-1U" H 1500 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 1475 1200 60  0001 C CNN
+F 3 "" H 1475 1200 60  0001 C CNN
+	1    1500 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 5A646772
+P 1400 1500
+F 0 "D1" H 1350 1580 50  0000 L CNN
+F 1 "D_Small" H 1250 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 1400 1500 50  0001 C CNN
+F 3 "" V 1400 1500 50  0001 C CNN
+	1    1400 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_-1
+U 1 1 5A646A8C
+P 6450 1225
+F 0 "K_-1" H 6450 1350 60  0000 C CNN
+F 1 "MX-1U" H 6450 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 6425 1200 60  0001 C CNN
+F 3 "" H 6425 1200 60  0001 C CNN
+	1    6450 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 5A646A92
+P 6350 1500
+F 0 "D12" H 6300 1580 50  0000 L CNN
+F 1 "D_Small" H 6200 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 6350 1500 50  0001 C CNN
+F 3 "" V 6350 1500 50  0001 C CNN
+	1    6350 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_#1
+U 1 1 5A646B3D
+P 1950 1225
+F 0 "K_#1" H 1950 1350 60  0000 C CNN
+F 1 "MX-1U" H 1950 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 1925 1200 60  0001 C CNN
+F 3 "" H 1925 1200 60  0001 C CNN
+	1    1950 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 5A646B43
+P 1850 1500
+F 0 "D2" H 1800 1580 50  0000 L CNN
+F 1 "D_Small" H 1700 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 1850 1500 50  0001 C CNN
+F 3 "" V 1850 1500 50  0001 C CNN
+	1    1850 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_#2
+U 1 1 5A646B4A
+P 2400 1225
+F 0 "K_#2" H 2400 1350 60  0000 C CNN
+F 1 "MX-1U" H 2400 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 2375 1200 60  0001 C CNN
+F 3 "" H 2375 1200 60  0001 C CNN
+	1    2400 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 5A646B50
+P 2300 1500
+F 0 "D3" H 2250 1580 50  0000 L CNN
+F 1 "D_Small" H 2150 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 2300 1500 50  0001 C CNN
+F 3 "" V 2300 1500 50  0001 C CNN
+	1    2300 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_#3
+U 1 1 5A646D37
+P 2850 1225
+F 0 "K_#3" H 2850 1350 60  0000 C CNN
+F 1 "MX-1U" H 2850 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 2825 1200 60  0001 C CNN
+F 3 "" H 2825 1200 60  0001 C CNN
+	1    2850 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 5A646D3D
+P 2750 1500
+F 0 "D4" H 2700 1580 50  0000 L CNN
+F 1 "D_Small" H 2600 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 2750 1500 50  0001 C CNN
+F 3 "" V 2750 1500 50  0001 C CNN
+	1    2750 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_#4
+U 1 1 5A646D44
+P 3300 1225
+F 0 "K_#4" H 3300 1350 60  0000 C CNN
+F 1 "MX-1U" H 3300 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 3275 1200 60  0001 C CNN
+F 3 "" H 3275 1200 60  0001 C CNN
+	1    3300 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 5A646D4A
+P 3200 1500
+F 0 "D5" H 3150 1580 50  0000 L CNN
+F 1 "D_Small" H 3050 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 3200 1500 50  0001 C CNN
+F 3 "" V 3200 1500 50  0001 C CNN
+	1    3200 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_#5
+U 1 1 5A646D51
+P 3750 1225
+F 0 "K_#5" H 3750 1350 60  0000 C CNN
+F 1 "MX-1U" H 3750 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 3725 1200 60  0001 C CNN
+F 3 "" H 3725 1200 60  0001 C CNN
+	1    3750 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 5A646D57
+P 3650 1500
+F 0 "D6" H 3600 1580 50  0000 L CNN
+F 1 "D_Small" H 3500 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 3650 1500 50  0001 C CNN
+F 3 "" V 3650 1500 50  0001 C CNN
+	1    3650 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_#6
+U 1 1 5A646D5E
+P 4200 1225
+F 0 "K_#6" H 4200 1350 60  0000 C CNN
+F 1 "MX-1U" H 4200 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 4175 1200 60  0001 C CNN
+F 3 "" H 4175 1200 60  0001 C CNN
+	1    4200 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 5A646D64
+P 4100 1500
+F 0 "D7" H 4050 1580 50  0000 L CNN
+F 1 "D_Small" H 3950 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 4100 1500 50  0001 C CNN
+F 3 "" V 4100 1500 50  0001 C CNN
+	1    4100 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_#7
+U 1 1 5A64755B
+P 4650 1225
+F 0 "K_#7" H 4650 1350 60  0000 C CNN
+F 1 "MX-1U" H 4650 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 4625 1200 60  0001 C CNN
+F 3 "" H 4625 1200 60  0001 C CNN
+	1    4650 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 5A647561
+P 4550 1500
+F 0 "D8" H 4500 1580 50  0000 L CNN
+F 1 "D_Small" H 4400 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 4550 1500 50  0001 C CNN
+F 3 "" V 4550 1500 50  0001 C CNN
+	1    4550 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_#8
+U 1 1 5A647568
+P 5100 1225
+F 0 "K_#8" H 5100 1350 60  0000 C CNN
+F 1 "MX-1U" H 5100 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5075 1200 60  0001 C CNN
+F 3 "" H 5075 1200 60  0001 C CNN
+	1    5100 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 5A64756E
+P 5000 1500
+F 0 "D9" H 4950 1580 50  0000 L CNN
+F 1 "D_Small" H 4850 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5000 1500 50  0001 C CNN
+F 3 "" V 5000 1500 50  0001 C CNN
+	1    5000 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_#9
+U 1 1 5A647575
+P 5550 1225
+F 0 "K_#9" H 5550 1350 60  0000 C CNN
+F 1 "MX-1U" H 5550 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5525 1200 60  0001 C CNN
+F 3 "" H 5525 1200 60  0001 C CNN
+	1    5550 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 5A64757B
+P 5450 1500
+F 0 "D10" H 5400 1580 50  0000 L CNN
+F 1 "D_Small" H 5300 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5450 1500 50  0001 C CNN
+F 3 "" V 5450 1500 50  0001 C CNN
+	1    5450 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_#0_1
+U 1 1 5A647582
+P 6000 1225
+F 0 "K_#0_1" H 6000 1350 60  0000 C CNN
+F 1 "MX-1U" H 6000 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5975 1200 60  0001 C CNN
+F 3 "" H 5975 1200 60  0001 C CNN
+	1    6000 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 5A647588
+P 5900 1500
+F 0 "D11" H 5850 1580 50  0000 L CNN
+F 1 "D_Small" H 5750 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5900 1500 50  0001 C CNN
+F 3 "" V 5900 1500 50  0001 C CNN
+	1    5900 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_=1
+U 1 1 5A64758F
+P 6900 1225
+F 0 "K_=1" H 6900 1350 60  0000 C CNN
+F 1 "MX-1U" H 6900 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 6875 1200 60  0001 C CNN
+F 3 "" H 6875 1200 60  0001 C CNN
+	1    6900 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 5A647595
+P 6800 1500
+F 0 "D13" H 6750 1580 50  0000 L CNN
+F 1 "D_Small" H 6650 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 6800 1500 50  0001 C CNN
+F 3 "" V 6800 1500 50  0001 C CNN
+	1    6800 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_DEL1
+U 1 1 5A64759C
+P 7350 1225
+F 0 "K_DEL1" H 7350 1350 60  0000 C CNN
+F 1 "MX-1U" H 7350 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 7325 1200 60  0001 C CNN
+F 3 "" H 7325 1200 60  0001 C CNN
+	1    7350 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 5A6475A2
+P 7250 1500
+F 0 "D14" H 7200 1580 50  0000 L CNN
+F 1 "D_Small" H 7100 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7250 1500 50  0001 C CNN
+F 3 "" V 7250 1500 50  0001 C CNN
+	1    7250 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_BACK1
+U 1 1 5A6475A9
+P 7800 1225
+F 0 "K_BACK1" H 7800 1350 60  0000 C CNN
+F 1 "MX-2U" H 7800 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2U" H 7775 1200 60  0001 C CNN
+F 3 "" H 7775 1200 60  0001 C CNN
+	1    7800 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 5A6475AF
+P 7700 1500
+F 0 "D15" H 7650 1580 50  0000 L CNN
+F 1 "D_Small" H 7550 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7700 1500 50  0001 C CNN
+F 3 "" V 7700 1500 50  0001 C CNN
+	1    7700 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_TAB1
+U 1 1 5A647EA8
+P 1500 1850
+F 0 "K_TAB1" H 1500 1975 60  0000 C CNN
+F 1 "MX-1.5U" H 1500 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.5U" H 1475 1825 60  0001 C CNN
+F 3 "" H 1475 1825 60  0001 C CNN
+	1    1500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 5A647EAE
+P 1400 2125
+F 0 "D16" H 1350 2205 50  0000 L CNN
+F 1 "D_Small" H 1250 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 1400 2125 50  0001 C CNN
+F 3 "" V 1400 2125 50  0001 C CNN
+	1    1400 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_Q1
+U 1 1 5A647EC2
+P 2400 1850
+F 0 "K_Q1" H 2400 1975 60  0000 C CNN
+F 1 "MX-1U" H 2400 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 2375 1825 60  0001 C CNN
+F 3 "" H 2375 1825 60  0001 C CNN
+	1    2400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 5A647EC8
+P 2300 2125
+F 0 "D17" H 2250 2205 50  0000 L CNN
+F 1 "D_Small" H 2150 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 2300 2125 50  0001 C CNN
+F 3 "" V 2300 2125 50  0001 C CNN
+	1    2300 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_W1
+U 1 1 5A647ECF
+P 2850 1850
+F 0 "K_W1" H 2850 1975 60  0000 C CNN
+F 1 "MX-1U" H 2850 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 2825 1825 60  0001 C CNN
+F 3 "" H 2825 1825 60  0001 C CNN
+	1    2850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 5A647ED5
+P 2750 2125
+F 0 "D18" H 2700 2205 50  0000 L CNN
+F 1 "D_Small" H 2600 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 2750 2125 50  0001 C CNN
+F 3 "" V 2750 2125 50  0001 C CNN
+	1    2750 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_E1
+U 1 1 5A647EDC
+P 3300 1850
+F 0 "K_E1" H 3300 1975 60  0000 C CNN
+F 1 "MX-1U" H 3300 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 3275 1825 60  0001 C CNN
+F 3 "" H 3275 1825 60  0001 C CNN
+	1    3300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 5A647EE2
+P 3200 2125
+F 0 "D19" H 3150 2205 50  0000 L CNN
+F 1 "D_Small" H 3050 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 3200 2125 50  0001 C CNN
+F 3 "" V 3200 2125 50  0001 C CNN
+	1    3200 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_R1
+U 1 1 5A647EE9
+P 3750 1850
+F 0 "K_R1" H 3750 1975 60  0000 C CNN
+F 1 "MX-1U" H 3750 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 3725 1825 60  0001 C CNN
+F 3 "" H 3725 1825 60  0001 C CNN
+	1    3750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 5A647EEF
+P 3650 2125
+F 0 "D20" H 3600 2205 50  0000 L CNN
+F 1 "D_Small" H 3500 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 3650 2125 50  0001 C CNN
+F 3 "" V 3650 2125 50  0001 C CNN
+	1    3650 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_T1
+U 1 1 5A647EF6
+P 4200 1850
+F 0 "K_T1" H 4200 1975 60  0000 C CNN
+F 1 "MX-1U" H 4200 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 4175 1825 60  0001 C CNN
+F 3 "" H 4175 1825 60  0001 C CNN
+	1    4200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 5A647EFC
+P 4100 2125
+F 0 "D21" H 4050 2205 50  0000 L CNN
+F 1 "D_Small" H 3950 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 4100 2125 50  0001 C CNN
+F 3 "" V 4100 2125 50  0001 C CNN
+	1    4100 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_Y1
+U 1 1 5A647F03
+P 4650 1850
+F 0 "K_Y1" H 4650 1975 60  0000 C CNN
+F 1 "MX-1U" H 4650 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 4625 1825 60  0001 C CNN
+F 3 "" H 4625 1825 60  0001 C CNN
+	1    4650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 5A647F09
+P 4550 2125
+F 0 "D22" H 4500 2205 50  0000 L CNN
+F 1 "D_Small" H 4400 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 4550 2125 50  0001 C CNN
+F 3 "" V 4550 2125 50  0001 C CNN
+	1    4550 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_U1
+U 1 1 5A647F10
+P 5100 1850
+F 0 "K_U1" H 5100 1975 60  0000 C CNN
+F 1 "MX-1U" H 5100 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5075 1825 60  0001 C CNN
+F 3 "" H 5075 1825 60  0001 C CNN
+	1    5100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 5A647F16
+P 5000 2125
+F 0 "D23" H 4950 2205 50  0000 L CNN
+F 1 "D_Small" H 4850 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5000 2125 50  0001 C CNN
+F 3 "" V 5000 2125 50  0001 C CNN
+	1    5000 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_I1
+U 1 1 5A647F1D
+P 5550 1850
+F 0 "K_I1" H 5550 1975 60  0000 C CNN
+F 1 "MX-1U" H 5550 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5525 1825 60  0001 C CNN
+F 3 "" H 5525 1825 60  0001 C CNN
+	1    5550 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 5A647F23
+P 5450 2125
+F 0 "D24" H 5400 2205 50  0000 L CNN
+F 1 "D_Small" H 5300 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5450 2125 50  0001 C CNN
+F 3 "" V 5450 2125 50  0001 C CNN
+	1    5450 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_O1
+U 1 1 5A647F2A
+P 6000 1850
+F 0 "K_O1" H 6000 1975 60  0000 C CNN
+F 1 "MX-1U" H 6000 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5975 1825 60  0001 C CNN
+F 3 "" H 5975 1825 60  0001 C CNN
+	1    6000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D25
+U 1 1 5A647F30
+P 5900 2125
+F 0 "D25" H 5850 2205 50  0000 L CNN
+F 1 "D_Small" H 5750 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5900 2125 50  0001 C CNN
+F 3 "" V 5900 2125 50  0001 C CNN
+	1    5900 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_P1
+U 1 1 5A647F37
+P 6450 1850
+F 0 "K_P1" H 6450 1975 60  0000 C CNN
+F 1 "MX-1U" H 6450 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 6425 1825 60  0001 C CNN
+F 3 "" H 6425 1825 60  0001 C CNN
+	1    6450 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 5A647F3D
+P 6350 2125
+F 0 "D26" H 6300 2205 50  0000 L CNN
+F 1 "D_Small" H 6200 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 6350 2125 50  0001 C CNN
+F 3 "" V 6350 2125 50  0001 C CNN
+	1    6350 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_[1
+U 1 1 5A647F44
+P 6900 1850
+F 0 "K_[1" H 6900 1975 60  0000 C CNN
+F 1 "MX-1U" H 6900 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 6875 1825 60  0001 C CNN
+F 3 "" H 6875 1825 60  0001 C CNN
+	1    6900 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 5A647F4A
+P 6800 2125
+F 0 "D27" H 6750 2205 50  0000 L CNN
+F 1 "D_Small" H 6650 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 6800 2125 50  0001 C CNN
+F 3 "" V 6800 2125 50  0001 C CNN
+	1    6800 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_]1
+U 1 1 5A647F51
+P 7350 1850
+F 0 "K_]1" H 7350 1975 60  0000 C CNN
+F 1 "MX-1U" H 7350 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 7325 1825 60  0001 C CNN
+F 3 "" H 7325 1825 60  0001 C CNN
+	1    7350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 5A647F57
+P 7250 2125
+F 0 "D28" H 7200 2205 50  0000 L CNN
+F 1 "D_Small" H 7100 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7250 2125 50  0001 C CNN
+F 3 "" V 7250 2125 50  0001 C CNN
+	1    7250 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_\1
+U 1 1 5A647F5E
+P 7800 1850
+F 0 "K_\\1" H 7800 1975 60  0000 C CNN
+F 1 "MX-1.5U" H 7800 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.5U" H 7775 1825 60  0001 C CNN
+F 3 "" H 7775 1825 60  0001 C CNN
+	1    7800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D29
+U 1 1 5A647F64
+P 7700 2125
+F 0 "D29" H 7650 2205 50  0000 L CNN
+F 1 "D_Small" H 7550 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7700 2125 50  0001 C CNN
+F 3 "" V 7700 2125 50  0001 C CNN
+	1    7700 2125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_CAPS1
+U 1 1 5A6497CC
+P 1500 2475
+F 0 "K_CAPS1" H 1500 2600 60  0000 C CNN
+F 1 "MX-1.75U" H 1500 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.75U" H 1475 2450 60  0001 C CNN
+F 3 "" H 1475 2450 60  0001 C CNN
+	1    1500 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D30
+U 1 1 5A6497D2
+P 1400 2750
+F 0 "D30" H 1350 2830 50  0000 L CNN
+F 1 "D_Small" H 1250 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 1400 2750 50  0001 C CNN
+F 3 "" V 1400 2750 50  0001 C CNN
+	1    1400 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_A1
+U 1 1 5A6497E6
+P 2400 2475
+F 0 "K_A1" H 2400 2600 60  0000 C CNN
+F 1 "MX-1U" H 2400 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 2375 2450 60  0001 C CNN
+F 3 "" H 2375 2450 60  0001 C CNN
+	1    2400 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 5A6497EC
+P 2300 2750
+F 0 "D31" H 2250 2830 50  0000 L CNN
+F 1 "D_Small" H 2150 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 2300 2750 50  0001 C CNN
+F 3 "" V 2300 2750 50  0001 C CNN
+	1    2300 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_S1
+U 1 1 5A6497F3
+P 2850 2475
+F 0 "K_S1" H 2850 2600 60  0000 C CNN
+F 1 "MX-1U" H 2850 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 2825 2450 60  0001 C CNN
+F 3 "" H 2825 2450 60  0001 C CNN
+	1    2850 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 5A6497F9
+P 2750 2750
+F 0 "D32" H 2700 2830 50  0000 L CNN
+F 1 "D_Small" H 2600 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 2750 2750 50  0001 C CNN
+F 3 "" V 2750 2750 50  0001 C CNN
+	1    2750 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_D1
+U 1 1 5A649800
+P 3300 2475
+F 0 "K_D1" H 3300 2600 60  0000 C CNN
+F 1 "MX-1U" H 3300 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 3275 2450 60  0001 C CNN
+F 3 "" H 3275 2450 60  0001 C CNN
+	1    3300 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 5A649806
+P 3200 2750
+F 0 "D33" H 3150 2830 50  0000 L CNN
+F 1 "D_Small" H 3050 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 3200 2750 50  0001 C CNN
+F 3 "" V 3200 2750 50  0001 C CNN
+	1    3200 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_F1
+U 1 1 5A64980D
+P 3750 2475
+F 0 "K_F1" H 3750 2600 60  0000 C CNN
+F 1 "MX-1U" H 3750 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 3725 2450 60  0001 C CNN
+F 3 "" H 3725 2450 60  0001 C CNN
+	1    3750 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 5A649813
+P 3650 2750
+F 0 "D34" H 3600 2830 50  0000 L CNN
+F 1 "D_Small" H 3500 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 3650 2750 50  0001 C CNN
+F 3 "" V 3650 2750 50  0001 C CNN
+	1    3650 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_G1
+U 1 1 5A64981A
+P 4200 2475
+F 0 "K_G1" H 4200 2600 60  0000 C CNN
+F 1 "MX-1U" H 4200 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 4175 2450 60  0001 C CNN
+F 3 "" H 4175 2450 60  0001 C CNN
+	1    4200 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 5A649820
+P 4100 2750
+F 0 "D35" H 4050 2830 50  0000 L CNN
+F 1 "D_Small" H 3950 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 4100 2750 50  0001 C CNN
+F 3 "" V 4100 2750 50  0001 C CNN
+	1    4100 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_H1
+U 1 1 5A649827
+P 4650 2475
+F 0 "K_H1" H 4650 2600 60  0000 C CNN
+F 1 "MX-1U" H 4650 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 4625 2450 60  0001 C CNN
+F 3 "" H 4625 2450 60  0001 C CNN
+	1    4650 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D36
+U 1 1 5A64982D
+P 4550 2750
+F 0 "D36" H 4500 2830 50  0000 L CNN
+F 1 "D_Small" H 4400 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 4550 2750 50  0001 C CNN
+F 3 "" V 4550 2750 50  0001 C CNN
+	1    4550 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_J1
+U 1 1 5A649834
+P 5100 2475
+F 0 "K_J1" H 5100 2600 60  0000 C CNN
+F 1 "MX-1U" H 5100 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5075 2450 60  0001 C CNN
+F 3 "" H 5075 2450 60  0001 C CNN
+	1    5100 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D37
+U 1 1 5A64983A
+P 5000 2750
+F 0 "D37" H 4950 2830 50  0000 L CNN
+F 1 "D_Small" H 4850 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5000 2750 50  0001 C CNN
+F 3 "" V 5000 2750 50  0001 C CNN
+	1    5000 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_K1
+U 1 1 5A649841
+P 5550 2475
+F 0 "K_K1" H 5550 2600 60  0000 C CNN
+F 1 "MX-1U" H 5550 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5525 2450 60  0001 C CNN
+F 3 "" H 5525 2450 60  0001 C CNN
+	1    5550 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D38
+U 1 1 5A649847
+P 5450 2750
+F 0 "D38" H 5400 2830 50  0000 L CNN
+F 1 "D_Small" H 5300 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5450 2750 50  0001 C CNN
+F 3 "" V 5450 2750 50  0001 C CNN
+	1    5450 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_L1
+U 1 1 5A64984E
+P 6000 2475
+F 0 "K_L1" H 6000 2600 60  0000 C CNN
+F 1 "MX-1U" H 6000 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5975 2450 60  0001 C CNN
+F 3 "" H 5975 2450 60  0001 C CNN
+	1    6000 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D39
+U 1 1 5A649854
+P 5900 2750
+F 0 "D39" H 5850 2830 50  0000 L CNN
+F 1 "D_Small" H 5750 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5900 2750 50  0001 C CNN
+F 3 "" V 5900 2750 50  0001 C CNN
+	1    5900 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_;1
+U 1 1 5A64985B
+P 6450 2475
+F 0 "K_;1" H 6450 2600 60  0000 C CNN
+F 1 "MX-1U" H 6450 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 6425 2450 60  0001 C CNN
+F 3 "" H 6425 2450 60  0001 C CNN
+	1    6450 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D40
+U 1 1 5A649861
+P 6350 2750
+F 0 "D40" H 6300 2830 50  0000 L CNN
+F 1 "D_Small" H 6200 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 6350 2750 50  0001 C CNN
+F 3 "" V 6350 2750 50  0001 C CNN
+	1    6350 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_'1
+U 1 1 5A649868
+P 6900 2475
+F 0 "K_'1" H 6900 2600 60  0000 C CNN
+F 1 "MX-1U" H 6900 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 6875 2450 60  0001 C CNN
+F 3 "" H 6875 2450 60  0001 C CNN
+	1    6900 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D41
+U 1 1 5A64986E
+P 6800 2750
+F 0 "D41" H 6750 2830 50  0000 L CNN
+F 1 "D_Small" H 6650 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 6800 2750 50  0001 C CNN
+F 3 "" V 6800 2750 50  0001 C CNN
+	1    6800 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_ENTER1
+U 1 1 5A649882
+P 7800 2475
+F 0 "K_ENTER1" H 7800 2600 60  0000 C CNN
+F 1 "MX-2.25U" H 7800 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2.25U" H 7775 2450 60  0001 C CNN
+F 3 "" H 7775 2450 60  0001 C CNN
+	1    7800 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D43
+U 1 1 5A649888
+P 7700 2750
+F 0 "D43" H 7650 2830 50  0000 L CNN
+F 1 "D_Small" H 7550 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7700 2750 50  0001 C CNN
+F 3 "" V 7700 2750 50  0001 C CNN
+	1    7700 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_SHIFT1
+U 1 1 5A64988F
+P 1500 3100
+F 0 "K_SHIFT1" H 1500 3225 60  0000 C CNN
+F 1 "MX-2.25U" H 1500 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2.25U" H 1475 3075 60  0001 C CNN
+F 3 "" H 1475 3075 60  0001 C CNN
+	1    1500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D44
+U 1 1 5A649895
+P 1400 3375
+F 0 "D44" H 1350 3455 50  0000 L CNN
+F 1 "D_Small" H 1250 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 1400 3375 50  0001 C CNN
+F 3 "" V 1400 3375 50  0001 C CNN
+	1    1400 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_Z1
+U 1 1 5A6498A9
+P 2400 3100
+F 0 "K_Z1" H 2400 3225 60  0000 C CNN
+F 1 "MX-1U" H 2400 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 2375 3075 60  0001 C CNN
+F 3 "" H 2375 3075 60  0001 C CNN
+	1    2400 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D46
+U 1 1 5A6498AF
+P 2300 3375
+F 0 "D46" H 2250 3455 50  0000 L CNN
+F 1 "D_Small" H 2150 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 2300 3375 50  0001 C CNN
+F 3 "" V 2300 3375 50  0001 C CNN
+	1    2300 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_X1
+U 1 1 5A6498B6
+P 2850 3100
+F 0 "K_X1" H 2850 3225 60  0000 C CNN
+F 1 "MX-1U" H 2850 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 2825 3075 60  0001 C CNN
+F 3 "" H 2825 3075 60  0001 C CNN
+	1    2850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D47
+U 1 1 5A6498BC
+P 2750 3375
+F 0 "D47" H 2700 3455 50  0000 L CNN
+F 1 "D_Small" H 2600 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 2750 3375 50  0001 C CNN
+F 3 "" V 2750 3375 50  0001 C CNN
+	1    2750 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_C1
+U 1 1 5A6498C3
+P 3300 3100
+F 0 "K_C1" H 3300 3225 60  0000 C CNN
+F 1 "MX-1U" H 3300 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 3275 3075 60  0001 C CNN
+F 3 "" H 3275 3075 60  0001 C CNN
+	1    3300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D48
+U 1 1 5A6498C9
+P 3200 3375
+F 0 "D48" H 3150 3455 50  0000 L CNN
+F 1 "D_Small" H 3050 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 3200 3375 50  0001 C CNN
+F 3 "" V 3200 3375 50  0001 C CNN
+	1    3200 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_V1
+U 1 1 5A6498D0
+P 3750 3100
+F 0 "K_V1" H 3750 3225 60  0000 C CNN
+F 1 "MX-1U" H 3750 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 3725 3075 60  0001 C CNN
+F 3 "" H 3725 3075 60  0001 C CNN
+	1    3750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D49
+U 1 1 5A6498D6
+P 3650 3375
+F 0 "D49" H 3600 3455 50  0000 L CNN
+F 1 "D_Small" H 3500 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 3650 3375 50  0001 C CNN
+F 3 "" V 3650 3375 50  0001 C CNN
+	1    3650 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_B1
+U 1 1 5A6498DD
+P 4200 3100
+F 0 "K_B1" H 4200 3225 60  0000 C CNN
+F 1 "MX-1U" H 4200 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 4175 3075 60  0001 C CNN
+F 3 "" H 4175 3075 60  0001 C CNN
+	1    4200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D50
+U 1 1 5A6498E3
+P 4100 3375
+F 0 "D50" H 4050 3455 50  0000 L CNN
+F 1 "D_Small" H 3950 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 4100 3375 50  0001 C CNN
+F 3 "" V 4100 3375 50  0001 C CNN
+	1    4100 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_N1
+U 1 1 5A6498EA
+P 4650 3100
+F 0 "K_N1" H 4650 3225 60  0000 C CNN
+F 1 "MX-1U" H 4650 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 4625 3075 60  0001 C CNN
+F 3 "" H 4625 3075 60  0001 C CNN
+	1    4650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D51
+U 1 1 5A6498F0
+P 4550 3375
+F 0 "D51" H 4500 3455 50  0000 L CNN
+F 1 "D_Small" H 4400 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 4550 3375 50  0001 C CNN
+F 3 "" V 4550 3375 50  0001 C CNN
+	1    4550 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_M1
+U 1 1 5A6498F7
+P 5100 3100
+F 0 "K_M1" H 5100 3225 60  0000 C CNN
+F 1 "MX-1U" H 5100 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5075 3075 60  0001 C CNN
+F 3 "" H 5075 3075 60  0001 C CNN
+	1    5100 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D52
+U 1 1 5A6498FD
+P 5000 3375
+F 0 "D52" H 4950 3455 50  0000 L CNN
+F 1 "D_Small" H 4850 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5000 3375 50  0001 C CNN
+F 3 "" V 5000 3375 50  0001 C CNN
+	1    5000 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_,1
+U 1 1 5A649904
+P 5550 3100
+F 0 "K_,1" H 5550 3225 60  0000 C CNN
+F 1 "MX-1U" H 5550 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5525 3075 60  0001 C CNN
+F 3 "" H 5525 3075 60  0001 C CNN
+	1    5550 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D53
+U 1 1 5A64990A
+P 5450 3375
+F 0 "D53" H 5400 3455 50  0000 L CNN
+F 1 "D_Small" H 5300 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5450 3375 50  0001 C CNN
+F 3 "" V 5450 3375 50  0001 C CNN
+	1    5450 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_.1
+U 1 1 5A649911
+P 6000 3100
+F 0 "K_.1" H 6000 3225 60  0000 C CNN
+F 1 "MX-1U" H 6000 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 5975 3075 60  0001 C CNN
+F 3 "" H 5975 3075 60  0001 C CNN
+	1    6000 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D54
+U 1 1 5A649917
+P 5900 3375
+F 0 "D54" H 5850 3455 50  0000 L CNN
+F 1 "D_Small" H 5750 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 5900 3375 50  0001 C CNN
+F 3 "" V 5900 3375 50  0001 C CNN
+	1    5900 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_CAPS2
+U 1 1 5A660657
+P 1050 2475
+F 0 "K_CAPS2" H 1050 2600 60  0000 C CNN
+F 1 "MX-1.25U" H 1050 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.25U-FLIPPED" H 1025 2450 60  0001 C CNN
+F 3 "" H 1025 2450 60  0001 C CNN
+	1    1050 2475
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 1150 3950 1400 750 
+U 5A68E29D
+F0 "LeftMods" 60
+F1 "LeftMods.sch" 60
+$EndSheet
+$Sheet
+S 4400 3950 1800 750 
+U 5A6966B4
+F0 "RightMods" 60
+F1 "RightMods.sch" 60
+$EndSheet
+$Comp
+L Voyager65-rescue:MX-1U K_BACK2
+U 1 1 5A6A6B25
+P 8375 750
+F 0 "K_BACK2" H 8375 875 60  0000 C CNN
+F 1 "MX-1U" H 8375 800 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 8350 725 60  0001 C CNN
+F 3 "" H 8350 725 60  0001 C CNN
+	1    8375 750 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1675 1025 1    60   Input ~ 0
+COL0
+Text GLabel 2125 1025 1    60   Input ~ 0
+COL1
+Text GLabel 2575 1025 1    60   Input ~ 0
+COL2
+Text GLabel 3025 1025 1    60   Input ~ 0
+COL3
+Text GLabel 3475 1025 1    60   Input ~ 0
+COL4
+Text GLabel 3925 1025 1    60   Input ~ 0
+COL5
+Text GLabel 4375 1025 1    60   Input ~ 0
+COL6
+Text GLabel 4825 1025 1    60   Input ~ 0
+COL7
+Text GLabel 5275 1025 1    60   Input ~ 0
+COL8
+Text GLabel 5725 1025 1    60   Input ~ 0
+COL9
+Text GLabel 6175 1025 1    60   Input ~ 0
+COL10
+Text GLabel 6625 1025 1    60   Input ~ 0
+COL11
+Text GLabel 7075 1025 1    60   Input ~ 0
+COL12
+Text GLabel 7525 1025 1    60   Input ~ 0
+COL13
+Text GLabel 7975 1025 1    60   Input ~ 0
+COL14
+Text GLabel 9175 1600 2    60   Input ~ 0
+ROW0
+Text GLabel 9175 2225 2    60   Input ~ 0
+ROW1
+Text GLabel 9175 2850 2    60   Input ~ 0
+ROW2
+Text GLabel 9175 3475 2    60   Input ~ 0
+ROW3
+Text GLabel 1025 1350 0    60   Input ~ 0
+LED-SW5
+Text GLabel 1025 1975 0    60   Input ~ 0
+LED-SW4
+Text GLabel 900  2600 0    60   Input ~ 0
+LED-SW3
+Text GLabel 1025 3225 0    60   Input ~ 0
+LED-SW2
+Text GLabel 1625 675  1    60   Input ~ 0
+LED-CS1
+Text GLabel 2525 675  1    60   Input ~ 0
+LED-CS3
+Text GLabel 2075 675  1    60   Input ~ 0
+LED-CS2
+Text GLabel 2975 675  1    60   Input ~ 0
+LED-CS4
+Text GLabel 3425 675  1    60   Input ~ 0
+LED-CS5
+Text GLabel 3875 675  1    60   Input ~ 0
+LED-CS6
+Text GLabel 4325 675  1    60   Input ~ 0
+LED-CS7
+Text GLabel 4775 675  1    60   Input ~ 0
+LED-CS8
+Text GLabel 5225 675  1    60   Input ~ 0
+LED-CS9
+Text GLabel 5675 675  1    60   Input ~ 0
+LED-CS10
+Text GLabel 6125 675  1    60   Input ~ 0
+LED-CS11
+Text GLabel 6575 675  1    60   Input ~ 0
+LED-CS12
+Text GLabel 7025 675  1    60   Input ~ 0
+LED-CS13
+Text GLabel 7475 675  1    60   Input ~ 0
+LED-CS14
+Text GLabel 7925 675  1    60   Input ~ 0
+LED-CS15
+$Sheet
+S 2800 3950 1375 750 
+U 5ACD5051
+F0 "Space" 60
+F1 "Space.sch" 60
+$EndSheet
+$Comp
+L Voyager65-rescue:MX-1U K_/1
+U 1 1 5ACD7076
+P 6450 3100
+F 0 "K_/1" H 6450 3225 60  0000 C CNN
+F 1 "MX-1U" H 6450 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 6425 3075 60  0001 C CNN
+F 3 "" H 6425 3075 60  0001 C CNN
+	1    6450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D56
+U 1 1 5ACD7453
+P 6350 3375
+F 0 "D56" H 6300 3455 50  0000 L CNN
+F 1 "D_Small" H 6200 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 6350 3375 50  0001 C CNN
+F 3 "" V 6350 3375 50  0001 C CNN
+	1    6350 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_SHIFT2
+U 1 1 5ACD851F
+P 6900 3100
+F 0 "K_SHIFT2" H 6900 3225 60  0000 C CNN
+F 1 "MX-1.75U" H 6900 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1.75U" H 6875 3075 60  0001 C CNN
+F 3 "" H 6875 3075 60  0001 C CNN
+	1    6900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D57
+U 1 1 5ACD867C
+P 6800 3375
+F 0 "D57" H 6750 3455 50  0000 L CNN
+F 1 "D_Small" H 6650 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 6800 3375 50  0001 C CNN
+F 3 "" V 6800 3375 50  0001 C CNN
+	1    6800 3375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Voyager65-rescue:MX-1U K_EX1
+U 1 1 5ACDD648
+P 8425 1225
+F 0 "K_EX1" H 8425 1350 60  0000 C CNN
+F 1 "MX-1U" H 8425 1275 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 8400 1200 60  0001 C CNN
+F 3 "" H 8400 1200 60  0001 C CNN
+	1    8425 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 1400 1400 1400
+Wire Wire Line
+	6425 1400 6350 1400
+Wire Wire Line
+	1925 1400 1850 1400
+Wire Wire Line
+	2375 1400 2300 1400
+Wire Wire Line
+	2825 1400 2750 1400
+Wire Wire Line
+	3275 1400 3200 1400
+Wire Wire Line
+	3725 1400 3650 1400
+Wire Wire Line
+	4175 1400 4100 1400
+Wire Wire Line
+	4625 1400 4550 1400
+Wire Wire Line
+	5075 1400 5000 1400
+Wire Wire Line
+	5525 1400 5450 1400
+Wire Wire Line
+	5975 1400 5900 1400
+Wire Wire Line
+	6875 1400 6800 1400
+Wire Wire Line
+	7325 1400 7250 1400
+Wire Wire Line
+	1475 2025 1400 2025
+Wire Wire Line
+	2375 2025 2300 2025
+Wire Wire Line
+	2825 2025 2750 2025
+Wire Wire Line
+	3275 2025 3200 2025
+Wire Wire Line
+	3725 2025 3650 2025
+Wire Wire Line
+	4175 2025 4100 2025
+Wire Wire Line
+	4625 2025 4550 2025
+Wire Wire Line
+	5075 2025 5000 2025
+Wire Wire Line
+	5525 2025 5450 2025
+Wire Wire Line
+	5975 2025 5900 2025
+Wire Wire Line
+	6425 2025 6350 2025
+Wire Wire Line
+	6875 2025 6800 2025
+Wire Wire Line
+	7325 2025 7250 2025
+Wire Wire Line
+	1225 2650 1400 2650
+Wire Wire Line
+	2375 2650 2300 2650
+Wire Wire Line
+	2825 2650 2750 2650
+Wire Wire Line
+	3275 2650 3200 2650
+Wire Wire Line
+	3725 2650 3650 2650
+Wire Wire Line
+	4175 2650 4100 2650
+Wire Wire Line
+	4625 2650 4550 2650
+Wire Wire Line
+	5075 2650 5000 2650
+Wire Wire Line
+	5525 2650 5450 2650
+Wire Wire Line
+	5975 2650 5900 2650
+Wire Wire Line
+	6425 2650 6350 2650
+Wire Wire Line
+	6875 2650 6800 2650
+Wire Wire Line
+	2375 3275 2300 3275
+Wire Wire Line
+	2825 3275 2750 3275
+Wire Wire Line
+	3275 3275 3200 3275
+Wire Wire Line
+	3725 3275 3650 3275
+Wire Wire Line
+	4175 3275 4100 3275
+Wire Wire Line
+	4625 3275 4550 3275
+Wire Wire Line
+	5075 3275 5000 3275
+Wire Wire Line
+	5525 3275 5450 3275
+Wire Wire Line
+	5975 3275 5900 3275
+Wire Wire Line
+	1675 1025 1675 1200
+Connection ~ 1675 2450
+Connection ~ 1675 1825
+Connection ~ 1675 1200
+Wire Wire Line
+	2575 1025 2575 1200
+Connection ~ 2575 1825
+Connection ~ 2575 2450
+Connection ~ 2575 1200
+Wire Wire Line
+	3025 1025 3025 1200
+Connection ~ 3025 1200
+Connection ~ 3025 1825
+Connection ~ 3025 2450
+Wire Wire Line
+	3475 1025 3475 1200
+Connection ~ 3475 2450
+Connection ~ 3475 1825
+Connection ~ 3475 1200
+Wire Wire Line
+	3925 1025 3925 1200
+Connection ~ 3925 1200
+Connection ~ 3925 1825
+Connection ~ 3925 2450
+Wire Wire Line
+	1225 2650 1225 2450
+Connection ~ 1400 2650
+Wire Wire Line
+	1025 2650 1150 2650
+Wire Wire Line
+	1150 2650 1150 2575
+Wire Wire Line
+	1150 2575 1675 2575
+Connection ~ 1675 2575
+Wire Wire Line
+	4375 1025 4375 1200
+Connection ~ 4375 2450
+Connection ~ 4375 1825
+Connection ~ 4375 1200
+Wire Wire Line
+	4825 1025 4825 1200
+Connection ~ 4825 1200
+Connection ~ 4825 1825
+Connection ~ 4825 2450
+Wire Wire Line
+	5275 1025 5275 1200
+Connection ~ 5275 2450
+Connection ~ 5275 1825
+Connection ~ 5275 1200
+Wire Wire Line
+	5725 1025 5725 1200
+Connection ~ 5725 1200
+Connection ~ 5725 1825
+Connection ~ 5725 2450
+Wire Wire Line
+	6175 1025 6175 1200
+Connection ~ 6175 2450
+Connection ~ 6175 1825
+Connection ~ 6175 1200
+Wire Wire Line
+	6625 1025 6625 1200
+Connection ~ 6625 1200
+Connection ~ 6625 1825
+Wire Wire Line
+	7075 1025 7075 1200
+Connection ~ 7075 1825
+Connection ~ 7075 1200
+Wire Wire Line
+	7525 1025 7525 1200
+Connection ~ 7525 1200
+Wire Wire Line
+	7975 1025 7975 1200
+Connection ~ 7975 1825
+Connection ~ 7975 1200
+Wire Wire Line
+	1400 1600 1850 1600
+Connection ~ 7250 1600
+Connection ~ 6800 1600
+Connection ~ 6350 1600
+Connection ~ 5900 1600
+Connection ~ 5450 1600
+Connection ~ 5000 1600
+Connection ~ 4550 1600
+Connection ~ 4100 1600
+Connection ~ 3650 1600
+Connection ~ 3200 1600
+Connection ~ 2750 1600
+Connection ~ 2300 1600
+Connection ~ 1850 1600
+Wire Wire Line
+	1400 2225 2300 2225
+Connection ~ 7250 2225
+Connection ~ 6800 2225
+Connection ~ 6350 2225
+Connection ~ 5900 2225
+Connection ~ 5450 2225
+Connection ~ 5000 2225
+Connection ~ 4550 2225
+Connection ~ 4100 2225
+Connection ~ 3650 2225
+Connection ~ 3200 2225
+Connection ~ 2750 2225
+Connection ~ 2300 2225
+Wire Wire Line
+	1400 2850 2300 2850
+Connection ~ 2300 2850
+Connection ~ 2750 2850
+Connection ~ 3200 2850
+Connection ~ 3650 2850
+Connection ~ 4100 2850
+Connection ~ 4550 2850
+Connection ~ 5000 2850
+Connection ~ 5450 2850
+Connection ~ 5900 2850
+Connection ~ 6350 2850
+Connection ~ 6800 2850
+Connection ~ 5450 3475
+Connection ~ 5000 3475
+Connection ~ 4550 3475
+Connection ~ 4100 3475
+Connection ~ 3650 3475
+Connection ~ 3200 3475
+Connection ~ 2750 3475
+Connection ~ 2300 3475
+Connection ~ 7700 1600
+Connection ~ 7700 2225
+Connection ~ 7700 2850
+Connection ~ 5900 3475
+Connection ~ 7775 1400
+Connection ~ 1525 1350
+Connection ~ 1975 1350
+Connection ~ 2425 1350
+Connection ~ 2875 1350
+Connection ~ 3325 1350
+Connection ~ 3775 1350
+Connection ~ 4225 1350
+Connection ~ 1525 1975
+Connection ~ 2425 1975
+Connection ~ 2875 1975
+Connection ~ 3325 1975
+Connection ~ 3775 1975
+Connection ~ 4225 1975
+Connection ~ 1075 2600
+Connection ~ 1525 2600
+Connection ~ 2425 2600
+Connection ~ 2875 2600
+Connection ~ 3325 2600
+Connection ~ 3775 2600
+Connection ~ 4225 2600
+Connection ~ 1525 3225
+Connection ~ 2875 3225
+Connection ~ 2425 3225
+Connection ~ 3325 3225
+Connection ~ 3775 3225
+Connection ~ 4225 3225
+Wire Wire Line
+	7775 2650 7700 2650
+Wire Wire Line
+	7700 2025 7775 2025
+Wire Wire Line
+	2125 1200 2125 1025
+Wire Wire Line
+	1475 3275 1400 3275
+Connection ~ 4675 1350
+Connection ~ 5125 1350
+Connection ~ 5575 1350
+Connection ~ 6025 1350
+Connection ~ 6475 1350
+Connection ~ 6925 1350
+Connection ~ 7375 1350
+Connection ~ 7825 1350
+Wire Wire Line
+	1025 1975 1525 1975
+Connection ~ 4675 1975
+Connection ~ 5125 1975
+Connection ~ 5575 1975
+Connection ~ 6025 1975
+Connection ~ 6475 1975
+Connection ~ 6925 1975
+Connection ~ 7375 1975
+Wire Wire Line
+	900  2600 1075 2600
+Connection ~ 4675 2600
+Connection ~ 5125 2600
+Connection ~ 5575 2600
+Connection ~ 6025 2600
+Connection ~ 6475 2600
+Connection ~ 6925 2600
+Wire Wire Line
+	1025 3225 1525 3225
+Connection ~ 4675 3225
+Connection ~ 5125 3225
+Connection ~ 5575 3225
+Wire Wire Line
+	1625 675  1625 1250
+Connection ~ 1625 1875
+Wire Wire Line
+	1625 2500 1175 2500
+Connection ~ 1625 2500
+Connection ~ 1625 1250
+Wire Wire Line
+	2525 675  2525 1250
+Connection ~ 2525 2500
+Connection ~ 2525 1875
+Connection ~ 2525 1250
+Wire Wire Line
+	2075 1250 2075 675 
+Wire Wire Line
+	2975 675  2975 1250
+Connection ~ 2975 2500
+Connection ~ 2975 1875
+Connection ~ 2975 1250
+Wire Wire Line
+	3425 675  3425 1250
+Connection ~ 3425 2500
+Connection ~ 3425 1875
+Connection ~ 3425 1250
+Wire Wire Line
+	3875 675  3875 1250
+Connection ~ 3875 2500
+Connection ~ 3875 1875
+Connection ~ 3875 1250
+Wire Wire Line
+	4325 675  4325 1250
+Connection ~ 4325 2500
+Connection ~ 4325 1875
+Connection ~ 4325 1250
+Wire Wire Line
+	4775 675  4775 1250
+Connection ~ 4775 2500
+Connection ~ 4775 1875
+Connection ~ 4775 1250
+Wire Wire Line
+	5225 675  5225 1250
+Connection ~ 5225 2500
+Connection ~ 5225 1875
+Connection ~ 5225 1250
+Wire Wire Line
+	5675 675  5675 1250
+Connection ~ 5675 2500
+Connection ~ 5675 1875
+Connection ~ 5675 1250
+Wire Wire Line
+	6125 675  6125 1250
+Connection ~ 6125 2500
+Connection ~ 6125 1875
+Connection ~ 6125 1250
+Wire Wire Line
+	6575 675  6575 1250
+Connection ~ 6575 1875
+Connection ~ 6575 1250
+Wire Wire Line
+	7025 675  7025 1250
+Connection ~ 7025 1875
+Connection ~ 7025 1250
+Wire Wire Line
+	7475 675  7475 1250
+Connection ~ 7475 1250
+Wire Wire Line
+	7925 675  7925 1250
+Connection ~ 7925 1875
+Connection ~ 7925 1250
+Connection ~ 6350 3475
+Wire Wire Line
+	6350 3275 6425 3275
+Connection ~ 6025 3225
+Connection ~ 6575 2500
+Connection ~ 6625 2450
+Wire Wire Line
+	6800 3275 6875 3275
+Connection ~ 7075 2450
+Connection ~ 7025 2500
+Connection ~ 6475 3225
+Wire Wire Line
+	1025 1350 1525 1350
+Wire Wire Line
+	7700 1400 7775 1400
+Wire Wire Line
+	7975 1200 8075 1200
+Wire Wire Line
+	8075 1200 8075 725 
+Wire Wire Line
+	8075 725  8550 725 
+Wire Wire Line
+	8500 775  8100 775 
+Wire Wire Line
+	8100 775  8100 1250
+Wire Wire Line
+	8100 1250 7925 1250
+Wire Wire Line
+	8125 1400 8125 925 
+Wire Wire Line
+	8125 925  8350 925 
+Wire Wire Line
+	8400 875  8150 875 
+Wire Wire Line
+	8150 875  8150 1350
+Connection ~ 8150 1350
+$Comp
+L Device:D_Small D42
+U 1 1 5ACDDDF6
+P 8325 1500
+F 0 "D42" H 8275 1580 50  0000 L CNN
+F 1 "D_Small" H 8175 1420 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8325 1500 50  0001 C CNN
+F 3 "" V 8325 1500 50  0001 C CNN
+	1    8325 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8325 1400 8400 1400
+Connection ~ 8325 1600
+$Comp
+L Voyager65-rescue:MX-1U K_EX2
+U 1 1 5ACDEC98
+P 8425 1850
+F 0 "K_EX2" H 8425 1975 60  0000 C CNN
+F 1 "MX-1U" H 8425 1900 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 8400 1825 60  0001 C CNN
+F 3 "" H 8400 1825 60  0001 C CNN
+	1    8425 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D45
+U 1 1 5ACDF358
+P 8325 2125
+F 0 "D45" H 8275 2205 50  0000 L CNN
+F 1 "D_Small" H 8175 2045 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8325 2125 50  0001 C CNN
+F 3 "" V 8325 2125 50  0001 C CNN
+	1    8325 2125
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8325 2225
+Wire Wire Line
+	8325 2025 8400 2025
+Connection ~ 7825 1975
+Wire Wire Line
+	8600 1050 8600 1200
+Wire Wire Line
+	8600 1050 9025 1050
+Wire Wire Line
+	9025 1050 9025 750 
+Connection ~ 8600 1200
+Text GLabel 9025 750  1    60   Input ~ 0
+COL15
+Text GLabel 8900 750  1    60   Input ~ 0
+LED-CS16
+Wire Wire Line
+	8900 750  8900 1000
+Wire Wire Line
+	8900 1000 8550 1000
+Wire Wire Line
+	8550 1000 8550 1250
+Connection ~ 8550 1250
+$Comp
+L Voyager65-rescue:MX-1U K_EX3
+U 1 1 5ACE103B
+P 8425 2475
+F 0 "K_EX3" H 8425 2600 60  0000 C CNN
+F 1 "MX-1U" H 8425 2525 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 8400 2450 60  0001 C CNN
+F 3 "" H 8400 2450 60  0001 C CNN
+	1    8425 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D55
+U 1 1 5ACE140D
+P 8325 2750
+F 0 "D55" H 8275 2830 50  0000 L CNN
+F 1 "D_Small" H 8175 2670 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8325 2750 50  0001 C CNN
+F 3 "" V 8325 2750 50  0001 C CNN
+	1    8325 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8325 2650 8400 2650
+Connection ~ 8325 2850
+Connection ~ 7825 2600
+$Comp
+L Voyager65-rescue:MX-1U K_EX4
+U 1 1 5ACE2B9D
+P 8425 3100
+F 0 "K_EX4" H 8425 3225 60  0000 C CNN
+F 1 "MX-1U" H 8425 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 8400 3075 60  0001 C CNN
+F 3 "" H 8400 3075 60  0001 C CNN
+	1    8425 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D59
+U 1 1 5ACE2D16
+P 8325 3375
+F 0 "D59" H 8275 3455 50  0000 L CNN
+F 1 "D_Small" H 8175 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8325 3375 50  0001 C CNN
+F 3 "" V 8325 3375 50  0001 C CNN
+	1    8325 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3275 8325 3275
+$Comp
+L Voyager65-rescue:MX-1U K_UP1
+U 1 1 5ACE3337
+P 7800 3100
+F 0 "K_UP1" H 7800 3225 60  0000 C CNN
+F 1 "MX-1U" H 7800 3150 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 7775 3075 60  0001 C CNN
+F 3 "" H 7775 3075 60  0001 C CNN
+	1    7800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D58
+U 1 1 5ACE333D
+P 7700 3375
+F 0 "D58" H 7650 3455 50  0000 L CNN
+F 1 "D_Small" H 7550 3295 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7700 3375 50  0001 C CNN
+F 3 "" V 7700 3375 50  0001 C CNN
+	1    7700 3375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7775 3275 7700 3275
+$Comp
+L Voyager65-rescue:MX-1U K_RIGHT1
+U 1 1 5ACE57F3
+P 8425 3725
+F 0 "K_RIGHT1" H 8425 3850 60  0000 C CNN
+F 1 "MX-1U" H 8425 3775 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 8400 3700 60  0001 C CNN
+F 3 "" H 8400 3700 60  0001 C CNN
+	1    8425 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D62
+U 1 1 5ACE57F9
+P 8325 4000
+F 0 "D62" H 8275 4080 50  0000 L CNN
+F 1 "D_Small" H 8175 3920 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 8325 4000 50  0001 C CNN
+F 3 "" V 8325 4000 50  0001 C CNN
+	1    8325 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8400 3900 8325 3900
+$Comp
+L Voyager65-rescue:MX-1U K_DOWN1
+U 1 1 5ACE5800
+P 7800 3725
+F 0 "K_DOWN1" H 7800 3850 60  0000 C CNN
+F 1 "MX-1U" H 7800 3775 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 7775 3700 60  0001 C CNN
+F 3 "" H 7775 3700 60  0001 C CNN
+	1    7800 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D61
+U 1 1 5ACE5806
+P 7700 4000
+F 0 "D61" H 7650 4080 50  0000 L CNN
+F 1 "D_Small" H 7550 3920 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7700 4000 50  0001 C CNN
+F 3 "" V 7700 4000 50  0001 C CNN
+	1    7700 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7775 3900 7700 3900
+$Comp
+L Voyager65-rescue:MX-1U K_LEFT1
+U 1 1 5ACE6547
+P 7350 3725
+F 0 "K_LEFT1" H 7350 3850 60  0000 C CNN
+F 1 "MX-1U" H 7350 3775 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U" H 7325 3700 60  0001 C CNN
+F 3 "" H 7325 3700 60  0001 C CNN
+	1    7350 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D60
+U 1 1 5ACE654D
+P 7250 4000
+F 0 "D60" H 7200 4080 50  0000 L CNN
+F 1 "D_Small" H 7100 3920 50  0000 L CNN
+F 2 "Diodes_SMD:D_SOD-123" V 7250 4000 50  0001 C CNN
+F 3 "" V 7250 4000 50  0001 C CNN
+	1    7250 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7325 3900 7250 3900
+Connection ~ 6925 3225
+Connection ~ 7825 3225
+Connection ~ 6800 3475
+Connection ~ 7700 3475
+Connection ~ 8325 3475
+Wire Wire Line
+	7250 4100 7700 4100
+Connection ~ 8325 4100
+Connection ~ 7700 4100
+Text GLabel 9175 4100 2    60   Input ~ 0
+ROW4
+Connection ~ 8600 1825
+Connection ~ 8600 2450
+Connection ~ 8600 3075
+Connection ~ 7975 2450
+Connection ~ 7975 3075
+Connection ~ 7525 1825
+Connection ~ 7925 2500
+Connection ~ 7925 3125
+Connection ~ 7475 1875
+Connection ~ 8550 3125
+Connection ~ 8550 1875
+Connection ~ 8550 2500
+Wire Wire Line
+	6950 3850 7375 3850
+Connection ~ 7825 3850
+Connection ~ 7375 3850
+Text GLabel 6950 3850 0    60   Input ~ 0
+LED-SW1
+Wire Wire Line
+	1675 2450 1675 2575
+Wire Wire Line
+	1675 1825 1675 2450
+Wire Wire Line
+	1675 1200 1675 1825
+Wire Wire Line
+	2575 1825 2575 2450
+Wire Wire Line
+	2575 2450 2575 3075
+Wire Wire Line
+	2575 1200 2575 1825
+Wire Wire Line
+	3025 1200 3025 1825
+Wire Wire Line
+	3025 1825 3025 2450
+Wire Wire Line
+	3025 2450 3025 3075
+Wire Wire Line
+	3475 2450 3475 3075
+Wire Wire Line
+	3475 1825 3475 2450
+Wire Wire Line
+	3475 1200 3475 1825
+Wire Wire Line
+	3925 1200 3925 1825
+Wire Wire Line
+	3925 1825 3925 2450
+Wire Wire Line
+	3925 2450 3925 3075
+Wire Wire Line
+	1400 2650 1475 2650
+Wire Wire Line
+	1675 2575 1675 3075
+Wire Wire Line
+	4375 2450 4375 3075
+Wire Wire Line
+	4375 1825 4375 2450
+Wire Wire Line
+	4375 1200 4375 1825
+Wire Wire Line
+	4825 1200 4825 1825
+Wire Wire Line
+	4825 1825 4825 2450
+Wire Wire Line
+	4825 2450 4825 3075
+Wire Wire Line
+	5275 2450 5275 3075
+Wire Wire Line
+	5275 1825 5275 2450
+Wire Wire Line
+	5275 1200 5275 1825
+Wire Wire Line
+	5725 1200 5725 1825
+Wire Wire Line
+	5725 1825 5725 2450
+Wire Wire Line
+	5725 2450 5725 3075
+Wire Wire Line
+	6175 2450 6175 3075
+Wire Wire Line
+	6175 1825 6175 2450
+Wire Wire Line
+	6175 1200 6175 1825
+Wire Wire Line
+	6625 1200 6625 1825
+Wire Wire Line
+	6625 1825 6625 2450
+Wire Wire Line
+	7075 1825 7075 2450
+Wire Wire Line
+	7075 1200 7075 1825
+Wire Wire Line
+	7525 1200 7525 1825
+Wire Wire Line
+	7975 1825 7975 2450
+Wire Wire Line
+	7975 1200 7975 1825
+Wire Wire Line
+	7250 1600 7700 1600
+Wire Wire Line
+	6800 1600 7250 1600
+Wire Wire Line
+	6350 1600 6800 1600
+Wire Wire Line
+	5900 1600 6350 1600
+Wire Wire Line
+	5450 1600 5900 1600
+Wire Wire Line
+	5000 1600 5450 1600
+Wire Wire Line
+	4550 1600 5000 1600
+Wire Wire Line
+	4100 1600 4550 1600
+Wire Wire Line
+	3650 1600 4100 1600
+Wire Wire Line
+	3200 1600 3650 1600
+Wire Wire Line
+	2750 1600 3200 1600
+Wire Wire Line
+	2300 1600 2750 1600
+Wire Wire Line
+	1850 1600 2300 1600
+Wire Wire Line
+	7250 2225 7700 2225
+Wire Wire Line
+	6800 2225 7250 2225
+Wire Wire Line
+	6350 2225 6800 2225
+Wire Wire Line
+	5900 2225 6350 2225
+Wire Wire Line
+	5450 2225 5900 2225
+Wire Wire Line
+	5000 2225 5450 2225
+Wire Wire Line
+	4550 2225 5000 2225
+Wire Wire Line
+	4100 2225 4550 2225
+Wire Wire Line
+	3650 2225 4100 2225
+Wire Wire Line
+	3200 2225 3650 2225
+Wire Wire Line
+	2750 2225 3200 2225
+Wire Wire Line
+	2300 2225 2750 2225
+Wire Wire Line
+	2300 2850 2750 2850
+Wire Wire Line
+	2750 2850 3200 2850
+Wire Wire Line
+	3200 2850 3650 2850
+Wire Wire Line
+	3650 2850 4100 2850
+Wire Wire Line
+	4100 2850 4550 2850
+Wire Wire Line
+	4550 2850 5000 2850
+Wire Wire Line
+	5000 2850 5450 2850
+Wire Wire Line
+	5450 2850 5900 2850
+Wire Wire Line
+	5900 2850 6350 2850
+Wire Wire Line
+	6350 2850 6800 2850
+Wire Wire Line
+	6800 2850 7700 2850
+Wire Wire Line
+	5450 3475 5900 3475
+Wire Wire Line
+	5000 3475 5450 3475
+Wire Wire Line
+	4550 3475 5000 3475
+Wire Wire Line
+	4100 3475 4550 3475
+Wire Wire Line
+	3650 3475 4100 3475
+Wire Wire Line
+	3200 3475 3650 3475
+Wire Wire Line
+	2750 3475 3200 3475
+Wire Wire Line
+	2300 3475 2750 3475
+Wire Wire Line
+	7700 1600 8325 1600
+Wire Wire Line
+	7700 2225 8325 2225
+Wire Wire Line
+	7700 2850 8325 2850
+Wire Wire Line
+	5900 3475 6350 3475
+Wire Wire Line
+	7775 1400 8125 1400
+Wire Wire Line
+	1525 1350 1975 1350
+Wire Wire Line
+	1975 1350 2425 1350
+Wire Wire Line
+	2425 1350 2875 1350
+Wire Wire Line
+	2875 1350 3325 1350
+Wire Wire Line
+	3325 1350 3775 1350
+Wire Wire Line
+	3775 1350 4225 1350
+Wire Wire Line
+	4225 1350 4675 1350
+Wire Wire Line
+	1525 1975 2425 1975
+Wire Wire Line
+	2425 1975 2875 1975
+Wire Wire Line
+	2875 1975 3325 1975
+Wire Wire Line
+	3325 1975 3775 1975
+Wire Wire Line
+	3775 1975 4225 1975
+Wire Wire Line
+	4225 1975 4675 1975
+Wire Wire Line
+	1075 2600 1525 2600
+Wire Wire Line
+	1525 2600 2425 2600
+Wire Wire Line
+	2425 2600 2875 2600
+Wire Wire Line
+	2875 2600 3325 2600
+Wire Wire Line
+	3325 2600 3775 2600
+Wire Wire Line
+	3775 2600 4225 2600
+Wire Wire Line
+	4225 2600 4675 2600
+Wire Wire Line
+	1525 3225 2425 3225
+Wire Wire Line
+	2875 3225 3325 3225
+Wire Wire Line
+	2425 3225 2875 3225
+Wire Wire Line
+	3325 3225 3775 3225
+Wire Wire Line
+	3775 3225 4225 3225
+Wire Wire Line
+	4225 3225 4675 3225
+Wire Wire Line
+	4675 1350 5125 1350
+Wire Wire Line
+	5125 1350 5575 1350
+Wire Wire Line
+	5575 1350 6025 1350
+Wire Wire Line
+	6025 1350 6475 1350
+Wire Wire Line
+	6475 1350 6925 1350
+Wire Wire Line
+	6925 1350 7375 1350
+Wire Wire Line
+	7375 1350 7825 1350
+Wire Wire Line
+	7825 1350 8150 1350
+Wire Wire Line
+	4675 1975 5125 1975
+Wire Wire Line
+	5125 1975 5575 1975
+Wire Wire Line
+	5575 1975 6025 1975
+Wire Wire Line
+	6025 1975 6475 1975
+Wire Wire Line
+	6475 1975 6925 1975
+Wire Wire Line
+	6925 1975 7375 1975
+Wire Wire Line
+	7375 1975 7825 1975
+Wire Wire Line
+	4675 2600 5125 2600
+Wire Wire Line
+	5125 2600 5575 2600
+Wire Wire Line
+	5575 2600 6025 2600
+Wire Wire Line
+	6025 2600 6475 2600
+Wire Wire Line
+	6475 2600 6925 2600
+Wire Wire Line
+	6925 2600 7825 2600
+Wire Wire Line
+	4675 3225 5125 3225
+Wire Wire Line
+	5125 3225 5575 3225
+Wire Wire Line
+	5575 3225 6025 3225
+Wire Wire Line
+	1625 1875 1625 2500
+Wire Wire Line
+	1625 2500 1625 3125
+Wire Wire Line
+	1625 1250 1625 1875
+Wire Wire Line
+	2525 2500 2525 3125
+Wire Wire Line
+	2525 1875 2525 2500
+Wire Wire Line
+	2525 1250 2525 1875
+Wire Wire Line
+	2975 2500 2975 3125
+Wire Wire Line
+	2975 1875 2975 2500
+Wire Wire Line
+	2975 1250 2975 1875
+Wire Wire Line
+	3425 2500 3425 3125
+Wire Wire Line
+	3425 1875 3425 2500
+Wire Wire Line
+	3425 1250 3425 1875
+Wire Wire Line
+	3875 2500 3875 3125
+Wire Wire Line
+	3875 1875 3875 2500
+Wire Wire Line
+	3875 1250 3875 1875
+Wire Wire Line
+	4325 2500 4325 3125
+Wire Wire Line
+	4325 1875 4325 2500
+Wire Wire Line
+	4325 1250 4325 1875
+Wire Wire Line
+	4775 2500 4775 3125
+Wire Wire Line
+	4775 1875 4775 2500
+Wire Wire Line
+	4775 1250 4775 1875
+Wire Wire Line
+	5225 2500 5225 3125
+Wire Wire Line
+	5225 1875 5225 2500
+Wire Wire Line
+	5225 1250 5225 1875
+Wire Wire Line
+	5675 2500 5675 3125
+Wire Wire Line
+	5675 1875 5675 2500
+Wire Wire Line
+	5675 1250 5675 1875
+Wire Wire Line
+	6125 2500 6125 3125
+Wire Wire Line
+	6125 1875 6125 2500
+Wire Wire Line
+	6125 1250 6125 1875
+Wire Wire Line
+	6575 1875 6575 2500
+Wire Wire Line
+	6575 1250 6575 1875
+Wire Wire Line
+	7025 1875 7025 2500
+Wire Wire Line
+	7025 1250 7025 1875
+Wire Wire Line
+	7475 1250 7475 1875
+Wire Wire Line
+	7925 1875 7925 2500
+Wire Wire Line
+	7925 1250 7925 1875
+Wire Wire Line
+	6350 3475 6800 3475
+Wire Wire Line
+	6025 3225 6475 3225
+Wire Wire Line
+	6575 2500 6575 3125
+Wire Wire Line
+	6625 2450 6625 3075
+Wire Wire Line
+	7075 2450 7075 3075
+Wire Wire Line
+	7025 2500 7025 3125
+Wire Wire Line
+	6475 3225 6925 3225
+Wire Wire Line
+	8150 1350 8450 1350
+Wire Wire Line
+	8325 1600 9175 1600
+Wire Wire Line
+	8325 2225 9175 2225
+Wire Wire Line
+	7825 1975 8450 1975
+Wire Wire Line
+	8600 1200 8600 1825
+Wire Wire Line
+	8550 1250 8550 1875
+Wire Wire Line
+	8325 2850 9175 2850
+Wire Wire Line
+	7825 2600 8450 2600
+Wire Wire Line
+	6925 3225 7825 3225
+Wire Wire Line
+	7825 3225 8450 3225
+Wire Wire Line
+	6800 3475 7700 3475
+Wire Wire Line
+	7700 3475 8325 3475
+Wire Wire Line
+	8325 3475 9175 3475
+Wire Wire Line
+	8325 4100 9175 4100
+Wire Wire Line
+	7700 4100 8325 4100
+Wire Wire Line
+	8600 1825 8600 2450
+Wire Wire Line
+	8600 2450 8600 3075
+Wire Wire Line
+	8600 3075 8600 3700
+Wire Wire Line
+	7975 2450 7975 3075
+Wire Wire Line
+	7975 3075 7975 3700
+Wire Wire Line
+	7525 1825 7525 3700
+Wire Wire Line
+	7925 2500 7925 3125
+Wire Wire Line
+	7925 3125 7925 3750
+Wire Wire Line
+	7475 1875 7475 3750
+Wire Wire Line
+	8550 3125 8550 3750
+Wire Wire Line
+	8550 1875 8550 2500
+Wire Wire Line
+	8550 2500 8550 3125
+Wire Wire Line
+	7825 3850 8450 3850
+Wire Wire Line
+	7375 3850 7825 3850
+Wire Wire Line
+	1400 3475 2300 3475
+$EndSCHEMATC

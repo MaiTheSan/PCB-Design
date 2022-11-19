@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TX75v2-PCB-replacement-rescue)(type Legacy)(uri "${KIPRJMOD}/TX75v2 PCB replacement-rescue.lib")(options "")(descr ""))
+)

@@ -1,0 +1,527 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C_Small C6
+U 1 1 5B31E536
+P 5325 8825
+F 0 "C6" H 5335 8895 50  0000 L CNN
+F 1 "1uF" H 5335 8745 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 5325 8825 50  0001 C CNN
+F 3 "" H 5325 8825 50  0001 C CNN
+	1    5325 8825
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5B31EE0F
+P 5100 8825
+F 0 "#PWR0102" H 5100 8575 50  0001 C CNN
+F 1 "GND" H 5100 8675 50  0000 C CNN
+F 2 "" H 5100 8825 50  0001 C CNN
+F 3 "" H 5100 8825 50  0001 C CNN
+	1    5100 8825
+	1    0    0    -1  
+$EndComp
+Text GLabel 5750 8525 0    60   Input ~ 0
+D+
+Text GLabel 5750 8625 0    60   Input ~ 0
+D-
+$Comp
+L Device:R_Small R9
+U 1 1 5B32301F
+P 5525 7425
+F 0 "R9" H 5555 7445 50  0000 L CNN
+F 1 "10k" H 5555 7385 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" H 5525 7425 50  0001 C CNN
+F 3 "" H 5525 7425 50  0001 C CNN
+	1    5525 7425
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5B32363C
+P 5525 7325
+F 0 "#PWR0108" H 5525 7175 50  0001 C CNN
+F 1 "+5V" H 5525 7465 50  0000 C CNN
+F 2 "" H 5525 7325 50  0001 C CNN
+F 3 "" H 5525 7325 50  0001 C CNN
+	1    5525 7325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R10
+U 1 1 5B32C957
+P 7325 9625
+F 0 "R10" H 7355 9645 50  0000 L CNN
+F 1 "1k" H 7355 9585 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0603" H 7325 9625 50  0001 C CNN
+F 3 "" H 7325 9625 50  0001 C CNN
+	1    7325 9625
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5B32D49E
+P 7525 9625
+F 0 "#PWR0113" H 7525 9375 50  0001 C CNN
+F 1 "GND" H 7525 9475 50  0000 C CNN
+F 2 "" H 7525 9625 50  0001 C CNN
+F 3 "" H 7525 9625 50  0001 C CNN
+	1    7525 9625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5B334CFB
+P 4900 10100
+F 0 "C4" H 4910 10170 50  0000 L CNN
+F 1 "0.1uF" H 4910 10020 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 4900 10100 50  0001 C CNN
+F 3 "" H 4900 10100 50  0001 C CNN
+	1    4900 10100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5B335589
+P 5150 10100
+F 0 "C5" H 5160 10170 50  0000 L CNN
+F 1 "0.1uF" H 5160 10020 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 5150 10100 50  0001 C CNN
+F 3 "" H 5150 10100 50  0001 C CNN
+	1    5150 10100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5B33581F
+P 5400 10100
+F 0 "C7" H 5410 10170 50  0000 L CNN
+F 1 "0.1uF" H 5410 10020 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 5400 10100 50  0001 C CNN
+F 3 "" H 5400 10100 50  0001 C CNN
+	1    5400 10100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 5B33687D
+P 5150 10400
+F 0 "#PWR0116" H 5150 10150 50  0001 C CNN
+F 1 "GND" H 5150 10250 50  0000 C CNN
+F 2 "" H 5150 10400 50  0001 C CNN
+F 3 "" H 5150 10400 50  0001 C CNN
+	1    5150 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5B337B5B
+P 4650 10100
+F 0 "C1" H 4660 10170 50  0000 L CNN
+F 1 "10uF" H 4660 10020 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 4650 10100 50  0001 C CNN
+F 3 "" H 4650 10100 50  0001 C CNN
+	1    4650 10100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5B3665A1
+P 1950 9900
+F 0 "#PWR0121" H 1950 9650 50  0001 C CNN
+F 1 "GND" H 1950 9750 50  0000 C CNN
+F 2 "" H 1950 9900 50  0001 C CNN
+F 3 "" H 1950 9900 50  0001 C CNN
+	1    1950 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 5B369C99
+P 3250 10200
+F 0 "R6" H 3280 10220 50  0000 L CNN
+F 1 "5.1k" H 3280 10160 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" H 3250 10200 50  0001 C CNN
+F 3 "" H 3250 10200 50  0001 C CNN
+	1    3250 10200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5B36AD9E
+P 3250 9950
+F 0 "R1" H 3280 9970 50  0000 L CNN
+F 1 "5.1k" H 3280 9910 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" H 3250 9950 50  0001 C CNN
+F 3 "" H 3250 9950 50  0001 C CNN
+	1    3250 9950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5B36AF7A
+P 3500 10200
+F 0 "#PWR0122" H 3500 9950 50  0001 C CNN
+F 1 "GND" H 3500 10050 50  0000 C CNN
+F 2 "" H 3500 10200 50  0001 C CNN
+F 3 "" H 3500 10200 50  0001 C CNN
+	1    3500 10200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5425 8825 5750 8825
+Wire Wire Line
+	5100 8825 5225 8825
+Wire Wire Line
+	5300 7525 5525 7525
+Connection ~ 5525 7525
+Wire Wire Line
+	4825 7525 4900 7525
+Wire Wire Line
+	7225 9625 6950 9625
+Wire Wire Line
+	7525 9625 7425 9625
+Wire Wire Line
+	5400 9900 5400 10000
+Wire Wire Line
+	4650 9900 4900 9900
+Wire Wire Line
+	5150 9800 5150 9900
+Wire Wire Line
+	4900 9900 4900 10000
+Connection ~ 5150 9900
+Wire Wire Line
+	4900 10200 4900 10300
+Wire Wire Line
+	4650 10300 4900 10300
+Wire Wire Line
+	5150 10200 5150 10300
+Wire Wire Line
+	5400 10300 5400 10200
+Connection ~ 5150 10300
+Wire Wire Line
+	4650 10000 4650 9900
+Connection ~ 4900 9900
+Wire Wire Line
+	4650 10300 4650 10200
+Connection ~ 4900 10300
+Wire Wire Line
+	1500 8800 2000 8800
+Wire Wire Line
+	1500 9200 1725 9200
+Wire Wire Line
+	1725 9400 1500 9400
+Wire Wire Line
+	1500 9300 1850 9300
+Wire Wire Line
+	1850 9100 1500 9100
+Wire Wire Line
+	2000 8800 2000 9700
+Wire Wire Line
+	2000 9700 1500 9700
+Wire Wire Line
+	1500 9800 1950 9800
+Wire Wire Line
+	1950 8700 1950 9800
+Wire Wire Line
+	1950 8700 1500 8700
+Wire Wire Line
+	1950 9900 1500 9900
+Connection ~ 1950 9800
+Connection ~ 2000 8800
+Wire Wire Line
+	1500 9000 2300 9000
+Wire Wire Line
+	2300 9000 2300 9975
+Wire Wire Line
+	3000 9950 3150 9950
+Wire Wire Line
+	1500 9600 2250 9600
+Wire Wire Line
+	2250 9600 2250 10225
+Wire Wire Line
+	2950 10200 3150 10200
+Wire Wire Line
+	3500 10200 3350 10200
+Wire Wire Line
+	3350 9950 3500 9950
+Wire Wire Line
+	3500 9950 3500 10200
+Wire Wire Line
+	5525 7525 5750 7525
+Wire Wire Line
+	5150 9900 5400 9900
+Wire Wire Line
+	5150 9900 5150 10000
+Wire Wire Line
+	5150 10300 5400 10300
+Wire Wire Line
+	5150 10300 5150 10400
+Wire Wire Line
+	4900 9900 5150 9900
+Wire Wire Line
+	4900 10300 5150 10300
+Wire Wire Line
+	1950 9800 1950 9900
+Wire Wire Line
+	6250 7100 6250 7225
+NoConn ~ 5750 8125
+$Comp
+L power:+5V #PWR0123
+U 1 1 5DC2F453
+P 5425 8325
+F 0 "#PWR0123" H 5425 8175 50  0001 C CNN
+F 1 "+5V" H 5440 8498 50  0000 C CNN
+F 2 "" H 5425 8325 50  0001 C CNN
+F 3 "" H 5425 8325 50  0001 C CNN
+	1    5425 8325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 8325 5425 8325
+Wire Wire Line
+	4625 7375 4825 7375
+Wire Wire Line
+	4825 7375 4825 7525
+$Comp
+L power:GND #PWR0124
+U 1 1 5E3D05D9
+P 5900 10825
+F 0 "#PWR0124" H 5900 10575 50  0001 C CNN
+F 1 "GND" H 5905 10652 50  0000 C CNN
+F 2 "" H 5900 10825 50  0001 C CNN
+F 3 "" H 5900 10825 50  0001 C CNN
+	1    5900 10825
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:HRO-TYPE-C-31-M-12-Type-C USB1
+U 1 1 5B361237
+P 1400 9250
+F 0 "USB1" H 1200 9900 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" V 1000 9200 60  0000 C CNN
+F 2 "sanproject-keyboard-part:HRO-TYPE-C-31-M-12-Assembly" H 1400 9250 60  0001 C CNN
+F 3 "" H 1400 9250 60  0001 C CNN
+	1    1400 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6095449E
+P 5100 7525
+F 0 "SW1" H 5100 7810 50  0000 C CNN
+F 1 "SW_Push" H 5100 7719 50  0000 C CNN
+F 2 "sanproject-keyboard-part:SKQG-1155865-2pin" H 5100 7725 50  0001 C CNN
+F 3 "~" H 5100 7725 50  0001 C CNN
+	1    5100 7525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 10825 6250 10825
+Wire Wire Line
+	6250 10825 6350 10825
+Connection ~ 6250 10825
+Connection ~ 6250 7225
+Wire Wire Line
+	6250 7225 6350 7225
+Wire Wire Line
+	6350 7225 6450 7225
+Connection ~ 6350 7225
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-MU U2
+U 1 1 60A29CBE
+P 6350 9025
+F 0 "U2" H 6350 7136 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 6350 7045 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.15x5.15mm" H 6350 9025 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 6350 9025 50  0001 C CNN
+	1    6350 9025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 8800 2250 8800
+$Comp
+L power:GND #PWR0125
+U 1 1 5B323C60
+P 4625 7375
+F 0 "#PWR0125" H 4625 7125 50  0001 C CNN
+F 1 "GND" H 4625 7225 50  0000 C CNN
+F 2 "" H 4625 7375 50  0001 C CNN
+F 3 "" H 4625 7375 50  0001 C CNN
+	1    4625 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0126
+U 1 1 60E7C4C8
+P 5150 9800
+F 0 "#PWR0126" H 5150 9650 50  0001 C CNN
+F 1 "+5V" H 5165 9973 50  0000 C CNN
+F 2 "" H 5150 9800 50  0001 C CNN
+F 3 "" H 5150 9800 50  0001 C CNN
+	1    5150 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0127
+U 1 1 5D9BA68C
+P 6250 7100
+F 0 "#PWR0127" H 6250 6950 50  0001 C CNN
+F 1 "+5V" H 6265 7273 50  0000 C CNN
+F 2 "" H 6250 7100 50  0001 C CNN
+F 3 "" H 6250 7100 50  0001 C CNN
+	1    6250 7100
+	1    0    0    -1  
+$EndComp
+Connection ~ 1950 9900
+Connection ~ 3500 10200
+Text GLabel 2600 9100 2    60   Input ~ 0
+DG-
+Text GLabel 2600 9200 2    60   Input ~ 0
+DG+
+$Comp
+L power:VCC #PWR0130
+U 1 1 60F82FF7
+P 2250 8800
+F 0 "#PWR0130" H 2250 8650 50  0001 C CNN
+F 1 "VCC" H 2265 8973 50  0000 C CNN
+F 2 "" H 2250 8800 50  0001 C CNN
+F 3 "" H 2250 8800 50  0001 C CNN
+	1    2250 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Resonator_Small Y1
+U 1 1 6391EBF1
+P 5350 7825
+F 0 "Y1" V 5045 7775 50  0000 C CNN
+F 1 "16Mhz" V 5136 7775 50  0000 C CNN
+F 2 "Crystal:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm" H 5325 7825 50  0001 C CNN
+F 3 "~" H 5325 7825 50  0001 C CNN
+	1    5350 7825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 7725 5750 7725
+Wire Wire Line
+	5750 7925 5450 7925
+Wire Wire Line
+	5150 7825 4975 7825
+$Comp
+L power:GND #PWR0112
+U 1 1 6392679B
+P 4975 7825
+F 0 "#PWR0112" H 4975 7575 50  0001 C CNN
+F 1 "GND" H 4975 7675 50  0000 C CNN
+F 2 "" H 4975 7825 50  0001 C CNN
+F 3 "" H 4975 7825 50  0001 C CNN
+	1    4975 7825
+	0    1    1    0   
+$EndComp
+Text HLabel 6950 7525 2    50   Input ~ 0
+B0-8
+Text HLabel 6950 7925 2    50   Input ~ 0
+B4-28
+Text HLabel 6950 8025 2    50   Input ~ 0
+B5-29
+Text HLabel 6950 8125 2    50   Input ~ 0
+B6-30
+Text HLabel 6950 8225 2    50   Input ~ 0
+B7-12
+Text HLabel 6950 8425 2    50   Input ~ 0
+C6-31
+Text HLabel 6950 8525 2    50   Input ~ 0
+C7-32
+Text HLabel 6950 8725 2    50   Input ~ 0
+D0-18
+Text HLabel 6950 8825 2    50   Input ~ 0
+D1-19
+Text HLabel 6950 8925 2    50   Input ~ 0
+D2-20
+Text HLabel 6950 9025 2    50   Input ~ 0
+D3-21
+Text HLabel 6950 9125 2    50   Input ~ 0
+D4-25
+Text HLabel 6950 9225 2    50   Input ~ 0
+D5-22
+Text HLabel 6950 9325 2    50   Input ~ 0
+D6-26
+Text HLabel 6950 9425 2    50   Input ~ 0
+D7-27
+Text HLabel 6950 9925 2    50   Input ~ 0
+F0-41
+Text HLabel 6950 10025 2    50   Input ~ 0
+F1-40
+Text HLabel 6950 10125 2    50   Input ~ 0
+F4-39
+Text HLabel 6950 10225 2    50   Input ~ 0
+F5-38
+Text HLabel 6950 10325 2    50   Input ~ 0
+F6-37
+Text HLabel 6950 9725 2    50   Input ~ 0
+E6-1
+Text HLabel 6950 10425 2    50   Input ~ 0
+F7-36
+Text HLabel 6950 7625 2    50   Input ~ 0
+SCK
+Text HLabel 6950 7725 2    50   Input ~ 0
+MOSI
+Text HLabel 6950 7825 2    50   Input ~ 0
+MISO
+Text HLabel 5375 7525 1    50   Input ~ 0
+RST
+Wire Wire Line
+	1725 9200 1725 9400
+Wire Wire Line
+	1850 9100 1850 9300
+Wire Wire Line
+	1850 9100 2600 9100
+Connection ~ 1850 9100
+Wire Wire Line
+	1725 9200 2600 9200
+Connection ~ 1725 9200
+$Comp
+L random-keyboard-parts:HRO-TYPE-C-31-M-12-Type-C USB2
+U 1 1 63224479
+P 1400 9250
+F 0 "USB2" H 1200 9900 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" V 1000 9200 60  0000 C CNN
+F 2 "sanproject-keyboard-part:HRO-TYPE-C-31-M-12-Assembly" H 1400 9250 60  0001 C CNN
+F 3 "" H 1400 9250 60  0001 C CNN
+	1    1400 9250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1500 8700
+Connection ~ 1500 8800
+Connection ~ 1500 9000
+Connection ~ 1500 9100
+Connection ~ 1500 9200
+Connection ~ 1500 9300
+Connection ~ 1500 9400
+Connection ~ 1500 9600
+Connection ~ 1500 9700
+Connection ~ 1500 9800
+Connection ~ 1500 9900
+Text GLabel 2300 9975 2    50   Input ~ 0
+AAA
+Text GLabel 3000 9950 0    50   Input ~ 0
+AAA
+Text GLabel 2250 10225 2    50   Input ~ 0
+AAA
+Text GLabel 2950 10200 0    50   Input ~ 0
+AAA
+$EndSCHEMATC

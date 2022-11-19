@@ -1,0 +1,58 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x01_Male J1
+U 1 1 62AFB604
+P 1175 1150
+F 0 "J1" H 1283 1331 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1283 1240 50  0000 C CNN
+F 2 "sanproject-keyboard-part:ShimsSmallHolles" H 1175 1150 50  0001 C CNN
+F 3 "~" H 1175 1150 50  0001 C CNN
+	1    1175 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 62AFBB09
+P 1175 1325
+F 0 "J2" H 1283 1506 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1283 1415 50  0000 C CNN
+F 2 "sanproject-keyboard-part:ShimsBigHolles" H 1175 1325 50  0001 C CNN
+F 3 "~" H 1175 1325 50  0001 C CNN
+	1    1175 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 62AFC1BF
+P 1700 1200
+F 0 "#PWR0101" H 1700 950 50  0001 C CNN
+F 1 "GND" V 1705 1072 50  0000 R CNN
+F 2 "" H 1700 1200 50  0001 C CNN
+F 3 "" H 1700 1200 50  0001 C CNN
+	1    1700 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1375 1150 1375 1250
+Wire Wire Line
+	1375 1250 1700 1250
+Wire Wire Line
+	1700 1250 1700 1200
+Connection ~ 1375 1250
+Wire Wire Line
+	1375 1250 1375 1325
+$EndSCHEMATC

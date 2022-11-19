@@ -1,0 +1,902 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C_Small C6
+U 1 1 5B31E536
+P 4375 8650
+F 0 "C6" H 4385 8720 50  0000 L CNN
+F 1 "1uF" H 4385 8570 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 4375 8650 50  0001 C CNN
+F 3 "" H 4375 8650 50  0001 C CNN
+	1    4375 8650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5B31EE0F
+P 4150 8650
+F 0 "#PWR08" H 4150 8400 50  0001 C CNN
+F 1 "GND" H 4150 8500 50  0000 C CNN
+F 2 "" H 4150 8650 50  0001 C CNN
+F 3 "" H 4150 8650 50  0001 C CNN
+	1    4150 8650
+	0    1    1    0   
+$EndComp
+Text GLabel 4800 8350 0    60   Input ~ 0
+D+
+Text GLabel 4800 8450 0    60   Input ~ 0
+D-
+$Comp
+L Device:R_Small R5
+U 1 1 5B32301F
+P 4575 7250
+F 0 "R5" H 4605 7270 50  0000 L CNN
+F 1 "10k" H 4605 7210 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" H 4575 7250 50  0001 C CNN
+F 3 "" H 4575 7250 50  0001 C CNN
+	1    4575 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR012
+U 1 1 5B32363C
+P 4575 7150
+F 0 "#PWR012" H 4575 7000 50  0001 C CNN
+F 1 "+5V" H 4575 7290 50  0000 C CNN
+F 2 "" H 4575 7150 50  0001 C CNN
+F 3 "" H 4575 7150 50  0001 C CNN
+	1    4575 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5B32463B
+P 4200 7700
+F 0 "Y1" H 4325 7900 50  0000 L CNN
+F 1 "16Mhz" H 4325 7825 50  0000 L CNN
+F 2 "sanproject-keyboard-part:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 4200 7700 50  0001 C CNN
+F 3 "" H 4200 7700 50  0001 C CNN
+	1    4200 7700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5B3279FC
+P 3850 7550
+F 0 "C2" H 3860 7620 50  0000 L CNN
+F 1 "22pF" H 3860 7470 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3850 7550 50  0001 C CNN
+F 3 "" H 3850 7550 50  0001 C CNN
+	1    3850 7550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5B328250
+P 3850 7850
+F 0 "C3" H 3860 7920 50  0000 L CNN
+F 1 "22pF" H 3860 7770 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3850 7850 50  0001 C CNN
+F 3 "" H 3850 7850 50  0001 C CNN
+	1    3850 7850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5B3299E3
+P 4000 8225
+F 0 "#PWR07" H 4000 7975 50  0001 C CNN
+F 1 "GND" H 4000 8075 50  0000 C CNN
+F 2 "" H 4000 8225 50  0001 C CNN
+F 3 "" H 4000 8225 50  0001 C CNN
+	1    4000 8225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5B334CFB
+P 3450 9125
+F 0 "C4" H 3460 9195 50  0000 L CNN
+F 1 "0.1uF" H 3460 9045 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3450 9125 50  0001 C CNN
+F 3 "" H 3450 9125 50  0001 C CNN
+	1    3450 9125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 5B335589
+P 3700 9125
+F 0 "C5" H 3710 9195 50  0000 L CNN
+F 1 "0.1uF" H 3710 9045 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3700 9125 50  0001 C CNN
+F 3 "" H 3700 9125 50  0001 C CNN
+	1    3700 9125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C7
+U 1 1 5B33581F
+P 3950 9125
+F 0 "C7" H 3960 9195 50  0000 L CNN
+F 1 "0.1uF" H 3960 9045 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3950 9125 50  0001 C CNN
+F 3 "" H 3950 9125 50  0001 C CNN
+	1    3950 9125
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5B33687D
+P 3700 9425
+F 0 "#PWR010" H 3700 9175 50  0001 C CNN
+F 1 "GND" H 3700 9275 50  0000 C CNN
+F 2 "" H 3700 9425 50  0001 C CNN
+F 3 "" H 3700 9425 50  0001 C CNN
+	1    3700 9425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5B337B5B
+P 3200 9125
+F 0 "C1" H 3210 9195 50  0000 L CNN
+F 1 "10uF" H 3210 9045 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3200 9125 50  0001 C CNN
+F 3 "" H 3200 9125 50  0001 C CNN
+	1    3200 9125
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR04
+U 1 1 5B33A96C
+P 2700 9500
+F 0 "#PWR04" H 2700 9350 50  0001 C CNN
+F 1 "+5V" H 2700 9640 50  0000 C CNN
+F 2 "" H 2700 9500 50  0001 C CNN
+F 3 "" H 2700 9500 50  0001 C CNN
+	1    2700 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5B33C34D
+P 3700 9925
+F 0 "R4" H 3730 9945 50  0000 L CNN
+F 1 "22" H 3730 9885 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" H 3700 9925 50  0001 C CNN
+F 3 "" H 3700 9925 50  0001 C CNN
+	1    3700 9925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5B33C7A5
+P 3500 10025
+F 0 "R3" H 3530 10045 50  0000 L CNN
+F 1 "22" H 3530 9985 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" H 3500 10025 50  0001 C CNN
+F 3 "" H 3500 10025 50  0001 C CNN
+	1    3500 10025
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5B3665A1
+P 1725 10600
+F 0 "#PWR01" H 1725 10350 50  0001 C CNN
+F 1 "GND" H 1725 10450 50  0000 C CNN
+F 2 "" H 1725 10600 50  0001 C CNN
+F 3 "" H 1725 10600 50  0001 C CNN
+	1    1725 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5B369C99
+P 2325 10675
+F 0 "R1" H 2355 10695 50  0000 L CNN
+F 1 "5.1k" H 2355 10635 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" H 2325 10675 50  0001 C CNN
+F 3 "" H 2325 10675 50  0001 C CNN
+	1    2325 10675
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5B36AD9E
+P 2325 10925
+F 0 "R2" H 2355 10945 50  0000 L CNN
+F 1 "5.1k" H 2355 10885 50  0000 L CNN
+F 2 "sanproject-keyboard-part:R_0805" H 2325 10925 50  0001 C CNN
+F 3 "" H 2325 10925 50  0001 C CNN
+	1    2325 10925
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5B36AF7A
+P 2575 10925
+F 0 "#PWR03" H 2575 10675 50  0001 C CNN
+F 1 "GND" H 2575 10775 50  0000 C CNN
+F 2 "" H 2575 10925 50  0001 C CNN
+F 3 "" H 2575 10925 50  0001 C CNN
+	1    2575 10925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 8650 4800 8650
+Wire Wire Line
+	4150 8650 4275 8650
+Wire Wire Line
+	4350 7350 4575 7350
+Connection ~ 4575 7350
+Wire Wire Line
+	3875 7350 3950 7350
+Wire Wire Line
+	3950 7550 4200 7550
+Wire Wire Line
+	4625 7750 4625 7850
+Wire Wire Line
+	4625 7850 4200 7850
+Wire Wire Line
+	4400 8175 4400 7700
+Wire Wire Line
+	3600 8175 4000 8175
+Wire Wire Line
+	4000 7700 4000 8175
+Connection ~ 4200 7550
+Connection ~ 4200 7850
+Wire Wire Line
+	3750 7550 3600 7550
+Wire Wire Line
+	3600 7550 3600 7850
+Wire Wire Line
+	3600 7850 3750 7850
+Connection ~ 3600 7850
+Connection ~ 4000 8175
+Wire Wire Line
+	3950 8925 3950 9025
+Wire Wire Line
+	3200 8925 3450 8925
+Wire Wire Line
+	3700 8825 3700 8925
+Wire Wire Line
+	3450 8925 3450 9025
+Connection ~ 3700 8925
+Wire Wire Line
+	3450 9225 3450 9325
+Wire Wire Line
+	3200 9325 3450 9325
+Wire Wire Line
+	3700 9225 3700 9325
+Wire Wire Line
+	3950 9325 3950 9225
+Connection ~ 3700 9325
+Wire Wire Line
+	3200 9025 3200 8925
+Connection ~ 3450 8925
+Wire Wire Line
+	3200 9325 3200 9225
+Connection ~ 3450 9325
+Wire Wire Line
+	1275 9500 1775 9500
+Wire Wire Line
+	3800 9925 3900 9925
+Wire Wire Line
+	1275 9900 1500 9900
+Wire Wire Line
+	1500 9900 1500 10025
+Wire Wire Line
+	1500 10100 1275 10100
+Wire Wire Line
+	1275 10000 1625 10000
+Wire Wire Line
+	1625 10000 1625 9925
+Wire Wire Line
+	1625 9800 1275 9800
+Connection ~ 1625 9925
+Connection ~ 1500 10025
+Wire Wire Line
+	1775 9500 1775 10400
+Wire Wire Line
+	1775 10400 1275 10400
+Wire Wire Line
+	1275 10500 1725 10500
+Wire Wire Line
+	1725 9400 1725 10500
+Wire Wire Line
+	1725 9400 1275 9400
+Wire Wire Line
+	1725 10600 1275 10600
+Connection ~ 1725 10500
+Connection ~ 1775 9500
+Wire Wire Line
+	1275 9700 2075 9700
+Wire Wire Line
+	2075 9700 2075 10675
+Wire Wire Line
+	2075 10675 2225 10675
+Wire Wire Line
+	1275 10300 2025 10300
+Wire Wire Line
+	2025 10300 2025 10925
+Wire Wire Line
+	2025 10925 2225 10925
+Wire Wire Line
+	2575 10925 2425 10925
+Wire Wire Line
+	2425 10675 2575 10675
+Wire Wire Line
+	2575 10675 2575 10925
+Wire Wire Line
+	4575 7350 4800 7350
+Wire Wire Line
+	4200 7850 3950 7850
+Wire Wire Line
+	3600 7850 3600 8175
+Wire Wire Line
+	4000 8175 4400 8175
+Wire Wire Line
+	4000 8175 4000 8225
+Wire Wire Line
+	3700 8925 3950 8925
+Wire Wire Line
+	3700 8925 3700 9025
+Wire Wire Line
+	3700 9325 3950 9325
+Wire Wire Line
+	3700 9325 3700 9425
+Wire Wire Line
+	3450 8925 3700 8925
+Wire Wire Line
+	3450 9325 3700 9325
+Wire Wire Line
+	1625 9925 1625 9800
+Wire Wire Line
+	1500 10025 1500 10100
+Wire Wire Line
+	1725 10500 1725 10600
+Wire Wire Line
+	3600 10025 3900 10025
+Wire Wire Line
+	1500 10025 2425 10025
+Wire Wire Line
+	2575 10675 2575 10575
+Wire Wire Line
+	2575 10575 2250 10575
+Wire Wire Line
+	2250 10575 2250 10350
+Wire Wire Line
+	2250 10350 2575 10350
+Connection ~ 2575 10675
+Wire Wire Line
+	2575 10450 2425 10450
+Wire Wire Line
+	3175 10450 3375 10450
+Wire Wire Line
+	5300 6925 5300 7050
+NoConn ~ 4800 7950
+$Comp
+L power:+5V #PWR011
+U 1 1 5DC2F453
+P 4475 8150
+F 0 "#PWR011" H 4475 8000 50  0001 C CNN
+F 1 "+5V" H 4490 8323 50  0000 C CNN
+F 2 "" H 4475 8150 50  0001 C CNN
+F 3 "" H 4475 8150 50  0001 C CNN
+	1    4475 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 8150 4475 8150
+Wire Wire Line
+	4625 7750 4800 7750
+Wire Wire Line
+	4200 7550 4800 7550
+Wire Wire Line
+	3675 7200 3875 7200
+Wire Wire Line
+	3875 7200 3875 7350
+$Comp
+L power:GND #PWR013
+U 1 1 5E3D05D9
+P 4950 10650
+F 0 "#PWR013" H 4950 10400 50  0001 C CNN
+F 1 "GND" H 4955 10477 50  0000 C CNN
+F 2 "" H 4950 10650 50  0001 C CNN
+F 3 "" H 4950 10650 50  0001 C CNN
+	1    4950 10650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1625 9925 3375 9925
+Wire Wire Line
+	3375 10450 3375 9925
+Connection ~ 3375 9925
+Wire Wire Line
+	2425 10450 2425 10025
+Connection ~ 2425 10025
+Wire Wire Line
+	2425 10025 3400 10025
+$Comp
+L random-keyboard-parts:PRTR5V0U2X U1
+U 1 1 60969715
+P 2875 10400
+F 0 "U1" H 2875 10697 60  0000 C CNN
+F 1 "PRTR5V0U2X" H 2875 10591 60  0000 C CNN
+F 2 "sanproject-keyboard-part:SOT143B" H 2875 10400 60  0001 C CNN
+F 3 "" H 2875 10400 60  0001 C CNN
+	1    2875 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:HRO-TYPE-C-31-M-12-Type-C USB1
+U 1 1 5B361237
+P 1175 9950
+F 0 "USB1" H 975 10600 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" V 775 9900 60  0000 C CNN
+F 2 "sanproject-keyboard-part:HRO-TYPE-C-31-M-12-Assembly" H 1175 9950 60  0001 C CNN
+F 3 "" H 1175 9950 60  0001 C CNN
+	1    1175 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 6095449E
+P 4150 7350
+F 0 "SW1" H 4150 7635 50  0000 C CNN
+F 1 "SW_Push" H 4150 7544 50  0000 C CNN
+F 2 "sanproject-keyboard-part:SKQG-1155865" H 4150 7550 50  0001 C CNN
+F 3 "~" H 4150 7550 50  0001 C CNN
+	1    4150 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 10650 5300 10650
+Wire Wire Line
+	5300 10650 5400 10650
+Connection ~ 5300 10650
+Connection ~ 5300 7050
+Wire Wire Line
+	5300 7050 5400 7050
+Wire Wire Line
+	5400 7050 5500 7050
+Connection ~ 5400 7050
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-MU U2
+U 1 1 60A29CBE
+P 5400 8850
+F 0 "U2" H 5400 6961 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 5400 6870 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm_ThermalVias" H 5400 8850 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 5400 8850 50  0001 C CNN
+	1    5400 8850
+	1    0    0    -1  
+$EndComp
+Text GLabel 3900 9925 2    60   Input ~ 0
+D-
+Text GLabel 3900 10025 2    60   Input ~ 0
+D+
+Wire Wire Line
+	1775 9500 2700 9500
+Wire Wire Line
+	3300 10350 3300 10250
+Wire Wire Line
+	3175 10350 3300 10350
+$Comp
+L power:+5V #PWR0104
+U 1 1 60BA96BB
+P 3300 10250
+F 0 "#PWR0104" H 3300 10100 50  0001 C CNN
+F 1 "+5V" H 3300 10390 50  0000 C CNN
+F 2 "" H 3300 10250 50  0001 C CNN
+F 3 "" H 3300 10250 50  0001 C CNN
+	1    3300 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5B323C60
+P 3675 7200
+F 0 "#PWR06" H 3675 6950 50  0001 C CNN
+F 1 "GND" H 3675 7050 50  0000 C CNN
+F 2 "" H 3675 7200 50  0001 C CNN
+F 3 "" H 3675 7200 50  0001 C CNN
+	1    3675 7200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 7350 1    50   Input ~ 0
+RST
+$Comp
+L power:+5V #PWR0107
+U 1 1 60E7C4C8
+P 3700 8825
+F 0 "#PWR0107" H 3700 8675 50  0001 C CNN
+F 1 "+5V" H 3715 8998 50  0000 C CNN
+F 2 "" H 3700 8825 50  0001 C CNN
+F 3 "" H 3700 8825 50  0001 C CNN
+	1    3700 8825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR014
+U 1 1 5D9BA68C
+P 5300 6925
+F 0 "#PWR014" H 5300 6775 50  0001 C CNN
+F 1 "+5V" H 5315 7098 50  0000 C CNN
+F 2 "" H 5300 6925 50  0001 C CNN
+F 3 "" H 5300 6925 50  0001 C CNN
+	1    5300 6925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 9925 3600 9925
+Connection ~ 1725 10600
+Connection ~ 2575 10925
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618DD807
+P 1350 1100
+F 0 "MX?" H 1383 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1383 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 725 1075 60  0001 C CNN
+F 3 "" H 725 1075 60  0001 C CNN
+	1    1350 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618DDDFF
+P 1800 1100
+F 0 "MX?" H 1833 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 1833 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 1175 1075 60  0001 C CNN
+F 3 "" H 1175 1075 60  0001 C CNN
+	1    1800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618DE31F
+P 2250 1100
+F 0 "MX?" H 2283 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2283 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 1625 1075 60  0001 C CNN
+F 3 "" H 1625 1075 60  0001 C CNN
+	1    2250 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618E0C85
+P 2700 1100
+F 0 "MX?" H 2733 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 2733 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 2075 1075 60  0001 C CNN
+F 3 "" H 2075 1075 60  0001 C CNN
+	1    2700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618E0C8B
+P 3150 1100
+F 0 "MX?" H 3183 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3183 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 2525 1075 60  0001 C CNN
+F 3 "" H 2525 1075 60  0001 C CNN
+	1    3150 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618E0C91
+P 3600 1100
+F 0 "MX?" H 3633 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 3633 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 2975 1075 60  0001 C CNN
+F 3 "" H 2975 1075 60  0001 C CNN
+	1    3600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618E6540
+P 4050 1100
+F 0 "MX?" H 4083 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4083 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 3425 1075 60  0001 C CNN
+F 3 "" H 3425 1075 60  0001 C CNN
+	1    4050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618E6546
+P 4500 1100
+F 0 "MX?" H 4533 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4533 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 3875 1075 60  0001 C CNN
+F 3 "" H 3875 1075 60  0001 C CNN
+	1    4500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618E654C
+P 4950 1100
+F 0 "MX?" H 4983 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 4983 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 4325 1075 60  0001 C CNN
+F 3 "" H 4325 1075 60  0001 C CNN
+	1    4950 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618E6552
+P 5400 1100
+F 0 "MX?" H 5433 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5433 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 4775 1075 60  0001 C CNN
+F 3 "" H 4775 1075 60  0001 C CNN
+	1    5400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618E6558
+P 5850 1100
+F 0 "MX?" H 5883 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 5883 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 5225 1075 60  0001 C CNN
+F 3 "" H 5225 1075 60  0001 C CNN
+	1    5850 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618E655E
+P 6300 1100
+F 0 "MX?" H 6333 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6333 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 5675 1075 60  0001 C CNN
+F 3 "" H 5675 1075 60  0001 C CNN
+	1    6300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618EAFBB
+P 6750 1100
+F 0 "MX?" H 6783 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 6783 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 6125 1075 60  0001 C CNN
+F 3 "" H 6125 1075 60  0001 C CNN
+	1    6750 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618EAFC1
+P 7200 1100
+F 0 "MX?" H 7233 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7233 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 6575 1075 60  0001 C CNN
+F 3 "" H 6575 1075 60  0001 C CNN
+	1    7200 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618EAFC7
+P 7650 1100
+F 0 "MX?" H 7683 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 7683 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 7025 1075 60  0001 C CNN
+F 3 "" H 7025 1075 60  0001 C CNN
+	1    7650 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:MX-NoLED-MX_Alps_Hybrid MX?
+U 1 1 618EAFCD
+P 8100 1100
+F 0 "MX?" H 8133 1323 60  0000 C CNN
+F 1 "MX-NoLED-MX_Alps_Hybrid" H 8133 1249 20  0000 C CNN
+F 2 "MX_Only_v3:MXOnly-1U-NoLED" H 7475 1075 60  0001 C CNN
+F 3 "" H 7475 1075 60  0001 C CNN
+	1    8100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618ED635
+P 1300 1400
+F 0 "D?" V 1346 1320 50  0000 R CNN
+F 1 "SOD123" V 1255 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 1300 1400 50  0001 C CNN
+F 3 "~" H 1300 1400 50  0001 C CNN
+	1    1300 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F1012
+P 1750 1400
+F 0 "D?" V 1796 1320 50  0000 R CNN
+F 1 "SOD123" V 1705 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 1750 1400 50  0001 C CNN
+F 3 "~" H 1750 1400 50  0001 C CNN
+	1    1750 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F217F
+P 2200 1400
+F 0 "D?" V 2246 1320 50  0000 R CNN
+F 1 "SOD123" V 2155 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 2200 1400 50  0001 C CNN
+F 3 "~" H 2200 1400 50  0001 C CNN
+	1    2200 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F2185
+P 2650 1400
+F 0 "D?" V 2696 1320 50  0000 R CNN
+F 1 "SOD123" V 2605 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 2650 1400 50  0001 C CNN
+F 3 "~" H 2650 1400 50  0001 C CNN
+	1    2650 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F5280
+P 3100 1400
+F 0 "D?" V 3146 1320 50  0000 R CNN
+F 1 "SOD123" V 3055 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 3100 1400 50  0001 C CNN
+F 3 "~" H 3100 1400 50  0001 C CNN
+	1    3100 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F5286
+P 3550 1400
+F 0 "D?" V 3596 1320 50  0000 R CNN
+F 1 "SOD123" V 3505 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 3550 1400 50  0001 C CNN
+F 3 "~" H 3550 1400 50  0001 C CNN
+	1    3550 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F528C
+P 4000 1400
+F 0 "D?" V 4046 1320 50  0000 R CNN
+F 1 "SOD123" V 3955 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 4000 1400 50  0001 C CNN
+F 3 "~" H 4000 1400 50  0001 C CNN
+	1    4000 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F5292
+P 4450 1400
+F 0 "D?" V 4496 1320 50  0000 R CNN
+F 1 "SOD123" V 4405 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 4450 1400 50  0001 C CNN
+F 3 "~" H 4450 1400 50  0001 C CNN
+	1    4450 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F9329
+P 4900 1400
+F 0 "D?" V 4946 1320 50  0000 R CNN
+F 1 "SOD123" V 4855 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 4900 1400 50  0001 C CNN
+F 3 "~" H 4900 1400 50  0001 C CNN
+	1    4900 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F932F
+P 5350 1400
+F 0 "D?" V 5396 1320 50  0000 R CNN
+F 1 "SOD123" V 5305 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 5350 1400 50  0001 C CNN
+F 3 "~" H 5350 1400 50  0001 C CNN
+	1    5350 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F9335
+P 5800 1400
+F 0 "D?" V 5846 1320 50  0000 R CNN
+F 1 "SOD123" V 5755 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 5800 1400 50  0001 C CNN
+F 3 "~" H 5800 1400 50  0001 C CNN
+	1    5800 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F933B
+P 6250 1400
+F 0 "D?" V 6296 1320 50  0000 R CNN
+F 1 "SOD123" V 6205 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 6250 1400 50  0001 C CNN
+F 3 "~" H 6250 1400 50  0001 C CNN
+	1    6250 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F9341
+P 6700 1400
+F 0 "D?" V 6746 1320 50  0000 R CNN
+F 1 "SOD123" V 6655 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 6700 1400 50  0001 C CNN
+F 3 "~" H 6700 1400 50  0001 C CNN
+	1    6700 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F9347
+P 7150 1400
+F 0 "D?" V 7196 1320 50  0000 R CNN
+F 1 "SOD123" V 7105 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 7150 1400 50  0001 C CNN
+F 3 "~" H 7150 1400 50  0001 C CNN
+	1    7150 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F934D
+P 7600 1400
+F 0 "D?" V 7646 1320 50  0000 R CNN
+F 1 "SOD123" V 7555 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 7600 1400 50  0001 C CNN
+F 3 "~" H 7600 1400 50  0001 C CNN
+	1    7600 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 618F9353
+P 8050 1400
+F 0 "D?" V 8096 1320 50  0000 R CNN
+F 1 "SOD123" V 8005 1320 50  0000 R CNN
+F 2 "sanproject-keyboard-part:D_SOD-123" H 8050 1400 50  0001 C CNN
+F 3 "~" H 8050 1400 50  0001 C CNN
+	1    8050 1400
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
