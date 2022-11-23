@@ -1,4 +1,4 @@
-(module JST-SR-4-mini (layer F.Cu) (tedit 6376FA89)
+(module JST-SR-4-mini (layer F.Cu) (tedit 637925C9)
   (attr smd)
   (fp_text reference J1 (at 0 -3.81 180) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
@@ -12,7 +12,7 @@
   (pad 2 smd rect (at -0.6 0) (size 0.6 0.85) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at 2.95 3.775) (size 0.7 0.8) (layers F.Cu F.Paste F.Mask))
   (pad "" smd rect (at -2.95 3.775) (size 0.7 0.8) (layers F.Cu F.Paste F.Mask))
-  (model "D:/PCB Design/Salane Reboot/Fly Daughterboard/M1201RS-04-BK.step"
+  (model "D:/PCB-Design/Salane Reboot/Fly Daughterboard/M1201RS-04-BK.step"
     (offset (xyz 0 -1.838 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

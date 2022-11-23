@@ -1,4 +1,4 @@
-20690276003704046
+20727503887643688
 60_outline
 60_Outline
 
@@ -86842,13 +86842,6 @@ varistor SIOV
 2
 2
 acheron_Components
-ACM2012-2P
-
-
-0
-4
-4
-acheron_Components
 C_0805_2012Metric
 Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 capacitor
@@ -86912,13 +86905,6 @@ Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 
 2
 2
 acheron_Components
-D_SOD-123
-SOD-123
-SOD-123
-0
-2
-2
-acheron_Components
 D_SOD-123_Bidirectional
 SOD-123
 SOD-123
@@ -86975,47 +86961,12 @@ LED_RGB_SMD_6028_2.8x3.5mm
 4
 4
 acheron_Components
-LED_RGB_SMD_6028_2.8x3.5mm_Round
-
-
-0
-4
-4
-acheron_Components
 LED_SMD_0805
 
 
 0
 2
 2
-acheron_Components
-LED_SMD_1206
-
-
-0
-2
-2
-acheron_Components
-LED_THT_2.54mm
-
-
-0
-4
-2
-acheron_Components
-LED_WS2812_2020
-
-
-0
-4
-4
-acheron_Components
-LQFP-48_7x7mm_P0.5mm
-LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-LQFP QFP
-0
-48
-48
 acheron_Components
 MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm
 MS8E Package; 8-Lead Plastic MSOP, Exposed Die Pad (see Linear Technology 05081662_K_MS8E.pdf)
@@ -87058,27 +87009,6 @@ Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.
 0
 2
 2
-acheron_Components
-SOIC-8
-8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
-SOIC 1.27
-0
-8
-8
-acheron_Components
-SOP-8_3.76x4.96mm_P1.27mm
-SOP, 8 Pin (https://ww2.minicircuits.com/case_style/XX211.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOP SO
-0
-8
-8
-acheron_Components
-SOT-23-6
-6-pin SOT-23 package
-SOT-23-6
-0
-6
-6
 acheron_Components
 TQPF-44_10x10mm_P0.8mm
 44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
