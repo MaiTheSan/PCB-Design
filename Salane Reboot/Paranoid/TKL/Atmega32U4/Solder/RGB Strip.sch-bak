@@ -1,0 +1,1264 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5000 1050 5500 1050
+Wire Wire Line
+	3900 1050 4400 1050
+Wire Wire Line
+	2800 1050 3300 1050
+$Comp
+L LED:WS2812B RGB13
+U 1 1 637CAFB9
+P 5800 1050
+F 0 "RGB13" H 6144 1096 50  0000 L CNN
+F 1 "WS2812B" H 6144 1005 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5850 750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5900 675 50  0001 L TNN
+	1    5800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB10
+U 1 1 637C9597
+P 4700 1050
+F 0 "RGB10" H 5044 1096 50  0000 L CNN
+F 1 "WS2812B" H 5044 1005 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4750 750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4800 675 50  0001 L TNN
+	1    4700 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB4
+U 1 1 63847F64
+P 2500 1050
+F 0 "RGB4" H 2844 1096 50  0000 L CNN
+F 1 "WS2812B" H 2844 1005 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2550 750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2600 675 50  0001 L TNN
+	1    2500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB7
+U 1 1 637C8A97
+P 3600 1050
+F 0 "RGB7" H 3944 1096 50  0000 L CNN
+F 1 "WS2812B" H 3944 1005 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3650 750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3700 675 50  0001 L TNN
+	1    3600 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1050 2200 1050
+$Comp
+L LED:WS2812B RGB1
+U 1 1 638E7697
+P 1400 1050
+F 0 "RGB1" H 1744 1096 50  0000 L CNN
+F 1 "WS2812B" H 1744 1005 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1450 750 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1500 675 50  0001 L TNN
+	1    1400 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB2
+U 1 1 637E9CF9
+P 1400 1800
+F 0 "RGB2" H 1744 1846 50  0000 L CNN
+F 1 "WS2812B" H 1744 1755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1450 1500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1500 1425 50  0001 L TNN
+	1    1400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB5
+U 1 1 637E9CFF
+P 2500 1800
+F 0 "RGB5" H 2844 1846 50  0000 L CNN
+F 1 "WS2812B" H 2844 1755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2550 1500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2600 1425 50  0001 L TNN
+	1    2500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB8
+U 1 1 637E9D05
+P 3600 1800
+F 0 "RGB8" H 3944 1846 50  0000 L CNN
+F 1 "WS2812B" H 3944 1755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3650 1500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3700 1425 50  0001 L TNN
+	1    3600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB11
+U 1 1 637E9D0B
+P 4700 1800
+F 0 "RGB11" H 5044 1846 50  0000 L CNN
+F 1 "WS2812B" H 5044 1755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4750 1500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4800 1425 50  0001 L TNN
+	1    4700 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1800 2200 1800
+Wire Wire Line
+	2800 1800 3300 1800
+Wire Wire Line
+	3900 1800 4400 1800
+$Comp
+L LED:WS2812B RGB14
+U 1 1 637EDC8A
+P 5800 1800
+F 0 "RGB14" H 6144 1846 50  0000 L CNN
+F 1 "WS2812B" H 6144 1755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5850 1500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5900 1425 50  0001 L TNN
+	1    5800 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB15
+U 1 1 637EDC90
+P 6900 1800
+F 0 "RGB15" H 7244 1846 50  0000 L CNN
+F 1 "WS2812B" H 7244 1755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6950 1500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7000 1425 50  0001 L TNN
+	1    6900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB16
+U 1 1 637EDC96
+P 8000 1800
+F 0 "RGB16" H 8344 1846 50  0000 L CNN
+F 1 "WS2812B" H 8344 1755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8050 1500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8100 1425 50  0001 L TNN
+	1    8000 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB17
+U 1 1 637EDC9C
+P 9100 1800
+F 0 "RGB17" H 9444 1846 50  0000 L CNN
+F 1 "WS2812B" H 9444 1755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9150 1500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 9200 1425 50  0001 L TNN
+	1    9100 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 1800 6600 1800
+Wire Wire Line
+	7200 1800 7700 1800
+Wire Wire Line
+	8300 1800 8800 1800
+Wire Wire Line
+	5000 1800 5500 1800
+Wire Wire Line
+	9400 1800 9900 1800
+$Comp
+L LED:WS2812B RGB18
+U 1 1 637F0621
+P 10200 1800
+F 0 "RGB18" H 10544 1846 50  0000 L CNN
+F 1 "WS2812B" H 10544 1755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 10250 1500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 10300 1425 50  0001 L TNN
+	1    10200 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB19
+U 1 1 637F0627
+P 11300 1800
+F 0 "RGB19" H 11644 1846 50  0000 L CNN
+F 1 "WS2812B" H 11644 1755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 11350 1500 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 11400 1425 50  0001 L TNN
+	1    11300 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 1800 11000 1800
+$Comp
+L LED:WS2812B RGB20
+U 1 1 637FA18F
+P 1400 2550
+F 0 "RGB20" H 1744 2596 50  0000 L CNN
+F 1 "WS2812B" H 1744 2505 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1450 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1500 2175 50  0001 L TNN
+	1    1400 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11600 1800 12100 1800
+Wire Wire Line
+	1700 2550 2200 2550
+Wire Wire Line
+	5000 2550 5500 2550
+Wire Wire Line
+	3900 2550 4400 2550
+Wire Wire Line
+	2800 2550 3300 2550
+$Comp
+L LED:WS2812B RGB12
+U 1 1 63807F1B
+P 5800 2550
+F 0 "RGB12" H 6144 2596 50  0000 L CNN
+F 1 "WS2812B" H 6144 2505 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5850 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5900 2175 50  0001 L TNN
+	1    5800 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB9
+U 1 1 63807F15
+P 4700 2550
+F 0 "RGB9" H 5044 2596 50  0000 L CNN
+F 1 "WS2812B" H 5044 2505 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4750 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4800 2175 50  0001 L TNN
+	1    4700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB6
+U 1 1 63807F0F
+P 3600 2550
+F 0 "RGB6" H 3944 2596 50  0000 L CNN
+F 1 "WS2812B" H 3944 2505 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3650 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3700 2175 50  0001 L TNN
+	1    3600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB3
+U 1 1 63807F09
+P 2500 2550
+F 0 "RGB3" H 2844 2596 50  0000 L CNN
+F 1 "WS2812B" H 2844 2505 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2550 2250 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2600 2175 50  0001 L TNN
+	1    2500 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3300 2200 3300
+Wire Wire Line
+	2800 3300 3300 3300
+Wire Wire Line
+	3900 3300 4400 3300
+Wire Wire Line
+	6100 3300 6600 3300
+Wire Wire Line
+	7200 3300 7700 3300
+Wire Wire Line
+	8300 3300 8800 3300
+Wire Wire Line
+	5000 3300 5500 3300
+Wire Wire Line
+	9400 3300 9900 3300
+Wire Wire Line
+	10500 3300 11000 3300
+$Comp
+L LED:WS2812B RGB30
+U 1 1 6393C25C
+P 11300 3300
+F 0 "RGB30" H 11644 3346 50  0000 L CNN
+F 1 "WS2812B" H 11644 3255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 11350 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 11400 2925 50  0001 L TNN
+	1    11300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB29
+U 1 1 6393C256
+P 10200 3300
+F 0 "RGB29" H 10544 3346 50  0000 L CNN
+F 1 "WS2812B" H 10544 3255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 10250 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 10300 2925 50  0001 L TNN
+	1    10200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB28
+U 1 1 6393C24B
+P 9100 3300
+F 0 "RGB28" H 9444 3346 50  0000 L CNN
+F 1 "WS2812B" H 9444 3255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9150 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 9200 2925 50  0001 L TNN
+	1    9100 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB27
+U 1 1 6393C245
+P 8000 3300
+F 0 "RGB27" H 8344 3346 50  0000 L CNN
+F 1 "WS2812B" H 8344 3255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8050 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 8100 2925 50  0001 L TNN
+	1    8000 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB26
+U 1 1 6393C23F
+P 6900 3300
+F 0 "RGB26" H 7244 3346 50  0000 L CNN
+F 1 "WS2812B" H 7244 3255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6950 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 7000 2925 50  0001 L TNN
+	1    6900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB25
+U 1 1 6393C239
+P 5800 3300
+F 0 "RGB25" H 6144 3346 50  0000 L CNN
+F 1 "WS2812B" H 6144 3255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5850 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 5900 2925 50  0001 L TNN
+	1    5800 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB24
+U 1 1 6393C230
+P 4700 3300
+F 0 "RGB24" H 5044 3346 50  0000 L CNN
+F 1 "WS2812B" H 5044 3255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4750 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 4800 2925 50  0001 L TNN
+	1    4700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB23
+U 1 1 6393C22A
+P 3600 3300
+F 0 "RGB23" H 3944 3346 50  0000 L CNN
+F 1 "WS2812B" H 3944 3255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3650 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 3700 2925 50  0001 L TNN
+	1    3600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB22
+U 1 1 6393C224
+P 2500 3300
+F 0 "RGB22" H 2844 3346 50  0000 L CNN
+F 1 "WS2812B" H 2844 3255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2550 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 2600 2925 50  0001 L TNN
+	1    2500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B RGB21
+U 1 1 6393C21E
+P 1400 3300
+F 0 "RGB21" H 1744 3346 50  0000 L CNN
+F 1 "WS2812B" H 1744 3255 50  0000 L CNN
+F 2 "sanproject-keyboard-part:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 1450 3000 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf" H 1500 2925 50  0001 L TNN
+	1    1400 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2850 3600 2850
+Connection ~ 3600 2850
+Wire Wire Line
+	3600 2850 4700 2850
+Connection ~ 4700 2850
+Wire Wire Line
+	4700 2850 5800 2850
+Wire Wire Line
+	1400 3600 2500 3600
+Connection ~ 2500 3600
+Wire Wire Line
+	2500 3600 3600 3600
+Connection ~ 3600 3600
+Wire Wire Line
+	3600 3600 4700 3600
+Connection ~ 4700 3600
+Wire Wire Line
+	4700 3600 5800 3600
+Connection ~ 5800 3600
+Wire Wire Line
+	5800 3600 6900 3600
+Connection ~ 6900 3600
+Wire Wire Line
+	6900 3600 8000 3600
+Connection ~ 8000 3600
+Wire Wire Line
+	8000 3600 9100 3600
+Connection ~ 9100 3600
+Wire Wire Line
+	9100 3600 10200 3600
+Connection ~ 10200 3600
+Wire Wire Line
+	10200 3600 11300 3600
+Wire Wire Line
+	11300 3000 10200 3000
+Connection ~ 2500 3000
+Wire Wire Line
+	2500 3000 1400 3000
+Connection ~ 3600 3000
+Wire Wire Line
+	3600 3000 2500 3000
+Connection ~ 4700 3000
+Wire Wire Line
+	4700 3000 3600 3000
+Connection ~ 5800 3000
+Wire Wire Line
+	5800 3000 4700 3000
+Connection ~ 6900 3000
+Wire Wire Line
+	6900 3000 5800 3000
+Connection ~ 8000 3000
+Wire Wire Line
+	8000 3000 6900 3000
+Connection ~ 9100 3000
+Wire Wire Line
+	9100 3000 8000 3000
+Connection ~ 10200 3000
+Wire Wire Line
+	10200 3000 9100 3000
+Wire Wire Line
+	2500 2250 3600 2250
+Connection ~ 3600 2250
+Wire Wire Line
+	3600 2250 4700 2250
+Connection ~ 4700 2250
+Wire Wire Line
+	4700 2250 5800 2250
+Wire Wire Line
+	1400 2100 2500 2100
+Connection ~ 2500 2100
+Wire Wire Line
+	2500 2100 3600 2100
+Connection ~ 3600 2100
+Wire Wire Line
+	3600 2100 4700 2100
+Connection ~ 4700 2100
+Wire Wire Line
+	4700 2100 5800 2100
+Connection ~ 5800 2100
+Wire Wire Line
+	5800 2100 6900 2100
+Connection ~ 6900 2100
+Wire Wire Line
+	6900 2100 8000 2100
+Connection ~ 8000 2100
+Wire Wire Line
+	8000 2100 9100 2100
+Connection ~ 9100 2100
+Wire Wire Line
+	9100 2100 10200 2100
+Connection ~ 10200 2100
+Wire Wire Line
+	10200 2100 11300 2100
+Wire Wire Line
+	1400 1350 2500 1350
+Connection ~ 2500 1350
+Wire Wire Line
+	2500 1350 3600 1350
+Connection ~ 3600 1350
+Wire Wire Line
+	3600 1350 4700 1350
+Wire Wire Line
+	1400 1500 2500 1500
+Connection ~ 2500 1500
+Wire Wire Line
+	2500 1500 3600 1500
+Connection ~ 3600 1500
+Wire Wire Line
+	3600 1500 4700 1500
+Connection ~ 4700 1500
+Wire Wire Line
+	4700 1500 5800 1500
+Connection ~ 5800 1500
+Wire Wire Line
+	5800 1500 6900 1500
+Connection ~ 6900 1500
+Wire Wire Line
+	6900 1500 8000 1500
+Connection ~ 8000 1500
+Wire Wire Line
+	8000 1500 9100 1500
+Connection ~ 9100 1500
+Wire Wire Line
+	9100 1500 10200 1500
+Connection ~ 10200 1500
+Wire Wire Line
+	10200 1500 11300 1500
+Wire Wire Line
+	1400 750  2500 750 
+Connection ~ 2500 750 
+Wire Wire Line
+	2500 750  3600 750 
+Connection ~ 3600 750 
+Wire Wire Line
+	3600 750  4700 750 
+Connection ~ 4700 750 
+Wire Wire Line
+	4700 750  5800 750 
+$Comp
+L Device:C_Small C9
+U 1 1 63964CC7
+P 1800 4750
+F 0 "C9" H 1892 4796 50  0000 L CNN
+F 1 "0.1uF" H 1892 4705 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 1800 4750 50  0001 C CNN
+F 3 "~" H 1800 4750 50  0001 C CNN
+	1    1800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C10
+U 1 1 63967A65
+P 2200 4750
+F 0 "C10" H 2292 4796 50  0000 L CNN
+F 1 "0.1uF" H 2292 4705 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 2200 4750 50  0001 C CNN
+F 3 "~" H 2200 4750 50  0001 C CNN
+	1    2200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 63968300
+P 2600 4750
+F 0 "C11" H 2692 4796 50  0000 L CNN
+F 1 "0.1uF" H 2692 4705 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 2600 4750 50  0001 C CNN
+F 3 "~" H 2600 4750 50  0001 C CNN
+	1    2600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C12
+U 1 1 63968306
+P 3000 4750
+F 0 "C12" H 3092 4796 50  0000 L CNN
+F 1 "0.1uF" H 3092 4705 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3000 4750 50  0001 C CNN
+F 3 "~" H 3000 4750 50  0001 C CNN
+	1    3000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 6396C354
+P 3400 4750
+F 0 "C13" H 3492 4796 50  0000 L CNN
+F 1 "0.1uF" H 3492 4705 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3400 4750 50  0001 C CNN
+F 3 "~" H 3400 4750 50  0001 C CNN
+	1    3400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C14
+U 1 1 6396C35A
+P 3800 4750
+F 0 "C14" H 3892 4796 50  0000 L CNN
+F 1 "0.1uF" H 3892 4705 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3800 4750 50  0001 C CNN
+F 3 "~" H 3800 4750 50  0001 C CNN
+	1    3800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C15
+U 1 1 63970236
+P 4200 4750
+F 0 "C15" H 4292 4796 50  0000 L CNN
+F 1 "0.1uF" H 4292 4705 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 4200 4750 50  0001 C CNN
+F 3 "~" H 4200 4750 50  0001 C CNN
+	1    4200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C16
+U 1 1 6397023C
+P 4600 4750
+F 0 "C16" H 4692 4796 50  0000 L CNN
+F 1 "0.1uF" H 4692 4705 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 4600 4750 50  0001 C CNN
+F 3 "~" H 4600 4750 50  0001 C CNN
+	1    4600 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 6397B459
+P 5000 4750
+F 0 "C17" H 5092 4796 50  0000 L CNN
+F 1 "0.1uF" H 5092 4705 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 5000 4750 50  0001 C CNN
+F 3 "~" H 5000 4750 50  0001 C CNN
+	1    5000 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C18
+U 1 1 6397B45F
+P 5400 4750
+F 0 "C18" H 5492 4796 50  0000 L CNN
+F 1 "0.1uF" H 5492 4705 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 5400 4750 50  0001 C CNN
+F 3 "~" H 5400 4750 50  0001 C CNN
+	1    5400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C19
+U 1 1 639861E9
+P 1800 5100
+F 0 "C19" H 1892 5146 50  0000 L CNN
+F 1 "0.1uF" H 1892 5055 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 1800 5100 50  0001 C CNN
+F 3 "~" H 1800 5100 50  0001 C CNN
+	1    1800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C20
+U 1 1 639861EF
+P 2200 5100
+F 0 "C20" H 2292 5146 50  0000 L CNN
+F 1 "0.1uF" H 2292 5055 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 2200 5100 50  0001 C CNN
+F 3 "~" H 2200 5100 50  0001 C CNN
+	1    2200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C21
+U 1 1 639861F5
+P 2600 5100
+F 0 "C21" H 2692 5146 50  0000 L CNN
+F 1 "0.1uF" H 2692 5055 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 2600 5100 50  0001 C CNN
+F 3 "~" H 2600 5100 50  0001 C CNN
+	1    2600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C22
+U 1 1 639861FB
+P 3000 5100
+F 0 "C22" H 3092 5146 50  0000 L CNN
+F 1 "0.1uF" H 3092 5055 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3000 5100 50  0001 C CNN
+F 3 "~" H 3000 5100 50  0001 C CNN
+	1    3000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C23
+U 1 1 63986201
+P 3400 5100
+F 0 "C23" H 3492 5146 50  0000 L CNN
+F 1 "0.1uF" H 3492 5055 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3400 5100 50  0001 C CNN
+F 3 "~" H 3400 5100 50  0001 C CNN
+	1    3400 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C24
+U 1 1 63986207
+P 3800 5100
+F 0 "C24" H 3892 5146 50  0000 L CNN
+F 1 "0.1uF" H 3892 5055 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3800 5100 50  0001 C CNN
+F 3 "~" H 3800 5100 50  0001 C CNN
+	1    3800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C25
+U 1 1 6398620D
+P 4200 5100
+F 0 "C25" H 4292 5146 50  0000 L CNN
+F 1 "0.1uF" H 4292 5055 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 4200 5100 50  0001 C CNN
+F 3 "~" H 4200 5100 50  0001 C CNN
+	1    4200 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C26
+U 1 1 63986213
+P 4600 5100
+F 0 "C26" H 4692 5146 50  0000 L CNN
+F 1 "0.1uF" H 4692 5055 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 4600 5100 50  0001 C CNN
+F 3 "~" H 4600 5100 50  0001 C CNN
+	1    4600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C27
+U 1 1 63986219
+P 5000 5100
+F 0 "C27" H 5092 5146 50  0000 L CNN
+F 1 "0.1uF" H 5092 5055 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 5000 5100 50  0001 C CNN
+F 3 "~" H 5000 5100 50  0001 C CNN
+	1    5000 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C28
+U 1 1 6398621F
+P 5400 5100
+F 0 "C28" H 5492 5146 50  0000 L CNN
+F 1 "0.1uF" H 5492 5055 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 5400 5100 50  0001 C CNN
+F 3 "~" H 5400 5100 50  0001 C CNN
+	1    5400 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2250 2500 2250
+Connection ~ 2500 2250
+Wire Wire Line
+	1400 2850 2500 2850
+Connection ~ 2500 2850
+Text GLabel 6100 1050 2    50   Input ~ 0
+Strip1
+Text GLabel 1100 1800 0    50   Input ~ 0
+Strip1
+Text GLabel 12100 1800 2    50   Input ~ 0
+Strip2
+Text GLabel 1100 2550 0    50   Input ~ 0
+Strip2
+Text GLabel 6100 2550 2    50   Input ~ 0
+Strip3
+Text GLabel 1100 3300 0    50   Input ~ 0
+Strip3
+Wire Wire Line
+	4700 1350 5800 1350
+Connection ~ 4700 1350
+Connection ~ 5800 1350
+Wire Wire Line
+	5800 1350 6100 1350
+Wire Wire Line
+	5800 750  6100 750 
+Connection ~ 5800 750 
+$Comp
+L power:+5V #PWR0101
+U 1 1 639BB63D
+P 6100 750
+F 0 "#PWR0101" H 6100 600 50  0001 C CNN
+F 1 "+5V" V 6115 878 50  0000 L CNN
+F 2 "" H 6100 750 50  0001 C CNN
+F 3 "" H 6100 750 50  0001 C CNN
+	1    6100 750 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 639BC16C
+P 6100 1350
+F 0 "#PWR0102" H 6100 1100 50  0001 C CNN
+F 1 "GND" V 6105 1222 50  0000 R CNN
+F 2 "" H 6100 1350 50  0001 C CNN
+F 3 "" H 6100 1350 50  0001 C CNN
+	1    6100 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11300 2100 11600 2100
+Wire Wire Line
+	11300 1500 11600 1500
+$Comp
+L power:+5V #PWR0103
+U 1 1 639BD6DD
+P 11600 1500
+F 0 "#PWR0103" H 11600 1350 50  0001 C CNN
+F 1 "+5V" V 11615 1628 50  0000 L CNN
+F 2 "" H 11600 1500 50  0001 C CNN
+F 3 "" H 11600 1500 50  0001 C CNN
+	1    11600 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 639BD6E3
+P 11600 2100
+F 0 "#PWR0104" H 11600 1850 50  0001 C CNN
+F 1 "GND" V 11605 1972 50  0000 R CNN
+F 2 "" H 11600 2100 50  0001 C CNN
+F 3 "" H 11600 2100 50  0001 C CNN
+	1    11600 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 2850 6100 2850
+Wire Wire Line
+	5800 2250 6100 2250
+$Comp
+L power:+5V #PWR0105
+U 1 1 639C6C37
+P 6100 2250
+F 0 "#PWR0105" H 6100 2100 50  0001 C CNN
+F 1 "+5V" V 6115 2378 50  0000 L CNN
+F 2 "" H 6100 2250 50  0001 C CNN
+F 3 "" H 6100 2250 50  0001 C CNN
+	1    6100 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 639C6C3D
+P 6100 2850
+F 0 "#PWR0106" H 6100 2600 50  0001 C CNN
+F 1 "GND" V 6105 2722 50  0000 R CNN
+F 2 "" H 6100 2850 50  0001 C CNN
+F 3 "" H 6100 2850 50  0001 C CNN
+	1    6100 2850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5800 2250
+Connection ~ 5800 2850
+Connection ~ 11300 1500
+Connection ~ 11300 2100
+Wire Wire Line
+	11300 3600 11600 3600
+Wire Wire Line
+	11300 3000 11600 3000
+$Comp
+L power:+5V #PWR0107
+U 1 1 639E0E89
+P 11600 3000
+F 0 "#PWR0107" H 11600 2850 50  0001 C CNN
+F 1 "+5V" V 11615 3128 50  0000 L CNN
+F 2 "" H 11600 3000 50  0001 C CNN
+F 3 "" H 11600 3000 50  0001 C CNN
+	1    11600 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 639E0E8F
+P 11600 3600
+F 0 "#PWR0108" H 11600 3350 50  0001 C CNN
+F 1 "GND" V 11605 3472 50  0000 R CNN
+F 2 "" H 11600 3600 50  0001 C CNN
+F 3 "" H 11600 3600 50  0001 C CNN
+	1    11600 3600
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11300 3000
+Connection ~ 11300 3600
+Wire Wire Line
+	1800 4650 2200 4650
+Connection ~ 2200 4650
+Wire Wire Line
+	2200 4650 2600 4650
+Connection ~ 2600 4650
+Wire Wire Line
+	2600 4650 3000 4650
+Connection ~ 3000 4650
+Wire Wire Line
+	3000 4650 3400 4650
+Connection ~ 3400 4650
+Wire Wire Line
+	3400 4650 3800 4650
+Connection ~ 3800 4650
+Wire Wire Line
+	3800 4650 4200 4650
+Connection ~ 4200 4650
+Wire Wire Line
+	4200 4650 4600 4650
+Connection ~ 4600 4650
+Wire Wire Line
+	4600 4650 5000 4650
+Connection ~ 5000 4650
+Wire Wire Line
+	5000 4650 5400 4650
+Wire Wire Line
+	1800 4850 2200 4850
+Connection ~ 2200 4850
+Wire Wire Line
+	2200 4850 2600 4850
+Connection ~ 2600 4850
+Wire Wire Line
+	2600 4850 3000 4850
+Connection ~ 3000 4850
+Wire Wire Line
+	3000 4850 3400 4850
+Connection ~ 3400 4850
+Wire Wire Line
+	3400 4850 3800 4850
+Connection ~ 3800 4850
+Wire Wire Line
+	3800 4850 4200 4850
+Connection ~ 4200 4850
+Wire Wire Line
+	4200 4850 4600 4850
+Connection ~ 4600 4850
+Wire Wire Line
+	4600 4850 5000 4850
+Connection ~ 5000 4850
+Wire Wire Line
+	5000 4850 5400 4850
+Wire Wire Line
+	1800 5000 2200 5000
+Connection ~ 2200 5000
+Wire Wire Line
+	2200 5000 2600 5000
+Connection ~ 2600 5000
+Wire Wire Line
+	2600 5000 3000 5000
+Connection ~ 3000 5000
+Wire Wire Line
+	3000 5000 3400 5000
+Connection ~ 3400 5000
+Wire Wire Line
+	3400 5000 3800 5000
+Connection ~ 3800 5000
+Wire Wire Line
+	3800 5000 4200 5000
+Connection ~ 4200 5000
+Wire Wire Line
+	4200 5000 4600 5000
+Connection ~ 4600 5000
+Wire Wire Line
+	4600 5000 5000 5000
+Connection ~ 5000 5000
+Wire Wire Line
+	5000 5000 5400 5000
+Wire Wire Line
+	1800 5200 2200 5200
+Connection ~ 2200 5200
+Wire Wire Line
+	2200 5200 2600 5200
+Connection ~ 2600 5200
+Wire Wire Line
+	2600 5200 3000 5200
+Connection ~ 3000 5200
+Wire Wire Line
+	3000 5200 3400 5200
+Connection ~ 3400 5200
+Wire Wire Line
+	3400 5200 3800 5200
+Connection ~ 3800 5200
+Wire Wire Line
+	3800 5200 4200 5200
+Connection ~ 4200 5200
+Wire Wire Line
+	4200 5200 4600 5200
+Connection ~ 4600 5200
+Wire Wire Line
+	4600 5200 5000 5200
+Connection ~ 5000 5200
+Wire Wire Line
+	5000 5200 5400 5200
+Wire Wire Line
+	1800 4650 1600 4650
+Connection ~ 1800 4650
+Wire Wire Line
+	1800 4850 1600 4850
+Connection ~ 1800 4850
+$Comp
+L power:GND #PWR0109
+U 1 1 63849908
+P 1600 4650
+F 0 "#PWR0109" H 1600 4400 50  0001 C CNN
+F 1 "GND" V 1605 4522 50  0000 R CNN
+F 2 "" H 1600 4650 50  0001 C CNN
+F 3 "" H 1600 4650 50  0001 C CNN
+	1    1600 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0110
+U 1 1 63849EA3
+P 1600 4850
+F 0 "#PWR0110" H 1600 4700 50  0001 C CNN
+F 1 "+5V" V 1615 4978 50  0000 L CNN
+F 2 "" H 1600 4850 50  0001 C CNN
+F 3 "" H 1600 4850 50  0001 C CNN
+	1    1600 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 5000 1600 5000
+Wire Wire Line
+	1800 5200 1600 5200
+$Comp
+L power:GND #PWR0111
+U 1 1 638A52EB
+P 1600 5200
+F 0 "#PWR0111" H 1600 4950 50  0001 C CNN
+F 1 "GND" V 1605 5072 50  0000 R CNN
+F 2 "" H 1600 5200 50  0001 C CNN
+F 3 "" H 1600 5200 50  0001 C CNN
+	1    1600 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 638A52F1
+P 1600 5000
+F 0 "#PWR0112" H 1600 4850 50  0001 C CNN
+F 1 "+5V" V 1615 5128 50  0000 L CNN
+F 2 "" H 1600 5000 50  0001 C CNN
+F 3 "" H 1600 5000 50  0001 C CNN
+	1    1600 5000
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1800 5000
+Connection ~ 1800 5200
+$Comp
+L Device:C_Small C29
+U 1 1 638527C2
+P 1800 5450
+F 0 "C29" H 1892 5496 50  0000 L CNN
+F 1 "0.1uF" H 1892 5405 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 1800 5450 50  0001 C CNN
+F 3 "~" H 1800 5450 50  0001 C CNN
+	1    1800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C31
+U 1 1 638527C8
+P 2200 5450
+F 0 "C31" H 2292 5496 50  0000 L CNN
+F 1 "0.1uF" H 2292 5405 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 2200 5450 50  0001 C CNN
+F 3 "~" H 2200 5450 50  0001 C CNN
+	1    2200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C33
+U 1 1 638527CE
+P 2600 5450
+F 0 "C33" H 2692 5496 50  0000 L CNN
+F 1 "0.1uF" H 2692 5405 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 2600 5450 50  0001 C CNN
+F 3 "~" H 2600 5450 50  0001 C CNN
+	1    2600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C35
+U 1 1 638527D4
+P 3000 5450
+F 0 "C35" H 3092 5496 50  0000 L CNN
+F 1 "0.1uF" H 3092 5405 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3000 5450 50  0001 C CNN
+F 3 "~" H 3000 5450 50  0001 C CNN
+	1    3000 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C37
+U 1 1 638527DA
+P 3400 5450
+F 0 "C37" H 3492 5496 50  0000 L CNN
+F 1 "0.1uF" H 3492 5405 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3400 5450 50  0001 C CNN
+F 3 "~" H 3400 5450 50  0001 C CNN
+	1    3400 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C30
+U 1 1 638527E0
+P 1800 5800
+F 0 "C30" H 1892 5846 50  0000 L CNN
+F 1 "0.1uF" H 1892 5755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 1800 5800 50  0001 C CNN
+F 3 "~" H 1800 5800 50  0001 C CNN
+	1    1800 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C32
+U 1 1 638527E6
+P 2200 5800
+F 0 "C32" H 2292 5846 50  0000 L CNN
+F 1 "0.1uF" H 2292 5755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 2200 5800 50  0001 C CNN
+F 3 "~" H 2200 5800 50  0001 C CNN
+	1    2200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C34
+U 1 1 638527EC
+P 2600 5800
+F 0 "C34" H 2692 5846 50  0000 L CNN
+F 1 "0.1uF" H 2692 5755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 2600 5800 50  0001 C CNN
+F 3 "~" H 2600 5800 50  0001 C CNN
+	1    2600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C36
+U 1 1 638527F2
+P 3000 5800
+F 0 "C36" H 3092 5846 50  0000 L CNN
+F 1 "0.1uF" H 3092 5755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3000 5800 50  0001 C CNN
+F 3 "~" H 3000 5800 50  0001 C CNN
+	1    3000 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C38
+U 1 1 638527F8
+P 3400 5800
+F 0 "C38" H 3492 5846 50  0000 L CNN
+F 1 "0.1uF" H 3492 5755 50  0000 L CNN
+F 2 "sanproject-keyboard-part:C_0603" H 3400 5800 50  0001 C CNN
+F 3 "~" H 3400 5800 50  0001 C CNN
+	1    3400 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5350 2200 5350
+Connection ~ 2200 5350
+Wire Wire Line
+	2200 5350 2600 5350
+Connection ~ 2600 5350
+Wire Wire Line
+	2600 5350 3000 5350
+Connection ~ 3000 5350
+Wire Wire Line
+	3000 5350 3400 5350
+Wire Wire Line
+	1800 5550 2200 5550
+Connection ~ 2200 5550
+Wire Wire Line
+	2200 5550 2600 5550
+Connection ~ 2600 5550
+Wire Wire Line
+	2600 5550 3000 5550
+Connection ~ 3000 5550
+Wire Wire Line
+	3000 5550 3400 5550
+Wire Wire Line
+	1800 5700 2200 5700
+Connection ~ 2200 5700
+Wire Wire Line
+	2200 5700 2600 5700
+Connection ~ 2600 5700
+Wire Wire Line
+	2600 5700 3000 5700
+Connection ~ 3000 5700
+Wire Wire Line
+	3000 5700 3400 5700
+Wire Wire Line
+	1800 5900 2200 5900
+Connection ~ 2200 5900
+Wire Wire Line
+	2200 5900 2600 5900
+Connection ~ 2600 5900
+Wire Wire Line
+	2600 5900 3000 5900
+Connection ~ 3000 5900
+Wire Wire Line
+	3000 5900 3400 5900
+Wire Wire Line
+	1800 5350 1600 5350
+Wire Wire Line
+	1800 5550 1600 5550
+$Comp
+L power:GND #PWR0113
+U 1 1 6386C37E
+P 1600 5350
+F 0 "#PWR0113" H 1600 5100 50  0001 C CNN
+F 1 "GND" V 1605 5222 50  0000 R CNN
+F 2 "" H 1600 5350 50  0001 C CNN
+F 3 "" H 1600 5350 50  0001 C CNN
+	1    1600 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0114
+U 1 1 6386C384
+P 1600 5550
+F 0 "#PWR0114" H 1600 5400 50  0001 C CNN
+F 1 "+5V" V 1615 5678 50  0000 L CNN
+F 2 "" H 1600 5550 50  0001 C CNN
+F 3 "" H 1600 5550 50  0001 C CNN
+	1    1600 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 5700 1600 5700
+Wire Wire Line
+	1800 5900 1600 5900
+$Comp
+L power:GND #PWR0115
+U 1 1 6386C38C
+P 1600 5900
+F 0 "#PWR0115" H 1600 5650 50  0001 C CNN
+F 1 "GND" V 1605 5772 50  0000 R CNN
+F 2 "" H 1600 5900 50  0001 C CNN
+F 3 "" H 1600 5900 50  0001 C CNN
+	1    1600 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0116
+U 1 1 6386C392
+P 1600 5700
+F 0 "#PWR0116" H 1600 5550 50  0001 C CNN
+F 1 "+5V" V 1615 5828 50  0000 L CNN
+F 2 "" H 1600 5700 50  0001 C CNN
+F 3 "" H 1600 5700 50  0001 C CNN
+	1    1600 5700
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1800 5350
+Connection ~ 1800 5550
+Connection ~ 1800 5700
+Connection ~ 1800 5900
+Text HLabel 1100 1050 0    50   Input ~ 0
+RGB-IN
+$EndSCHEMATC
