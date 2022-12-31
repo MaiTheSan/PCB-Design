@@ -1,0 +1,27 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_RGBA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP RGB_ledchip_3010
+D RGB LED with integrated controller
+K RGB LED NeoPixel addressable
+F https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf
+$ENDCMP
+#
+$CMP STM32F303C6Tx
+D ARM Cortex-M4 MCU, 32KB flash, 12KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M4 STM32F3 STM32F303
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00092070.pdf
+$ENDCMP
+#
+$CMP STM32F303C8Tx
+D ARM Cortex-M4 MCU, 64KB flash, 12KB RAM, 72MHz, 2-3.6V, 37 GPIO, LQFP-48
+K ARM Cortex-M4 STM32F3 STM32F303
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00092070.pdf
+$ENDCMP
+#
+#End Doc Library
